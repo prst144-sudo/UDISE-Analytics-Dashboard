@@ -1,0 +1,476 @@
+{
+  "2023-24": {
+    "year": "2023-24",
+    "header": {
+      "label": "Stream Analytics \u00b7",
+      "headline": "Science 42.6%, Humanities 42.7% \u2014 3.03 Cr students in Class 11\u201312",
+      "sub": "Humanities holds a marginal lead in enrollment, with Science nearly at parity. Humanities remains female-majority (54.6%), while Commerce accounts for 14.7% of Class 11\u201312 students. Lab availability is measured across 3.0 L secondary schools."
+    },
+    "cards": [
+      {
+        "id": "science",
+        "label": "Science Stream",
+        "fullLabel": "Science Stream Students",
+        "headline": "43%",
+        "headlineNote": "Students in Science stream",
+        "color": "#2563eb",
+        "bar": 43,
+        "barLabel": "1.29 Cr students in Science",
+        "split": [
+          {
+            "val": "1.29 Cr",
+            "lbl": "Total Students"
+          },
+          {
+            "val": "47%",
+            "lbl": "Female Share"
+          },
+          {
+            "val": "50%",
+            "lbl": "Rural Share",
+            "accent": true
+          }
+        ],
+        "note": "Science accounts for 42.6% of Class 11\u201312 enrollment. Girls represent 47.1% of Science students, and 50.4% of Science enrollment is rural."
+      },
+      {
+        "id": "humanities",
+        "label": "Humanities Stream",
+        "fullLabel": "Humanities Stream Students",
+        "headline": "43%",
+        "headlineNote": "Students in Humanities stream",
+        "color": "#6366f1",
+        "bar": 43,
+        "barLabel": "129.5 L students in Humanities",
+        "split": [
+          {
+            "val": "129.5 L",
+            "lbl": "Total Students"
+          },
+          {
+            "val": "55%",
+            "lbl": "Female Share"
+          },
+          {
+            "val": "67%",
+            "lbl": "Rural Share",
+            "accent": true
+          }
+        ],
+        "note": "Humanities accounts for 42.7% of Class 11\u201312 enrollment. Girls represent 54.6% of Humanities students, and 67.4% of Humanities enrollment is rural."
+      },
+      {
+        "id": "commerce",
+        "label": "Commerce Stream",
+        "fullLabel": "Commerce Stream Students",
+        "headline": "15%",
+        "headlineNote": "Students in Commerce stream",
+        "color": "#d97706",
+        "bar": 15,
+        "barLabel": "44.6 L students in Commerce",
+        "split": [
+          {
+            "val": "44.6 L",
+            "lbl": "Total Students"
+          },
+          {
+            "val": "46%",
+            "lbl": "Female Share"
+          },
+          {
+            "val": "69%",
+            "lbl": "Urban Share",
+            "accent": true
+          }
+        ],
+        "note": "Commerce accounts for 14.7% of Class 11\u201312 enrollment. Girls represent 45.6% of Commerce students, and 68.9% of Commerce enrollment is urban."
+      },
+      {
+        "id": "labs",
+        "label": "Lab Infrastructure",
+        "fullLabel": "Labs per Secondary School",
+        "headline": "24%",
+        "headlineNote": "Chemistry Lab availability in secondary schools",
+        "color": "#7c3aed",
+        "bar": 24,
+        "barLabel": "0.7 L secondary schools have Chemistry Lab",
+        "split": [
+          {
+            "val": "24%",
+            "lbl": "Chemistry Lab"
+          },
+          {
+            "val": "24%",
+            "lbl": "Physics Lab"
+          },
+          {
+            "val": "3.0 L",
+            "lbl": "Secondary Schools",
+            "accent": true
+          }
+        ],
+        "note": "Chemistry labs are available in 23.8% of secondary schools; Physics labs in 23.7%; Biology labs in 23.2%."
+      }
+    ],
+    "chartStream": [
+      {
+        "name": "Humanities",
+        "color": "#6366f1",
+        "val": "42.7%",
+        "pct": 100
+      },
+      {
+        "name": "Science",
+        "color": "#2563eb",
+        "val": "42.6%",
+        "pct": 100
+      },
+      {
+        "name": "Commerce",
+        "color": "#d97706",
+        "val": "14.7%",
+        "pct": 34
+      }
+    ],
+    "chartStreamSource": "At the national level, Humanities and Science are nearly at parity in Class 11\u201312 enrollment. Rural enrollment is led by Humanities (52.5%), while urban enrollment is led by Science (46.8%).",
+    "chartStreamNote": "Humanities 42.7%, Science 42.6%, Commerce 14.7%. Total Class 11\u201312 enrollment: 303.5 L students.",
+    "chartGender": [
+      {
+        "name": "Humanities",
+        "color": "#6366f1",
+        "val": "54.6%",
+        "pct": 55,
+        "note": "Female-majority"
+      },
+      {
+        "name": "Science",
+        "color": "#2563eb",
+        "val": "47.1%",
+        "pct": 47,
+        "note": "Male-majority"
+      },
+      {
+        "name": "Commerce",
+        "color": "#d97706",
+        "val": "45.6%",
+        "pct": 46,
+        "note": "Male-majority"
+      }
+    ],
+    "chartGenderSource": "Humanities remains the only female-majority stream. Science and Commerce continue to have a male majority, though Science is closer to parity than Commerce.",
+    "chartGenderNote": "Female share by stream: Humanities 54.6%, Science 47.1%, Commerce 45.6%.",
+    "chartLab": [
+      {
+        "name": "Chemistry Lab",
+        "color": "#d97706",
+        "val": "23.8%",
+        "pct": 100
+      },
+      {
+        "name": "Physics Lab",
+        "color": "#0891b2",
+        "val": "23.7%",
+        "pct": 100
+      },
+      {
+        "name": "Biology Lab",
+        "color": "#6366f1",
+        "val": "23.2%",
+        "pct": 98
+      },
+      {
+        "name": "Computer Lab",
+        "color": "#2563eb",
+        "val": "19.7%",
+        "pct": 83
+      },
+      {
+        "name": "Maths Lab",
+        "color": "#7c3aed",
+        "val": "14.1%",
+        "pct": 59
+      },
+      {
+        "name": "Geography Lab",
+        "color": "#d97706",
+        "val": "13.0%",
+        "pct": 55
+      },
+      {
+        "name": "Language Lab",
+        "color": "#059669",
+        "val": "10.5%",
+        "pct": 44
+      },
+      {
+        "name": "Home Science Lab",
+        "color": "#7a7060",
+        "val": "7.7%",
+        "pct": 32
+      },
+      {
+        "name": "Psychology Lab",
+        "color": "#0ea5e9",
+        "val": "4.3%",
+        "pct": 18
+      }
+    ],
+    "chartLabSource": "Among secondary schools, Chemistry, Physics, and Biology labs have the widest coverage at roughly one-quarter of schools. Computer labs are less widespread, and specialist labs remain limited.",
+    "chartLabNote": "Chemistry 23.8%, Physics 23.7%, Biology 23.2%, Computer 19.7% of secondary schools.",
+    "insight1": {
+      "num": "42.7%",
+      "label": "Humanities \u2014 Marginally Largest Stream by Enrollment",
+      "color": "#6366f1",
+      "delta_val": "129.5 L",
+      "delta_label": "Students enrolled in Humanities",
+      "delta_val2": "54.6%",
+      "delta_label2": "Female share in Humanities"
+    },
+    "insight2": {
+      "num": "23.8%",
+      "label": "Chemistry Lab \u2014 Widest Coverage Among Secondary-School Labs",
+      "color": "#d97706",
+      "delta_val": "0.7 L",
+      "delta_label": "Secondary schools with Chemistry lab",
+      "delta_val2": "23.7%",
+      "delta_label2": "Physics lab availability"
+    }
+  },
+  "2024-25": {
+    "year": "2024-25",
+    "header": {
+      "label": "Stream Analytics \u00b7 ",
+      "headline": "Science 44.0%, Humanities 41.4% \u2014 314.5 L students in Class 11\u201312",
+      "sub": "Science becomes the largest stream by enrollment. Humanities remains female-majority (55.4%), while Commerce accounts for 14.5% of Class 11\u201312 students. Lab availability is measured across 3.1 L secondary schools."
+    },
+    "cards": [
+      {
+        "id": "science",
+        "label": "Science Stream",
+        "fullLabel": "Science Stream Students",
+        "headline": "44%",
+        "headlineNote": "Students in Science stream",
+        "color": "#2563eb",
+        "bar": 44,
+        "barLabel": "138.5 L students in Science",
+        "split": [
+          {
+            "val": "138.5 L",
+            "lbl": "Total Students"
+          },
+          {
+            "val": "48%",
+            "lbl": "Female Share"
+          },
+          {
+            "val": "52%",
+            "lbl": "Rural Share",
+            "accent": true
+          }
+        ],
+        "note": "Science accounts for 44.0% of Class 11\u201312 enrollment. Girls represent 47.8% of Science students, and 51.6% of Science enrollment is rural."
+      },
+      {
+        "id": "humanities",
+        "label": "Humanities Stream",
+        "fullLabel": "Humanities Stream Students",
+        "headline": "41%",
+        "headlineNote": "Students in Humanities stream",
+        "color": "#6366f1",
+        "bar": 41,
+        "barLabel": "130.3 L students in Humanities",
+        "split": [
+          {
+            "val": "130.3 L",
+            "lbl": "Total Students"
+          },
+          {
+            "val": "55%",
+            "lbl": "Female Share"
+          },
+          {
+            "val": "68%",
+            "lbl": "Rural Share",
+            "accent": true
+          }
+        ],
+        "note": "Humanities accounts for 41.4% of Class 11\u201312 enrollment. Girls represent 55.4% of Humanities students, and 68.0% of Humanities enrollment is rural."
+      },
+      {
+        "id": "commerce",
+        "label": "Commerce Stream",
+        "fullLabel": "Commerce Stream Students",
+        "headline": "15%",
+        "headlineNote": "Students in Commerce stream",
+        "color": "#d97706",
+        "bar": 15,
+        "barLabel": "45.7 L students in Commerce",
+        "split": [
+          {
+            "val": "45.7 L",
+            "lbl": "Total Students"
+          },
+          {
+            "val": "46%",
+            "lbl": "Female Share"
+          },
+          {
+            "val": "69%",
+            "lbl": "Urban Share",
+            "accent": true
+          }
+        ],
+        "note": "Commerce accounts for 14.5% of Class 11\u201312 enrollment. Girls represent 45.8% of Commerce students, and 68.9% of Commerce enrollment is urban."
+      },
+      {
+        "id": "labs",
+        "label": "Lab Infrastructure",
+        "fullLabel": "Labs per Secondary School",
+        "headline": "26%",
+        "headlineNote": "Chemistry Lab availability in secondary schools",
+        "color": "#7c3aed",
+        "bar": 26,
+        "barLabel": "0.8 L secondary schools have Chemistry Lab",
+        "split": [
+          {
+            "val": "26%",
+            "lbl": "Chemistry Lab"
+          },
+          {
+            "val": "26%",
+            "lbl": "Physics Lab"
+          },
+          {
+            "val": "3.1 L",
+            "lbl": "Secondary Schools",
+            "accent": true
+          }
+        ],
+        "note": "Chemistry labs are available in 25.7% of secondary schools; Physics labs in 25.7%; Biology labs in 25.1%."
+      }
+    ],
+    "chartStream": [
+      {
+        "name": "Science",
+        "color": "#2563eb",
+        "val": "44.0%",
+        "pct": 100
+      },
+      {
+        "name": "Humanities",
+        "color": "#6366f1",
+        "val": "41.4%",
+        "pct": 94
+      },
+      {
+        "name": "Commerce",
+        "color": "#d97706",
+        "val": "14.5%",
+        "pct": 33
+      }
+    ],
+    "chartStreamSource": "Science becomes the largest stream nationally. Rural Class 11\u201312 enrollment remains led by Humanities (50.8%), while urban enrollment continues to be led by Science (47.8%).",
+    "chartStreamNote": "Science 44.0%, Humanities 41.4%, Commerce 14.5%. Total Class 11\u201312 enrollment: 314.5 L students.",
+    "chartGender": [
+      {
+        "name": "Humanities",
+        "color": "#6366f1",
+        "val": "55.4%",
+        "pct": 55,
+        "note": "Female-majority"
+      },
+      {
+        "name": "Science",
+        "color": "#2563eb",
+        "val": "47.8%",
+        "pct": 48,
+        "note": "Male-majority"
+      },
+      {
+        "name": "Commerce",
+        "color": "#d97706",
+        "val": "45.8%",
+        "pct": 46,
+        "note": "Male-majority"
+      }
+    ],
+    "chartGenderSource": "Humanities remains the only female-majority stream. Science and Commerce continue to have a male majority, though Science is closer to parity than Commerce.",
+    "chartGenderNote": "Female share by stream: Humanities 55.4%, Science 47.8%, Commerce 45.8%.",
+    "chartLab": [
+      {
+        "name": "Chemistry Lab",
+        "color": "#d97706",
+        "val": "25.7%",
+        "pct": 100
+      },
+      {
+        "name": "Physics Lab",
+        "color": "#0891b2",
+        "val": "25.7%",
+        "pct": 100
+      },
+      {
+        "name": "Biology Lab",
+        "color": "#6366f1",
+        "val": "25.1%",
+        "pct": 98
+      },
+      {
+        "name": "Computer Lab",
+        "color": "#2563eb",
+        "val": "22.8%",
+        "pct": 89
+      },
+      {
+        "name": "Maths Lab",
+        "color": "#7c3aed",
+        "val": "15.5%",
+        "pct": 60
+      },
+      {
+        "name": "Geography Lab",
+        "color": "#d97706",
+        "val": "13.5%",
+        "pct": 53
+      },
+      {
+        "name": "Language Lab",
+        "color": "#059669",
+        "val": "11.6%",
+        "pct": 45
+      },
+      {
+        "name": "Home Science Lab",
+        "color": "#7a7060",
+        "val": "8.0%",
+        "pct": 31
+      },
+      {
+        "name": "Psychology Lab",
+        "color": "#0ea5e9",
+        "val": "4.5%",
+        "pct": 18
+      }
+    ],
+    "chartLabSource": "Among secondary schools, Chemistry, Physics, and Biology labs have the widest coverage at roughly one-quarter of schools. Computer labs remain below core science-lab coverage, and specialist labs continue to be limited.",
+    "chartLabNote": "Chemistry 25.7%, Physics 25.7%, Biology 25.1%, Computer 22.8% of secondary schools.",
+    "insight1": {
+      "num": "44.0%",
+      "label": "Science \u2014 Largest Stream by Enrollment",
+      "color": "#2563eb",
+      "delta_val": "138.5 L",
+      "delta_label": "Students enrolled in Science",
+      "delta_val2": "47.8%",
+      "delta_label2": "Female share in Science"
+    },
+    "insight2": {
+      "num": "25.7%",
+      "label": "Chemistry Lab \u2014 Widest Coverage Among Secondary-School Labs",
+      "color": "#d97706",
+      "delta_val": "0.8 L",
+      "delta_label": "Secondary schools with Chemistry lab",
+      "delta_val2": "25.7%",
+      "delta_label2": "Physics lab availability"
+    }
+  }
+}

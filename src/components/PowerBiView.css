@@ -1,0 +1,13 @@
+.pbi-view {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - var(--nav-h) - var(--ctx-h));
+  background: #f0f4fb;
+}
+
+.pbi-iframe {
+  flex: 1;
+  width: 100%;
+  border: none;
+  display: block;
+}

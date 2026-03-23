@@ -1,0 +1,456 @@
+{
+  "2023-24": {
+    "header": {
+      "label": "Teacher Retirement Analytics",
+      "headline": "8.6 L teachers retiring in ~5 years — Foundational & Prep hardest hit · 2023-24",
+      "sub": "98.1 L total teachers. Retirement wave (57+): 8.6 L (9%). Over 65: 27T (0.3%). Regular: 84%, Contract: 16%."
+    },
+    "cards": [
+      {
+        "id": "wave",
+        "label": "Retirement Wave (5yr)",
+        "fullLabel": "Near-Retirement Teachers",
+        "headline": "9%",
+        "headlineNote": "Teachers retiring within 5 years · 2023-24",
+        "color": "#d97706",
+        "bar": 9,
+        "barLabel": "8.6 L teachers retiring by ~2028",
+        "split": [
+          {
+            "val": "8.6 L",
+            "lbl": "Retiring (57+)"
+          },
+          {
+            "val": "10%",
+            "lbl": "Regular retiring"
+          },
+          {
+            "val": "5%",
+            "lbl": "Contract retiring",
+            "accent": true
+          }
+        ],
+        "note": "9% of the teaching workforce is aged 57 or above. Regular teachers: 10% retiring, Contract: 5% retiring."
+      },
+      {
+        "id": "senior",
+        "label": "Over-65 Teaching",
+        "fullLabel": "Teachers over 65",
+        "headline": "0.3%",
+        "headlineNote": "Teachers above 65 still in service · 2023-24",
+        "color": "#6366f1",
+        "bar": 0,
+        "barLabel": "27T teachers above retirement age",
+        "split": [
+          {
+            "val": "27T",
+            "lbl": ">65 teachers"
+          },
+          {
+            "val": "0.1%",
+            "lbl": "Govt >65"
+          },
+          {
+            "val": "0.6%",
+            "lbl": "Pvt >65",
+            "accent": true
+          }
+        ],
+        "note": "0.3% of teachers are over 65 and still in service. Government schools: 0.1%, Private Unaided: 0.6%."
+      },
+      {
+        "id": "prime",
+        "label": "Prime Working Age",
+        "fullLabel": "Young Teaching Workforce",
+        "headline": "79%",
+        "headlineNote": "Teachers under 52 years old · 2023-24",
+        "color": "#2563eb",
+        "bar": 79,
+        "barLabel": "77.5 L teachers in prime age band",
+        "split": [
+          {
+            "val": "79%",
+            "lbl": "Under 52"
+          },
+          {
+            "val": "12%",
+            "lbl": "52–56 (senior)"
+          },
+          {
+            "val": "77.5 L",
+            "lbl": "Prime teachers",
+            "accent": true
+          }
+        ],
+        "note": "79% of teachers are under 52 — the workforce has a healthy age base. 12% are in the 52–56 senior-but-not-retiring band."
+      },
+      {
+        "id": "contract",
+        "label": "Appointment Type Split",
+        "fullLabel": "Regular vs Contract Teacher Share",
+        "headline": "84%",
+        "headlineNote": "Regular-appointment teachers · 2023-24",
+        "color": "#0891b2",
+        "bar": 84,
+        "barLabel": "82.8 L regular · 15.3 L contract",
+        "split": [
+          {
+            "val": "82.8 L",
+            "lbl": "Regular"
+          },
+          {
+            "val": "15.3 L",
+            "lbl": "Contract"
+          },
+          {
+            "val": "16%",
+            "lbl": "Contract share",
+            "accent": true
+          }
+        ],
+        "note": "Regular: 82.8 L (84%), Contract: 15.3 L (16%). Regular teachers have 10% retiring vs 5% for contract."
+      }
+    ],
+    "ageBands": [
+      {
+        "name": "< 52 years",
+        "val": "79%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "52–56 years",
+        "val": "12%",
+        "pct": 15,
+        "color": "#0891b2"
+      },
+      {
+        "name": "57–60 years",
+        "val": "7%",
+        "pct": 9,
+        "color": "#d97706"
+      },
+      {
+        "name": "61–65 years",
+        "val": "2%",
+        "pct": 3,
+        "color": "#6366f1"
+      },
+      {
+        "name": "> 65 years",
+        "val": "0%",
+        "pct": 1,
+        "color": "#d97706"
+      }
+    ],
+    "ageBandsSource": "Over 9% of the teaching force is aged 57 or above and approaching retirement — concentrated in government schools where hiring pipelines need activation now to avoid gaps.",
+    "ageBandsNote": "79% of teachers are under 52 — the workforce has a healthy age base. The 57–65+ cohort (9%) represents a significant near-term exit.",
+    "catRetireRows": [
+      {
+        "name": "Foundational & Prep",
+        "val": "9%",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "9% of Foundational & Prep teachers in retirement wave (age 57+)"
+      },
+      {
+        "name": "Middle School",
+        "val": "9%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "9% of Middle School teachers in retirement wave (age 57+)"
+      },
+      {
+        "name": "Secondary",
+        "val": "9%",
+        "pct": 100,
+        "color": "#2563eb",
+        "note": "9% of Secondary teachers in retirement wave (age 57+)"
+      }
+    ],
+    "catRetireSource": "Foundational & Prep schools face the most acute retirement wave — experienced teachers at this level are hardest to replace given subject-specialist requirements.",
+    "catRetireNote": "Foundational & Prep schools have the highest near-term retirement share at 9%. Combined with stressed PTR, this creates a compound risk.",
+    "mgmtRetireRows": [
+      {
+        "name": "Central Govt",
+        "val": "10%",
+        "pct": 83,
+        "color": "#d97706",
+        "note": "10% of Central Govt teachers approaching retirement"
+      },
+      {
+        "name": "State Govt",
+        "val": "11%",
+        "pct": 92,
+        "color": "#6366f1",
+        "note": "11% of State Govt teachers approaching retirement"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "12%",
+        "pct": 100,
+        "color": "#2563eb",
+        "note": "12% of Govt Aided teachers approaching retirement"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "5%",
+        "pct": 42,
+        "color": "#0891b2",
+        "note": "5% of Private Unaided teachers approaching retirement"
+      },
+      {
+        "name": "Others",
+        "val": "5%",
+        "pct": 42,
+        "color": "#7c3aed",
+        "note": "5% of Others teachers approaching retirement"
+      }
+    ],
+    "mgmtRetireSource": "Government-managed schools carry the largest share of near-retirement teachers — strategic pre-emptive recruitment is essential to maintain continuity of instruction.",
+    "mgmtRetireNote": "Govt Aided schools have the highest retirement concentration at 12%. Government schools carry the largest absolute burden.",
+    "insight1": {
+      "num": "8.6 L",
+      "label": "Teachers Retiring in ~5 Years · 2023-24",
+      "color": "#d97706",
+      "note": "8.6 L teachers aged 57 or above. This 9% workforce exit requires urgent succession planning across all school categories and management types.",
+      "delta_val": "9%",
+      "delta_label": "Share of total teacher workforce retiring within 5 years"
+    },
+    "insight2": {
+      "num": "27T",
+      "label": "Teachers Above Retirement Age Still Serving · 2023-24",
+      "color": "#6366f1",
+      "note": "27T teachers (0.3%) are over 65 and still in service — concentrated in private and aided schools, often on contract appointments beyond standard retirement age.",
+      "delta_val": "0.3%",
+      "delta_label": "Share of total workforce over 65"
+    }
+  },
+  "2024-25": {
+    "header": {
+      "label": "Teacher Retirement Analytics",
+      "headline": "9.3 L teachers retiring in ~5 years — Foundational & Prep hardest hit · 2024-25",
+      "sub": "1 Cr total teachers. Retirement wave (57+): 9.3 L (9%). Over 65: 32T (0.3%). Regular: 84%, Contract: 16%."
+    },
+    "cards": [
+      {
+        "id": "wave",
+        "label": "Retirement Wave (5yr)",
+        "fullLabel": "Near-Retirement Teachers",
+        "headline": "9%",
+        "headlineNote": "Teachers retiring within 5 years · 2024-25",
+        "color": "#d97706",
+        "bar": 9,
+        "barLabel": "9.3 L teachers retiring by ~2029",
+        "split": [
+          {
+            "val": "9.3 L",
+            "lbl": "Retiring (57+)"
+          },
+          {
+            "val": "10%",
+            "lbl": "Regular retiring"
+          },
+          {
+            "val": "5%",
+            "lbl": "Contract retiring",
+            "accent": true
+          }
+        ],
+        "note": "9% of the teaching workforce is aged 57 or above. Regular teachers: 10% retiring, Contract: 5% retiring."
+      },
+      {
+        "id": "senior",
+        "label": "Over-65 Teaching",
+        "fullLabel": "Teachers over 65",
+        "headline": "0.3%",
+        "headlineNote": "Teachers above 65 still in service · 2024-25",
+        "color": "#6366f1",
+        "bar": 0,
+        "barLabel": "32T teachers above retirement age",
+        "split": [
+          {
+            "val": "32T",
+            "lbl": ">65 teachers"
+          },
+          {
+            "val": "0.1%",
+            "lbl": "Govt >65"
+          },
+          {
+            "val": "0.7%",
+            "lbl": "Pvt >65",
+            "accent": true
+          }
+        ],
+        "note": "0.3% of teachers are over 65 and still in service. Government schools: 0.1%, Private Unaided: 0.7%."
+      },
+      {
+        "id": "prime",
+        "label": "Prime Working Age",
+        "fullLabel": "Young Teaching Workforce",
+        "headline": "79%",
+        "headlineNote": "Teachers under 52 years old · 2024-25",
+        "color": "#2563eb",
+        "bar": 79,
+        "barLabel": "80 L teachers in prime age band",
+        "split": [
+          {
+            "val": "79%",
+            "lbl": "Under 52"
+          },
+          {
+            "val": "12%",
+            "lbl": "52–56 (senior)"
+          },
+          {
+            "val": "80 L",
+            "lbl": "Prime teachers",
+            "accent": true
+          }
+        ],
+        "note": "79% of teachers are under 52 — the workforce has a healthy age base. 12% are in the 52–56 senior-but-not-retiring band."
+      },
+      {
+        "id": "contract",
+        "label": "Appointment Type Split",
+        "fullLabel": "Regular vs Contract Teacher Share",
+        "headline": "84%",
+        "headlineNote": "Regular-appointment teachers · 2024-25",
+        "color": "#0891b2",
+        "bar": 84,
+        "barLabel": "84.7 L regular · 16.5 L contract",
+        "split": [
+          {
+            "val": "84.7 L",
+            "lbl": "Regular"
+          },
+          {
+            "val": "16.5 L",
+            "lbl": "Contract"
+          },
+          {
+            "val": "16%",
+            "lbl": "Contract share",
+            "accent": true
+          }
+        ],
+        "note": "Regular: 84.7 L (84%), Contract: 16.5 L (16%). Regular teachers have 10% retiring vs 5% for contract."
+      }
+    ],
+    "ageBands": [
+      {
+        "name": "< 52 years",
+        "val": "79%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "52–56 years",
+        "val": "12%",
+        "pct": 15,
+        "color": "#0891b2"
+      },
+      {
+        "name": "57–60 years",
+        "val": "7%",
+        "pct": 9,
+        "color": "#d97706"
+      },
+      {
+        "name": "61–65 years",
+        "val": "2%",
+        "pct": 3,
+        "color": "#6366f1"
+      },
+      {
+        "name": "> 65 years",
+        "val": "0%",
+        "pct": 1,
+        "color": "#d97706"
+      }
+    ],
+    "ageBandsSource": "Over 9% of the teaching force is aged 57 or above and approaching retirement — concentrated in government schools where hiring pipelines need activation now to avoid gaps.",
+    "ageBandsNote": "79% of teachers are under 52 — the workforce has a healthy age base. The 57–65+ cohort (9%) represents a significant near-term exit.",
+    "catRetireRows": [
+      {
+        "name": "Foundational & Prep",
+        "val": "10%",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "10% of Foundational & Prep teachers in retirement wave (age 57+)"
+      },
+      {
+        "name": "Middle School",
+        "val": "9%",
+        "pct": 90,
+        "color": "#6366f1",
+        "note": "9% of Middle School teachers in retirement wave (age 57+)"
+      },
+      {
+        "name": "Secondary",
+        "val": "9%",
+        "pct": 90,
+        "color": "#2563eb",
+        "note": "9% of Secondary teachers in retirement wave (age 57+)"
+      }
+    ],
+    "catRetireSource": "Foundational & Prep schools face the most acute retirement wave — experienced teachers at this level are hardest to replace given subject-specialist requirements.",
+    "catRetireNote": "Foundational & Prep schools have the highest near-term retirement share at 10%. Combined with stressed PTR, this creates a compound risk.",
+    "mgmtRetireRows": [
+      {
+        "name": "Central Govt",
+        "val": "10%",
+        "pct": 77,
+        "color": "#d97706",
+        "note": "10% of Central Govt teachers approaching retirement"
+      },
+      {
+        "name": "State Govt",
+        "val": "12%",
+        "pct": 92,
+        "color": "#6366f1",
+        "note": "12% of State Govt teachers approaching retirement"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "13%",
+        "pct": 100,
+        "color": "#2563eb",
+        "note": "13% of Govt Aided teachers approaching retirement"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "5%",
+        "pct": 38,
+        "color": "#0891b2",
+        "note": "5% of Private Unaided teachers approaching retirement"
+      },
+      {
+        "name": "Others",
+        "val": "6%",
+        "pct": 46,
+        "color": "#7c3aed",
+        "note": "6% of Others teachers approaching retirement"
+      }
+    ],
+    "mgmtRetireSource": "Government-managed schools carry the largest share of near-retirement teachers — strategic pre-emptive recruitment is essential to maintain continuity of instruction.",
+    "mgmtRetireNote": "Govt Aided schools have the highest retirement concentration at 13%. Government schools carry the largest absolute burden.",
+    "insight1": {
+      "num": "9.3 L",
+      "label": "Teachers Retiring in ~5 Years · 2024-25",
+      "color": "#d97706",
+      "note": "9.3 L teachers aged 57 or above. This 9% workforce exit requires urgent succession planning across all school categories and management types.",
+      "delta_val": "9%",
+      "delta_label": "Share of total teacher workforce retiring within 5 years"
+    },
+    "insight2": {
+      "num": "32T",
+      "label": "Teachers Above Retirement Age Still Serving · 2024-25",
+      "color": "#6366f1",
+      "note": "32T teachers (0.3%) are over 65 and still in service — concentrated in private and aided schools, often on contract appointments beyond standard retirement age.",
+      "delta_val": "0.3%",
+      "delta_label": "Share of total workforce over 65"
+    }
+  }
+}

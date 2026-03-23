@@ -1,0 +1,596 @@
+{
+  "2022-23": {
+    "header": {
+      "label": "Vocational Analytics",
+      "headline": "56,207 self-employed graduates \u00b7 30% of schools lack equipment \u00b7 2022-23",
+      "sub": "60 school-segment records. E-content: 23,084. Placement: 0. Self-employment: 56,207. Equipment fully available: 35%. Centrally sponsored: 58%. From e_content_availability, placed10/12, self_emp_10/12, equipment_status, sponsorship_type columns"
+    },
+    "cards": [
+      {
+        "id": "reach",
+        "label": "E-Content Availability",
+        "fullLabel": "E-Content Resources",
+        "headline": "23,084",
+        "headlineNote": "E-content units available across vocational schools \u00b7 2022-23",
+        "color": "#059669",
+        "bar": 77,
+        "barLabel": "Rural: 47%  Urban: 53% of vocational schools",
+        "split": [
+          {
+            "val": "47%",
+            "lbl": "Rural Schools"
+          },
+          {
+            "val": "53%",
+            "lbl": "Urban Schools"
+          },
+          {
+            "val": "58%",
+            "lbl": "Centrally Sponsored",
+            "accent": true
+          }
+        ],
+        "note": "23,084. 47% of vocational schools are in rural areas, 53% urban (School Location column). 58% are centrally sponsored (Sponsorship Type column)"
+      },
+      {
+        "id": "placement",
+        "label": "Placement Outcomes",
+        "fullLabel": "Total Placements",
+        "headline": "0",
+        "headlineNote": "Students placed (Class 10 + 12) \u00b7 2022-23",
+        "color": "#2563eb",
+        "bar": 0,
+        "barLabel": "Class 10: 0  Class 12: 0",
+        "split": [
+          {
+            "val": "0",
+            "lbl": "Class 10 Placed"
+          },
+          {
+            "val": "0",
+            "lbl": "Class 12 Placed"
+          },
+          {
+            "val": "N/A",
+            "lbl": "Cl.12 of outcomes",
+            "accent": true
+          }
+        ],
+        "note": "0, 0. Placement data derived . Class 12 accounts for 0% of total placement outcomes"
+      },
+      {
+        "id": "selfemp",
+        "label": "Self-Employment Outcomes",
+        "fullLabel": "Self-Employment Outcomes",
+        "headline": "56,207",
+        "headlineNote": "Self-employed students (Class 10 + 12) \u00b7 2022-23",
+        "color": "#d97706",
+        "bar": 80,
+        "barLabel": "Class 10: 30,909  Class 12: 25,298",
+        "split": [
+          {
+            "val": "30,909",
+            "lbl": "Class 10 Self-Emp"
+          },
+          {
+            "val": "25,298",
+            "lbl": "Class 12 Self-Emp"
+          },
+          {
+            "val": "100%",
+            "lbl": "Cl.10 share",
+            "accent": true
+          }
+        ],
+        "note": "30,909, 25,298. Self-employment outcomes . Class 10 contributes 100% of self-employment outcomes"
+      },
+      {
+        "id": "equipment",
+        "label": "Equipment Status",
+        "fullLabel": "Equipment Coverage",
+        "headline": "30%",
+        "headlineNote": "Schools with equipment not available \u00b7 2022-23",
+        "color": "#6366f1",
+        "bar": 30,
+        "barLabel": "Complete: 21  Partial: 21  Not Available: 18",
+        "split": [
+          {
+            "val": "35%",
+            "lbl": "Fully Equipped"
+          },
+          {
+            "val": "35%",
+            "lbl": "Partial"
+          },
+          {
+            "val": "30%",
+            "lbl": "Not Available",
+            "accent": true
+          }
+        ],
+        "note": "Fully equipped: 21 schools (35%), Partial: 21 (35%), Not available: 18 (30%). Equipment Status column from vocational_overall"
+      }
+    ],
+    "equipRows": [
+      {
+        "name": "Fully Equipped",
+        "val": "35%",
+        "pct": 100,
+        "color": "#059669"
+      },
+      {
+        "name": "Partially Equipped",
+        "val": "35%",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Not Available",
+        "val": "30%",
+        "pct": 86,
+        "color": "#6366f1"
+      }
+    ],
+    "equipSource": "Over a third of vocational schools lack equipment entirely \u2014 students in these schools complete theory without hands-on training, undermining employment readiness.",
+    "equipNote": "35% of vocational schools have partial equipment \u2014 limiting practical learning outcomes. 30% have no equipment at all. From Equipment Status column.",
+    "sponRows": [
+      {
+        "name": "Centrally Sponsored",
+        "val": "58%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "State Sponsored",
+        "val": "10%",
+        "pct": 17,
+        "color": "#0891b2"
+      },
+      {
+        "name": "No Sponsorship",
+        "val": "32%",
+        "pct": 54,
+        "color": "#6366f1"
+      }
+    ],
+    "sponSource": "Centrally Sponsored schools dominate vocational coverage \u2014 state-sponsored programs show significant room to scale, particularly in smaller states.",
+    "sponNote": "58% of vocational schools run under Centrally Sponsored Scheme, 10% State Sponsored, 32% unsupported. From Sponsorship Type column.",
+    "hoursRows": [
+      {
+        "name": "Theory Hours",
+        "val": "0%",
+        "pct": 0,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Practical Hours",
+        "val": "0%",
+        "pct": 0,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Industry Training",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706"
+      }
+    ],
+    "hoursSource": "Theory hours outpace practical training in most programs \u2014 a structural imbalance that limits skill depth and reduces placement outcomes for vocational graduates.",
+    "hoursNote": "Total training hours: 0 \u00b7 2022-23. Theory: 0%, Practical: 0%, Industry: 0%. Industry Training Hours column captures real-world exposure.",
+    "insight1": {
+      "num": "25,298",
+      "label": "Class 12 Total Outcomes (Placed + Self-Employed) \u00b7 2022-23",
+      "color": "#059669",
+      "note": "SUM + 25,298. Placed: 0, Self-employed: 25,298. Class 12 is the primary vocational exit point \u2014 outcomes",
+      "delta_val": "0%",
+      "delta_label": "Placement share of Class 12 outcomes \u00b7 placed12 \u00f7 (placed12 + )"
+    },
+    "insight2": {
+      "num": "N/A",
+      "label": "Total Training Hours (Theory + Practical + Industry) \u00b7 2022-23",
+      "color": "#6366f1",
+      "note": "Total training hours: 0. Distribution \u2014 Theory: 0%, Practical: 0%, Industry visits: 0%. The imbalance toward theory limits hands-on skill development.",
+      "delta_val": "N/A",
+      "delta_label": "Industry training share of total hours \u00b7 Industry Training Hours column"
+    },
+    "exp_yes_pct": 48,
+    "rural_pct": 47,
+    "urban_pct": 53
+  },
+  "2023-24": {
+    "header": {
+      "label": "Vocational Analytics",
+      "headline": "13,496 students placed \u00b7 32% of schools lack equipment \u00b7 2023-24",
+      "sub": "68 school-segment records. E-content: 20,694. Placement: 13,496. Self-employment: 25,509. Equipment fully available: 34%. Centrally sponsored: 54%. From e_content_availability, placed10/12, self_emp_10/12, equipment_status, sponsorship_type columns"
+    },
+    "cards": [
+      {
+        "id": "reach",
+        "label": "E-Content Availability",
+        "fullLabel": "E-Content Resources",
+        "headline": "20,694",
+        "headlineNote": "E-content units available across vocational schools \u00b7 2023-24",
+        "color": "#059669",
+        "bar": 69,
+        "barLabel": "Rural: 48%  Urban: 52% of vocational schools",
+        "split": [
+          {
+            "val": "48%",
+            "lbl": "Rural Schools"
+          },
+          {
+            "val": "52%",
+            "lbl": "Urban Schools"
+          },
+          {
+            "val": "54%",
+            "lbl": "Centrally Sponsored",
+            "accent": true
+          }
+        ],
+        "note": "20,694. 48% of vocational schools are in rural areas, 52% urban (School Location column). 54% are centrally sponsored (Sponsorship Type column)"
+      },
+      {
+        "id": "placement",
+        "label": "Placement Outcomes",
+        "fullLabel": "Total Placements",
+        "headline": "13,496",
+        "headlineNote": "Students placed (Class 10 + 12) \u00b7 2023-24",
+        "color": "#2563eb",
+        "bar": 45,
+        "barLabel": "Class 10: 5,922  Class 12: 7,574",
+        "split": [
+          {
+            "val": "5,922",
+            "lbl": "Class 10 Placed"
+          },
+          {
+            "val": "7,574",
+            "lbl": "Class 12 Placed"
+          },
+          {
+            "val": "39%",
+            "lbl": "Cl.12 of outcomes",
+            "accent": true
+          }
+        ],
+        "note": "5,922, 7,574. Placement data derived . Class 12 accounts for 39% of total placement outcomes"
+      },
+      {
+        "id": "selfemp",
+        "label": "Self-Employment Outcomes",
+        "fullLabel": "Self-Employment Outcomes",
+        "headline": "25,509",
+        "headlineNote": "Self-employed students (Class 10 + 12) \u00b7 2023-24",
+        "color": "#d97706",
+        "bar": 36,
+        "barLabel": "Class 10: 13,681  Class 12: 11,828",
+        "split": [
+          {
+            "val": "13,681",
+            "lbl": "Class 10 Self-Emp"
+          },
+          {
+            "val": "11,828",
+            "lbl": "Class 12 Self-Emp"
+          },
+          {
+            "val": "70%",
+            "lbl": "Cl.10 share",
+            "accent": true
+          }
+        ],
+        "note": "13,681, 11,828. Self-employment outcomes . Class 10 contributes 70% of self-employment outcomes"
+      },
+      {
+        "id": "equipment",
+        "label": "Equipment Status",
+        "fullLabel": "Equipment Coverage",
+        "headline": "32%",
+        "headlineNote": "Schools with equipment not available \u00b7 2023-24",
+        "color": "#6366f1",
+        "bar": 32,
+        "barLabel": "Complete: 23  Partial: 23  Not Available: 22",
+        "split": [
+          {
+            "val": "34%",
+            "lbl": "Fully Equipped"
+          },
+          {
+            "val": "34%",
+            "lbl": "Partial"
+          },
+          {
+            "val": "32%",
+            "lbl": "Not Available",
+            "accent": true
+          }
+        ],
+        "note": "Fully equipped: 23 schools (34%), Partial: 23 (34%), Not available: 22 (32%). Equipment Status column from vocational_overall"
+      }
+    ],
+    "equipRows": [
+      {
+        "name": "Fully Equipped",
+        "val": "34%",
+        "pct": 100,
+        "color": "#059669"
+      },
+      {
+        "name": "Partially Equipped",
+        "val": "34%",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Not Available",
+        "val": "32%",
+        "pct": 96,
+        "color": "#6366f1"
+      }
+    ],
+    "equipSource": "Over a third of vocational schools lack equipment entirely \u2014 students in these schools complete theory without hands-on training, undermining employment readiness.",
+    "equipNote": "34% of vocational schools have partial equipment \u2014 limiting practical learning outcomes. 32% have no equipment at all. From Equipment Status column.",
+    "sponRows": [
+      {
+        "name": "Centrally Sponsored",
+        "val": "54%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "State Sponsored",
+        "val": "29%",
+        "pct": 54,
+        "color": "#0891b2"
+      },
+      {
+        "name": "No Sponsorship",
+        "val": "16%",
+        "pct": 30,
+        "color": "#6366f1"
+      }
+    ],
+    "sponSource": "Centrally Sponsored schools dominate vocational coverage \u2014 state-sponsored programs show significant room to scale, particularly in smaller states.",
+    "sponNote": "54% of vocational schools run under Centrally Sponsored Scheme, 29% State Sponsored, 16% unsupported. From Sponsorship Type column.",
+    "hoursRows": [
+      {
+        "name": "Theory Hours",
+        "val": "46%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Practical Hours",
+        "val": "42%",
+        "pct": 91,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Industry Training",
+        "val": "11%",
+        "pct": 24,
+        "color": "#d97706"
+      }
+    ],
+    "hoursSource": "Theory hours outpace practical training in most programs \u2014 a structural imbalance that limits skill depth and reduces placement outcomes for vocational graduates.",
+    "hoursNote": "Total training hours: 1,782,763 \u00b7 2023-24. Theory: 46%, Practical: 42%, Industry: 11%. Industry Training Hours column captures real-world exposure.",
+    "insight1": {
+      "num": "19,402",
+      "label": "Class 12 Total Outcomes (Placed + Self-Employed) \u00b7 2023-24",
+      "color": "#059669",
+      "note": "SUM + 19,402. Placed: 7,574, Self-employed: 11,828. Class 12 is the primary vocational exit point \u2014 outcomes",
+      "delta_val": "39%",
+      "delta_label": "Placement share of Class 12 outcomes \u00b7 placed12 \u00f7 (placed12 + )"
+    },
+    "insight2": {
+      "num": "1,782,763",
+      "label": "Total Training Hours (Theory + Practical + Industry) \u00b7 2023-24",
+      "color": "#6366f1",
+      "note": "Total training hours: 1,782,763. Distribution \u2014 Theory: 46%, Practical: 42%, Industry visits: 11%. The imbalance toward theory limits hands-on skill development.",
+      "delta_val": "11%",
+      "delta_label": "Industry training share of total hours \u00b7 Industry Training Hours column"
+    },
+    "exp_yes_pct": 50,
+    "rural_pct": 48,
+    "urban_pct": 52
+  },
+  "2024-25": {
+    "header": {
+      "label": "Vocational Analytics",
+      "headline": "14,122 students placed \u00b7 34% of schools lack equipment \u00b7 2024-25",
+      "sub": "93 school-segment records. E-content: 28,057. Placement: 14,122. Self-employment: 28,233. Equipment fully available: 32%. Centrally sponsored: 55%. From e_content_availability, placed10/12, self_emp_10/12, equipment_status, sponsorship_type columns"
+    },
+    "cards": [
+      {
+        "id": "reach",
+        "label": "E-Content Availability",
+        "fullLabel": "E-Content Resources",
+        "headline": "28,057",
+        "headlineNote": "E-content units available across vocational schools \u00b7 2024-25",
+        "color": "#059669",
+        "bar": 94,
+        "barLabel": "Rural: 54%  Urban: 46% of vocational schools",
+        "split": [
+          {
+            "val": "54%",
+            "lbl": "Rural Schools"
+          },
+          {
+            "val": "46%",
+            "lbl": "Urban Schools"
+          },
+          {
+            "val": "55%",
+            "lbl": "Centrally Sponsored",
+            "accent": true
+          }
+        ],
+        "note": "28,057. 54% of vocational schools are in rural areas, 46% urban (School Location column). 55% are centrally sponsored (Sponsorship Type column)"
+      },
+      {
+        "id": "placement",
+        "label": "Placement Outcomes",
+        "fullLabel": "Total Placements",
+        "headline": "14,122",
+        "headlineNote": "Students placed (Class 10 + 12) \u00b7 2024-25",
+        "color": "#2563eb",
+        "bar": 47,
+        "barLabel": "Class 10: 7,307  Class 12: 6,815",
+        "split": [
+          {
+            "val": "7,307",
+            "lbl": "Class 10 Placed"
+          },
+          {
+            "val": "6,815",
+            "lbl": "Class 12 Placed"
+          },
+          {
+            "val": "37%",
+            "lbl": "Cl.12 of outcomes",
+            "accent": true
+          }
+        ],
+        "note": "7,307, 6,815. Placement data derived . Class 12 accounts for 37% of total placement outcomes"
+      },
+      {
+        "id": "selfemp",
+        "label": "Self-Employment Outcomes",
+        "fullLabel": "Self-Employment Outcomes",
+        "headline": "28,233",
+        "headlineNote": "Self-employed students (Class 10 + 12) \u00b7 2024-25",
+        "color": "#d97706",
+        "bar": 40,
+        "barLabel": "Class 10: 16,610  Class 12: 11,623",
+        "split": [
+          {
+            "val": "16,610",
+            "lbl": "Class 10 Self-Emp"
+          },
+          {
+            "val": "11,623",
+            "lbl": "Class 12 Self-Emp"
+          },
+          {
+            "val": "69%",
+            "lbl": "Cl.10 share",
+            "accent": true
+          }
+        ],
+        "note": "16,610, 11,623. Self-employment outcomes . Class 10 contributes 69% of self-employment outcomes"
+      },
+      {
+        "id": "equipment",
+        "label": "Equipment Status",
+        "fullLabel": "Equipment Coverage",
+        "headline": "34%",
+        "headlineNote": "Schools with equipment not available \u00b7 2024-25",
+        "color": "#6366f1",
+        "bar": 34,
+        "barLabel": "Complete: 30  Partial: 31  Not Available: 32",
+        "split": [
+          {
+            "val": "32%",
+            "lbl": "Fully Equipped"
+          },
+          {
+            "val": "33%",
+            "lbl": "Partial"
+          },
+          {
+            "val": "34%",
+            "lbl": "Not Available",
+            "accent": true
+          }
+        ],
+        "note": "Fully equipped: 30 schools (32%), Partial: 31 (33%), Not available: 32 (34%). Equipment Status column from vocational_overall"
+      }
+    ],
+    "equipRows": [
+      {
+        "name": "Fully Equipped",
+        "val": "32%",
+        "pct": 94,
+        "color": "#059669"
+      },
+      {
+        "name": "Partially Equipped",
+        "val": "33%",
+        "pct": 97,
+        "color": "#d97706"
+      },
+      {
+        "name": "Not Available",
+        "val": "34%",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "equipSource": "Over a third of vocational schools lack equipment entirely \u2014 students in these schools complete theory without hands-on training, undermining employment readiness.",
+    "equipNote": "33% of vocational schools have partial equipment \u2014 limiting practical learning outcomes. 34% have no equipment at all. From Equipment Status column.",
+    "sponRows": [
+      {
+        "name": "Centrally Sponsored",
+        "val": "55%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "State Sponsored",
+        "val": "32%",
+        "pct": 59,
+        "color": "#0891b2"
+      },
+      {
+        "name": "No Sponsorship",
+        "val": "13%",
+        "pct": 24,
+        "color": "#6366f1"
+      }
+    ],
+    "sponSource": "Centrally Sponsored schools dominate vocational coverage \u2014 state-sponsored programs show significant room to scale, particularly in smaller states.",
+    "sponNote": "55% of vocational schools run under Centrally Sponsored Scheme, 32% State Sponsored, 13% unsupported. From Sponsorship Type column.",
+    "hoursRows": [
+      {
+        "name": "Theory Hours",
+        "val": "47%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Practical Hours",
+        "val": "42%",
+        "pct": 88,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Industry Training",
+        "val": "11%",
+        "pct": 23,
+        "color": "#d97706"
+      }
+    ],
+    "hoursSource": "Theory hours outpace practical training in most programs \u2014 a structural imbalance that limits skill depth and reduces placement outcomes for vocational graduates.",
+    "hoursNote": "Total training hours: 2,451,783 \u00b7 2024-25. Theory: 47%, Practical: 42%, Industry: 11%. Industry Training Hours column captures real-world exposure.",
+    "insight1": {
+      "num": "18,438",
+      "label": "Class 12 Total Outcomes (Placed + Self-Employed) \u00b7 2024-25",
+      "color": "#059669",
+      "note": "SUM + 18,438. Placed: 6,815, Self-employed: 11,623. Class 12 is the primary vocational exit point \u2014 outcomes",
+      "delta_val": "37%",
+      "delta_label": "Placement share of Class 12 outcomes \u00b7 placed12 \u00f7 (placed12 + )"
+    },
+    "insight2": {
+      "num": "2,451,783",
+      "label": "Total Training Hours (Theory + Practical + Industry) \u00b7 2024-25",
+      "color": "#6366f1",
+      "note": "Total training hours: 2,451,783. Distribution \u2014 Theory: 47%, Practical: 42%, Industry visits: 11%. The imbalance toward theory limits hands-on skill development.",
+      "delta_val": "11%",
+      "delta_label": "Industry training share of total hours \u00b7 Industry Training Hours column"
+    },
+    "exp_yes_pct": 48,
+    "rural_pct": 54,
+    "urban_pct": 46
+  }
+}

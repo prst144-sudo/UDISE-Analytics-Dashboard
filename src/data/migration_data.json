@@ -1,0 +1,380 @@
+{
+  "2022-23": {
+    "header": {
+      "label": "Student Migration Analytics",
+      "headline": "2.6 Cr student migration records — where is movement concentrated?",
+      "sub": "Migration records track movement across migration type, school location, management category, and selected student markers such as BPL and CWSN status."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "Total Migrants",
+        "fullLabel": "Sum of Total Students Migrated",
+        "headline": "2.6 Cr",
+        "headlineNote": "Students recorded as migrated in 2022-23",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "national total",
+        "split": [
+          {
+            "val": "2.3 Cr",
+            "lbl": "Intra-District"
+          },
+          {
+            "val": "30.9 L",
+            "lbl": "Inter-District"
+          },
+          {
+            "val": "2.7 L",
+            "lbl": "Inter-State",
+            "accent": true
+          }
+        ],
+        "note": "Total migration records stand at 2.6 Cr. Intra-District movement accounts for 87.1%, Inter-District for 11.9%, and Inter-State for 1.0%."
+      },
+      {
+        "id": "type",
+        "label": "Migration Type",
+        "fullLabel": "Migration Type breakdown",
+        "headline": "87.1%",
+        "headlineNote": "Intra-District migration share",
+        "color": "#0e7490",
+        "bar": 87.1,
+        "barLabel": "87.1% remain within the same district",
+        "split": [
+          {
+            "val": "87.1%",
+            "lbl": "Intra-District"
+          },
+          {
+            "val": "11.9%",
+            "lbl": "Inter-District"
+          },
+          {
+            "val": "1.0%",
+            "lbl": "Inter-State",
+            "accent": true
+          }
+        ],
+        "note": "Intra-District migration is the dominant movement stream at 87.1%. Inter-District accounts for 11.9%, while Inter-State remains limited at 1.0%."
+      },
+      {
+        "id": "cwsn",
+        "label": "CWSN Profile",
+        "fullLabel": "CWSN status within migration records",
+        "headline": "1.1%",
+        "headlineNote": "Migrated CWSN students as share of all migrants",
+        "color": "#d97706",
+        "bar": 1.1,
+        "barLabel": "3.0 L migrated CWSN students",
+        "split": [
+          {
+            "val": "1.0%",
+            "lbl": "From CWSN"
+          },
+          {
+            "val": "0.9%",
+            "lbl": "To CWSN"
+          },
+          {
+            "val": "3.0 L",
+            "lbl": "Migrated CWSN",
+            "accent": true
+          }
+        ],
+        "note": "Migrated CWSN students account for 1.1% of all migration records. The origin-side CWSN flag is 1.0% and the destination-side CWSN flag is 0.9%."
+      },
+      {
+        "id": "bpl",
+        "label": "BPL Profile",
+        "fullLabel": "BPL status within migration records",
+        "headline": "41.4%",
+        "headlineNote": "Current BPL share among migrant records",
+        "color": "#7c3aed",
+        "bar": 41.4,
+        "barLabel": "1.1 Cr current BPL-coded migrants",
+        "split": [
+          {
+            "val": "41.3%",
+            "lbl": "Previous BPL"
+          },
+          {
+            "val": "41.4%",
+            "lbl": "Current BPL"
+          },
+          {
+            "val": "1.1 Cr",
+            "lbl": "Current BPL Count",
+            "accent": true
+          }
+        ],
+        "note": "Current BPL status is reported for 41.4% of migrant records, compared with 41.3% under previous BPL status."
+      }
+    ],
+    "locationRows": [
+      {
+        "name": "Rural → Rural",
+        "val": "55.9%",
+        "pct": 100,
+        "color": "#2563eb",
+        "note": "Largest recorded corridor"
+      },
+      {
+        "name": "Urban → Urban",
+        "val": "25.5%",
+        "pct": 46,
+        "color": "#0e7490",
+        "note": "Second-largest corridor"
+      },
+      {
+        "name": "Rural → Urban",
+        "val": "12.7%",
+        "pct": 23,
+        "color": "#2563eb",
+        "note": "Rural-origin movement into urban schools"
+      },
+      {
+        "name": "Urban → Rural",
+        "val": "5.9%",
+        "pct": 11,
+        "color": "#d97706",
+        "note": "Urban-origin movement into rural schools"
+      }
+    ],
+    "locationSource": "Rural-to-Rural movement remains the principal corridor at 55.9%, followed by Urban-to-Urban movement at 25.5%.",
+    "locationNote": "Cross-location movement accounts for 18.6% in aggregate, comprising Rural→Urban (12.7%) and Urban→Rural (5.9%).",
+    "mgmtRows": [
+      {
+        "name": "State Govt → State Govt",
+        "val": "35.3%",
+        "pct": 100,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Private Unaided → Private Unaided",
+        "val": "21.6%",
+        "pct": 61,
+        "color": "#2563eb"
+      },
+      {
+        "name": "State Govt → Private Unaided",
+        "val": "10.6%",
+        "pct": 30,
+        "color": "#d97706"
+      },
+      {
+        "name": "State Govt → Govt Aided",
+        "val": "9.9%",
+        "pct": 28,
+        "color": "#7a7060"
+      }
+    ],
+    "mgmtSource": "State Govt → State Govt is the largest management corridor at 35.3%, followed by Private Unaided → Private Unaided at 21.6%.",
+    "mgmtNote": "Management corridors are shown as a share of all migration records for the year.",
+    "insight1": {
+      "num": "41.4%",
+      "label": "Current BPL Share in Migration Records",
+      "color": "#7c3aed",
+      "note": "1.1 Cr migrant records carry current BPL status, equivalent to 41.4% of the yearly total.",
+      "delta_val": "1.1 Cr",
+      "delta_label": "migrant records currently marked BPL"
+    },
+    "insight2": {
+      "num": "1.0%",
+      "label": "Inter-State Migration Share",
+      "color": "#2563eb",
+      "note": "Inter-State movement accounts for 1.0% of migration records, representing 2.7 L students.",
+      "delta_val": "2.7 L",
+      "delta_label": "students recorded under inter-state migration"
+    }
+  },
+  "2023-24": {
+    "header": {
+      "label": "Student Migration Analytics",
+      "headline": "3.3 Cr student migration records — where is movement concentrated?",
+      "sub": "Migration records track movement across migration type, school location, management category, and selected student markers such as BPL and CWSN status."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "Total Migrants",
+        "fullLabel": "Sum of Total Students Migrated",
+        "headline": "3.3 Cr",
+        "headlineNote": "Students recorded as migrated in 2023-24",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "national total",
+        "split": [
+          {
+            "val": "2.8 Cr",
+            "lbl": "Intra-District"
+          },
+          {
+            "val": "36.4 L",
+            "lbl": "Inter-District"
+          },
+          {
+            "val": "7.5 L",
+            "lbl": "Inter-State",
+            "accent": true
+          }
+        ],
+        "note": "Total migration records stand at 3.3 Cr. Intra-District movement accounts for 86.6%, Inter-District for 11.1%, and Inter-State for 2.3%."
+      },
+      {
+        "id": "type",
+        "label": "Migration Type",
+        "fullLabel": "Migration Type breakdown",
+        "headline": "86.6%",
+        "headlineNote": "Intra-District migration share",
+        "color": "#0e7490",
+        "bar": 86.6,
+        "barLabel": "86.6% remain within the same district",
+        "split": [
+          {
+            "val": "86.6%",
+            "lbl": "Intra-District"
+          },
+          {
+            "val": "11.1%",
+            "lbl": "Inter-District"
+          },
+          {
+            "val": "2.3%",
+            "lbl": "Inter-State",
+            "accent": true
+          }
+        ],
+        "note": "Intra-District migration is the dominant movement stream at 86.6%. Inter-District accounts for 11.1%, while Inter-State remains limited at 2.3%."
+      },
+      {
+        "id": "cwsn",
+        "label": "CWSN Profile",
+        "fullLabel": "CWSN status within migration records",
+        "headline": "1.0%",
+        "headlineNote": "Migrated CWSN students as share of all migrants",
+        "color": "#d97706",
+        "bar": 1.0,
+        "barLabel": "3.3 L migrated CWSN students",
+        "split": [
+          {
+            "val": "0.9%",
+            "lbl": "From CWSN"
+          },
+          {
+            "val": "0.9%",
+            "lbl": "To CWSN"
+          },
+          {
+            "val": "3.3 L",
+            "lbl": "Migrated CWSN",
+            "accent": true
+          }
+        ],
+        "note": "Migrated CWSN students account for 1.0% of all migration records. The origin-side CWSN flag is 0.9% and the destination-side CWSN flag is 0.9%."
+      },
+      {
+        "id": "bpl",
+        "label": "BPL Profile",
+        "fullLabel": "BPL status within migration records",
+        "headline": "39.5%",
+        "headlineNote": "Current BPL share among migrant records",
+        "color": "#7c3aed",
+        "bar": 39.5,
+        "barLabel": "1.3 Cr current BPL-coded migrants",
+        "split": [
+          {
+            "val": "39.1%",
+            "lbl": "Previous BPL"
+          },
+          {
+            "val": "39.5%",
+            "lbl": "Current BPL"
+          },
+          {
+            "val": "1.3 Cr",
+            "lbl": "Current BPL Count",
+            "accent": true
+          }
+        ],
+        "note": "Current BPL status is reported for 39.5% of migrant records, compared with 39.1% under previous BPL status."
+      }
+    ],
+    "locationRows": [
+      {
+        "name": "Rural → Rural",
+        "val": "56.7%",
+        "pct": 100,
+        "color": "#2563eb",
+        "note": "Largest recorded corridor"
+      },
+      {
+        "name": "Urban → Urban",
+        "val": "24.8%",
+        "pct": 44,
+        "color": "#0e7490",
+        "note": "Second-largest corridor"
+      },
+      {
+        "name": "Rural → Urban",
+        "val": "12.2%",
+        "pct": 21,
+        "color": "#2563eb",
+        "note": "Rural-origin movement into urban schools"
+      },
+      {
+        "name": "Urban → Rural",
+        "val": "6.4%",
+        "pct": 11,
+        "color": "#d97706",
+        "note": "Urban-origin movement into rural schools"
+      }
+    ],
+    "locationSource": "Rural-to-Rural movement remains the principal corridor at 56.7%, followed by Urban-to-Urban movement at 24.8%.",
+    "locationNote": "Cross-location movement accounts for 18.6% in aggregate, comprising Rural→Urban (12.2%) and Urban→Rural (6.4%).",
+    "mgmtRows": [
+      {
+        "name": "State Govt → State Govt",
+        "val": "35.5%",
+        "pct": 100,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Private Unaided → Private Unaided",
+        "val": "23.7%",
+        "pct": 67,
+        "color": "#2563eb"
+      },
+      {
+        "name": "State Govt → Private Unaided",
+        "val": "10.2%",
+        "pct": 29,
+        "color": "#d97706"
+      },
+      {
+        "name": "State Govt → Govt Aided",
+        "val": "8.2%",
+        "pct": 23,
+        "color": "#7a7060"
+      }
+    ],
+    "mgmtSource": "State Govt → State Govt is the largest management corridor at 35.5%, followed by Private Unaided → Private Unaided at 23.7%.",
+    "mgmtNote": "Management corridors are shown as a share of all migration records for the year.",
+    "insight1": {
+      "num": "39.5%",
+      "label": "Current BPL Share in Migration Records",
+      "color": "#7c3aed",
+      "note": "1.3 Cr migrant records carry current BPL status, equivalent to 39.5% of the yearly total.",
+      "delta_val": "1.3 Cr",
+      "delta_label": "migrant records currently marked BPL"
+    },
+    "insight2": {
+      "num": "2.3%",
+      "label": "Inter-State Migration Share",
+      "color": "#2563eb",
+      "note": "Inter-State movement accounts for 2.3% of migration records, representing 7.5 L students.",
+      "delta_val": "7.5 L",
+      "delta_label": "students recorded under inter-state migration"
+    }
+  }
+}

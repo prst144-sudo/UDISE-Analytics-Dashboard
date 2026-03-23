@@ -1,0 +1,5907 @@
+{
+  "2020-21": {
+    "ptr": {
+      "header": {
+        "label": "PTR Analytics",
+        "headline": "National PTR 27.3:1 · 30% above 30 · 70% compliant",
+        "sub": "26.44 Cr students, 97 L teachers, 15.1 L schools. PTR>30 in 30% of schools. Rural 26.9:1 vs Urban 28.1:1. Secondary has the highest PTR."
+      },
+      "cards": [
+        {
+          "id": "ptr",
+          "label": "National PTR",
+          "fullLabel": "Average pupil-teacher ratio",
+          "headline": "27.3:1",
+          "headlineNote": "Overall pupil-teacher ratio",
+          "color": "#6366f1",
+          "bar": 68,
+          "barLabel": "26.44 Cr students / 97 L teachers",
+          "split": [
+            {
+              "val": "26.9:1",
+              "lbl": "Rural PTR"
+            },
+            {
+              "val": "28.1:1",
+              "lbl": "Urban PTR"
+            },
+            {
+              "val": "1.1 pts",
+              "lbl": "R–U Gap",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 27.3:1. Rural 26.9:1 vs Urban 28.1:1."
+        },
+        {
+          "id": "breach",
+          "label": "PTR > 30 Schools",
+          "fullLabel": "Schools above PTR 30",
+          "headline": "30%",
+          "headlineNote": "Schools above PTR 30",
+          "color": "#d97706",
+          "bar": 30,
+          "barLabel": "4.5 L of 15.1 L schools",
+          "split": [
+            {
+              "val": "4.5 L",
+              "lbl": "Schools Above 30"
+            },
+            {
+              "val": "55%",
+              "lbl": "Above 40 Share"
+            },
+            {
+              "val": "2.5 L",
+              "lbl": "Schools Above 40",
+              "accent": true
+            }
+          ],
+          "note": "30% of schools are above PTR 30. Of these, 55% are above PTR 40."
+        },
+        {
+          "id": "compliance",
+          "label": "PTR Compliance",
+          "fullLabel": "Schools meeting PTR ≤ 30",
+          "headline": "70%",
+          "headlineNote": "Schools meeting PTR ≤ 30",
+          "color": "#0891b2",
+          "bar": 70,
+          "barLabel": "10.6 L compliant of 15.1 L schools",
+          "split": [
+            {
+              "val": "10.6 L",
+              "lbl": "Compliant Schools"
+            },
+            {
+              "val": "71%",
+              "lbl": "Rural Comply"
+            },
+            {
+              "val": "66%",
+              "lbl": "Urban Comply",
+              "accent": true
+            }
+          ],
+          "note": "70% of schools meet PTR≤30. Rural 71%, Urban 66%."
+        },
+        {
+          "id": "deficit",
+          "label": "Teachers Required for PTR ≤ 30",
+          "fullLabel": "Teachers required for PTR ≤ 30",
+          "headline": "17.1 L",
+          "headlineNote": "Reported requirement for PTR≤30",
+          "color": "#7c3aed",
+          "bar": 18,
+          "barLabel": "reported in PTR analytics data",
+          "split": [
+            {
+              "val": "17.1 L",
+              "lbl": "Required"
+            },
+            {
+              "val": "25.9 L",
+              "lbl": "Reported Excess"
+            },
+            {
+              "val": "97 L",
+              "lbl": "Current Workforce",
+              "accent": true
+            }
+          ],
+          "note": "PTR analytics data reports 17.1 L teachers required for PTR≤30 and 25.9 L as excess for PTR≤30."
+        }
+      ],
+      "chartCat": [
+        {
+          "name": "Secondary — 38% above 30",
+          "val": "29.7:1",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle — 32% above 30",
+          "val": "26.1:1",
+          "pct": 88,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory — 25% above 30",
+          "val": "24.4:1",
+          "pct": 82,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "PTR by school category using aggregated student and teacher counts. Secondary has the highest PTR in 2020-21.",
+      "chartCatNote": "Secondary = 29.7:1; Middle = 26.1:1; Foundational + Preparatory = 24.4:1.",
+      "chartLocPtr": [
+        {
+          "name": "Rural",
+          "val": "26.9:1",
+          "pct": 96,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Urban",
+          "val": "28.1:1",
+          "pct": 100,
+          "color": "#0891b2"
+        }
+      ],
+      "chartLocPtrSource": "PTR by school location using aggregated student and teacher counts.",
+      "insight1": {
+        "num": "27.3:1",
+        "label": "National PTR",
+        "note": "26.44 Cr students across 15.1 L schools with 97 L teachers in 2020-21.",
+        "color": "#6366f1",
+        "delta_val": "30%",
+        "delta_label": "Schools above PTR 30"
+      },
+      "insight2": {
+        "num": "17.1 L",
+        "label": "Teachers Required for PTR ≤ 30",
+        "note": "PTR analytics data reports 17.1 L teachers required and 25.9 L teachers as excess for PTR≤30.",
+        "color": "#7c3aed",
+        "delta_val": "25.9 L",
+        "delta_label": "Reported excess for PTR≤30"
+      }
+    },
+    "teacher": {
+      "header": {
+        "label": "Teacher Analytics",
+        "headline": "97 L teachers · 51% female · State Govt employs 50%",
+        "sub": "In 2020-21: 97 L teachers across 15.1 L schools. Female: 49.5 L (51%). State Govt employs 48.7 L; Private Unaided employs 36.5 L."
+      },
+      "cards": [
+        {
+          "id": "ptr",
+          "label": "National PTR",
+          "fullLabel": "Average pupil-teacher ratio",
+          "headline": "27.3:1",
+          "headlineNote": "National pupil-teacher ratio",
+          "color": "#0891b2",
+          "bar": 68,
+          "barLabel": "26.44 Cr students / 97 L teachers",
+          "split": [
+            {
+              "val": "26.9:1",
+              "lbl": "Rural"
+            },
+            {
+              "val": "28.1:1",
+              "lbl": "Urban"
+            },
+            {
+              "val": "70%",
+              "lbl": "Compliance",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 27.3:1. 70% of schools are within PTR≤30."
+        },
+        {
+          "id": "workforce",
+          "label": "Teaching Workforce",
+          "fullLabel": "Total teachers by gender",
+          "headline": "97 L",
+          "headlineNote": "Total teachers nationally",
+          "color": "#2563eb",
+          "bar": 51,
+          "barLabel": "51% female teachers",
+          "split": [
+            {
+              "val": "47.5 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "49.5 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "51%",
+              "lbl": "Female Share",
+              "accent": true
+            }
+          ],
+          "note": "Total 97 L. Female 49.5 L (51%), Male 47.5 L."
+        },
+        {
+          "id": "single",
+          "label": "State Govt Teacher Share",
+          "fullLabel": "Teachers employed in State Government schools",
+          "headline": "50%",
+          "headlineNote": "Share of all teachers in State Government schools",
+          "color": "#d97706",
+          "bar": 50,
+          "barLabel": "48.7 L of 97 L teachers",
+          "split": [
+            {
+              "val": "48.7 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "36.5 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "8.1 L",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government schools employ the largest share of teachers nationally."
+        },
+        {
+          "id": "female",
+          "label": "Female Teacher Share",
+          "fullLabel": "Female teacher percentage",
+          "headline": "51%",
+          "headlineNote": "National female teacher share",
+          "color": "#6366f1",
+          "bar": 51,
+          "barLabel": "Female teacher share nationally",
+          "split": [
+            {
+              "val": "49.5 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "47.5 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "63%",
+              "lbl": "Private Unaided",
+              "accent": true
+            }
+          ],
+          "note": "Female teachers are 51% nationally. Highest share is in Private Unaided (63%)."
+        }
+      ],
+      "chartCat": [
+        {
+          "name": "Secondary — 45% share",
+          "val": "43.4 L",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle — 30% share",
+          "val": "28.7 L",
+          "pct": 66,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory — 26% share",
+          "val": "24.9 L",
+          "pct": 58,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "Teacher distribution by school category using total teacher counts.",
+      "chartCatNote": "Secondary = 45% of teachers; Middle = 30%; Foundational + Preparatory = 26%.",
+      "chartDeficitMgmt": [
+        {
+          "name": "State Govt",
+          "val": "8.7 L",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "5.6 L",
+          "pct": 64,
+          "color": "#d97706"
+        },
+        {
+          "name": "Govt Aided",
+          "val": "2.3 L",
+          "pct": 26,
+          "color": "#0891b2"
+        },
+        {
+          "name": "Others",
+          "val": "42.2 K",
+          "pct": 5,
+          "color": "#2563eb"
+        },
+        {
+          "name": "Central Govt",
+          "val": "8.8 K",
+          "pct": 1,
+          "color": "#7c3aed"
+        }
+      ],
+      "chartDeficitMgmtSource": "Reported teachers required for PTR≤30 by management type from the PTR analytics file.",
+      "chartDeficitMgmtNote": "State Govt shows the highest reported requirement in 2020-21.",
+      "insight1": {
+        "num": "97 L",
+        "label": "Total Teachers",
+        "note": "49.5 L female (51%) and 47.5 L male teachers across all schools in 2020-21.",
+        "color": "#0891b2",
+        "delta_val": "51%",
+        "delta_label": "Female share"
+      },
+      "insight2": {
+        "num": "17.1 L",
+        "label": "Teachers Required for PTR ≤ 30",
+        "note": "PTR analytics data reports 17.1 L teachers required nationally for PTR≤30 in 2020-21.",
+        "color": "#7c3aed",
+        "delta_val": "25.9 L",
+        "delta_label": "Reported excess for PTR≤30"
+      }
+    },
+    "ptrCompare": {
+      "header": {
+        "label": "PTR Comparison Analytics",
+        "headline": "Rural 71% vs Urban 66% compliance — 70% national average",
+        "sub": "PTR compliance by location and category in 2020-21. National: 70%. Rural: 71%. Urban: 66%. Secondary has the highest PTR."
+      },
+      "cards": [
+        {
+          "id": "nat_ptr",
+          "label": "National PTR",
+          "fullLabel": "Overall pupil-teacher ratio",
+          "headline": "27.3:1",
+          "headlineNote": "National average PTR",
+          "color": "#6366f1",
+          "bar": 70,
+          "barLabel": "70% of schools compliant",
+          "split": [
+            {
+              "val": "26.9:1",
+              "lbl": "Rural"
+            },
+            {
+              "val": "28.1:1",
+              "lbl": "Urban"
+            },
+            {
+              "val": "70%",
+              "lbl": "Compliance",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 27.3:1. Compliance: 70%."
+        },
+        {
+          "id": "rural_urban_gap",
+          "label": "Rural–Urban Compliance Gap",
+          "fullLabel": "Compliance gap between rural and urban",
+          "headline": "4.6 pts",
+          "headlineNote": "Compliance gap between rural and urban",
+          "color": "#d97706",
+          "bar": 71,
+          "barLabel": "Rural 71% vs Urban 66%",
+          "split": [
+            {
+              "val": "71%",
+              "lbl": "Rural"
+            },
+            {
+              "val": "66%",
+              "lbl": "Urban"
+            },
+            {
+              "val": "+4.6 pts",
+              "lbl": "Rural Lead",
+              "accent": true
+            }
+          ],
+          "note": "Rural schools are 4.6 points ahead of urban schools on PTR compliance."
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary PTR",
+          "fullLabel": "Secondary school PTR and compliance",
+          "headline": "29.7:1",
+          "headlineNote": "Secondary average PTR",
+          "color": "#0891b2",
+          "bar": 62,
+          "barLabel": "62% of Secondary schools compliant",
+          "split": [
+            {
+              "val": "29.7:1",
+              "lbl": "Secondary PTR"
+            },
+            {
+              "val": "62%",
+              "lbl": "Compliance"
+            },
+            {
+              "val": "1.1 L",
+              "lbl": "Above 30 Schools",
+              "accent": true
+            }
+          ],
+          "note": "Secondary schools have PTR 29.7:1 and compliance 62%."
+        },
+        {
+          "id": "deficit",
+          "label": "Net Teacher Position",
+          "fullLabel": "Reported required teachers minus reported excess teachers",
+          "headline": "8.8 L",
+          "headlineNote": "Net Teacher Surplus",
+          "color": "#7c3aed",
+          "bar": 34,
+          "barLabel": "17.1 L required, 25.9 L reported excess",
+          "split": [
+            {
+              "val": "17.1 L",
+              "lbl": "Required"
+            },
+            {
+              "val": "25.9 L",
+              "lbl": "Reported Excess"
+            },
+            {
+              "val": "8.8 L",
+              "lbl": "Net Position",
+              "accent": true
+            }
+          ],
+          "note": "Reported excess for PTR≤30 (25.9 L) exceeds reported requirement (17.1 L) by 8.8 L."
+        }
+      ],
+      "chartLoc": [
+        {
+          "name": "Rural",
+          "val": "71%",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Urban",
+          "val": "66%",
+          "pct": 93,
+          "color": "#0891b2"
+        }
+      ],
+      "chartLocSource": "PTR compliance by school location using schools meeting PTR≤30 out of total schools.",
+      "chartLocNote": "Rural = 71%; Urban = 66%.",
+      "chartCat": [
+        {
+          "name": "Secondary",
+          "val": "62%",
+          "pct": 83,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle",
+          "val": "68%",
+          "pct": 91,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory",
+          "val": "75%",
+          "pct": 100,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "PTR compliance by school category using schools meeting PTR≤30 out of total schools.",
+      "chartCatNote": "Highest compliance: Foundational + Preparatory (75%). Lowest: Secondary (62%).",
+      "insight1": {
+        "num": "70%",
+        "label": "National Compliance",
+        "note": "10.6 L schools meet PTR ≤ 30. 4.5 L schools are still above 30 in 2020-21.",
+        "color": "#6366f1",
+        "delta_val": "71%",
+        "delta_label": "Rural compliance"
+      },
+      "insight2": {
+        "num": "8.8 L",
+        "label": "Net Teacher Surplus",
+        "note": "Reported excess for PTR≤30 (25.9 L) exceeds reported requirement (17.1 L) by 8.8 L.",
+        "color": "#7c3aed",
+        "delta_val": "17.1 L",
+        "delta_label": "Reported required for PTR≤30"
+      }
+    },
+    "teacherCompare": {
+      "header": {
+        "label": "Teacher Comparison Analytics",
+        "headline": "51% female teachers nationally · Private Unaided 63% vs State Govt 44%",
+        "sub": "Workforce: 97 L teachers, 51% female. PTR ranges 24.1–33.2:1 across management types."
+      },
+      "cards": [
+        {
+          "id": "female",
+          "label": "Female Teacher Share",
+          "fullLabel": "",
+          "headline": "51%",
+          "headlineNote": "Female teachers — all schools",
+          "color": "#7c3aed",
+          "bar": 51,
+          "barLabel": "49.5 L female of 97 L total",
+          "split": [
+            {
+              "val": "49.5 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "47.5 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "63%",
+              "lbl": "Private Unaided",
+              "accent": true
+            }
+          ],
+          "note": "Female teachers are 51% nationally. Private Unaided has the highest female share (63%)."
+        },
+        {
+          "id": "workforce",
+          "label": "Total Workforce",
+          "fullLabel": "Total teachers across all schools",
+          "headline": "97 L",
+          "headlineNote": "Total teachers all schools",
+          "color": "#0891b2",
+          "bar": 50,
+          "barLabel": "97 L teachers across 15.1 L schools",
+          "split": [
+            {
+              "val": "48.7 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "36.5 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "8.1 L",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government has 48.7 L teachers; Private Unaided has 36.5 L."
+        },
+        {
+          "id": "aided",
+          "label": "Govt Aided PTR",
+          "fullLabel": "PTR by management type",
+          "headline": "33.2:1",
+          "headlineNote": "Highest PTR management type",
+          "color": "#d97706",
+          "bar": 83,
+          "barLabel": "vs national 27.3:1",
+          "split": [
+            {
+              "val": "33.2:1",
+              "lbl": "Govt Aided PTR"
+            },
+            {
+              "val": "41%",
+              "lbl": "Above 30"
+            },
+            {
+              "val": "84.3 K",
+              "lbl": "Schools",
+              "accent": true
+            }
+          ],
+          "note": "Govt Aided has the highest PTR at 33.2:1."
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary Teacher Share",
+          "fullLabel": "Share of total teachers in Secondary schools",
+          "headline": "45%",
+          "headlineNote": "Secondary teachers as % of all",
+          "color": "#6366f1",
+          "bar": 45,
+          "barLabel": "43.4 L of 97 L",
+          "split": [
+            {
+              "val": "45%",
+              "lbl": "Secondary"
+            },
+            {
+              "val": "30%",
+              "lbl": "Middle"
+            },
+            {
+              "val": "26%",
+              "lbl": "Foundational + Prep",
+              "accent": true
+            }
+          ],
+          "note": "Teacher distribution: Secondary 45%, Middle 30%, Foundational + Preparatory 26%."
+        }
+      ],
+      "chartGenderCat": [
+        {
+          "name": "Foundational + Preparatory",
+          "val": "50%",
+          "pct": 94,
+          "color": "#2563eb",
+          "note": "12.3 L female · 12.6 L male teachers"
+        },
+        {
+          "name": "Middle",
+          "val": "50%",
+          "pct": 96,
+          "color": "#0891b2",
+          "note": "14.4 L female · 14.3 L male teachers"
+        },
+        {
+          "name": "Secondary",
+          "val": "52%",
+          "pct": 100,
+          "color": "#6366f1",
+          "note": "22.7 L female · 20.6 L male teachers"
+        }
+      ],
+      "chartGenderCatSource": "Female teacher share by school category using female teachers out of total teachers.",
+      "chartGenderCatNote": "Highest female teacher share is in Secondary (52%).",
+      "chartDeficitMgmt": [
+        {
+          "name": "State Government",
+          "val": "44%",
+          "pct": 70,
+          "color": "#2563eb",
+          "note": "PTR 27.3:1 · 48.7 L total teachers"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "63%",
+          "pct": 100,
+          "color": "#6366f1",
+          "note": "PTR 26.1:1 · 36.5 L total teachers"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "44%",
+          "pct": 70,
+          "color": "#d97706",
+          "note": "PTR 33.2:1 · 8.1 L total teachers"
+        },
+        {
+          "name": "Central Government",
+          "val": "45%",
+          "pct": 72,
+          "color": "#7c3aed",
+          "note": "PTR 31.1:1 · 57.2 K total teachers"
+        },
+        {
+          "name": "Others",
+          "val": "48%",
+          "pct": 76,
+          "color": "#7a7060",
+          "note": "PTR 24.1:1 · 3.1 L total teachers"
+        }
+      ],
+      "chartDeficitMgmtSource": "Female teacher share by management type using female teachers out of total teachers.",
+      "chartDeficitMgmtNote": "Private Unaided has the highest female teacher share in 2020-21.",
+      "insight1": {
+        "num": "51%",
+        "label": "Female Teacher Share",
+        "color": "#7c3aed",
+        "delta_val": "49.5 L",
+        "delta_label": "Female teachers nationwide",
+        "delta_val2": "63%",
+        "delta_label2": "Private Unaided female share"
+      },
+      "insight2": {
+        "num": "33.2:1",
+        "label": "Govt Aided PTR — Highest Burden",
+        "color": "#d97706",
+        "delta_val": "41%",
+        "delta_label": "Govt Aided above PTR 30",
+        "delta_val2": "28%",
+        "delta_label2": "State Govt above PTR 30"
+      }
+    },
+    "schoolCompare": {
+      "header": {
+        "label": "School Comparison Analytics",
+        "headline": "83% rural schools · 51% foundational/preparatory · 70% compliant",
+        "sub": "15.1 L schools in 2020-21. Rural = 12.6 L; Urban = 2.5 L. Foundational + Preparatory schools are 51% of all schools."
+      },
+      "cards": [
+        {
+          "id": "ztotal",
+          "label": "Total Schools",
+          "fullLabel": "All schools",
+          "headline": "15.1 L",
+          "headlineNote": "Total schools",
+          "color": "#6366f1",
+          "bar": 83,
+          "barLabel": "83% are rural",
+          "split": [
+            {
+              "val": "12.6 L",
+              "lbl": "Rural"
+            },
+            {
+              "val": "2.5 L",
+              "lbl": "Urban"
+            },
+            {
+              "val": "83%",
+              "lbl": "Rural Share",
+              "accent": true
+            }
+          ],
+          "note": "Rural schools account for 83% of all schools."
+        },
+        {
+          "id": "stotal",
+          "label": "Foundational + Preparatory Schools",
+          "fullLabel": "Schools by category",
+          "headline": "51%",
+          "headlineNote": "Share of schools in Foundational + Preparatory",
+          "color": "#d97706",
+          "bar": 51,
+          "barLabel": "7.7 L schools",
+          "split": [
+            {
+              "val": "7.7 L",
+              "lbl": "Foundational + Prep"
+            },
+            {
+              "val": "4.4 L",
+              "lbl": "Middle"
+            },
+            {
+              "val": "2.9 L",
+              "lbl": "Secondary",
+              "accent": true
+            }
+          ],
+          "note": "Foundational + Preparatory schools form the largest school category in 2020-21."
+        },
+        {
+          "id": "rural",
+          "label": "PTR-Compliant Schools",
+          "fullLabel": "Schools meeting PTR ≤ 30",
+          "headline": "70%",
+          "headlineNote": "Schools meeting PTR ≤ 30",
+          "color": "#2563eb",
+          "bar": 70,
+          "barLabel": "10.6 L compliant schools",
+          "split": [
+            {
+              "val": "10.6 L",
+              "lbl": "Compliant"
+            },
+            {
+              "val": "4.5 L",
+              "lbl": "Above 30"
+            },
+            {
+              "val": "30%",
+              "lbl": "Breach Share",
+              "accent": true
+            }
+          ],
+          "note": "70% of schools are within PTR≤30."
+        },
+        {
+          "id": "gt100",
+          "label": "State Govt School Share",
+          "fullLabel": "Schools by management",
+          "headline": "68%",
+          "headlineNote": "Share of schools under State Government",
+          "color": "#7c3aed",
+          "bar": 68,
+          "barLabel": "10.3 L schools",
+          "split": [
+            {
+              "val": "10.3 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "3.4 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "84.3 K",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government accounts for the largest share of schools nationally."
+        }
+      ],
+      "chartZeroMgmt": [
+        {
+          "name": "State Government",
+          "val": "68.2%",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "PTR compliance 72% · 10.3 L total schools"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "22.6%",
+          "pct": 33,
+          "color": "#6366f1",
+          "note": "PTR compliance 69% · 3.4 L total schools"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "5.6%",
+          "pct": 8,
+          "color": "#d97706",
+          "note": "PTR compliance 59% · 84.3 K total schools"
+        },
+        {
+          "name": "Central Government",
+          "val": "0.1%",
+          "pct": 0,
+          "color": "#7c3aed",
+          "note": "PTR compliance 54% · 2.2 K total schools"
+        },
+        {
+          "name": "Others",
+          "val": "3.4%",
+          "pct": 5,
+          "color": "#7a7060",
+          "note": "PTR compliance 71% · 52 K total schools"
+        }
+      ],
+      "chartZeroMgmtSource": "School distribution by management type using total schools.",
+      "chartZeroMgmtNote": "State Government accounts for the largest number of schools in 2020-21.",
+      "chartSingleBand": [
+        {
+          "name": "Foundational + Preparatory",
+          "val": "51%",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "7.7 L schools in this category"
+        },
+        {
+          "name": "Middle",
+          "val": "29%",
+          "pct": 57,
+          "color": "#0891b2",
+          "note": "4.4 L schools in this category"
+        },
+        {
+          "name": "Secondary",
+          "val": "19%",
+          "pct": 38,
+          "color": "#6366f1",
+          "note": "2.9 L schools in this category"
+        }
+      ],
+      "chartSingleBandSource": "School distribution by category using total schools.",
+      "chartSingleBandNote": "Foundational + Preparatory = 51% of schools; Secondary = 19%.",
+      "insight1": {
+        "num": "15.1 L",
+        "label": "Total Schools",
+        "color": "#6366f1",
+        "delta_val": "83%",
+        "delta_label": "Located in rural areas",
+        "delta_val2": "12.6 L",
+        "delta_label2": "Rural schools"
+      },
+      "insight2": {
+        "num": "70%",
+        "label": "PTR-Compliant Schools",
+        "color": "#d97706",
+        "delta_val": "4.5 L",
+        "delta_label": "Schools above PTR 30",
+        "delta_val2": "68%",
+        "delta_label2": "State Govt school share"
+      }
+    },
+    "compare": {
+      "header": {
+        "label": "Student Comparison Analytics",
+        "headline": "GPI 0.92 · State PTR 27.3:1 vs Private 26.1:1 · 48% girls",
+        "sub": "26.44 Cr students across management, location, and category in 2020-21. Girls = 12.70 Cr; Boys = 13.74 Cr; GPI = 0.92."
+      },
+      "cards": [
+        {
+          "id": "gpi",
+          "label": "National GPI",
+          "fullLabel": "Girls / boys",
+          "headline": "0.92",
+          "headlineNote": "Gender Parity Index (nationwide)",
+          "color": "#7c3aed",
+          "bar": 48,
+          "barLabel": "12.70 Cr girls · 13.74 Cr boys",
+          "split": [
+            {
+              "val": "12.70 Cr",
+              "lbl": "Girls"
+            },
+            {
+              "val": "13.74 Cr",
+              "lbl": "Boys"
+            },
+            {
+              "val": "48%",
+              "lbl": "Girls %",
+              "accent": true
+            }
+          ],
+          "note": "GPI = 0.92. Girls are 48% of total enrolment."
+        },
+        {
+          "id": "enrol",
+          "label": "Total Enrolment",
+          "fullLabel": "Total students across all categories",
+          "headline": "26.44 Cr",
+          "headlineNote": "Total enrolled students",
+          "color": "#2563eb",
+          "bar": 70,
+          "barLabel": "26.44 Cr students · 15.1 L schools",
+          "split": [
+            {
+              "val": "26.44 Cr",
+              "lbl": "Total Students"
+            },
+            {
+              "val": "15.1 L",
+              "lbl": "Schools"
+            },
+            {
+              "val": "27.3:1",
+              "lbl": "Avg PTR",
+              "accent": true
+            }
+          ],
+          "note": "26.44 Cr students in 15.1 L schools. National PTR = 27.3:1."
+        },
+        {
+          "id": "stateptr",
+          "label": "State Govt PTR",
+          "fullLabel": "PTR",
+          "headline": "27.3:1",
+          "headlineNote": "Pupil-teacher ratio in State Government schools",
+          "color": "#2563eb",
+          "bar": 68,
+          "barLabel": "vs Private 26.1:1 and National 27.3:1",
+          "split": [
+            {
+              "val": "27.3:1",
+              "lbl": "State Govt PTR"
+            },
+            {
+              "val": "26.1:1",
+              "lbl": "Private PTR"
+            },
+            {
+              "val": "1.2 pts",
+              "lbl": "Difference",
+              "accent": true
+            }
+          ],
+          "note": "State Government PTR is 27.3:1 vs Private Unaided 26.1:1."
+        },
+        {
+          "id": "single",
+          "label": "Rural Student Share",
+          "fullLabel": "Students enrolled in rural schools",
+          "headline": "70%",
+          "headlineNote": "Share of students in rural schools",
+          "color": "#6366f1",
+          "bar": 70,
+          "barLabel": "18.50 Cr rural students",
+          "split": [
+            {
+              "val": "18.50 Cr",
+              "lbl": "Rural Students"
+            },
+            {
+              "val": "7.95 Cr",
+              "lbl": "Urban Students"
+            },
+            {
+              "val": "83%",
+              "lbl": "Rural Schools %",
+              "accent": true
+            }
+          ],
+          "note": "70% of students are enrolled in rural schools."
+        }
+      ],
+      "chartCross": [
+        {
+          "name": "State Government",
+          "val": "27.3:1",
+          "govtPct": "27.3:1",
+          "pct": 82,
+          "color": "#2563eb",
+          "note": "GPI 1.04 · 10.3 L schools"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "26.1:1",
+          "govtPct": "26.1:1",
+          "pct": 79,
+          "color": "#6366f1",
+          "note": "GPI 0.79 · 3.4 L schools"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "33.2:1",
+          "govtPct": "33.2:1",
+          "pct": 100,
+          "color": "#d97706",
+          "note": "GPI 0.94 · 84.3 K schools"
+        },
+        {
+          "name": "Central Government",
+          "val": "31.1:1",
+          "govtPct": "31.1:1",
+          "pct": 94,
+          "color": "#7c3aed",
+          "note": "GPI 0.80 · 2.2 K schools"
+        },
+        {
+          "name": "Others",
+          "val": "24.1:1",
+          "govtPct": "24.1:1",
+          "pct": 72,
+          "color": "#7a7060",
+          "note": "GPI 0.87 · 52 K schools"
+        }
+      ],
+      "chartCrossSource": "PTR by management type using aggregated student and teacher counts.",
+      "chartCrossNote": "Highest PTR: Govt Aided (33.2:1). Lowest PTR: Others (24.1:1).",
+      "chartGender": [
+        {
+          "name": "State Government",
+          "val": "1.04",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "6.78 Cr girls · 6.53 Cr boys"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "0.79",
+          "pct": 76,
+          "color": "#6366f1",
+          "note": "4.19 Cr girls · 5.32 Cr boys"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "0.94",
+          "pct": 90,
+          "color": "#d97706",
+          "note": "1.30 Cr girls · 1.39 Cr boys"
+        },
+        {
+          "name": "Central Government",
+          "val": "0.80",
+          "pct": 77,
+          "color": "#7c3aed",
+          "note": "7.9 L girls · 9.9 L boys"
+        },
+        {
+          "name": "Others",
+          "val": "0.87",
+          "pct": 84,
+          "color": "#7a7060",
+          "note": "35.2 L girls · 40.2 L boys"
+        }
+      ],
+      "chartGenderSource": "GPI by management type using girls divided by boys.",
+      "chartGenderNote": "Highest GPI: State Govt (1.04). Lowest: Private Unaided (0.79).",
+      "chartSingleMgmt": [
+        {
+          "name": "State Government",
+          "val": "28%",
+          "pct": 62,
+          "color": "#2563eb",
+          "note": "2.9 L schools above PTR 30 out of 10.3 L"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "31%",
+          "pct": 67,
+          "color": "#6366f1",
+          "note": "1 L schools above PTR 30 out of 3.4 L"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "41%",
+          "pct": 90,
+          "color": "#d97706",
+          "note": "34.7 K schools above PTR 30 out of 84.3 K"
+        },
+        {
+          "name": "Central Government",
+          "val": "46%",
+          "pct": 100,
+          "color": "#7c3aed",
+          "note": "1 K schools above PTR 30 out of 2.2 K"
+        },
+        {
+          "name": "Others",
+          "val": "29%",
+          "pct": 63,
+          "color": "#7a7060",
+          "note": "15 K schools above PTR 30 out of 52 K"
+        }
+      ],
+      "chartSingleMgmtSource": "Share of schools above PTR 30 by management type.",
+      "chartSingleMgmtNote": "Central Govt has the highest share of schools above PTR 30 in 2020-21.",
+      "chartZeroLoc": [
+        {
+          "name": "Rural",
+          "val": "0.93",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "8.93 Cr girls · 9.57 Cr boys"
+        },
+        {
+          "name": "Urban",
+          "val": "0.90",
+          "pct": 97,
+          "color": "#6366f1",
+          "note": "3.77 Cr girls · 4.18 Cr boys"
+        }
+      ],
+      "chartZeroLocSource": "GPI by school location using girls divided by boys.",
+      "chartZeroLocNote": "Rural GPI = 0.93; Urban GPI = 0.90.",
+      "insight1": {
+        "num": "0.92",
+        "label": "National GPI — Gender Parity Index",
+        "color": "#7c3aed",
+        "delta_val": "12.70 Cr",
+        "delta_label": "Girls — 48% of total enrolment",
+        "delta_val2": "13.74 Cr",
+        "delta_label2": "Boys — 52% of total enrolment"
+      },
+      "insight2": {
+        "num": "27.3:1",
+        "label": "State Govt PTR vs Private",
+        "color": "#2563eb",
+        "delta_val": "26.1:1",
+        "delta_label": "Private PTR — gap of 1.2 pts",
+        "delta_val2": "70%",
+        "delta_label2": "Students enrolled in rural schools"
+      }
+    }
+  },
+  "2021-22": {
+    "ptr": {
+      "header": {
+        "label": "PTR Analytics",
+        "headline": "National PTR 27.9:1 · 32% above 30 · 68% compliant",
+        "sub": "26.52 Cr students, 95.1 L teachers, 14.9 L schools. PTR>30 in 32% of schools. Rural 27.7:1 vs Urban 28.3:1. Secondary has the highest PTR."
+      },
+      "cards": [
+        {
+          "id": "ptr",
+          "label": "National PTR",
+          "fullLabel": "Average pupil-teacher ratio",
+          "headline": "27.9:1",
+          "headlineNote": "Overall pupil-teacher ratio",
+          "color": "#6366f1",
+          "bar": 70,
+          "barLabel": "26.52 Cr students / 95.1 L teachers",
+          "split": [
+            {
+              "val": "27.7:1",
+              "lbl": "Rural PTR"
+            },
+            {
+              "val": "28.3:1",
+              "lbl": "Urban PTR"
+            },
+            {
+              "val": "0.5 pts",
+              "lbl": "R–U Gap",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 27.9:1. Rural 27.7:1 vs Urban 28.3:1."
+        },
+        {
+          "id": "breach",
+          "label": "PTR > 30 Schools",
+          "fullLabel": "Schools above PTR 30",
+          "headline": "32%",
+          "headlineNote": "Schools above PTR 30",
+          "color": "#d97706",
+          "bar": 32,
+          "barLabel": "4.7 L of 14.8 L schools",
+          "split": [
+            {
+              "val": "4.7 L",
+              "lbl": "Schools Above 30"
+            },
+            {
+              "val": "55%",
+              "lbl": "Above 40 Share"
+            },
+            {
+              "val": "2.6 L",
+              "lbl": "Schools Above 40",
+              "accent": true
+            }
+          ],
+          "note": "32% of schools are above PTR 30. Of these, 55% are above PTR 40."
+        },
+        {
+          "id": "compliance",
+          "label": "PTR Compliance",
+          "fullLabel": "Schools meeting PTR ≤ 30",
+          "headline": "68%",
+          "headlineNote": "Schools meeting PTR ≤ 30",
+          "color": "#0891b2",
+          "bar": 68,
+          "barLabel": "10.1 L compliant of 14.8 L schools",
+          "split": [
+            {
+              "val": "10.1 L",
+              "lbl": "Compliant Schools"
+            },
+            {
+              "val": "69%",
+              "lbl": "Rural Comply"
+            },
+            {
+              "val": "66%",
+              "lbl": "Urban Comply",
+              "accent": true
+            }
+          ],
+          "note": "68% of schools meet PTR≤30. Rural 69%, Urban 66%."
+        },
+        {
+          "id": "deficit",
+          "label": "Teachers Required for PTR ≤ 30",
+          "fullLabel": "Teachers required for PTR ≤ 30",
+          "headline": "18.1 L",
+          "headlineNote": "Reported requirement for PTR≤30",
+          "color": "#7c3aed",
+          "bar": 19,
+          "barLabel": "reported in PTR analytics data",
+          "split": [
+            {
+              "val": "18.1 L",
+              "lbl": "Required"
+            },
+            {
+              "val": "24.8 L",
+              "lbl": "Reported Excess"
+            },
+            {
+              "val": "95.1 L",
+              "lbl": "Current Workforce",
+              "accent": true
+            }
+          ],
+          "note": "PTR analytics data reports 18.1 L teachers required for PTR≤30 and 24.8 L as excess for PTR≤30."
+        }
+      ],
+      "chartCat": [
+        {
+          "name": "Secondary — 39% above 30",
+          "val": "30.0:1",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle — 35% above 30",
+          "val": "27.3:1",
+          "pct": 91,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory — 27% above 30",
+          "val": "24.9:1",
+          "pct": 83,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "PTR by school category using aggregated student and teacher counts. Secondary has the highest PTR in 2021-22.",
+      "chartCatNote": "Secondary = 30.0:1; Middle = 27.3:1; Foundational + Preparatory = 24.9:1.",
+      "chartLocPtr": [
+        {
+          "name": "Rural",
+          "val": "27.7:1",
+          "pct": 98,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Urban",
+          "val": "28.3:1",
+          "pct": 100,
+          "color": "#0891b2"
+        }
+      ],
+      "chartLocPtrSource": "PTR by school location using aggregated student and teacher counts.",
+      "insight1": {
+        "num": "27.9:1",
+        "label": "National PTR",
+        "note": "26.52 Cr students across 14.9 L schools with 95.1 L teachers in 2021-22.",
+        "color": "#6366f1",
+        "delta_val": "32%",
+        "delta_label": "Schools above PTR 30"
+      },
+      "insight2": {
+        "num": "18.1 L",
+        "label": "Teachers Required for PTR ≤ 30",
+        "note": "PTR analytics data reports 18.1 L teachers required and 24.8 L teachers as excess for PTR≤30.",
+        "color": "#7c3aed",
+        "delta_val": "24.8 L",
+        "delta_label": "Reported excess for PTR≤30"
+      }
+    },
+    "teacher": {
+      "header": {
+        "label": "Teacher Analytics",
+        "headline": "95.1 L teachers · 51% female · State Govt employs 51%",
+        "sub": "In 2021-22: 95.1 L teachers across 14.9 L schools. Female: 48.8 L (51%). State Govt employs 48.2 L; Private Unaided employs 35.4 L."
+      },
+      "cards": [
+        {
+          "id": "ptr",
+          "label": "National PTR",
+          "fullLabel": "Average pupil-teacher ratio",
+          "headline": "27.9:1",
+          "headlineNote": "National pupil-teacher ratio",
+          "color": "#0891b2",
+          "bar": 70,
+          "barLabel": "26.52 Cr students / 95.1 L teachers",
+          "split": [
+            {
+              "val": "27.7:1",
+              "lbl": "Rural"
+            },
+            {
+              "val": "28.3:1",
+              "lbl": "Urban"
+            },
+            {
+              "val": "68%",
+              "lbl": "Compliance",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 27.9:1. 68% of schools are within PTR≤30."
+        },
+        {
+          "id": "workforce",
+          "label": "Teaching Workforce",
+          "fullLabel": "Total teachers by gender",
+          "headline": "95.1 L",
+          "headlineNote": "Total teachers nationally",
+          "color": "#2563eb",
+          "bar": 51,
+          "barLabel": "51% female teachers",
+          "split": [
+            {
+              "val": "46.3 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "48.8 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "51%",
+              "lbl": "Female Share",
+              "accent": true
+            }
+          ],
+          "note": "Total 95.1 L. Female 48.8 L (51%), Male 46.3 L."
+        },
+        {
+          "id": "single",
+          "label": "State Govt Teacher Share",
+          "fullLabel": "Teachers employed in State Government schools",
+          "headline": "51%",
+          "headlineNote": "Share of all teachers in State Government schools",
+          "color": "#d97706",
+          "bar": 51,
+          "barLabel": "48.2 L of 95.1 L teachers",
+          "split": [
+            {
+              "val": "48.2 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "35.4 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "8 L",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government schools employ the largest share of teachers nationally."
+        },
+        {
+          "id": "female",
+          "label": "Female Teacher Share",
+          "fullLabel": "Female teacher percentage",
+          "headline": "51%",
+          "headlineNote": "National female teacher share",
+          "color": "#6366f1",
+          "bar": 51,
+          "barLabel": "Female teacher share nationally",
+          "split": [
+            {
+              "val": "48.8 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "46.3 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "63%",
+              "lbl": "Private Unaided",
+              "accent": true
+            }
+          ],
+          "note": "Female teachers are 51% nationally. Highest share is in Private Unaided (63%)."
+        }
+      ],
+      "chartCat": [
+        {
+          "name": "Secondary — 45% share",
+          "val": "43.2 L",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle — 29% share",
+          "val": "27.5 L",
+          "pct": 64,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory — 26% share",
+          "val": "24.3 L",
+          "pct": 56,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "Teacher distribution by school category using total teacher counts.",
+      "chartCatNote": "Secondary = 45% of teachers; Middle = 29%; Foundational + Preparatory = 26%.",
+      "chartDeficitMgmt": [
+        {
+          "name": "State Govt",
+          "val": "10.4 L",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "4.9 L",
+          "pct": 47,
+          "color": "#d97706"
+        },
+        {
+          "name": "Govt Aided",
+          "val": "2.4 L",
+          "pct": 23,
+          "color": "#0891b2"
+        },
+        {
+          "name": "Others",
+          "val": "36.4 K",
+          "pct": 3,
+          "color": "#2563eb"
+        },
+        {
+          "name": "Central Govt",
+          "val": "9.8 K",
+          "pct": 1,
+          "color": "#7c3aed"
+        }
+      ],
+      "chartDeficitMgmtSource": "Reported teachers required for PTR≤30 by management type from the PTR analytics file.",
+      "chartDeficitMgmtNote": "State Govt shows the highest reported requirement in 2021-22.",
+      "insight1": {
+        "num": "95.1 L",
+        "label": "Total Teachers",
+        "note": "48.8 L female (51%) and 46.3 L male teachers across all schools in 2021-22.",
+        "color": "#0891b2",
+        "delta_val": "51%",
+        "delta_label": "Female share"
+      },
+      "insight2": {
+        "num": "18.1 L",
+        "label": "Teachers Required for PTR ≤ 30",
+        "note": "PTR analytics data reports 18.1 L teachers required nationally for PTR≤30 in 2021-22.",
+        "color": "#7c3aed",
+        "delta_val": "24.8 L",
+        "delta_label": "Reported excess for PTR≤30"
+      }
+    },
+    "ptrCompare": {
+      "header": {
+        "label": "PTR Comparison Analytics",
+        "headline": "Rural 69% vs Urban 66% compliance — 68% national average",
+        "sub": "PTR compliance by location and category in 2021-22. National: 68%. Rural: 69%. Urban: 66%. Secondary has the highest PTR."
+      },
+      "cards": [
+        {
+          "id": "nat_ptr",
+          "label": "National PTR",
+          "fullLabel": "Overall pupil-teacher ratio",
+          "headline": "27.9:1",
+          "headlineNote": "National average PTR",
+          "color": "#6366f1",
+          "bar": 68,
+          "barLabel": "68% of schools compliant",
+          "split": [
+            {
+              "val": "27.7:1",
+              "lbl": "Rural"
+            },
+            {
+              "val": "28.3:1",
+              "lbl": "Urban"
+            },
+            {
+              "val": "68%",
+              "lbl": "Compliance",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 27.9:1. Compliance: 68%."
+        },
+        {
+          "id": "rural_urban_gap",
+          "label": "Rural–Urban Compliance Gap",
+          "fullLabel": "Compliance gap between rural and urban",
+          "headline": "3.2 pts",
+          "headlineNote": "Compliance gap between rural and urban",
+          "color": "#d97706",
+          "bar": 69,
+          "barLabel": "Rural 69% vs Urban 66%",
+          "split": [
+            {
+              "val": "69%",
+              "lbl": "Rural"
+            },
+            {
+              "val": "66%",
+              "lbl": "Urban"
+            },
+            {
+              "val": "+3.2 pts",
+              "lbl": "Rural Lead",
+              "accent": true
+            }
+          ],
+          "note": "Rural schools are 3.2 points ahead of urban schools on PTR compliance."
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary PTR",
+          "fullLabel": "Secondary school PTR and compliance",
+          "headline": "30.0:1",
+          "headlineNote": "Secondary average PTR",
+          "color": "#0891b2",
+          "bar": 61,
+          "barLabel": "61% of Secondary schools compliant",
+          "split": [
+            {
+              "val": "30.0:1",
+              "lbl": "Secondary PTR"
+            },
+            {
+              "val": "61%",
+              "lbl": "Compliance"
+            },
+            {
+              "val": "1.1 L",
+              "lbl": "Above 30 Schools",
+              "accent": true
+            }
+          ],
+          "note": "Secondary schools have PTR 30.0:1 and compliance 61%."
+        },
+        {
+          "id": "deficit",
+          "label": "Net Teacher Position",
+          "fullLabel": "Reported required teachers minus reported excess teachers",
+          "headline": "6.7 L",
+          "headlineNote": "Net Teacher Surplus",
+          "color": "#7c3aed",
+          "bar": 27,
+          "barLabel": "18.1 L required, 24.8 L reported excess",
+          "split": [
+            {
+              "val": "18.1 L",
+              "lbl": "Required"
+            },
+            {
+              "val": "24.8 L",
+              "lbl": "Reported Excess"
+            },
+            {
+              "val": "6.7 L",
+              "lbl": "Net Position",
+              "accent": true
+            }
+          ],
+          "note": "Reported excess for PTR≤30 (24.8 L) exceeds reported requirement (18.1 L) by 6.7 L."
+        }
+      ],
+      "chartLoc": [
+        {
+          "name": "Rural",
+          "val": "69%",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Urban",
+          "val": "66%",
+          "pct": 95,
+          "color": "#0891b2"
+        }
+      ],
+      "chartLocSource": "PTR compliance by school location using schools meeting PTR≤30 out of total schools.",
+      "chartLocNote": "Rural = 69%; Urban = 66%.",
+      "chartCat": [
+        {
+          "name": "Secondary",
+          "val": "61%",
+          "pct": 84,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle",
+          "val": "65%",
+          "pct": 90,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory",
+          "val": "73%",
+          "pct": 100,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "PTR compliance by school category using schools meeting PTR≤30 out of total schools.",
+      "chartCatNote": "Highest compliance: Foundational + Preparatory (73%). Lowest: Secondary (61%).",
+      "insight1": {
+        "num": "68%",
+        "label": "National Compliance",
+        "note": "10.1 L schools meet PTR ≤ 30. 4.7 L schools are still above 30 in 2021-22.",
+        "color": "#6366f1",
+        "delta_val": "69%",
+        "delta_label": "Rural compliance"
+      },
+      "insight2": {
+        "num": "6.7 L",
+        "label": "Net Teacher Surplus",
+        "note": "Reported excess for PTR≤30 (24.8 L) exceeds reported requirement (18.1 L) by 6.7 L.",
+        "color": "#7c3aed",
+        "delta_val": "18.1 L",
+        "delta_label": "Reported required for PTR≤30"
+      }
+    },
+    "teacherCompare": {
+      "header": {
+        "label": "Teacher Comparison Analytics",
+        "headline": "51% female teachers nationally · Private Unaided 63% vs State Govt 44%",
+        "sub": "Workforce: 95.1 L teachers, 51% female. PTR ranges 23.3–33.9:1 across management types."
+      },
+      "cards": [
+        {
+          "id": "female",
+          "label": "Female Teacher Share",
+          "fullLabel": "",
+          "headline": "51%",
+          "headlineNote": "Female teachers — all schools",
+          "color": "#7c3aed",
+          "bar": 51,
+          "barLabel": "48.8 L female of 95.1 L total",
+          "split": [
+            {
+              "val": "48.8 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "46.3 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "63%",
+              "lbl": "Private Unaided",
+              "accent": true
+            }
+          ],
+          "note": "Female teachers are 51% nationally. Private Unaided has the highest female share (63%)."
+        },
+        {
+          "id": "workforce",
+          "label": "Total Workforce",
+          "fullLabel": "Total teachers across all schools",
+          "headline": "95.1 L",
+          "headlineNote": "Total teachers all schools",
+          "color": "#0891b2",
+          "bar": 51,
+          "barLabel": "95.1 L teachers across 14.9 L schools",
+          "split": [
+            {
+              "val": "48.2 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "35.4 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "8 L",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government has 48.2 L teachers; Private Unaided has 35.4 L."
+        },
+        {
+          "id": "aided",
+          "label": "Govt Aided PTR",
+          "fullLabel": "PTR by management type",
+          "headline": "33.9:1",
+          "headlineNote": "Highest PTR management type",
+          "color": "#d97706",
+          "bar": 85,
+          "barLabel": "vs national 27.9:1",
+          "split": [
+            {
+              "val": "33.9:1",
+              "lbl": "Govt Aided PTR"
+            },
+            {
+              "val": "44%",
+              "lbl": "Above 30"
+            },
+            {
+              "val": "82.5 K",
+              "lbl": "Schools",
+              "accent": true
+            }
+          ],
+          "note": "Govt Aided has the highest PTR at 33.9:1."
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary Teacher Share",
+          "fullLabel": "Share of total teachers in Secondary schools",
+          "headline": "45%",
+          "headlineNote": "Secondary teachers as % of all",
+          "color": "#6366f1",
+          "bar": 45,
+          "barLabel": "43.2 L of 95.1 L",
+          "split": [
+            {
+              "val": "45%",
+              "lbl": "Secondary"
+            },
+            {
+              "val": "29%",
+              "lbl": "Middle"
+            },
+            {
+              "val": "26%",
+              "lbl": "Foundational + Prep",
+              "accent": true
+            }
+          ],
+          "note": "Teacher distribution: Secondary 45%, Middle 29%, Foundational + Preparatory 26%."
+        }
+      ],
+      "chartGenderCat": [
+        {
+          "name": "Foundational + Preparatory",
+          "val": "50%",
+          "pct": 94,
+          "color": "#2563eb",
+          "note": "12.1 L female · 12.3 L male teachers"
+        },
+        {
+          "name": "Middle",
+          "val": "50%",
+          "pct": 95,
+          "color": "#0891b2",
+          "note": "13.8 L female · 13.7 L male teachers"
+        },
+        {
+          "name": "Secondary",
+          "val": "53%",
+          "pct": 100,
+          "color": "#6366f1",
+          "note": "22.9 L female · 20.4 L male teachers"
+        }
+      ],
+      "chartGenderCatSource": "Female teacher share by school category using female teachers out of total teachers.",
+      "chartGenderCatNote": "Highest female teacher share is in Secondary (53%).",
+      "chartDeficitMgmt": [
+        {
+          "name": "State Government",
+          "val": "44%",
+          "pct": 70,
+          "color": "#2563eb",
+          "note": "PTR 29.3:1 · 48.2 L total teachers"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "63%",
+          "pct": 100,
+          "color": "#6366f1",
+          "note": "PTR 24.9:1 · 35.4 L total teachers"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "45%",
+          "pct": 71,
+          "color": "#d97706",
+          "note": "PTR 33.9:1 · 8 L total teachers"
+        },
+        {
+          "name": "Central Government",
+          "val": "46%",
+          "pct": 73,
+          "color": "#7c3aed",
+          "note": "PTR 31.5:1 · 58.5 K total teachers"
+        },
+        {
+          "name": "Others",
+          "val": "48%",
+          "pct": 75,
+          "color": "#7a7060",
+          "note": "PTR 23.3:1 · 2.9 L total teachers"
+        }
+      ],
+      "chartDeficitMgmtSource": "Female teacher share by management type using female teachers out of total teachers.",
+      "chartDeficitMgmtNote": "Private Unaided has the highest female teacher share in 2021-22.",
+      "insight1": {
+        "num": "51%",
+        "label": "Female Teacher Share",
+        "color": "#7c3aed",
+        "delta_val": "48.8 L",
+        "delta_label": "Female teachers nationwide",
+        "delta_val2": "63%",
+        "delta_label2": "Private Unaided female share"
+      },
+      "insight2": {
+        "num": "33.9:1",
+        "label": "Govt Aided PTR — Highest Burden",
+        "color": "#d97706",
+        "delta_val": "44%",
+        "delta_label": "Govt Aided above PTR 30",
+        "delta_val2": "33%",
+        "delta_label2": "State Govt above PTR 30"
+      }
+    },
+    "schoolCompare": {
+      "header": {
+        "label": "School Comparison Analytics",
+        "headline": "83% rural schools · 51% foundational/preparatory · 68% compliant",
+        "sub": "14.9 L schools in 2021-22. Rural = 12.3 L; Urban = 2.5 L. Foundational + Preparatory schools are 51% of all schools."
+      },
+      "cards": [
+        {
+          "id": "ztotal",
+          "label": "Total Schools",
+          "fullLabel": "All schools",
+          "headline": "14.9 L",
+          "headlineNote": "Total schools",
+          "color": "#6366f1",
+          "bar": 83,
+          "barLabel": "83% are rural",
+          "split": [
+            {
+              "val": "12.3 L",
+              "lbl": "Rural"
+            },
+            {
+              "val": "2.5 L",
+              "lbl": "Urban"
+            },
+            {
+              "val": "83%",
+              "lbl": "Rural Share",
+              "accent": true
+            }
+          ],
+          "note": "Rural schools account for 83% of all schools."
+        },
+        {
+          "id": "stotal",
+          "label": "Foundational + Preparatory Schools",
+          "fullLabel": "Schools by category",
+          "headline": "51%",
+          "headlineNote": "Share of schools in Foundational + Preparatory",
+          "color": "#d97706",
+          "bar": 51,
+          "barLabel": "7.6 L schools",
+          "split": [
+            {
+              "val": "7.6 L",
+              "lbl": "Foundational + Prep"
+            },
+            {
+              "val": "4.4 L",
+              "lbl": "Middle"
+            },
+            {
+              "val": "2.9 L",
+              "lbl": "Secondary",
+              "accent": true
+            }
+          ],
+          "note": "Foundational + Preparatory schools form the largest school category in 2021-22."
+        },
+        {
+          "id": "rural",
+          "label": "PTR-Compliant Schools",
+          "fullLabel": "Schools meeting PTR ≤ 30",
+          "headline": "68%",
+          "headlineNote": "Schools meeting PTR ≤ 30",
+          "color": "#2563eb",
+          "bar": 68,
+          "barLabel": "10.1 L compliant schools",
+          "split": [
+            {
+              "val": "10.1 L",
+              "lbl": "Compliant"
+            },
+            {
+              "val": "4.7 L",
+              "lbl": "Above 30"
+            },
+            {
+              "val": "32%",
+              "lbl": "Breach Share",
+              "accent": true
+            }
+          ],
+          "note": "68% of schools are within PTR≤30."
+        },
+        {
+          "id": "gt100",
+          "label": "State Govt School Share",
+          "fullLabel": "Schools by management",
+          "headline": "69%",
+          "headlineNote": "Share of schools under State Government",
+          "color": "#7c3aed",
+          "bar": 69,
+          "barLabel": "10.2 L schools",
+          "split": [
+            {
+              "val": "10.2 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "3.4 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "82.5 K",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government accounts for the largest share of schools nationally."
+        }
+      ],
+      "chartZeroMgmt": [
+        {
+          "name": "State Government",
+          "val": "68.5%",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "PTR compliance 67% · 10.2 L total schools"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "22.6%",
+          "pct": 33,
+          "color": "#6366f1",
+          "note": "PTR compliance 73% · 3.4 L total schools"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "5.5%",
+          "pct": 8,
+          "color": "#d97706",
+          "note": "PTR compliance 56% · 82.5 K total schools"
+        },
+        {
+          "name": "Central Government",
+          "val": "0.1%",
+          "pct": 0,
+          "color": "#7c3aed",
+          "note": "PTR compliance 55% · 2.2 K total schools"
+        },
+        {
+          "name": "Others",
+          "val": "3.3%",
+          "pct": 5,
+          "color": "#7a7060",
+          "note": "PTR compliance 74% · 48.4 K total schools"
+        }
+      ],
+      "chartZeroMgmtSource": "School distribution by management type using total schools.",
+      "chartZeroMgmtNote": "State Government accounts for the largest number of schools in 2021-22.",
+      "chartSingleBand": [
+        {
+          "name": "Foundational + Preparatory",
+          "val": "51%",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "7.6 L schools in this category"
+        },
+        {
+          "name": "Middle",
+          "val": "29%",
+          "pct": 57,
+          "color": "#0891b2",
+          "note": "4.4 L schools in this category"
+        },
+        {
+          "name": "Secondary",
+          "val": "20%",
+          "pct": 39,
+          "color": "#6366f1",
+          "note": "2.9 L schools in this category"
+        }
+      ],
+      "chartSingleBandSource": "School distribution by category using total schools.",
+      "chartSingleBandNote": "Foundational + Preparatory = 51% of schools; Secondary = 20%.",
+      "insight1": {
+        "num": "14.9 L",
+        "label": "Total Schools",
+        "color": "#6366f1",
+        "delta_val": "83%",
+        "delta_label": "Located in rural areas",
+        "delta_val2": "12.3 L",
+        "delta_label2": "Rural schools"
+      },
+      "insight2": {
+        "num": "68%",
+        "label": "PTR-Compliant Schools",
+        "color": "#d97706",
+        "delta_val": "4.7 L",
+        "delta_label": "Schools above PTR 30",
+        "delta_val2": "69%",
+        "delta_label2": "State Govt school share"
+      }
+    },
+    "compare": {
+      "header": {
+        "label": "Student Comparison Analytics",
+        "headline": "GPI 0.92 · State PTR 29.3:1 vs Private 24.9:1 · 48% girls",
+        "sub": "26.52 Cr students across management, location, and category in 2021-22. Girls = 12.73 Cr; Boys = 13.79 Cr; GPI = 0.92."
+      },
+      "cards": [
+        {
+          "id": "gpi",
+          "label": "National GPI",
+          "fullLabel": "Girls / boys",
+          "headline": "0.92",
+          "headlineNote": "Gender Parity Index (nationwide)",
+          "color": "#7c3aed",
+          "bar": 48,
+          "barLabel": "12.73 Cr girls · 13.79 Cr boys",
+          "split": [
+            {
+              "val": "12.73 Cr",
+              "lbl": "Girls"
+            },
+            {
+              "val": "13.79 Cr",
+              "lbl": "Boys"
+            },
+            {
+              "val": "48%",
+              "lbl": "Girls %",
+              "accent": true
+            }
+          ],
+          "note": "GPI = 0.92. Girls are 48% of total enrolment."
+        },
+        {
+          "id": "enrol",
+          "label": "Total Enrolment",
+          "fullLabel": "Total students across all categories",
+          "headline": "26.52 Cr",
+          "headlineNote": "Total enrolled students",
+          "color": "#2563eb",
+          "bar": 70,
+          "barLabel": "26.52 Cr students · 14.9 L schools",
+          "split": [
+            {
+              "val": "26.52 Cr",
+              "lbl": "Total Students"
+            },
+            {
+              "val": "14.9 L",
+              "lbl": "Schools"
+            },
+            {
+              "val": "27.9:1",
+              "lbl": "Avg PTR",
+              "accent": true
+            }
+          ],
+          "note": "26.52 Cr students in 14.9 L schools. National PTR = 27.9:1."
+        },
+        {
+          "id": "stateptr",
+          "label": "State Govt PTR",
+          "fullLabel": "PTR",
+          "headline": "29.3:1",
+          "headlineNote": "Pupil-teacher ratio in State Government schools",
+          "color": "#2563eb",
+          "bar": 73,
+          "barLabel": "vs Private 24.9:1 and National 27.9:1",
+          "split": [
+            {
+              "val": "29.3:1",
+              "lbl": "State Govt PTR"
+            },
+            {
+              "val": "24.9:1",
+              "lbl": "Private PTR"
+            },
+            {
+              "val": "4.4 pts",
+              "lbl": "Difference",
+              "accent": true
+            }
+          ],
+          "note": "State Government PTR is 29.3:1 vs Private Unaided 24.9:1."
+        },
+        {
+          "id": "single",
+          "label": "Rural Student Share",
+          "fullLabel": "Students enrolled in rural schools",
+          "headline": "70%",
+          "headlineNote": "Share of students in rural schools",
+          "color": "#6366f1",
+          "bar": 70,
+          "barLabel": "18.49 Cr rural students",
+          "split": [
+            {
+              "val": "18.49 Cr",
+              "lbl": "Rural Students"
+            },
+            {
+              "val": "8.03 Cr",
+              "lbl": "Urban Students"
+            },
+            {
+              "val": "83%",
+              "lbl": "Rural Schools %",
+              "accent": true
+            }
+          ],
+          "note": "70% of students are enrolled in rural schools."
+        }
+      ],
+      "chartCross": [
+        {
+          "name": "State Government",
+          "val": "29.3:1",
+          "govtPct": "29.3:1",
+          "pct": 86,
+          "color": "#2563eb",
+          "note": "GPI 1.02 · 10.2 L schools"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "24.9:1",
+          "govtPct": "24.9:1",
+          "pct": 73,
+          "color": "#6366f1",
+          "note": "GPI 0.80 · 3.4 L schools"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "33.9:1",
+          "govtPct": "33.9:1",
+          "pct": 100,
+          "color": "#d97706",
+          "note": "GPI 0.93 · 82.5 K schools"
+        },
+        {
+          "name": "Central Government",
+          "val": "31.5:1",
+          "govtPct": "31.5:1",
+          "pct": 93,
+          "color": "#7c3aed",
+          "note": "GPI 0.80 · 2.2 K schools"
+        },
+        {
+          "name": "Others",
+          "val": "23.3:1",
+          "govtPct": "23.3:1",
+          "pct": 69,
+          "color": "#7a7060",
+          "note": "GPI 0.88 · 48.4 K schools"
+        }
+      ],
+      "chartCrossSource": "PTR by management type using aggregated student and teacher counts.",
+      "chartCrossNote": "Highest PTR: Govt Aided (33.9:1). Lowest PTR: Others (23.3:1).",
+      "chartGender": [
+        {
+          "name": "State Government",
+          "val": "1.02",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "7.12 Cr girls · 7.02 Cr boys"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "0.80",
+          "pct": 78,
+          "color": "#6366f1",
+          "note": "3.91 Cr girls · 4.92 Cr boys"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "0.93",
+          "pct": 92,
+          "color": "#d97706",
+          "note": "1.30 Cr girls · 1.40 Cr boys"
+        },
+        {
+          "name": "Central Government",
+          "val": "0.80",
+          "pct": 79,
+          "color": "#7c3aed",
+          "note": "8.2 L girls · 10.2 L boys"
+        },
+        {
+          "name": "Others",
+          "val": "0.88",
+          "pct": 87,
+          "color": "#7a7060",
+          "note": "31.3 L girls · 35.6 L boys"
+        }
+      ],
+      "chartGenderSource": "GPI by management type using girls divided by boys.",
+      "chartGenderNote": "Highest GPI: State Govt (1.02). Lowest: Private Unaided (0.80).",
+      "chartSingleMgmt": [
+        {
+          "name": "State Government",
+          "val": "33%",
+          "pct": 72,
+          "color": "#2563eb",
+          "note": "3.3 L schools above PTR 30 out of 10.2 L"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "27%",
+          "pct": 61,
+          "color": "#6366f1",
+          "note": "91.7 K schools above PTR 30 out of 3.4 L"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "44%",
+          "pct": 97,
+          "color": "#d97706",
+          "note": "35.9 K schools above PTR 30 out of 82.5 K"
+        },
+        {
+          "name": "Central Government",
+          "val": "45%",
+          "pct": 100,
+          "color": "#7c3aed",
+          "note": "987 schools above PTR 30 out of 2.2 K"
+        },
+        {
+          "name": "Others",
+          "val": "26%",
+          "pct": 58,
+          "color": "#7a7060",
+          "note": "12.7 K schools above PTR 30 out of 48.4 K"
+        }
+      ],
+      "chartSingleMgmtSource": "Share of schools above PTR 30 by management type.",
+      "chartSingleMgmtNote": "Central Govt has the highest share of schools above PTR 30 in 2021-22.",
+      "chartZeroLoc": [
+        {
+          "name": "Rural",
+          "val": "0.93",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "8.91 Cr girls · 9.58 Cr boys"
+        },
+        {
+          "name": "Urban",
+          "val": "0.91",
+          "pct": 98,
+          "color": "#6366f1",
+          "note": "3.82 Cr girls · 4.21 Cr boys"
+        }
+      ],
+      "chartZeroLocSource": "GPI by school location using girls divided by boys.",
+      "chartZeroLocNote": "Rural GPI = 0.93; Urban GPI = 0.91.",
+      "insight1": {
+        "num": "0.92",
+        "label": "National GPI — Gender Parity Index",
+        "color": "#7c3aed",
+        "delta_val": "12.73 Cr",
+        "delta_label": "Girls — 48% of total enrolment",
+        "delta_val2": "13.79 Cr",
+        "delta_label2": "Boys — 52% of total enrolment"
+      },
+      "insight2": {
+        "num": "29.3:1",
+        "label": "State Govt PTR vs Private",
+        "color": "#2563eb",
+        "delta_val": "24.9:1",
+        "delta_label": "Private PTR — gap of 4.4 pts",
+        "delta_val2": "70%",
+        "delta_label2": "Students enrolled in rural schools"
+      }
+    }
+  },
+  "2022-23": {
+    "ptr": {
+      "header": {
+        "label": "PTR Analytics",
+        "headline": "National PTR 26.6:1 · 28% above 30 · 72% compliant",
+        "sub": "25.18 Cr students, 94.8 L teachers, 14.7 L schools. PTR>30 in 28% of schools. Rural 26.2:1 vs Urban 27.3:1. Secondary has the highest PTR."
+      },
+      "cards": [
+        {
+          "id": "ptr",
+          "label": "National PTR",
+          "fullLabel": "Average pupil-teacher ratio",
+          "headline": "26.6:1",
+          "headlineNote": "Overall pupil-teacher ratio",
+          "color": "#6366f1",
+          "bar": 66,
+          "barLabel": "25.18 Cr students / 94.8 L teachers",
+          "split": [
+            {
+              "val": "26.2:1",
+              "lbl": "Rural PTR"
+            },
+            {
+              "val": "27.3:1",
+              "lbl": "Urban PTR"
+            },
+            {
+              "val": "1.1 pts",
+              "lbl": "R–U Gap",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 26.6:1. Rural 26.2:1 vs Urban 27.3:1."
+        },
+        {
+          "id": "breach",
+          "label": "PTR > 30 Schools",
+          "fullLabel": "Schools above PTR 30",
+          "headline": "28%",
+          "headlineNote": "Schools above PTR 30",
+          "color": "#d97706",
+          "bar": 28,
+          "barLabel": "4.2 L of 14.7 L schools",
+          "split": [
+            {
+              "val": "4.2 L",
+              "lbl": "Schools Above 30"
+            },
+            {
+              "val": "55%",
+              "lbl": "Above 40 Share"
+            },
+            {
+              "val": "2.3 L",
+              "lbl": "Schools Above 40",
+              "accent": true
+            }
+          ],
+          "note": "28% of schools are above PTR 30. Of these, 55% are above PTR 40."
+        },
+        {
+          "id": "compliance",
+          "label": "PTR Compliance",
+          "fullLabel": "Schools meeting PTR ≤ 30",
+          "headline": "72%",
+          "headlineNote": "Schools meeting PTR ≤ 30",
+          "color": "#0891b2",
+          "bar": 72,
+          "barLabel": "10.5 L compliant of 14.7 L schools",
+          "split": [
+            {
+              "val": "10.5 L",
+              "lbl": "Compliant Schools"
+            },
+            {
+              "val": "72%",
+              "lbl": "Rural Comply"
+            },
+            {
+              "val": "68%",
+              "lbl": "Urban Comply",
+              "accent": true
+            }
+          ],
+          "note": "72% of schools meet PTR≤30. Rural 72%, Urban 68%."
+        },
+        {
+          "id": "deficit",
+          "label": "Teachers Required for PTR ≤ 30",
+          "fullLabel": "Teachers required for PTR ≤ 30",
+          "headline": "16.3 L",
+          "headlineNote": "Reported requirement for PTR≤30",
+          "color": "#7c3aed",
+          "bar": 17,
+          "barLabel": "reported in PTR analytics data",
+          "split": [
+            {
+              "val": "16.3 L",
+              "lbl": "Required"
+            },
+            {
+              "val": "27.2 L",
+              "lbl": "Reported Excess"
+            },
+            {
+              "val": "94.8 L",
+              "lbl": "Current Workforce",
+              "accent": true
+            }
+          ],
+          "note": "PTR analytics data reports 16.3 L teachers required for PTR≤30 and 27.2 L as excess for PTR≤30."
+        }
+      ],
+      "chartCat": [
+        {
+          "name": "Secondary — 38% above 30",
+          "val": "29.2:1",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle — 32% above 30",
+          "val": "25.6:1",
+          "pct": 88,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory — 23% above 30",
+          "val": "22.7:1",
+          "pct": 78,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "PTR by school category using aggregated student and teacher counts. Secondary has the highest PTR in 2022-23.",
+      "chartCatNote": "Secondary = 29.2:1; Middle = 25.6:1; Foundational + Preparatory = 22.7:1.",
+      "chartLocPtr": [
+        {
+          "name": "Rural",
+          "val": "26.2:1",
+          "pct": 96,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Urban",
+          "val": "27.3:1",
+          "pct": 100,
+          "color": "#0891b2"
+        }
+      ],
+      "chartLocPtrSource": "PTR by school location using aggregated student and teacher counts.",
+      "insight1": {
+        "num": "26.6:1",
+        "label": "National PTR",
+        "note": "25.18 Cr students across 14.7 L schools with 94.8 L teachers in 2022-23.",
+        "color": "#6366f1",
+        "delta_val": "28%",
+        "delta_label": "Schools above PTR 30"
+      },
+      "insight2": {
+        "num": "16.3 L",
+        "label": "Teachers Required for PTR ≤ 30",
+        "note": "PTR analytics data reports 16.3 L teachers required and 27.2 L teachers as excess for PTR≤30.",
+        "color": "#7c3aed",
+        "delta_val": "27.2 L",
+        "delta_label": "Reported excess for PTR≤30"
+      }
+    },
+    "teacher": {
+      "header": {
+        "label": "Teacher Analytics",
+        "headline": "94.8 L teachers · 52% female · State Govt employs 51%",
+        "sub": "In 2022-23: 94.8 L teachers across 14.7 L schools. Female: 49.6 L (52%). State Govt employs 48.4 L; Private Unaided employs 35.2 L."
+      },
+      "cards": [
+        {
+          "id": "ptr",
+          "label": "National PTR",
+          "fullLabel": "Average pupil-teacher ratio",
+          "headline": "26.6:1",
+          "headlineNote": "National pupil-teacher ratio",
+          "color": "#0891b2",
+          "bar": 66,
+          "barLabel": "25.18 Cr students / 94.8 L teachers",
+          "split": [
+            {
+              "val": "26.2:1",
+              "lbl": "Rural"
+            },
+            {
+              "val": "27.3:1",
+              "lbl": "Urban"
+            },
+            {
+              "val": "72%",
+              "lbl": "Compliance",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 26.6:1. 72% of schools are within PTR≤30."
+        },
+        {
+          "id": "workforce",
+          "label": "Teaching Workforce",
+          "fullLabel": "Total teachers by gender",
+          "headline": "94.8 L",
+          "headlineNote": "Total teachers nationally",
+          "color": "#2563eb",
+          "bar": 52,
+          "barLabel": "52% female teachers",
+          "split": [
+            {
+              "val": "45.2 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "49.6 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "52%",
+              "lbl": "Female Share",
+              "accent": true
+            }
+          ],
+          "note": "Total 94.8 L. Female 49.6 L (52%), Male 45.2 L."
+        },
+        {
+          "id": "single",
+          "label": "State Govt Teacher Share",
+          "fullLabel": "Teachers employed in State Government schools",
+          "headline": "51%",
+          "headlineNote": "Share of all teachers in State Government schools",
+          "color": "#d97706",
+          "bar": 51,
+          "barLabel": "48.4 L of 94.8 L teachers",
+          "split": [
+            {
+              "val": "48.4 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "35.2 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "7.9 L",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government schools employ the largest share of teachers nationally."
+        },
+        {
+          "id": "female",
+          "label": "Female Teacher Share",
+          "fullLabel": "Female teacher percentage",
+          "headline": "52%",
+          "headlineNote": "National female teacher share",
+          "color": "#6366f1",
+          "bar": 52,
+          "barLabel": "Female teacher share nationally",
+          "split": [
+            {
+              "val": "49.6 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "45.2 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "65%",
+              "lbl": "Private Unaided",
+              "accent": true
+            }
+          ],
+          "note": "Female teachers are 52% nationally. Highest share is in Private Unaided (65%)."
+        }
+      ],
+      "chartCat": [
+        {
+          "name": "Secondary — 46% share",
+          "val": "44 L",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle — 29% share",
+          "val": "27 L",
+          "pct": 61,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory — 25% share",
+          "val": "23.8 L",
+          "pct": 54,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "Teacher distribution by school category using total teacher counts.",
+      "chartCatNote": "Secondary = 46% of teachers; Middle = 29%; Foundational + Preparatory = 25%.",
+      "chartDeficitMgmt": [
+        {
+          "name": "State Govt",
+          "val": "9.2 L",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "4.4 L",
+          "pct": 48,
+          "color": "#d97706"
+        },
+        {
+          "name": "Govt Aided",
+          "val": "2.2 L",
+          "pct": 24,
+          "color": "#0891b2"
+        },
+        {
+          "name": "Others",
+          "val": "28.9 K",
+          "pct": 3,
+          "color": "#2563eb"
+        },
+        {
+          "name": "Central Govt",
+          "val": "8.1 K",
+          "pct": 1,
+          "color": "#7c3aed"
+        }
+      ],
+      "chartDeficitMgmtSource": "Reported teachers required for PTR≤30 by management type from the PTR analytics file.",
+      "chartDeficitMgmtNote": "State Govt shows the highest reported requirement in 2022-23.",
+      "insight1": {
+        "num": "94.8 L",
+        "label": "Total Teachers",
+        "note": "49.6 L female (52%) and 45.2 L male teachers across all schools in 2022-23.",
+        "color": "#0891b2",
+        "delta_val": "52%",
+        "delta_label": "Female share"
+      },
+      "insight2": {
+        "num": "16.3 L",
+        "label": "Teachers Required for PTR ≤ 30",
+        "note": "PTR analytics data reports 16.3 L teachers required nationally for PTR≤30 in 2022-23.",
+        "color": "#7c3aed",
+        "delta_val": "27.2 L",
+        "delta_label": "Reported excess for PTR≤30"
+      }
+    },
+    "ptrCompare": {
+      "header": {
+        "label": "PTR Comparison Analytics",
+        "headline": "Rural 72% vs Urban 68% compliance — 72% national average",
+        "sub": "PTR compliance by location and category in 2022-23. National: 72%. Rural: 72%. Urban: 68%. Secondary has the highest PTR."
+      },
+      "cards": [
+        {
+          "id": "nat_ptr",
+          "label": "National PTR",
+          "fullLabel": "Overall pupil-teacher ratio",
+          "headline": "26.6:1",
+          "headlineNote": "National average PTR",
+          "color": "#6366f1",
+          "bar": 72,
+          "barLabel": "72% of schools compliant",
+          "split": [
+            {
+              "val": "26.2:1",
+              "lbl": "Rural"
+            },
+            {
+              "val": "27.3:1",
+              "lbl": "Urban"
+            },
+            {
+              "val": "72%",
+              "lbl": "Compliance",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 26.6:1. Compliance: 72%."
+        },
+        {
+          "id": "rural_urban_gap",
+          "label": "Rural–Urban Compliance Gap",
+          "fullLabel": "Compliance gap between rural and urban",
+          "headline": "4.1 pts",
+          "headlineNote": "Compliance gap between rural and urban",
+          "color": "#d97706",
+          "bar": 72,
+          "barLabel": "Rural 72% vs Urban 68%",
+          "split": [
+            {
+              "val": "72%",
+              "lbl": "Rural"
+            },
+            {
+              "val": "68%",
+              "lbl": "Urban"
+            },
+            {
+              "val": "+4.1 pts",
+              "lbl": "Rural Lead",
+              "accent": true
+            }
+          ],
+          "note": "Rural schools are 4.1 points ahead of urban schools on PTR compliance."
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary PTR",
+          "fullLabel": "Secondary school PTR and compliance",
+          "headline": "29.2:1",
+          "headlineNote": "Secondary average PTR",
+          "color": "#0891b2",
+          "bar": 62,
+          "barLabel": "62% of Secondary schools compliant",
+          "split": [
+            {
+              "val": "29.2:1",
+              "lbl": "Secondary PTR"
+            },
+            {
+              "val": "62%",
+              "lbl": "Compliance"
+            },
+            {
+              "val": "1.1 L",
+              "lbl": "Above 30 Schools",
+              "accent": true
+            }
+          ],
+          "note": "Secondary schools have PTR 29.2:1 and compliance 62%."
+        },
+        {
+          "id": "deficit",
+          "label": "Net Teacher Position",
+          "fullLabel": "Reported required teachers minus reported excess teachers",
+          "headline": "10.9 L",
+          "headlineNote": "Net Teacher Surplus",
+          "color": "#7c3aed",
+          "bar": 40,
+          "barLabel": "16.3 L required, 27.2 L reported excess",
+          "split": [
+            {
+              "val": "16.3 L",
+              "lbl": "Required"
+            },
+            {
+              "val": "27.2 L",
+              "lbl": "Reported Excess"
+            },
+            {
+              "val": "10.9 L",
+              "lbl": "Net Position",
+              "accent": true
+            }
+          ],
+          "note": "Reported excess for PTR≤30 (27.2 L) exceeds reported requirement (16.3 L) by 10.9 L."
+        }
+      ],
+      "chartLoc": [
+        {
+          "name": "Rural",
+          "val": "72%",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Urban",
+          "val": "68%",
+          "pct": 94,
+          "color": "#0891b2"
+        }
+      ],
+      "chartLocSource": "PTR compliance by school location using schools meeting PTR≤30 out of total schools.",
+      "chartLocNote": "Rural = 72%; Urban = 68%.",
+      "chartCat": [
+        {
+          "name": "Secondary",
+          "val": "62%",
+          "pct": 81,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle",
+          "val": "68%",
+          "pct": 88,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory",
+          "val": "77%",
+          "pct": 100,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "PTR compliance by school category using schools meeting PTR≤30 out of total schools.",
+      "chartCatNote": "Highest compliance: Foundational + Preparatory (77%). Lowest: Secondary (62%).",
+      "insight1": {
+        "num": "72%",
+        "label": "National Compliance",
+        "note": "10.5 L schools meet PTR ≤ 30. 4.2 L schools are still above 30 in 2022-23.",
+        "color": "#6366f1",
+        "delta_val": "72%",
+        "delta_label": "Rural compliance"
+      },
+      "insight2": {
+        "num": "10.9 L",
+        "label": "Net Teacher Surplus",
+        "note": "Reported excess for PTR≤30 (27.2 L) exceeds reported requirement (16.3 L) by 10.9 L.",
+        "color": "#7c3aed",
+        "delta_val": "16.3 L",
+        "delta_label": "Reported required for PTR≤30"
+      }
+    },
+    "teacherCompare": {
+      "header": {
+        "label": "Teacher Comparison Analytics",
+        "headline": "52% female teachers nationally · Private Unaided 65% vs State Govt 44%",
+        "sub": "Workforce: 94.8 L teachers, 52% female. PTR ranges 18.9–33.2:1 across management types."
+      },
+      "cards": [
+        {
+          "id": "female",
+          "label": "Female Teacher Share",
+          "fullLabel": "",
+          "headline": "52%",
+          "headlineNote": "Female teachers — all schools",
+          "color": "#7c3aed",
+          "bar": 52,
+          "barLabel": "49.6 L female of 94.8 L total",
+          "split": [
+            {
+              "val": "49.6 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "45.2 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "65%",
+              "lbl": "Private Unaided",
+              "accent": true
+            }
+          ],
+          "note": "Female teachers are 52% nationally. Private Unaided has the highest female share (65%)."
+        },
+        {
+          "id": "workforce",
+          "label": "Total Workforce",
+          "fullLabel": "Total teachers across all schools",
+          "headline": "94.8 L",
+          "headlineNote": "Total teachers all schools",
+          "color": "#0891b2",
+          "bar": 51,
+          "barLabel": "94.8 L teachers across 14.7 L schools",
+          "split": [
+            {
+              "val": "48.4 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "35.2 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "7.9 L",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government has 48.4 L teachers; Private Unaided has 35.2 L."
+        },
+        {
+          "id": "aided",
+          "label": "Govt Aided PTR",
+          "fullLabel": "PTR by management type",
+          "headline": "33.2:1",
+          "headlineNote": "Highest PTR management type",
+          "color": "#d97706",
+          "bar": 83,
+          "barLabel": "vs national 26.6:1",
+          "split": [
+            {
+              "val": "33.2:1",
+              "lbl": "Govt Aided PTR"
+            },
+            {
+              "val": "41%",
+              "lbl": "Above 30"
+            },
+            {
+              "val": "81.5 K",
+              "lbl": "Schools",
+              "accent": true
+            }
+          ],
+          "note": "Govt Aided has the highest PTR at 33.2:1."
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary Teacher Share",
+          "fullLabel": "Share of total teachers in Secondary schools",
+          "headline": "46%",
+          "headlineNote": "Secondary teachers as % of all",
+          "color": "#6366f1",
+          "bar": 46,
+          "barLabel": "44 L of 94.8 L",
+          "split": [
+            {
+              "val": "46%",
+              "lbl": "Secondary"
+            },
+            {
+              "val": "29%",
+              "lbl": "Middle"
+            },
+            {
+              "val": "25%",
+              "lbl": "Foundational + Prep",
+              "accent": true
+            }
+          ],
+          "note": "Teacher distribution: Secondary 46%, Middle 29%, Foundational + Preparatory 25%."
+        }
+      ],
+      "chartGenderCat": [
+        {
+          "name": "Foundational + Preparatory",
+          "val": "50%",
+          "pct": 93,
+          "color": "#2563eb",
+          "note": "11.9 L female · 11.9 L male teachers"
+        },
+        {
+          "name": "Middle",
+          "val": "51%",
+          "pct": 95,
+          "color": "#0891b2",
+          "note": "13.9 L female · 13.1 L male teachers"
+        },
+        {
+          "name": "Secondary",
+          "val": "54%",
+          "pct": 100,
+          "color": "#6366f1",
+          "note": "23.8 L female · 20.2 L male teachers"
+        }
+      ],
+      "chartGenderCatSource": "Female teacher share by school category using female teachers out of total teachers.",
+      "chartGenderCatNote": "Highest female teacher share is in Secondary (54%).",
+      "chartDeficitMgmt": [
+        {
+          "name": "State Government",
+          "val": "44%",
+          "pct": 68,
+          "color": "#2563eb",
+          "note": "PTR 27.8:1 · 48.4 L total teachers"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "65%",
+          "pct": 100,
+          "color": "#6366f1",
+          "note": "PTR 23.9:1 · 35.2 L total teachers"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "45%",
+          "pct": 70,
+          "color": "#d97706",
+          "note": "PTR 33.2:1 · 7.9 L total teachers"
+        },
+        {
+          "name": "Central Government",
+          "val": "46%",
+          "pct": 70,
+          "color": "#7c3aed",
+          "note": "PTR 29.3:1 · 58.3 K total teachers"
+        },
+        {
+          "name": "Others",
+          "val": "48%",
+          "pct": 73,
+          "color": "#7a7060",
+          "note": "PTR 18.9:1 · 2.7 L total teachers"
+        }
+      ],
+      "chartDeficitMgmtSource": "Female teacher share by management type using female teachers out of total teachers.",
+      "chartDeficitMgmtNote": "Private Unaided has the highest female teacher share in 2022-23.",
+      "insight1": {
+        "num": "52%",
+        "label": "Female Teacher Share",
+        "color": "#7c3aed",
+        "delta_val": "49.6 L",
+        "delta_label": "Female teachers nationwide",
+        "delta_val2": "65%",
+        "delta_label2": "Private Unaided female share"
+      },
+      "insight2": {
+        "num": "33.2:1",
+        "label": "Govt Aided PTR — Highest Burden",
+        "color": "#d97706",
+        "delta_val": "41%",
+        "delta_label": "Govt Aided above PTR 30",
+        "delta_val2": "29%",
+        "delta_label2": "State Govt above PTR 30"
+      }
+    },
+    "schoolCompare": {
+      "header": {
+        "label": "School Comparison Analytics",
+        "headline": "82% rural schools · 51% foundational/preparatory · 72% compliant",
+        "sub": "14.7 L schools in 2022-23. Rural = 12.1 L; Urban = 2.6 L. Foundational + Preparatory schools are 51% of all schools."
+      },
+      "cards": [
+        {
+          "id": "ztotal",
+          "label": "Total Schools",
+          "fullLabel": "All schools",
+          "headline": "14.7 L",
+          "headlineNote": "Total schools",
+          "color": "#6366f1",
+          "bar": 82,
+          "barLabel": "82% are rural",
+          "split": [
+            {
+              "val": "12.1 L",
+              "lbl": "Rural"
+            },
+            {
+              "val": "2.6 L",
+              "lbl": "Urban"
+            },
+            {
+              "val": "82%",
+              "lbl": "Rural Share",
+              "accent": true
+            }
+          ],
+          "note": "Rural schools account for 82% of all schools."
+        },
+        {
+          "id": "stotal",
+          "label": "Foundational + Preparatory Schools",
+          "fullLabel": "Schools by category",
+          "headline": "51%",
+          "headlineNote": "Share of schools in Foundational + Preparatory",
+          "color": "#d97706",
+          "bar": 51,
+          "barLabel": "7.4 L schools",
+          "split": [
+            {
+              "val": "7.4 L",
+              "lbl": "Foundational + Prep"
+            },
+            {
+              "val": "4.3 L",
+              "lbl": "Middle"
+            },
+            {
+              "val": "3 L",
+              "lbl": "Secondary",
+              "accent": true
+            }
+          ],
+          "note": "Foundational + Preparatory schools form the largest school category in 2022-23."
+        },
+        {
+          "id": "rural",
+          "label": "PTR-Compliant Schools",
+          "fullLabel": "Schools meeting PTR ≤ 30",
+          "headline": "72%",
+          "headlineNote": "Schools meeting PTR ≤ 30",
+          "color": "#2563eb",
+          "bar": 72,
+          "barLabel": "10.5 L compliant schools",
+          "split": [
+            {
+              "val": "10.5 L",
+              "lbl": "Compliant"
+            },
+            {
+              "val": "4.2 L",
+              "lbl": "Above 30"
+            },
+            {
+              "val": "28%",
+              "lbl": "Breach Share",
+              "accent": true
+            }
+          ],
+          "note": "72% of schools are within PTR≤30."
+        },
+        {
+          "id": "gt100",
+          "label": "State Govt School Share",
+          "fullLabel": "Schools by management",
+          "headline": "69%",
+          "headlineNote": "Share of schools under State Government",
+          "color": "#7c3aed",
+          "bar": 69,
+          "barLabel": "10.1 L schools",
+          "split": [
+            {
+              "val": "10.1 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "3.2 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "81.5 K",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government accounts for the largest share of schools nationally."
+        }
+      ],
+      "chartZeroMgmt": [
+        {
+          "name": "State Government",
+          "val": "69.2%",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "PTR compliance 71% · 10.1 L total schools"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "22.1%",
+          "pct": 32,
+          "color": "#6366f1",
+          "note": "PTR compliance 76% · 3.2 L total schools"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "5.6%",
+          "pct": 8,
+          "color": "#d97706",
+          "note": "PTR compliance 59% · 81.5 K total schools"
+        },
+        {
+          "name": "Central Government",
+          "val": "0.1%",
+          "pct": 0,
+          "color": "#7c3aed",
+          "note": "PTR compliance 63% · 2.2 K total schools"
+        },
+        {
+          "name": "Others",
+          "val": "3.1%",
+          "pct": 4,
+          "color": "#7a7060",
+          "note": "PTR compliance 83% · 45.2 K total schools"
+        }
+      ],
+      "chartZeroMgmtSource": "School distribution by management type using total schools.",
+      "chartZeroMgmtNote": "State Government accounts for the largest number of schools in 2022-23.",
+      "chartSingleBand": [
+        {
+          "name": "Foundational + Preparatory",
+          "val": "51%",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "7.4 L schools in this category"
+        },
+        {
+          "name": "Middle",
+          "val": "29%",
+          "pct": 57,
+          "color": "#0891b2",
+          "note": "4.3 L schools in this category"
+        },
+        {
+          "name": "Secondary",
+          "val": "20%",
+          "pct": 40,
+          "color": "#6366f1",
+          "note": "3 L schools in this category"
+        }
+      ],
+      "chartSingleBandSource": "School distribution by category using total schools.",
+      "chartSingleBandNote": "Foundational + Preparatory = 51% of schools; Secondary = 20%.",
+      "insight1": {
+        "num": "14.7 L",
+        "label": "Total Schools",
+        "color": "#6366f1",
+        "delta_val": "82%",
+        "delta_label": "Located in rural areas",
+        "delta_val2": "12.1 L",
+        "delta_label2": "Rural schools"
+      },
+      "insight2": {
+        "num": "72%",
+        "label": "PTR-Compliant Schools",
+        "color": "#d97706",
+        "delta_val": "4.2 L",
+        "delta_label": "Schools above PTR 30",
+        "delta_val2": "69%",
+        "delta_label2": "State Govt school share"
+      }
+    },
+    "compare": {
+      "header": {
+        "label": "Student Comparison Analytics",
+        "headline": "GPI 0.92 · State PTR 27.8:1 vs Private 23.9:1 · 48% girls",
+        "sub": "25.18 Cr students across management, location, and category in 2022-23. Girls = 12.09 Cr; Boys = 13.09 Cr; GPI = 0.92."
+      },
+      "cards": [
+        {
+          "id": "gpi",
+          "label": "National GPI",
+          "fullLabel": "Girls / boys",
+          "headline": "0.92",
+          "headlineNote": "Gender Parity Index (nationwide)",
+          "color": "#7c3aed",
+          "bar": 48,
+          "barLabel": "12.09 Cr girls · 13.09 Cr boys",
+          "split": [
+            {
+              "val": "12.09 Cr",
+              "lbl": "Girls"
+            },
+            {
+              "val": "13.09 Cr",
+              "lbl": "Boys"
+            },
+            {
+              "val": "48%",
+              "lbl": "Girls %",
+              "accent": true
+            }
+          ],
+          "note": "GPI = 0.92. Girls are 48% of total enrolment."
+        },
+        {
+          "id": "enrol",
+          "label": "Total Enrolment",
+          "fullLabel": "Total students across all categories",
+          "headline": "25.18 Cr",
+          "headlineNote": "Total enrolled students",
+          "color": "#2563eb",
+          "bar": 68,
+          "barLabel": "25.18 Cr students · 14.7 L schools",
+          "split": [
+            {
+              "val": "25.18 Cr",
+              "lbl": "Total Students"
+            },
+            {
+              "val": "14.7 L",
+              "lbl": "Schools"
+            },
+            {
+              "val": "26.6:1",
+              "lbl": "Avg PTR",
+              "accent": true
+            }
+          ],
+          "note": "25.18 Cr students in 14.7 L schools. National PTR = 26.6:1."
+        },
+        {
+          "id": "stateptr",
+          "label": "State Govt PTR",
+          "fullLabel": "PTR",
+          "headline": "27.8:1",
+          "headlineNote": "Pupil-teacher ratio in State Government schools",
+          "color": "#2563eb",
+          "bar": 70,
+          "barLabel": "vs Private 23.9:1 and National 26.6:1",
+          "split": [
+            {
+              "val": "27.8:1",
+              "lbl": "State Govt PTR"
+            },
+            {
+              "val": "23.9:1",
+              "lbl": "Private PTR"
+            },
+            {
+              "val": "3.9 pts",
+              "lbl": "Difference",
+              "accent": true
+            }
+          ],
+          "note": "State Government PTR is 27.8:1 vs Private Unaided 23.9:1."
+        },
+        {
+          "id": "single",
+          "label": "Rural Student Share",
+          "fullLabel": "Students enrolled in rural schools",
+          "headline": "68%",
+          "headlineNote": "Share of students in rural schools",
+          "color": "#6366f1",
+          "bar": 68,
+          "barLabel": "17.08 Cr rural students",
+          "split": [
+            {
+              "val": "17.08 Cr",
+              "lbl": "Rural Students"
+            },
+            {
+              "val": "8.10 Cr",
+              "lbl": "Urban Students"
+            },
+            {
+              "val": "82%",
+              "lbl": "Rural Schools %",
+              "accent": true
+            }
+          ],
+          "note": "68% of students are enrolled in rural schools."
+        }
+      ],
+      "chartCross": [
+        {
+          "name": "State Government",
+          "val": "27.8:1",
+          "govtPct": "27.8:1",
+          "pct": 84,
+          "color": "#2563eb",
+          "note": "GPI 1.03 · 10.1 L schools"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "23.9:1",
+          "govtPct": "23.9:1",
+          "pct": 72,
+          "color": "#6366f1",
+          "note": "GPI 0.78 · 3.2 L schools"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "33.2:1",
+          "govtPct": "33.2:1",
+          "pct": 100,
+          "color": "#d97706",
+          "note": "GPI 0.94 · 81.5 K schools"
+        },
+        {
+          "name": "Central Government",
+          "val": "29.3:1",
+          "govtPct": "29.3:1",
+          "pct": 88,
+          "color": "#7c3aed",
+          "note": "GPI 0.81 · 2.2 K schools"
+        },
+        {
+          "name": "Others",
+          "val": "18.9:1",
+          "govtPct": "18.9:1",
+          "pct": 57,
+          "color": "#7a7060",
+          "note": "GPI 0.88 · 45.2 K schools"
+        }
+      ],
+      "chartCrossSource": "PTR by management type using aggregated student and teacher counts.",
+      "chartCrossNote": "Highest PTR: Govt Aided (33.2:1). Lowest PTR: Others (18.9:1).",
+      "chartGender": [
+        {
+          "name": "State Government",
+          "val": "1.03",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "6.81 Cr girls · 6.64 Cr boys"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "0.78",
+          "pct": 76,
+          "color": "#6366f1",
+          "note": "3.69 Cr girls · 4.73 Cr boys"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "0.94",
+          "pct": 91,
+          "color": "#d97706",
+          "note": "1.27 Cr girls · 1.36 Cr boys"
+        },
+        {
+          "name": "Central Government",
+          "val": "0.81",
+          "pct": 79,
+          "color": "#7c3aed",
+          "note": "7.6 L girls · 9.4 L boys"
+        },
+        {
+          "name": "Others",
+          "val": "0.88",
+          "pct": 86,
+          "color": "#7a7060",
+          "note": "24.4 L girls · 27.6 L boys"
+        }
+      ],
+      "chartGenderSource": "GPI by management type using girls divided by boys.",
+      "chartGenderNote": "Highest GPI: State Govt (1.03). Lowest: Private Unaided (0.78).",
+      "chartSingleMgmt": [
+        {
+          "name": "State Government",
+          "val": "29%",
+          "pct": 71,
+          "color": "#2563eb",
+          "note": "3 L schools above PTR 30 out of 10.1 L"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "24%",
+          "pct": 59,
+          "color": "#6366f1",
+          "note": "79 K schools above PTR 30 out of 3.2 L"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "41%",
+          "pct": 100,
+          "color": "#d97706",
+          "note": "33.5 K schools above PTR 30 out of 81.5 K"
+        },
+        {
+          "name": "Central Government",
+          "val": "37%",
+          "pct": 91,
+          "color": "#7c3aed",
+          "note": "807 schools above PTR 30 out of 2.2 K"
+        },
+        {
+          "name": "Others",
+          "val": "17%",
+          "pct": 40,
+          "color": "#7a7060",
+          "note": "7.5 K schools above PTR 30 out of 45.2 K"
+        }
+      ],
+      "chartSingleMgmtSource": "Share of schools above PTR 30 by management type.",
+      "chartSingleMgmtNote": "Govt Aided has the highest share of schools above PTR 30 in 2022-23.",
+      "chartZeroLoc": [
+        {
+          "name": "Rural",
+          "val": "0.93",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "8.24 Cr girls · 8.84 Cr boys"
+        },
+        {
+          "name": "Urban",
+          "val": "0.91",
+          "pct": 97,
+          "color": "#6366f1",
+          "note": "3.85 Cr girls · 4.25 Cr boys"
+        }
+      ],
+      "chartZeroLocSource": "GPI by school location using girls divided by boys.",
+      "chartZeroLocNote": "Rural GPI = 0.93; Urban GPI = 0.91.",
+      "insight1": {
+        "num": "0.92",
+        "label": "National GPI — Gender Parity Index",
+        "color": "#7c3aed",
+        "delta_val": "12.09 Cr",
+        "delta_label": "Girls — 48% of total enrolment",
+        "delta_val2": "13.09 Cr",
+        "delta_label2": "Boys — 52% of total enrolment"
+      },
+      "insight2": {
+        "num": "27.8:1",
+        "label": "State Govt PTR vs Private",
+        "color": "#2563eb",
+        "delta_val": "23.9:1",
+        "delta_label": "Private PTR — gap of 3.9 pts",
+        "delta_val2": "68%",
+        "delta_label2": "Students enrolled in rural schools"
+      }
+    }
+  },
+  "2023-24": {
+    "ptr": {
+      "header": {
+        "label": "PTR Analytics",
+        "headline": "National PTR 25.3:1 · 25% above 30 · 75% compliant",
+        "sub": "24.80 Cr students, 98.1 L teachers, 14.7 L schools. PTR>30 in 25% of schools. Rural 24.6:1 vs Urban 26.7:1. Secondary has the highest PTR."
+      },
+      "cards": [
+        {
+          "id": "ptr",
+          "label": "National PTR",
+          "fullLabel": "Average pupil-teacher ratio",
+          "headline": "25.3:1",
+          "headlineNote": "Overall pupil-teacher ratio",
+          "color": "#6366f1",
+          "bar": 63,
+          "barLabel": "24.80 Cr students / 98.1 L teachers",
+          "split": [
+            {
+              "val": "24.6:1",
+              "lbl": "Rural PTR"
+            },
+            {
+              "val": "26.7:1",
+              "lbl": "Urban PTR"
+            },
+            {
+              "val": "2.1 pts",
+              "lbl": "R–U Gap",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 25.3:1. Rural 24.6:1 vs Urban 26.7:1."
+        },
+        {
+          "id": "breach",
+          "label": "PTR > 30 Schools",
+          "fullLabel": "Schools above PTR 30",
+          "headline": "25%",
+          "headlineNote": "Schools above PTR 30",
+          "color": "#d97706",
+          "bar": 25,
+          "barLabel": "3.7 L of 14.7 L schools",
+          "split": [
+            {
+              "val": "3.7 L",
+              "lbl": "Schools Above 30"
+            },
+            {
+              "val": "53%",
+              "lbl": "Above 40 Share"
+            },
+            {
+              "val": "1.9 L",
+              "lbl": "Schools Above 40",
+              "accent": true
+            }
+          ],
+          "note": "25% of schools are above PTR 30. Of these, 53% are above PTR 40."
+        },
+        {
+          "id": "compliance",
+          "label": "PTR Compliance",
+          "fullLabel": "Schools meeting PTR ≤ 30",
+          "headline": "75%",
+          "headlineNote": "Schools meeting PTR ≤ 30",
+          "color": "#0891b2",
+          "bar": 75,
+          "barLabel": "11 L compliant of 14.7 L schools",
+          "split": [
+            {
+              "val": "11 L",
+              "lbl": "Compliant Schools"
+            },
+            {
+              "val": "76%",
+              "lbl": "Rural Comply"
+            },
+            {
+              "val": "70%",
+              "lbl": "Urban Comply",
+              "accent": true
+            }
+          ],
+          "note": "75% of schools meet PTR≤30. Rural 76%, Urban 70%."
+        },
+        {
+          "id": "deficit",
+          "label": "Teachers Required for PTR ≤ 30",
+          "fullLabel": "Teachers required for PTR ≤ 30",
+          "headline": "14 L",
+          "headlineNote": "Reported requirement for PTR≤30",
+          "color": "#7c3aed",
+          "bar": 14,
+          "barLabel": "reported in PTR analytics data",
+          "split": [
+            {
+              "val": "14 L",
+              "lbl": "Required"
+            },
+            {
+              "val": "29.4 L",
+              "lbl": "Reported Excess"
+            },
+            {
+              "val": "98.1 L",
+              "lbl": "Current Workforce",
+              "accent": true
+            }
+          ],
+          "note": "PTR analytics data reports 14 L teachers required for PTR≤30 and 29.4 L as excess for PTR≤30."
+        }
+      ],
+      "chartCat": [
+        {
+          "name": "Secondary — 33% above 30",
+          "val": "27.6:1",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle — 29% above 30",
+          "val": "24.5:1",
+          "pct": 89,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory — 20% above 30",
+          "val": "21.7:1",
+          "pct": 79,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "PTR by school category using aggregated student and teacher counts. Secondary has the highest PTR in 2023-24.",
+      "chartCatNote": "Secondary = 27.6:1; Middle = 24.5:1; Foundational + Preparatory = 21.7:1.",
+      "chartLocPtr": [
+        {
+          "name": "Rural",
+          "val": "24.6:1",
+          "pct": 92,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Urban",
+          "val": "26.7:1",
+          "pct": 100,
+          "color": "#0891b2"
+        }
+      ],
+      "chartLocPtrSource": "PTR by school location using aggregated student and teacher counts.",
+      "insight1": {
+        "num": "25.3:1",
+        "label": "National PTR",
+        "note": "24.80 Cr students across 14.7 L schools with 98.1 L teachers in 2023-24.",
+        "color": "#6366f1",
+        "delta_val": "25%",
+        "delta_label": "Schools above PTR 30"
+      },
+      "insight2": {
+        "num": "14 L",
+        "label": "Teachers Required for PTR ≤ 30",
+        "note": "PTR analytics data reports 14 L teachers required and 29.4 L teachers as excess for PTR≤30.",
+        "color": "#7c3aed",
+        "delta_val": "29.4 L",
+        "delta_label": "Reported excess for PTR≤30"
+      }
+    },
+    "teacher": {
+      "header": {
+        "label": "Teacher Analytics",
+        "headline": "98.1 L teachers · 53% female · State Govt employs 51%",
+        "sub": "In 2023-24: 98.1 L teachers across 14.7 L schools. Female: 52.3 L (53%). State Govt employs 49.7 L; Private Unaided employs 37.3 L."
+      },
+      "cards": [
+        {
+          "id": "ptr",
+          "label": "National PTR",
+          "fullLabel": "Average pupil-teacher ratio",
+          "headline": "25.3:1",
+          "headlineNote": "National pupil-teacher ratio",
+          "color": "#0891b2",
+          "bar": 63,
+          "barLabel": "24.80 Cr students / 98.1 L teachers",
+          "split": [
+            {
+              "val": "24.6:1",
+              "lbl": "Rural"
+            },
+            {
+              "val": "26.7:1",
+              "lbl": "Urban"
+            },
+            {
+              "val": "75%",
+              "lbl": "Compliance",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 25.3:1. 75% of schools are within PTR≤30."
+        },
+        {
+          "id": "workforce",
+          "label": "Teaching Workforce",
+          "fullLabel": "Total teachers by gender",
+          "headline": "98.1 L",
+          "headlineNote": "Total teachers nationally",
+          "color": "#2563eb",
+          "bar": 53,
+          "barLabel": "53% female teachers",
+          "split": [
+            {
+              "val": "45.8 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "52.3 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "53%",
+              "lbl": "Female Share",
+              "accent": true
+            }
+          ],
+          "note": "Total 98.1 L. Female 52.3 L (53%), Male 45.8 L."
+        },
+        {
+          "id": "single",
+          "label": "State Govt Teacher Share",
+          "fullLabel": "Teachers employed in State Government schools",
+          "headline": "51%",
+          "headlineNote": "Share of all teachers in State Government schools",
+          "color": "#d97706",
+          "bar": 51,
+          "barLabel": "49.7 L of 98.1 L teachers",
+          "split": [
+            {
+              "val": "49.7 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "37.3 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "7.8 L",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government schools employ the largest share of teachers nationally."
+        },
+        {
+          "id": "female",
+          "label": "Female Teacher Share",
+          "fullLabel": "Female teacher percentage",
+          "headline": "53%",
+          "headlineNote": "National female teacher share",
+          "color": "#6366f1",
+          "bar": 53,
+          "barLabel": "Female teacher share nationally",
+          "split": [
+            {
+              "val": "52.3 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "45.8 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "66%",
+              "lbl": "Private Unaided",
+              "accent": true
+            }
+          ],
+          "note": "Female teachers are 53% nationally. Highest share is in Private Unaided (66%)."
+        }
+      ],
+      "chartCat": [
+        {
+          "name": "Secondary — 47% share",
+          "val": "46.4 L",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle — 29% share",
+          "val": "28.1 L",
+          "pct": 60,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory — 24% share",
+          "val": "23.6 L",
+          "pct": 51,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "Teacher distribution by school category using total teacher counts.",
+      "chartCatNote": "Secondary = 47% of teachers; Middle = 29%; Foundational + Preparatory = 24%.",
+      "chartDeficitMgmt": [
+        {
+          "name": "State Govt",
+          "val": "7 L",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "4.6 L",
+          "pct": 66,
+          "color": "#d97706"
+        },
+        {
+          "name": "Govt Aided",
+          "val": "2.1 L",
+          "pct": 30,
+          "color": "#0891b2"
+        },
+        {
+          "name": "Others",
+          "val": "26.7 K",
+          "pct": 4,
+          "color": "#2563eb"
+        },
+        {
+          "name": "Central Govt",
+          "val": "3.8 K",
+          "pct": 1,
+          "color": "#7c3aed"
+        }
+      ],
+      "chartDeficitMgmtSource": "Reported teachers required for PTR≤30 by management type from the PTR analytics file.",
+      "chartDeficitMgmtNote": "State Govt shows the highest reported requirement in 2023-24.",
+      "insight1": {
+        "num": "98.1 L",
+        "label": "Total Teachers",
+        "note": "52.3 L female (53%) and 45.8 L male teachers across all schools in 2023-24.",
+        "color": "#0891b2",
+        "delta_val": "53%",
+        "delta_label": "Female share"
+      },
+      "insight2": {
+        "num": "14 L",
+        "label": "Teachers Required for PTR ≤ 30",
+        "note": "PTR analytics data reports 14 L teachers required nationally for PTR≤30 in 2023-24.",
+        "color": "#7c3aed",
+        "delta_val": "29.4 L",
+        "delta_label": "Reported excess for PTR≤30"
+      }
+    },
+    "ptrCompare": {
+      "header": {
+        "label": "PTR Comparison Analytics",
+        "headline": "Rural 76% vs Urban 70% compliance — 75% national average",
+        "sub": "PTR compliance by location and category in 2023-24. National: 75%. Rural: 76%. Urban: 70%. Secondary has the highest PTR."
+      },
+      "cards": [
+        {
+          "id": "nat_ptr",
+          "label": "National PTR",
+          "fullLabel": "Overall pupil-teacher ratio",
+          "headline": "25.3:1",
+          "headlineNote": "National average PTR",
+          "color": "#6366f1",
+          "bar": 75,
+          "barLabel": "75% of schools compliant",
+          "split": [
+            {
+              "val": "24.6:1",
+              "lbl": "Rural"
+            },
+            {
+              "val": "26.7:1",
+              "lbl": "Urban"
+            },
+            {
+              "val": "75%",
+              "lbl": "Compliance",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 25.3:1. Compliance: 75%."
+        },
+        {
+          "id": "rural_urban_gap",
+          "label": "Rural–Urban Compliance Gap",
+          "fullLabel": "Compliance gap between rural and urban",
+          "headline": "6.0 pts",
+          "headlineNote": "Compliance gap between rural and urban",
+          "color": "#d97706",
+          "bar": 76,
+          "barLabel": "Rural 76% vs Urban 70%",
+          "split": [
+            {
+              "val": "76%",
+              "lbl": "Rural"
+            },
+            {
+              "val": "70%",
+              "lbl": "Urban"
+            },
+            {
+              "val": "+6.0 pts",
+              "lbl": "Rural Lead",
+              "accent": true
+            }
+          ],
+          "note": "Rural schools are 6.0 points ahead of urban schools on PTR compliance."
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary PTR",
+          "fullLabel": "Secondary school PTR and compliance",
+          "headline": "27.6:1",
+          "headlineNote": "Secondary average PTR",
+          "color": "#0891b2",
+          "bar": 67,
+          "barLabel": "67% of Secondary schools compliant",
+          "split": [
+            {
+              "val": "27.6:1",
+              "lbl": "Secondary PTR"
+            },
+            {
+              "val": "67%",
+              "lbl": "Compliance"
+            },
+            {
+              "val": "1 L",
+              "lbl": "Above 30 Schools",
+              "accent": true
+            }
+          ],
+          "note": "Secondary schools have PTR 27.6:1 and compliance 67%."
+        },
+        {
+          "id": "deficit",
+          "label": "Net Teacher Position",
+          "fullLabel": "Reported required teachers minus reported excess teachers",
+          "headline": "15.4 L",
+          "headlineNote": "Net Teacher Surplus",
+          "color": "#7c3aed",
+          "bar": 52,
+          "barLabel": "14 L required, 29.4 L reported excess",
+          "split": [
+            {
+              "val": "14 L",
+              "lbl": "Required"
+            },
+            {
+              "val": "29.4 L",
+              "lbl": "Reported Excess"
+            },
+            {
+              "val": "15.4 L",
+              "lbl": "Net Position",
+              "accent": true
+            }
+          ],
+          "note": "Reported excess for PTR≤30 (29.4 L) exceeds reported requirement (14 L) by 15.4 L."
+        }
+      ],
+      "chartLoc": [
+        {
+          "name": "Rural",
+          "val": "76%",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Urban",
+          "val": "70%",
+          "pct": 92,
+          "color": "#0891b2"
+        }
+      ],
+      "chartLocSource": "PTR compliance by school location using schools meeting PTR≤30 out of total schools.",
+      "chartLocNote": "Rural = 76%; Urban = 70%.",
+      "chartCat": [
+        {
+          "name": "Secondary",
+          "val": "67%",
+          "pct": 83,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle",
+          "val": "71%",
+          "pct": 88,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory",
+          "val": "80%",
+          "pct": 100,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "PTR compliance by school category using schools meeting PTR≤30 out of total schools.",
+      "chartCatNote": "Highest compliance: Foundational + Preparatory (80%). Lowest: Secondary (67%).",
+      "insight1": {
+        "num": "75%",
+        "label": "National Compliance",
+        "note": "11 L schools meet PTR ≤ 30. 3.7 L schools are still above 30 in 2023-24.",
+        "color": "#6366f1",
+        "delta_val": "76%",
+        "delta_label": "Rural compliance"
+      },
+      "insight2": {
+        "num": "15.4 L",
+        "label": "Net Teacher Surplus",
+        "note": "Reported excess for PTR≤30 (29.4 L) exceeds reported requirement (14 L) by 15.4 L.",
+        "color": "#7c3aed",
+        "delta_val": "14 L",
+        "delta_label": "Reported required for PTR≤30"
+      }
+    },
+    "teacherCompare": {
+      "header": {
+        "label": "Teacher Comparison Analytics",
+        "headline": "53% female teachers nationally · Private Unaided 66% vs State Govt 45%",
+        "sub": "Workforce: 98.1 L teachers, 53% female. PTR ranges 18.8–32.9:1 across management types."
+      },
+      "cards": [
+        {
+          "id": "female",
+          "label": "Female Teacher Share",
+          "fullLabel": "",
+          "headline": "53%",
+          "headlineNote": "Female teachers — all schools",
+          "color": "#7c3aed",
+          "bar": 53,
+          "barLabel": "52.3 L female of 98.1 L total",
+          "split": [
+            {
+              "val": "52.3 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "45.8 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "66%",
+              "lbl": "Private Unaided",
+              "accent": true
+            }
+          ],
+          "note": "Female teachers are 53% nationally. Private Unaided has the highest female share (66%)."
+        },
+        {
+          "id": "workforce",
+          "label": "Total Workforce",
+          "fullLabel": "Total teachers across all schools",
+          "headline": "98.1 L",
+          "headlineNote": "Total teachers all schools",
+          "color": "#0891b2",
+          "bar": 51,
+          "barLabel": "98.1 L teachers across 14.7 L schools",
+          "split": [
+            {
+              "val": "49.7 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "37.3 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "7.8 L",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government has 49.7 L teachers; Private Unaided has 37.3 L."
+        },
+        {
+          "id": "aided",
+          "label": "Govt Aided PTR",
+          "fullLabel": "PTR by management type",
+          "headline": "32.9:1",
+          "headlineNote": "Highest PTR management type",
+          "color": "#d97706",
+          "bar": 82,
+          "barLabel": "vs national 25.3:1",
+          "split": [
+            {
+              "val": "32.9:1",
+              "lbl": "Govt Aided PTR"
+            },
+            {
+              "val": "40%",
+              "lbl": "Above 30"
+            },
+            {
+              "val": "80.3 K",
+              "lbl": "Schools",
+              "accent": true
+            }
+          ],
+          "note": "Govt Aided has the highest PTR at 32.9:1."
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary Teacher Share",
+          "fullLabel": "Share of total teachers in Secondary schools",
+          "headline": "47%",
+          "headlineNote": "Secondary teachers as % of all",
+          "color": "#6366f1",
+          "bar": 47,
+          "barLabel": "46.4 L of 98.1 L",
+          "split": [
+            {
+              "val": "47%",
+              "lbl": "Secondary"
+            },
+            {
+              "val": "29%",
+              "lbl": "Middle"
+            },
+            {
+              "val": "24%",
+              "lbl": "Foundational + Prep",
+              "accent": true
+            }
+          ],
+          "note": "Teacher distribution: Secondary 47%, Middle 29%, Foundational + Preparatory 24%."
+        }
+      ],
+      "chartGenderCat": [
+        {
+          "name": "Foundational + Preparatory",
+          "val": "50%",
+          "pct": 91,
+          "color": "#2563eb",
+          "note": "11.9 L female · 11.7 L male teachers"
+        },
+        {
+          "name": "Middle",
+          "val": "53%",
+          "pct": 95,
+          "color": "#0891b2",
+          "note": "14.8 L female · 13.3 L male teachers"
+        },
+        {
+          "name": "Secondary",
+          "val": "55%",
+          "pct": 100,
+          "color": "#6366f1",
+          "note": "25.7 L female · 20.8 L male teachers"
+        }
+      ],
+      "chartGenderCatSource": "Female teacher share by school category using female teachers out of total teachers.",
+      "chartGenderCatNote": "Highest female teacher share is in Secondary (55%).",
+      "chartDeficitMgmt": [
+        {
+          "name": "State Government",
+          "val": "45%",
+          "pct": 68,
+          "color": "#2563eb",
+          "note": "PTR 25.3:1 · 49.7 L total teachers"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "66%",
+          "pct": 100,
+          "color": "#6366f1",
+          "note": "PTR 24.1:1 · 37.3 L total teachers"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "46%",
+          "pct": 70,
+          "color": "#d97706",
+          "note": "PTR 32.9:1 · 7.8 L total teachers"
+        },
+        {
+          "name": "Central Government",
+          "val": "48%",
+          "pct": 72,
+          "color": "#7c3aed",
+          "note": "PTR 26.4:1 · 67.8 K total teachers"
+        },
+        {
+          "name": "Others",
+          "val": "49%",
+          "pct": 73,
+          "color": "#7a7060",
+          "note": "PTR 18.8:1 · 2.6 L total teachers"
+        }
+      ],
+      "chartDeficitMgmtSource": "Female teacher share by management type using female teachers out of total teachers.",
+      "chartDeficitMgmtNote": "Private Unaided has the highest female teacher share in 2023-24.",
+      "insight1": {
+        "num": "53%",
+        "label": "Female Teacher Share",
+        "color": "#7c3aed",
+        "delta_val": "52.3 L",
+        "delta_label": "Female teachers nationwide",
+        "delta_val2": "66%",
+        "delta_label2": "Private Unaided female share"
+      },
+      "insight2": {
+        "num": "32.9:1",
+        "label": "Govt Aided PTR — Highest Burden",
+        "color": "#d97706",
+        "delta_val": "40%",
+        "delta_label": "Govt Aided above PTR 30",
+        "delta_val2": "25%",
+        "delta_label2": "State Govt above PTR 30"
+      }
+    },
+    "schoolCompare": {
+      "header": {
+        "label": "School Comparison Analytics",
+        "headline": "82% rural schools · 50% foundational/preparatory · 75% compliant",
+        "sub": "14.7 L schools in 2023-24. Rural = 12.1 L; Urban = 2.6 L. Foundational + Preparatory schools are 50% of all schools."
+      },
+      "cards": [
+        {
+          "id": "ztotal",
+          "label": "Total Schools",
+          "fullLabel": "All schools",
+          "headline": "14.7 L",
+          "headlineNote": "Total schools",
+          "color": "#6366f1",
+          "bar": 82,
+          "barLabel": "82% are rural",
+          "split": [
+            {
+              "val": "12.1 L",
+              "lbl": "Rural"
+            },
+            {
+              "val": "2.6 L",
+              "lbl": "Urban"
+            },
+            {
+              "val": "82%",
+              "lbl": "Rural Share",
+              "accent": true
+            }
+          ],
+          "note": "Rural schools account for 82% of all schools."
+        },
+        {
+          "id": "stotal",
+          "label": "Foundational + Preparatory Schools",
+          "fullLabel": "Schools by category",
+          "headline": "50%",
+          "headlineNote": "Share of schools in Foundational + Preparatory",
+          "color": "#d97706",
+          "bar": 50,
+          "barLabel": "7.4 L schools",
+          "split": [
+            {
+              "val": "7.4 L",
+              "lbl": "Foundational + Prep"
+            },
+            {
+              "val": "4.3 L",
+              "lbl": "Middle"
+            },
+            {
+              "val": "3 L",
+              "lbl": "Secondary",
+              "accent": true
+            }
+          ],
+          "note": "Foundational + Preparatory schools form the largest school category in 2023-24."
+        },
+        {
+          "id": "rural",
+          "label": "PTR-Compliant Schools",
+          "fullLabel": "Schools meeting PTR ≤ 30",
+          "headline": "75%",
+          "headlineNote": "Schools meeting PTR ≤ 30",
+          "color": "#2563eb",
+          "bar": 75,
+          "barLabel": "11 L compliant schools",
+          "split": [
+            {
+              "val": "11 L",
+              "lbl": "Compliant"
+            },
+            {
+              "val": "3.7 L",
+              "lbl": "Above 30"
+            },
+            {
+              "val": "25%",
+              "lbl": "Breach Share",
+              "accent": true
+            }
+          ],
+          "note": "75% of schools are within PTR≤30."
+        },
+        {
+          "id": "gt100",
+          "label": "State Govt School Share",
+          "fullLabel": "Schools by management",
+          "headline": "69%",
+          "headlineNote": "Share of schools under State Government",
+          "color": "#7c3aed",
+          "bar": 69,
+          "barLabel": "10.2 L schools",
+          "split": [
+            {
+              "val": "10.2 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "3.3 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "80.3 K",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government accounts for the largest share of schools nationally."
+        }
+      ],
+      "chartZeroMgmt": [
+        {
+          "name": "State Government",
+          "val": "69.0%",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "PTR compliance 75% · 10.2 L total schools"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "22.5%",
+          "pct": 33,
+          "color": "#6366f1",
+          "note": "PTR compliance 75% · 3.3 L total schools"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "5.5%",
+          "pct": 8,
+          "color": "#d97706",
+          "note": "PTR compliance 60% · 80.3 K total schools"
+        },
+        {
+          "name": "Central Government",
+          "val": "0.1%",
+          "pct": 0,
+          "color": "#7c3aed",
+          "note": "PTR compliance 77% · 2.2 K total schools"
+        },
+        {
+          "name": "Others",
+          "val": "2.9%",
+          "pct": 4,
+          "color": "#7a7060",
+          "note": "PTR compliance 85% · 42.8 K total schools"
+        }
+      ],
+      "chartZeroMgmtSource": "School distribution by management type using total schools.",
+      "chartZeroMgmtNote": "State Government accounts for the largest number of schools in 2023-24.",
+      "chartSingleBand": [
+        {
+          "name": "Foundational + Preparatory",
+          "val": "50%",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "7.4 L schools in this category"
+        },
+        {
+          "name": "Middle",
+          "val": "29%",
+          "pct": 59,
+          "color": "#0891b2",
+          "note": "4.3 L schools in this category"
+        },
+        {
+          "name": "Secondary",
+          "val": "21%",
+          "pct": 41,
+          "color": "#6366f1",
+          "note": "3 L schools in this category"
+        }
+      ],
+      "chartSingleBandSource": "School distribution by category using total schools.",
+      "chartSingleBandNote": "Foundational + Preparatory = 50% of schools; Secondary = 21%.",
+      "insight1": {
+        "num": "14.7 L",
+        "label": "Total Schools",
+        "color": "#6366f1",
+        "delta_val": "82%",
+        "delta_label": "Located in rural areas",
+        "delta_val2": "12.1 L",
+        "delta_label2": "Rural schools"
+      },
+      "insight2": {
+        "num": "75%",
+        "label": "PTR-Compliant Schools",
+        "color": "#d97706",
+        "delta_val": "3.7 L",
+        "delta_label": "Schools above PTR 30",
+        "delta_val2": "69%",
+        "delta_label2": "State Govt school share"
+      }
+    },
+    "compare": {
+      "header": {
+        "label": "Student Comparison Analytics",
+        "headline": "GPI 0.93 · State PTR 25.3:1 vs Private 24.1:1 · 48% girls",
+        "sub": "24.80 Cr students across management, location, and category in 2023-24. Girls = 11.93 Cr; Boys = 12.87 Cr; GPI = 0.93."
+      },
+      "cards": [
+        {
+          "id": "gpi",
+          "label": "National GPI",
+          "fullLabel": "Girls / boys",
+          "headline": "0.93",
+          "headlineNote": "Gender Parity Index (nationwide)",
+          "color": "#7c3aed",
+          "bar": 48,
+          "barLabel": "11.93 Cr girls · 12.87 Cr boys",
+          "split": [
+            {
+              "val": "11.93 Cr",
+              "lbl": "Girls"
+            },
+            {
+              "val": "12.87 Cr",
+              "lbl": "Boys"
+            },
+            {
+              "val": "48%",
+              "lbl": "Girls %",
+              "accent": true
+            }
+          ],
+          "note": "GPI = 0.93. Girls are 48% of total enrolment."
+        },
+        {
+          "id": "enrol",
+          "label": "Total Enrolment",
+          "fullLabel": "Total students across all categories",
+          "headline": "24.80 Cr",
+          "headlineNote": "Total enrolled students",
+          "color": "#2563eb",
+          "bar": 67,
+          "barLabel": "24.80 Cr students · 14.7 L schools",
+          "split": [
+            {
+              "val": "24.80 Cr",
+              "lbl": "Total Students"
+            },
+            {
+              "val": "14.7 L",
+              "lbl": "Schools"
+            },
+            {
+              "val": "25.3:1",
+              "lbl": "Avg PTR",
+              "accent": true
+            }
+          ],
+          "note": "24.80 Cr students in 14.7 L schools. National PTR = 25.3:1."
+        },
+        {
+          "id": "stateptr",
+          "label": "State Govt PTR",
+          "fullLabel": "PTR",
+          "headline": "25.3:1",
+          "headlineNote": "Pupil-teacher ratio in State Government schools",
+          "color": "#2563eb",
+          "bar": 63,
+          "barLabel": "vs Private 24.1:1 and National 25.3:1",
+          "split": [
+            {
+              "val": "25.3:1",
+              "lbl": "State Govt PTR"
+            },
+            {
+              "val": "24.1:1",
+              "lbl": "Private PTR"
+            },
+            {
+              "val": "1.2 pts",
+              "lbl": "Difference",
+              "accent": true
+            }
+          ],
+          "note": "State Government PTR is 25.3:1 vs Private Unaided 24.1:1."
+        },
+        {
+          "id": "single",
+          "label": "Rural Student Share",
+          "fullLabel": "Students enrolled in rural schools",
+          "headline": "67%",
+          "headlineNote": "Share of students in rural schools",
+          "color": "#6366f1",
+          "bar": 67,
+          "barLabel": "16.57 Cr rural students",
+          "split": [
+            {
+              "val": "16.57 Cr",
+              "lbl": "Rural Students"
+            },
+            {
+              "val": "8.23 Cr",
+              "lbl": "Urban Students"
+            },
+            {
+              "val": "82%",
+              "lbl": "Rural Schools %",
+              "accent": true
+            }
+          ],
+          "note": "67% of students are enrolled in rural schools."
+        }
+      ],
+      "chartCross": [
+        {
+          "name": "State Government",
+          "val": "25.3:1",
+          "govtPct": "25.3:1",
+          "pct": 77,
+          "color": "#2563eb",
+          "note": "GPI 1.04 · 10.2 L schools"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "24.1:1",
+          "govtPct": "24.1:1",
+          "pct": 73,
+          "color": "#6366f1",
+          "note": "GPI 0.79 · 3.3 L schools"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "32.9:1",
+          "govtPct": "32.9:1",
+          "pct": 100,
+          "color": "#d97706",
+          "note": "GPI 0.95 · 80.3 K schools"
+        },
+        {
+          "name": "Central Government",
+          "val": "26.4:1",
+          "govtPct": "26.4:1",
+          "pct": 80,
+          "color": "#7c3aed",
+          "note": "GPI 0.83 · 2.2 K schools"
+        },
+        {
+          "name": "Others",
+          "val": "18.8:1",
+          "govtPct": "18.8:1",
+          "pct": 57,
+          "color": "#7a7060",
+          "note": "GPI 0.88 · 42.8 K schools"
+        }
+      ],
+      "chartCrossSource": "PTR by management type using aggregated student and teacher counts.",
+      "chartCrossNote": "Highest PTR: Govt Aided (32.9:1). Lowest PTR: Others (18.8:1).",
+      "chartGender": [
+        {
+          "name": "State Government",
+          "val": "1.04",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "6.41 Cr girls · 6.16 Cr boys"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "0.79",
+          "pct": 75,
+          "color": "#6366f1",
+          "note": "3.96 Cr girls · 5.04 Cr boys"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "0.95",
+          "pct": 91,
+          "color": "#d97706",
+          "note": "1.24 Cr girls · 1.31 Cr boys"
+        },
+        {
+          "name": "Central Government",
+          "val": "0.83",
+          "pct": 80,
+          "color": "#7c3aed",
+          "note": "8.1 L girls · 9.8 L boys"
+        },
+        {
+          "name": "Others",
+          "val": "0.88",
+          "pct": 84,
+          "color": "#7a7060",
+          "note": "23.2 L girls · 26.5 L boys"
+        }
+      ],
+      "chartGenderSource": "GPI by management type using girls divided by boys.",
+      "chartGenderNote": "Highest GPI: State Govt (1.04). Lowest: Private Unaided (0.79).",
+      "chartSingleMgmt": [
+        {
+          "name": "State Government",
+          "val": "25%",
+          "pct": 61,
+          "color": "#2563eb",
+          "note": "2.5 L schools above PTR 30 out of 10.2 L"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "25%",
+          "pct": 62,
+          "color": "#6366f1",
+          "note": "82.7 K schools above PTR 30 out of 3.3 L"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "40%",
+          "pct": 100,
+          "color": "#d97706",
+          "note": "32.3 K schools above PTR 30 out of 80.3 K"
+        },
+        {
+          "name": "Central Government",
+          "val": "23%",
+          "pct": 58,
+          "color": "#7c3aed",
+          "note": "499 schools above PTR 30 out of 2.2 K"
+        },
+        {
+          "name": "Others",
+          "val": "15%",
+          "pct": 38,
+          "color": "#7a7060",
+          "note": "6.6 K schools above PTR 30 out of 42.8 K"
+        }
+      ],
+      "chartSingleMgmtSource": "Share of schools above PTR 30 by management type.",
+      "chartSingleMgmtNote": "Govt Aided has the highest share of schools above PTR 30 in 2023-24.",
+      "chartZeroLoc": [
+        {
+          "name": "Rural",
+          "val": "0.94",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "8.01 Cr girls · 8.56 Cr boys"
+        },
+        {
+          "name": "Urban",
+          "val": "0.91",
+          "pct": 97,
+          "color": "#6366f1",
+          "note": "3.92 Cr girls · 4.31 Cr boys"
+        }
+      ],
+      "chartZeroLocSource": "GPI by school location using girls divided by boys.",
+      "chartZeroLocNote": "Rural GPI = 0.94; Urban GPI = 0.91.",
+      "insight1": {
+        "num": "0.93",
+        "label": "National GPI — Gender Parity Index",
+        "color": "#7c3aed",
+        "delta_val": "11.93 Cr",
+        "delta_label": "Girls — 48% of total enrolment",
+        "delta_val2": "12.87 Cr",
+        "delta_label2": "Boys — 52% of total enrolment"
+      },
+      "insight2": {
+        "num": "25.3:1",
+        "label": "State Govt PTR vs Private",
+        "color": "#2563eb",
+        "delta_val": "24.1:1",
+        "delta_label": "Private PTR — gap of 1.2 pts",
+        "delta_val2": "67%",
+        "delta_label2": "Students enrolled in rural schools"
+      }
+    }
+  },
+  "2024-25": {
+    "ptr": {
+      "header": {
+        "label": "PTR Analytics",
+        "headline": "National PTR 24.4:1 · 22% above 30 · 78% compliant",
+        "sub": "24.69 Cr students, 1.01 Cr teachers, 14.7 L schools. PTR>30 in 22% of schools. Rural 23.6:1 vs Urban 26.2:1. Secondary has the highest PTR."
+      },
+      "cards": [
+        {
+          "id": "ptr",
+          "label": "National PTR",
+          "fullLabel": "Average pupil-teacher ratio",
+          "headline": "24.4:1",
+          "headlineNote": "Overall pupil-teacher ratio",
+          "color": "#6366f1",
+          "bar": 61,
+          "barLabel": "24.69 Cr students / 1.01 Cr teachers",
+          "split": [
+            {
+              "val": "23.6:1",
+              "lbl": "Rural PTR"
+            },
+            {
+              "val": "26.2:1",
+              "lbl": "Urban PTR"
+            },
+            {
+              "val": "2.7 pts",
+              "lbl": "R–U Gap",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 24.4:1. Rural 23.6:1 vs Urban 26.2:1."
+        },
+        {
+          "id": "breach",
+          "label": "PTR > 30 Schools",
+          "fullLabel": "Schools above PTR 30",
+          "headline": "22%",
+          "headlineNote": "Schools above PTR 30",
+          "color": "#d97706",
+          "bar": 22,
+          "barLabel": "3.3 L of 14.7 L schools",
+          "split": [
+            {
+              "val": "3.3 L",
+              "lbl": "Schools Above 30"
+            },
+            {
+              "val": "51%",
+              "lbl": "Above 40 Share"
+            },
+            {
+              "val": "1.7 L",
+              "lbl": "Schools Above 40",
+              "accent": true
+            }
+          ],
+          "note": "22% of schools are above PTR 30. Of these, 51% are above PTR 40."
+        },
+        {
+          "id": "compliance",
+          "label": "PTR Compliance",
+          "fullLabel": "Schools meeting PTR ≤ 30",
+          "headline": "78%",
+          "headlineNote": "Schools meeting PTR ≤ 30",
+          "color": "#0891b2",
+          "bar": 78,
+          "barLabel": "11.5 L compliant of 14.7 L schools",
+          "split": [
+            {
+              "val": "11.5 L",
+              "lbl": "Compliant Schools"
+            },
+            {
+              "val": "79%",
+              "lbl": "Rural Comply"
+            },
+            {
+              "val": "71%",
+              "lbl": "Urban Comply",
+              "accent": true
+            }
+          ],
+          "note": "78% of schools meet PTR≤30. Rural 79%, Urban 71%."
+        },
+        {
+          "id": "deficit",
+          "label": "Teachers Required for PTR ≤ 30",
+          "fullLabel": "Teachers required for PTR ≤ 30",
+          "headline": "12.9 L",
+          "headlineNote": "Reported requirement for PTR≤30",
+          "color": "#7c3aed",
+          "bar": 13,
+          "barLabel": "reported in PTR analytics data",
+          "split": [
+            {
+              "val": "12.9 L",
+              "lbl": "Required"
+            },
+            {
+              "val": "31.8 L",
+              "lbl": "Reported Excess"
+            },
+            {
+              "val": "1.01 Cr",
+              "lbl": "Current Workforce",
+              "accent": true
+            }
+          ],
+          "note": "PTR analytics data reports 12.9 L teachers required for PTR≤30 and 31.8 L as excess for PTR≤30."
+        }
+      ],
+      "chartCat": [
+        {
+          "name": "Secondary — 32% above 30",
+          "val": "26.9:1",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle — 26% above 30",
+          "val": "23.6:1",
+          "pct": 88,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory — 16% above 30",
+          "val": "20.2:1",
+          "pct": 75,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "PTR by school category using aggregated student and teacher counts. Secondary has the highest PTR in 2024-25.",
+      "chartCatNote": "Secondary = 26.9:1; Middle = 23.6:1; Foundational + Preparatory = 20.2:1.",
+      "chartLocPtr": [
+        {
+          "name": "Rural",
+          "val": "23.6:1",
+          "pct": 90,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Urban",
+          "val": "26.2:1",
+          "pct": 100,
+          "color": "#0891b2"
+        }
+      ],
+      "chartLocPtrSource": "PTR by school location using aggregated student and teacher counts.",
+      "insight1": {
+        "num": "24.4:1",
+        "label": "National PTR",
+        "note": "24.69 Cr students across 14.7 L schools with 1.01 Cr teachers in 2024-25.",
+        "color": "#6366f1",
+        "delta_val": "22%",
+        "delta_label": "Schools above PTR 30"
+      },
+      "insight2": {
+        "num": "12.9 L",
+        "label": "Teachers Required for PTR ≤ 30",
+        "note": "PTR analytics data reports 12.9 L teachers required and 31.8 L teachers as excess for PTR≤30.",
+        "color": "#7c3aed",
+        "delta_val": "31.8 L",
+        "delta_label": "Reported excess for PTR≤30"
+      }
+    },
+    "teacher": {
+      "header": {
+        "label": "Teacher Analytics",
+        "headline": "1.01 Cr teachers · 54% female · State Govt employs 50%",
+        "sub": "In 2024-25: 1.01 Cr teachers across 14.7 L schools. Female: 54.8 L (54%). State Govt employs 50.8 L; Private Unaided employs 39.6 L."
+      },
+      "cards": [
+        {
+          "id": "ptr",
+          "label": "National PTR",
+          "fullLabel": "Average pupil-teacher ratio",
+          "headline": "24.4:1",
+          "headlineNote": "National pupil-teacher ratio",
+          "color": "#0891b2",
+          "bar": 61,
+          "barLabel": "24.69 Cr students / 1.01 Cr teachers",
+          "split": [
+            {
+              "val": "23.6:1",
+              "lbl": "Rural"
+            },
+            {
+              "val": "26.2:1",
+              "lbl": "Urban"
+            },
+            {
+              "val": "78%",
+              "lbl": "Compliance",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 24.4:1. 78% of schools are within PTR≤30."
+        },
+        {
+          "id": "workforce",
+          "label": "Teaching Workforce",
+          "fullLabel": "Total teachers by gender",
+          "headline": "1.01 Cr",
+          "headlineNote": "Total teachers nationally",
+          "color": "#2563eb",
+          "bar": 54,
+          "barLabel": "54% female teachers",
+          "split": [
+            {
+              "val": "46.4 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "54.8 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "54%",
+              "lbl": "Female Share",
+              "accent": true
+            }
+          ],
+          "note": "Total 1.01 Cr. Female 54.8 L (54%), Male 46.4 L."
+        },
+        {
+          "id": "single",
+          "label": "State Govt Teacher Share",
+          "fullLabel": "Teachers employed in State Government schools",
+          "headline": "50%",
+          "headlineNote": "Share of all teachers in State Government schools",
+          "color": "#d97706",
+          "bar": 50,
+          "barLabel": "50.8 L of 1.01 Cr teachers",
+          "split": [
+            {
+              "val": "50.8 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "39.6 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "7.6 L",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government schools employ the largest share of teachers nationally."
+        },
+        {
+          "id": "female",
+          "label": "Female Teacher Share",
+          "fullLabel": "Female teacher percentage",
+          "headline": "54%",
+          "headlineNote": "National female teacher share",
+          "color": "#6366f1",
+          "bar": 54,
+          "barLabel": "Female teacher share nationally",
+          "split": [
+            {
+              "val": "54.8 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "46.4 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "67%",
+              "lbl": "Private Unaided",
+              "accent": true
+            }
+          ],
+          "note": "Female teachers are 54% nationally. Highest share is in Private Unaided (67%)."
+        }
+      ],
+      "chartCat": [
+        {
+          "name": "Secondary — 48% share",
+          "val": "48.6 L",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle — 29% share",
+          "val": "28.9 L",
+          "pct": 60,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory — 23% share",
+          "val": "23.7 L",
+          "pct": 49,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "Teacher distribution by school category using total teacher counts.",
+      "chartCatNote": "Secondary = 48% of teachers; Middle = 29%; Foundational + Preparatory = 23%.",
+      "chartDeficitMgmt": [
+        {
+          "name": "State Govt",
+          "val": "5.7 L",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "4.8 L",
+          "pct": 85,
+          "color": "#d97706"
+        },
+        {
+          "name": "Govt Aided",
+          "val": "2 L",
+          "pct": 36,
+          "color": "#0891b2"
+        },
+        {
+          "name": "Others",
+          "val": "25.7 K",
+          "pct": 5,
+          "color": "#2563eb"
+        },
+        {
+          "name": "Central Govt",
+          "val": "2.6 K",
+          "pct": 0,
+          "color": "#7c3aed"
+        }
+      ],
+      "chartDeficitMgmtSource": "Reported teachers required for PTR≤30 by management type from the PTR analytics file.",
+      "chartDeficitMgmtNote": "State Govt shows the highest reported requirement in 2024-25.",
+      "insight1": {
+        "num": "1.01 Cr",
+        "label": "Total Teachers",
+        "note": "54.8 L female (54%) and 46.4 L male teachers across all schools in 2024-25.",
+        "color": "#0891b2",
+        "delta_val": "54%",
+        "delta_label": "Female share"
+      },
+      "insight2": {
+        "num": "12.9 L",
+        "label": "Teachers Required for PTR ≤ 30",
+        "note": "PTR analytics data reports 12.9 L teachers required nationally for PTR≤30 in 2024-25.",
+        "color": "#7c3aed",
+        "delta_val": "31.8 L",
+        "delta_label": "Reported excess for PTR≤30"
+      }
+    },
+    "ptrCompare": {
+      "header": {
+        "label": "PTR Comparison Analytics",
+        "headline": "Rural 79% vs Urban 71% compliance — 78% national average",
+        "sub": "PTR compliance by location and category in 2024-25. National: 78%. Rural: 79%. Urban: 71%. Secondary has the highest PTR."
+      },
+      "cards": [
+        {
+          "id": "nat_ptr",
+          "label": "National PTR",
+          "fullLabel": "Overall pupil-teacher ratio",
+          "headline": "24.4:1",
+          "headlineNote": "National average PTR",
+          "color": "#6366f1",
+          "bar": 78,
+          "barLabel": "78% of schools compliant",
+          "split": [
+            {
+              "val": "23.6:1",
+              "lbl": "Rural"
+            },
+            {
+              "val": "26.2:1",
+              "lbl": "Urban"
+            },
+            {
+              "val": "78%",
+              "lbl": "Compliance",
+              "accent": true
+            }
+          ],
+          "note": "National PTR 24.4:1. Compliance: 78%."
+        },
+        {
+          "id": "rural_urban_gap",
+          "label": "Rural–Urban Compliance Gap",
+          "fullLabel": "Compliance gap between rural and urban",
+          "headline": "7.8 pts",
+          "headlineNote": "Compliance gap between rural and urban",
+          "color": "#d97706",
+          "bar": 79,
+          "barLabel": "Rural 79% vs Urban 71%",
+          "split": [
+            {
+              "val": "79%",
+              "lbl": "Rural"
+            },
+            {
+              "val": "71%",
+              "lbl": "Urban"
+            },
+            {
+              "val": "+7.8 pts",
+              "lbl": "Rural Lead",
+              "accent": true
+            }
+          ],
+          "note": "Rural schools are 7.8 points ahead of urban schools on PTR compliance."
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary PTR",
+          "fullLabel": "Secondary school PTR and compliance",
+          "headline": "26.9:1",
+          "headlineNote": "Secondary average PTR",
+          "color": "#0891b2",
+          "bar": 68,
+          "barLabel": "68% of Secondary schools compliant",
+          "split": [
+            {
+              "val": "26.9:1",
+              "lbl": "Secondary PTR"
+            },
+            {
+              "val": "68%",
+              "lbl": "Compliance"
+            },
+            {
+              "val": "96.9 K",
+              "lbl": "Above 30 Schools",
+              "accent": true
+            }
+          ],
+          "note": "Secondary schools have PTR 26.9:1 and compliance 68%."
+        },
+        {
+          "id": "deficit",
+          "label": "Net Teacher Position",
+          "fullLabel": "Reported required teachers minus reported excess teachers",
+          "headline": "18.9 L",
+          "headlineNote": "Net Teacher Surplus",
+          "color": "#7c3aed",
+          "bar": 60,
+          "barLabel": "12.9 L required, 31.8 L reported excess",
+          "split": [
+            {
+              "val": "12.9 L",
+              "lbl": "Required"
+            },
+            {
+              "val": "31.8 L",
+              "lbl": "Reported Excess"
+            },
+            {
+              "val": "18.9 L",
+              "lbl": "Net Position",
+              "accent": true
+            }
+          ],
+          "note": "Reported excess for PTR≤30 (31.8 L) exceeds reported requirement (12.9 L) by 18.9 L."
+        }
+      ],
+      "chartLoc": [
+        {
+          "name": "Rural",
+          "val": "79%",
+          "pct": 100,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Urban",
+          "val": "71%",
+          "pct": 90,
+          "color": "#0891b2"
+        }
+      ],
+      "chartLocSource": "PTR compliance by school location using schools meeting PTR≤30 out of total schools.",
+      "chartLocNote": "Rural = 79%; Urban = 71%.",
+      "chartCat": [
+        {
+          "name": "Secondary",
+          "val": "68%",
+          "pct": 82,
+          "color": "#6366f1"
+        },
+        {
+          "name": "Middle",
+          "val": "74%",
+          "pct": 89,
+          "color": "#d97706"
+        },
+        {
+          "name": "Foundational + Preparatory",
+          "val": "84%",
+          "pct": 100,
+          "color": "#0891b2"
+        }
+      ],
+      "chartCatSource": "PTR compliance by school category using schools meeting PTR≤30 out of total schools.",
+      "chartCatNote": "Highest compliance: Foundational + Preparatory (84%). Lowest: Secondary (68%).",
+      "insight1": {
+        "num": "78%",
+        "label": "National Compliance",
+        "note": "11.5 L schools meet PTR ≤ 30. 3.3 L schools are still above 30 in 2024-25.",
+        "color": "#6366f1",
+        "delta_val": "79%",
+        "delta_label": "Rural compliance"
+      },
+      "insight2": {
+        "num": "18.9 L",
+        "label": "Net Teacher Surplus",
+        "note": "Reported excess for PTR≤30 (31.8 L) exceeds reported requirement (12.9 L) by 18.9 L.",
+        "color": "#7c3aed",
+        "delta_val": "12.9 L",
+        "delta_label": "Reported required for PTR≤30"
+      }
+    },
+    "teacherCompare": {
+      "header": {
+        "label": "Teacher Comparison Analytics",
+        "headline": "54% female teachers nationally · Private Unaided 67% vs State Govt 45%",
+        "sub": "Workforce: 1.01 Cr teachers, 54% female. PTR ranges 18.7–32.7:1 across management types."
+      },
+      "cards": [
+        {
+          "id": "female",
+          "label": "Female Teacher Share",
+          "fullLabel": "",
+          "headline": "54%",
+          "headlineNote": "Female teachers — all schools",
+          "color": "#7c3aed",
+          "bar": 54,
+          "barLabel": "54.8 L female of 1.01 Cr total",
+          "split": [
+            {
+              "val": "54.8 L",
+              "lbl": "Female"
+            },
+            {
+              "val": "46.4 L",
+              "lbl": "Male"
+            },
+            {
+              "val": "67%",
+              "lbl": "Private Unaided",
+              "accent": true
+            }
+          ],
+          "note": "Female teachers are 54% nationally. Private Unaided has the highest female share (67%)."
+        },
+        {
+          "id": "workforce",
+          "label": "Total Workforce",
+          "fullLabel": "Total teachers across all schools",
+          "headline": "1.01 Cr",
+          "headlineNote": "Total teachers all schools",
+          "color": "#0891b2",
+          "bar": 50,
+          "barLabel": "1.01 Cr teachers across 14.7 L schools",
+          "split": [
+            {
+              "val": "50.8 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "39.6 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "7.6 L",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government has 50.8 L teachers; Private Unaided has 39.6 L."
+        },
+        {
+          "id": "aided",
+          "label": "Govt Aided PTR",
+          "fullLabel": "PTR by management type",
+          "headline": "32.7:1",
+          "headlineNote": "Highest PTR management type",
+          "color": "#d97706",
+          "bar": 82,
+          "barLabel": "vs national 24.4:1",
+          "split": [
+            {
+              "val": "32.7:1",
+              "lbl": "Govt Aided PTR"
+            },
+            {
+              "val": "40%",
+              "lbl": "Above 30"
+            },
+            {
+              "val": "79.3 K",
+              "lbl": "Schools",
+              "accent": true
+            }
+          ],
+          "note": "Govt Aided has the highest PTR at 32.7:1."
+        },
+        {
+          "id": "secondary",
+          "label": "Secondary Teacher Share",
+          "fullLabel": "Share of total teachers in Secondary schools",
+          "headline": "48%",
+          "headlineNote": "Secondary teachers as % of all",
+          "color": "#6366f1",
+          "bar": 48,
+          "barLabel": "48.6 L of 1.01 Cr",
+          "split": [
+            {
+              "val": "48%",
+              "lbl": "Secondary"
+            },
+            {
+              "val": "29%",
+              "lbl": "Middle"
+            },
+            {
+              "val": "23%",
+              "lbl": "Foundational + Prep",
+              "accent": true
+            }
+          ],
+          "note": "Teacher distribution: Secondary 48%, Middle 29%, Foundational + Preparatory 23%."
+        }
+      ],
+      "chartGenderCat": [
+        {
+          "name": "Foundational + Preparatory",
+          "val": "51%",
+          "pct": 91,
+          "color": "#2563eb",
+          "note": "12.1 L female · 11.6 L male teachers"
+        },
+        {
+          "name": "Middle",
+          "val": "53%",
+          "pct": 95,
+          "color": "#0891b2",
+          "note": "15.4 L female · 13.5 L male teachers"
+        },
+        {
+          "name": "Secondary",
+          "val": "56%",
+          "pct": 100,
+          "color": "#6366f1",
+          "note": "27.3 L female · 21.4 L male teachers"
+        }
+      ],
+      "chartGenderCatSource": "Female teacher share by school category using female teachers out of total teachers.",
+      "chartGenderCatNote": "Highest female teacher share is in Secondary (56%).",
+      "chartDeficitMgmt": [
+        {
+          "name": "State Government",
+          "val": "45%",
+          "pct": 67,
+          "color": "#2563eb",
+          "note": "PTR 23.6:1 · 50.8 L total teachers"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "67%",
+          "pct": 100,
+          "color": "#6366f1",
+          "note": "PTR 24.2:1 · 39.6 L total teachers"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "47%",
+          "pct": 70,
+          "color": "#d97706",
+          "note": "PTR 32.7:1 · 7.6 L total teachers"
+        },
+        {
+          "name": "Central Government",
+          "val": "49%",
+          "pct": 72,
+          "color": "#7c3aed",
+          "note": "PTR 25.0:1 · 70.4 K total teachers"
+        },
+        {
+          "name": "Others",
+          "val": "50%",
+          "pct": 74,
+          "color": "#7a7060",
+          "note": "PTR 18.7:1 · 2.5 L total teachers"
+        }
+      ],
+      "chartDeficitMgmtSource": "Female teacher share by management type using female teachers out of total teachers.",
+      "chartDeficitMgmtNote": "Private Unaided has the highest female teacher share in 2024-25.",
+      "insight1": {
+        "num": "54%",
+        "label": "Female Teacher Share",
+        "color": "#7c3aed",
+        "delta_val": "54.8 L",
+        "delta_label": "Female teachers nationwide",
+        "delta_val2": "67%",
+        "delta_label2": "Private Unaided female share"
+      },
+      "insight2": {
+        "num": "32.7:1",
+        "label": "Govt Aided PTR — Highest Burden",
+        "color": "#d97706",
+        "delta_val": "40%",
+        "delta_label": "Govt Aided above PTR 30",
+        "delta_val2": "20%",
+        "delta_label2": "State Govt above PTR 30"
+      }
+    },
+    "schoolCompare": {
+      "header": {
+        "label": "School Comparison Analytics",
+        "headline": "82% rural schools · 50% foundational/preparatory · 78% compliant",
+        "sub": "14.7 L schools in 2024-25. Rural = 12.1 L; Urban = 2.6 L. Foundational + Preparatory schools are 50% of all schools."
+      },
+      "cards": [
+        {
+          "id": "ztotal",
+          "label": "Total Schools",
+          "fullLabel": "All schools",
+          "headline": "14.7 L",
+          "headlineNote": "Total schools",
+          "color": "#6366f1",
+          "bar": 82,
+          "barLabel": "82% are rural",
+          "split": [
+            {
+              "val": "12.1 L",
+              "lbl": "Rural"
+            },
+            {
+              "val": "2.6 L",
+              "lbl": "Urban"
+            },
+            {
+              "val": "82%",
+              "lbl": "Rural Share",
+              "accent": true
+            }
+          ],
+          "note": "Rural schools account for 82% of all schools."
+        },
+        {
+          "id": "stotal",
+          "label": "Foundational + Preparatory Schools",
+          "fullLabel": "Schools by category",
+          "headline": "50%",
+          "headlineNote": "Share of schools in Foundational + Preparatory",
+          "color": "#d97706",
+          "bar": 50,
+          "barLabel": "7.3 L schools",
+          "split": [
+            {
+              "val": "7.3 L",
+              "lbl": "Foundational + Prep"
+            },
+            {
+              "val": "4.3 L",
+              "lbl": "Middle"
+            },
+            {
+              "val": "3.1 L",
+              "lbl": "Secondary",
+              "accent": true
+            }
+          ],
+          "note": "Foundational + Preparatory schools form the largest school category in 2024-25."
+        },
+        {
+          "id": "rural",
+          "label": "PTR-Compliant Schools",
+          "fullLabel": "Schools meeting PTR ≤ 30",
+          "headline": "78%",
+          "headlineNote": "Schools meeting PTR ≤ 30",
+          "color": "#2563eb",
+          "bar": 78,
+          "barLabel": "11.5 L compliant schools",
+          "split": [
+            {
+              "val": "11.5 L",
+              "lbl": "Compliant"
+            },
+            {
+              "val": "3.3 L",
+              "lbl": "Above 30"
+            },
+            {
+              "val": "22%",
+              "lbl": "Breach Share",
+              "accent": true
+            }
+          ],
+          "note": "78% of schools are within PTR≤30."
+        },
+        {
+          "id": "gt100",
+          "label": "State Govt School Share",
+          "fullLabel": "Schools by management",
+          "headline": "69%",
+          "headlineNote": "Share of schools under State Government",
+          "color": "#7c3aed",
+          "bar": 69,
+          "barLabel": "10.1 L schools",
+          "split": [
+            {
+              "val": "10.1 L",
+              "lbl": "State Govt"
+            },
+            {
+              "val": "3.4 L",
+              "lbl": "Private"
+            },
+            {
+              "val": "79.3 K",
+              "lbl": "Govt Aided",
+              "accent": true
+            }
+          ],
+          "note": "State Government accounts for the largest share of schools nationally."
+        }
+      ],
+      "chartZeroMgmt": [
+        {
+          "name": "State Government",
+          "val": "68.7%",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "PTR compliance 80% · 10.1 L total schools"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "23.1%",
+          "pct": 34,
+          "color": "#6366f1",
+          "note": "PTR compliance 75% · 3.4 L total schools"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "5.4%",
+          "pct": 8,
+          "color": "#d97706",
+          "note": "PTR compliance 60% · 79.3 K total schools"
+        },
+        {
+          "name": "Central Government",
+          "val": "0.1%",
+          "pct": 0,
+          "color": "#7c3aed",
+          "note": "PTR compliance 82% · 2.2 K total schools"
+        },
+        {
+          "name": "Others",
+          "val": "2.7%",
+          "pct": 4,
+          "color": "#7a7060",
+          "note": "PTR compliance 85% · 39.2 K total schools"
+        }
+      ],
+      "chartZeroMgmtSource": "School distribution by management type using total schools.",
+      "chartZeroMgmtNote": "State Government accounts for the largest number of schools in 2024-25.",
+      "chartSingleBand": [
+        {
+          "name": "Foundational + Preparatory",
+          "val": "50%",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "7.3 L schools in this category"
+        },
+        {
+          "name": "Middle",
+          "val": "29%",
+          "pct": 59,
+          "color": "#0891b2",
+          "note": "4.3 L schools in this category"
+        },
+        {
+          "name": "Secondary",
+          "val": "21%",
+          "pct": 42,
+          "color": "#6366f1",
+          "note": "3.1 L schools in this category"
+        }
+      ],
+      "chartSingleBandSource": "School distribution by category using total schools.",
+      "chartSingleBandNote": "Foundational + Preparatory = 50% of schools; Secondary = 21%.",
+      "insight1": {
+        "num": "14.7 L",
+        "label": "Total Schools",
+        "color": "#6366f1",
+        "delta_val": "82%",
+        "delta_label": "Located in rural areas",
+        "delta_val2": "12.1 L",
+        "delta_label2": "Rural schools"
+      },
+      "insight2": {
+        "num": "78%",
+        "label": "PTR-Compliant Schools",
+        "color": "#d97706",
+        "delta_val": "3.3 L",
+        "delta_label": "Schools above PTR 30",
+        "delta_val2": "69%",
+        "delta_label2": "State Govt school share"
+      }
+    },
+    "compare": {
+      "header": {
+        "label": "Student Comparison Analytics",
+        "headline": "GPI 0.94 · State PTR 23.6:1 vs Private 24.2:1 · 48% girls",
+        "sub": "24.69 Cr students across management, location, and category in 2024-25. Girls = 11.93 Cr; Boys = 12.76 Cr; GPI = 0.94."
+      },
+      "cards": [
+        {
+          "id": "gpi",
+          "label": "National GPI",
+          "fullLabel": "Girls / boys",
+          "headline": "0.94",
+          "headlineNote": "Gender Parity Index (nationwide)",
+          "color": "#7c3aed",
+          "bar": 48,
+          "barLabel": "11.93 Cr girls · 12.76 Cr boys",
+          "split": [
+            {
+              "val": "11.93 Cr",
+              "lbl": "Girls"
+            },
+            {
+              "val": "12.76 Cr",
+              "lbl": "Boys"
+            },
+            {
+              "val": "48%",
+              "lbl": "Girls %",
+              "accent": true
+            }
+          ],
+          "note": "GPI = 0.94. Girls are 48% of total enrolment."
+        },
+        {
+          "id": "enrol",
+          "label": "Total Enrolment",
+          "fullLabel": "Total students across all categories",
+          "headline": "24.69 Cr",
+          "headlineNote": "Total enrolled students",
+          "color": "#2563eb",
+          "bar": 66,
+          "barLabel": "24.69 Cr students · 14.7 L schools",
+          "split": [
+            {
+              "val": "24.69 Cr",
+              "lbl": "Total Students"
+            },
+            {
+              "val": "14.7 L",
+              "lbl": "Schools"
+            },
+            {
+              "val": "24.4:1",
+              "lbl": "Avg PTR",
+              "accent": true
+            }
+          ],
+          "note": "24.69 Cr students in 14.7 L schools. National PTR = 24.4:1."
+        },
+        {
+          "id": "stateptr",
+          "label": "State Govt PTR",
+          "fullLabel": "PTR",
+          "headline": "23.6:1",
+          "headlineNote": "Pupil-teacher ratio in State Government schools",
+          "color": "#2563eb",
+          "bar": 59,
+          "barLabel": "vs Private 24.2:1 and National 24.4:1",
+          "split": [
+            {
+              "val": "23.6:1",
+              "lbl": "State Govt PTR"
+            },
+            {
+              "val": "24.2:1",
+              "lbl": "Private PTR"
+            },
+            {
+              "val": "0.6 pts",
+              "lbl": "Difference",
+              "accent": true
+            }
+          ],
+          "note": "State Government PTR is 23.6:1 vs Private Unaided 24.2:1."
+        },
+        {
+          "id": "single",
+          "label": "Rural Student Share",
+          "fullLabel": "Students enrolled in rural schools",
+          "headline": "66%",
+          "headlineNote": "Share of students in rural schools",
+          "color": "#6366f1",
+          "bar": 66,
+          "barLabel": "16.35 Cr rural students",
+          "split": [
+            {
+              "val": "16.35 Cr",
+              "lbl": "Rural Students"
+            },
+            {
+              "val": "8.34 Cr",
+              "lbl": "Urban Students"
+            },
+            {
+              "val": "82%",
+              "lbl": "Rural Schools %",
+              "accent": true
+            }
+          ],
+          "note": "66% of students are enrolled in rural schools."
+        }
+      ],
+      "chartCross": [
+        {
+          "name": "State Government",
+          "val": "23.6:1",
+          "govtPct": "23.6:1",
+          "pct": 72,
+          "color": "#2563eb",
+          "note": "GPI 1.06 · 10.1 L schools"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "24.2:1",
+          "govtPct": "24.2:1",
+          "pct": 74,
+          "color": "#6366f1",
+          "note": "GPI 0.80 · 3.4 L schools"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "32.7:1",
+          "govtPct": "32.7:1",
+          "pct": 100,
+          "color": "#d97706",
+          "note": "GPI 0.96 · 79.3 K schools"
+        },
+        {
+          "name": "Central Government",
+          "val": "25.0:1",
+          "govtPct": "25.0:1",
+          "pct": 77,
+          "color": "#7c3aed",
+          "note": "GPI 0.84 · 2.2 K schools"
+        },
+        {
+          "name": "Others",
+          "val": "18.7:1",
+          "govtPct": "18.7:1",
+          "pct": 57,
+          "color": "#7a7060",
+          "note": "GPI 0.88 · 39.2 K schools"
+        }
+      ],
+      "chartCrossSource": "PTR by management type using aggregated student and teacher counts.",
+      "chartCrossNote": "Highest PTR: Govt Aided (32.7:1). Lowest PTR: Others (18.7:1).",
+      "chartGender": [
+        {
+          "name": "State Government",
+          "val": "1.06",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "6.17 Cr girls · 5.81 Cr boys"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "0.80",
+          "pct": 75,
+          "color": "#6366f1",
+          "note": "4.25 Cr girls · 5.34 Cr boys"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "0.96",
+          "pct": 91,
+          "color": "#d97706",
+          "note": "1.21 Cr girls · 1.26 Cr boys"
+        },
+        {
+          "name": "Central Government",
+          "val": "0.84",
+          "pct": 79,
+          "color": "#7c3aed",
+          "note": "8.1 L girls · 9.6 L boys"
+        },
+        {
+          "name": "Others",
+          "val": "0.88",
+          "pct": 83,
+          "color": "#7a7060",
+          "note": "22.1 L girls · 25.1 L boys"
+        }
+      ],
+      "chartGenderSource": "GPI by management type using girls divided by boys.",
+      "chartGenderNote": "Highest GPI: State Govt (1.06). Lowest: Private Unaided (0.80).",
+      "chartSingleMgmt": [
+        {
+          "name": "State Government",
+          "val": "20%",
+          "pct": 51,
+          "color": "#2563eb",
+          "note": "2 L schools above PTR 30 out of 10.1 L"
+        },
+        {
+          "name": "Private Unaided",
+          "val": "25%",
+          "pct": 63,
+          "color": "#6366f1",
+          "note": "85.5 K schools above PTR 30 out of 3.4 L"
+        },
+        {
+          "name": "Govt. Aided",
+          "val": "40%",
+          "pct": 100,
+          "color": "#d97706",
+          "note": "31.5 K schools above PTR 30 out of 79.3 K"
+        },
+        {
+          "name": "Central Government",
+          "val": "18%",
+          "pct": 44,
+          "color": "#7c3aed",
+          "note": "379 schools above PTR 30 out of 2.2 K"
+        },
+        {
+          "name": "Others",
+          "val": "15%",
+          "pct": 38,
+          "color": "#7a7060",
+          "note": "5.9 K schools above PTR 30 out of 39.2 K"
+        }
+      ],
+      "chartSingleMgmtSource": "Share of schools above PTR 30 by management type.",
+      "chartSingleMgmtNote": "Govt Aided has the highest share of schools above PTR 30 in 2024-25.",
+      "chartZeroLoc": [
+        {
+          "name": "Rural",
+          "val": "0.94",
+          "pct": 100,
+          "color": "#2563eb",
+          "note": "7.94 Cr girls · 8.41 Cr boys"
+        },
+        {
+          "name": "Urban",
+          "val": "0.92",
+          "pct": 97,
+          "color": "#6366f1",
+          "note": "3.99 Cr girls · 4.35 Cr boys"
+        }
+      ],
+      "chartZeroLocSource": "GPI by school location using girls divided by boys.",
+      "chartZeroLocNote": "Rural GPI = 0.94; Urban GPI = 0.92.",
+      "insight1": {
+        "num": "0.94",
+        "label": "National GPI — Gender Parity Index",
+        "color": "#7c3aed",
+        "delta_val": "11.93 Cr",
+        "delta_label": "Girls — 48% of total enrolment",
+        "delta_val2": "12.76 Cr",
+        "delta_label2": "Boys — 52% of total enrolment"
+      },
+      "insight2": {
+        "num": "23.6:1",
+        "label": "State Govt PTR vs Private",
+        "color": "#2563eb",
+        "delta_val": "24.2:1",
+        "delta_label": "Private PTR — gap of 0.6 pts",
+        "delta_val2": "66%",
+        "delta_label2": "Students enrolled in rural schools"
+      }
+    }
+  }
+}

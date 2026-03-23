@@ -1,0 +1,747 @@
+{
+  "2020-21": {
+    "year": "2020-21",
+    "grandTotal": 264449987,
+    "header": {
+      "label": "Socioeconomic Analytics",
+      "headline": "OBC leads at 44% \u2014 General has the lowest gender parity of all categories",
+      "sub": "26.44 Cr students across OBC, General, SC, and ST categories. SC+ST together form 28.5% of enrollment but their share peaks at Preparatory (29.8%) and drops 3.4 points by Secondary \u2014 signalling a structural access gap"
+    },
+    "cards": [
+      {
+        "id": "obc",
+        "label": "OBC",
+        "fullLabel": "Other Backward Classes",
+        "color": "#0e7490",
+        "pct": "44%",
+        "students": "11.73 Cr students",
+        "boys": "6.04 Cr",
+        "girls": "5.68 Cr",
+        "gpi": "0.940",
+        "bar": 100,
+        "note": "Largest social category \u2014 44.3% of total enrollment across all education levels"
+      },
+      {
+        "id": "general",
+        "label": "General",
+        "fullLabel": "General Category",
+        "color": "#2563eb",
+        "pct": "27%",
+        "students": "7.19 Cr students",
+        "boys": "3.75 Cr",
+        "girls": "3.44 Cr",
+        "gpi": "0.916",
+        "bar": 61,
+        "note": "Lowest GPI (0.916) of all four categories. Girls underrepresented despite higher private school access"
+      },
+      {
+        "id": "sc",
+        "label": "SC",
+        "fullLabel": "Scheduled Caste",
+        "color": "#d97706",
+        "pct": "19%",
+        "students": "4.94 Cr students",
+        "boys": "2.53 Cr",
+        "girls": "2.41 Cr",
+        "gpi": "0.953",
+        "bar": 42,
+        "note": "GPI improves to 0.945 at Secondary level \u2014 girls who remain in school persist at higher rates"
+      },
+      {
+        "id": "st",
+        "label": "ST",
+        "fullLabel": "Scheduled Tribe",
+        "color": "#d97706",
+        "pct": "10%",
+        "students": "2.58 Cr students",
+        "boys": "1.32 Cr",
+        "girls": "1.27 Cr",
+        "gpi": "0.965",
+        "bar": 22,
+        "note": "Highest GPI of all categories. Secondary GPI reaches 0.988 \u2014 girls outpace boys who remain"
+      }
+    ],
+    "chartGpi": [
+      {
+        "name": "ST",
+        "val": "0.965",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "SC",
+        "val": "0.953",
+        "pct": 81,
+        "color": "#d97706"
+      },
+      {
+        "name": "OBC",
+        "val": "0.940",
+        "pct": 59,
+        "color": "#0e7490"
+      },
+      {
+        "name": "General",
+        "val": "0.916",
+        "pct": 20,
+        "color": "#2563eb"
+      }
+    ],
+    "chartGpiNote": "GPI = 1.0 is exact parity. General (0.916) has the widest gender gap. At Secondary level all categories exceed 1.0 \u2014 girls who persist outpace boys.",
+    "chartGpiSource": "Girls outnumber boys in OBC and SC categories at the GPI level \u2014 but ST communities show a persistent gap, indicating barriers to girls' schooling in tribal regions.",
+    "chartLevel": [
+      {
+        "name": "Foundational",
+        "val": "28.8%",
+        "scPct": "18.6%",
+        "stPct": "10.2%",
+        "pct": 97,
+        "color": "#d97706"
+      },
+      {
+        "name": "Preparatory",
+        "val": "29.8%",
+        "scPct": "19.5%",
+        "stPct": "10.3%",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Middle",
+        "val": "28.8%",
+        "scPct": "18.7%",
+        "stPct": "10.1%",
+        "pct": 97,
+        "color": "#d97706"
+      },
+      {
+        "name": "Secondary",
+        "val": "26.4%",
+        "scPct": "17.9%",
+        "stPct": "8.5%",
+        "pct": 88,
+        "color": "#6366f1"
+      }
+    ],
+    "chartLevelNote": "SC+ST share rises to peak at Preparatory (29.8%), then drops to Secondary (26.4%) \u2014 a 3.4-point fall indicating disproportionate dropout at the Secondary transition.",
+    "chartLevelSource": "SC and ST enrollment concentration drops sharply at Secondary and Higher Secondary \u2014 the drop-off begins at the transition from Upper Primary, where distance and cost barriers peak.",
+    "insight1": {
+      "num": "28.5%",
+      "label": "SC + ST Combined Enrollment Share",
+      "color": "#d97706",
+      "delta1_val": "7.53 Cr students",
+      "delta1_label": "SC 18.7% + ST 9.8% of 26.44 Cr total",
+      "delta1_color": "#d97706",
+      "delta2_val": "\u22123.4 pts",
+      "delta2_label": "SC+ST share drop from Preparatory (29.8%) to Secondary (26.4%)",
+      "delta2_color": "#6366f1"
+    },
+    "insight2": {
+      "num": "0.916",
+      "label": "General Category GPI \u2014 Lowest of All Groups",
+      "color": "#2563eb",
+      "delta1_val": "0.910",
+      "delta1_label": "General GPI at Secondary \u2014 recovers to near-parity for those who persist",
+      "delta1_color": "#2563eb",
+      "delta2_val": "0.945",
+      "delta2_label": "SC Secondary GPI \u2014 girls outpace boys at the highest measured level",
+      "delta2_color": "#2563eb"
+    }
+  },
+  "2021-22": {
+    "year": "2021-22",
+    "grandTotal": 265235830,
+    "header": {
+      "label": "Socioeconomic Analytics",
+      "headline": "OBC leads at 45% \u2014 General has the lowest gender parity of all categories",
+      "sub": "26.52 Cr students across OBC, General, SC, and ST categories. SC+ST together form 28.6% of enrollment but their share peaks at Preparatory (29.8%) and drops 3.1 points by Secondary \u2014 signalling a structural access gap"
+    },
+    "cards": [
+      {
+        "id": "obc",
+        "label": "OBC",
+        "fullLabel": "Other Backward Classes",
+        "color": "#0e7490",
+        "pct": "45%",
+        "students": "11.81 Cr students",
+        "boys": "6.09 Cr",
+        "girls": "5.72 Cr",
+        "gpi": "0.939",
+        "bar": 100,
+        "note": "Largest social category \u2014 44.5% of total enrollment across all education levels"
+      },
+      {
+        "id": "general",
+        "label": "General",
+        "fullLabel": "General Category",
+        "color": "#2563eb",
+        "pct": "27%",
+        "students": "7.14 Cr students",
+        "boys": "3.73 Cr",
+        "girls": "3.41 Cr",
+        "gpi": "0.916",
+        "bar": 60,
+        "note": "Lowest GPI (0.916) of all four categories. Girls underrepresented despite higher private school access"
+      },
+      {
+        "id": "sc",
+        "label": "SC",
+        "fullLabel": "Scheduled Caste",
+        "color": "#d97706",
+        "pct": "19%",
+        "students": "4.97 Cr students",
+        "boys": "2.55 Cr",
+        "girls": "2.43 Cr",
+        "gpi": "0.954",
+        "bar": 42,
+        "note": "GPI improves to 0.947 at Secondary level \u2014 girls who remain in school persist at higher rates"
+      },
+      {
+        "id": "st",
+        "label": "ST",
+        "fullLabel": "Scheduled Tribe",
+        "color": "#d97706",
+        "pct": "10%",
+        "students": "2.60 Cr students",
+        "boys": "1.32 Cr",
+        "girls": "1.28 Cr",
+        "gpi": "0.967",
+        "bar": 22,
+        "note": "Highest GPI of all categories. Secondary GPI reaches 0.998 \u2014 girls outpace boys who remain"
+      }
+    ],
+    "chartGpi": [
+      {
+        "name": "ST",
+        "val": "0.967",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "SC",
+        "val": "0.954",
+        "pct": 79,
+        "color": "#d97706"
+      },
+      {
+        "name": "OBC",
+        "val": "0.939",
+        "pct": 56,
+        "color": "#0e7490"
+      },
+      {
+        "name": "General",
+        "val": "0.916",
+        "pct": 20,
+        "color": "#2563eb"
+      }
+    ],
+    "chartGpiNote": "GPI = 1.0 is exact parity. General (0.916) has the widest gender gap. At Secondary level all categories exceed 1.0 \u2014 girls who persist outpace boys.",
+    "chartGpiSource": "Girls outnumber boys in OBC and SC categories at the GPI level \u2014 but ST communities show a persistent gap, indicating barriers to girls' schooling in tribal regions.",
+    "chartLevel": [
+      {
+        "name": "Foundational",
+        "val": "28.5%",
+        "scPct": "18.4%",
+        "stPct": "10.2%",
+        "pct": 96,
+        "color": "#d97706"
+      },
+      {
+        "name": "Preparatory",
+        "val": "29.8%",
+        "scPct": "19.6%",
+        "stPct": "10.3%",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Middle",
+        "val": "29.0%",
+        "scPct": "18.9%",
+        "stPct": "10.1%",
+        "pct": 97,
+        "color": "#d97706"
+      },
+      {
+        "name": "Secondary",
+        "val": "26.7%",
+        "scPct": "18.1%",
+        "stPct": "8.7%",
+        "pct": 90,
+        "color": "#6366f1"
+      }
+    ],
+    "chartLevelNote": "SC+ST share rises to peak at Preparatory (29.8%), then drops to Secondary (26.7%) \u2014 a 3.1-point fall indicating disproportionate dropout at the Secondary transition.",
+    "chartLevelSource": "SC and ST enrollment concentration drops sharply at Secondary and Higher Secondary \u2014 the drop-off begins at the transition from Upper Primary, where distance and cost barriers peak.",
+    "insight1": {
+      "num": "28.6%",
+      "label": "SC + ST Combined Enrollment Share",
+      "color": "#d97706",
+      "delta1_val": "7.57 Cr students",
+      "delta1_label": "SC 18.8% + ST 9.8% of 26.52 Cr total",
+      "delta1_color": "#d97706",
+      "delta2_val": "\u22123.1 pts",
+      "delta2_label": "SC+ST share drop from Preparatory (29.8%) to Secondary (26.7%)",
+      "delta2_color": "#6366f1"
+    },
+    "insight2": {
+      "num": "0.916",
+      "label": "General Category GPI \u2014 Lowest of All Groups",
+      "color": "#2563eb",
+      "delta1_val": "0.909",
+      "delta1_label": "General GPI at Secondary \u2014 recovers to near-parity for those who persist",
+      "delta1_color": "#2563eb",
+      "delta2_val": "0.947",
+      "delta2_label": "SC Secondary GPI \u2014 girls outpace boys at the highest measured level",
+      "delta2_color": "#2563eb"
+    }
+  },
+  "2022-23": {
+    "year": "2022-23",
+    "grandTotal": 251791722,
+    "header": {
+      "label": "Socioeconomic Analytics",
+      "headline": "OBC leads at 46% \u2014 General has the lowest gender parity of all categories",
+      "sub": "25.18 Cr students across OBC, General, SC, and ST categories. SC+ST together form 28.1% of enrollment but their share peaks at Preparatory (29.2%) and drops 3.0 points by Secondary \u2014 signalling a structural access gap"
+    },
+    "cards": [
+      {
+        "id": "obc",
+        "label": "OBC",
+        "fullLabel": "Other Backward Classes",
+        "color": "#0e7490",
+        "pct": "46%",
+        "students": "11.46 Cr students",
+        "boys": "5.91 Cr",
+        "girls": "5.55 Cr",
+        "gpi": "0.939",
+        "bar": 100,
+        "note": "Largest social category \u2014 45.5% of total enrollment across all education levels"
+      },
+      {
+        "id": "general",
+        "label": "General",
+        "fullLabel": "General Category",
+        "color": "#2563eb",
+        "pct": "26%",
+        "students": "6.64 Cr students",
+        "boys": "3.47 Cr",
+        "girls": "3.18 Cr",
+        "gpi": "0.915",
+        "bar": 58,
+        "note": "Lowest GPI (0.915) of all four categories. Girls underrepresented despite higher private school access"
+      },
+      {
+        "id": "sc",
+        "label": "SC",
+        "fullLabel": "Scheduled Caste",
+        "color": "#d97706",
+        "pct": "18%",
+        "students": "4.59 Cr students",
+        "boys": "2.35 Cr",
+        "girls": "2.25 Cr",
+        "gpi": "0.959",
+        "bar": 40,
+        "note": "GPI improves to 0.969 at Secondary level \u2014 girls who remain in school persist at higher rates"
+      },
+      {
+        "id": "st",
+        "label": "ST",
+        "fullLabel": "Scheduled Tribe",
+        "color": "#d97706",
+        "pct": "10%",
+        "students": "2.48 Cr students",
+        "boys": "1.26 Cr",
+        "girls": "1.22 Cr",
+        "gpi": "0.969",
+        "bar": 22,
+        "note": "Highest GPI of all categories. Secondary GPI reaches 1.007 \u2014 girls outpace boys who remain"
+      }
+    ],
+    "chartGpi": [
+      {
+        "name": "ST",
+        "val": "0.969",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "SC",
+        "val": "0.959",
+        "pct": 85,
+        "color": "#d97706"
+      },
+      {
+        "name": "OBC",
+        "val": "0.939",
+        "pct": 54,
+        "color": "#0e7490"
+      },
+      {
+        "name": "General",
+        "val": "0.915",
+        "pct": 20,
+        "color": "#2563eb"
+      }
+    ],
+    "chartGpiNote": "GPI = 1.0 is exact parity. General (0.915) has the widest gender gap. At Secondary level all categories exceed 1.0 \u2014 girls who persist outpace boys.",
+    "chartGpiSource": "Girls outnumber boys in OBC and SC categories at the GPI level \u2014 but ST communities show a persistent gap, indicating barriers to girls' schooling in tribal regions.",
+    "chartLevel": [
+      {
+        "name": "Foundational",
+        "val": "28.1%",
+        "scPct": "17.7%",
+        "stPct": "10.4%",
+        "pct": 96,
+        "color": "#d97706"
+      },
+      {
+        "name": "Preparatory",
+        "val": "29.2%",
+        "scPct": "18.9%",
+        "stPct": "10.3%",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Middle",
+        "val": "28.8%",
+        "scPct": "18.6%",
+        "stPct": "10.2%",
+        "pct": 99,
+        "color": "#d97706"
+      },
+      {
+        "name": "Secondary",
+        "val": "26.2%",
+        "scPct": "17.7%",
+        "stPct": "8.6%",
+        "pct": 90,
+        "color": "#6366f1"
+      }
+    ],
+    "chartLevelNote": "SC+ST share rises to peak at Preparatory (29.2%), then drops to Secondary (26.2%) \u2014 a 3.0-point fall indicating disproportionate dropout at the Secondary transition.",
+    "chartLevelSource": "SC and ST enrollment concentration drops sharply at Secondary and Higher Secondary \u2014 the drop-off begins at the transition from Upper Primary, where distance and cost barriers peak.",
+    "insight1": {
+      "num": "28.1%",
+      "label": "SC + ST Combined Enrollment Share",
+      "color": "#d97706",
+      "delta1_val": "7.08 Cr students",
+      "delta1_label": "SC 18.2% + ST 9.9% of 25.18 Cr total",
+      "delta1_color": "#d97706",
+      "delta2_val": "\u22123.0 pts",
+      "delta2_label": "SC+ST share drop from Preparatory (29.2%) to Secondary (26.2%)",
+      "delta2_color": "#6366f1"
+    },
+    "insight2": {
+      "num": "0.915",
+      "label": "General Category GPI \u2014 Lowest of All Groups",
+      "color": "#2563eb",
+      "delta1_val": "0.918",
+      "delta1_label": "General GPI at Secondary \u2014 recovers to near-parity for those who persist",
+      "delta1_color": "#2563eb",
+      "delta2_val": "0.969",
+      "delta2_label": "SC Secondary GPI \u2014 girls outpace boys at the highest measured level",
+      "delta2_color": "#2563eb"
+    }
+  },
+  "2023-24": {
+    "year": "2023-24",
+    "grandTotal": 234963031,
+    "header": {
+      "label": "Socioeconomic Analytics",
+      "headline": "OBC leads at 45% \u2014 General has the lowest gender parity of all categories",
+      "sub": "23.50 Cr students across OBC, General, SC, and ST categories. SC+ST together form 28.2% of enrollment but their share peaks at Foundational (29.3%) and drops 3.0 points by Secondary \u2014 signalling a structural access gap"
+    },
+    "cards": [
+      {
+        "id": "obc",
+        "label": "OBC",
+        "fullLabel": "Other Backward Classes",
+        "color": "#0e7490",
+        "pct": "45%",
+        "students": "10.66 Cr students",
+        "boys": "5.48 Cr",
+        "girls": "5.18 Cr",
+        "gpi": "0.944",
+        "bar": 100,
+        "note": "Largest social category \u2014 45.3% of total enrollment across all education levels"
+      },
+      {
+        "id": "general",
+        "label": "General",
+        "fullLabel": "General Category",
+        "color": "#2563eb",
+        "pct": "26%",
+        "students": "6.22 Cr students",
+        "boys": "3.24 Cr",
+        "girls": "2.98 Cr",
+        "gpi": "0.921",
+        "bar": 58,
+        "note": "Lowest GPI (0.921) of all four categories. Girls underrepresented despite higher private school access"
+      },
+      {
+        "id": "sc",
+        "label": "SC",
+        "fullLabel": "Scheduled Caste",
+        "color": "#d97706",
+        "pct": "18%",
+        "students": "4.28 Cr students",
+        "boys": "2.18 Cr",
+        "girls": "2.10 Cr",
+        "gpi": "0.966",
+        "bar": 40,
+        "note": "GPI improves to 0.984 at Secondary level \u2014 girls who remain in school persist at higher rates"
+      },
+      {
+        "id": "st",
+        "label": "ST",
+        "fullLabel": "Scheduled Tribe",
+        "color": "#d97706",
+        "pct": "10%",
+        "students": "2.34 Cr students",
+        "boys": "1.19 Cr",
+        "girls": "1.16 Cr",
+        "gpi": "0.977",
+        "bar": 22,
+        "note": "Highest GPI of all categories. Secondary GPI reaches 1.022 \u2014 girls outpace boys who remain"
+      }
+    ],
+    "chartGpi": [
+      {
+        "name": "ST",
+        "val": "0.977",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "SC",
+        "val": "0.966",
+        "pct": 84,
+        "color": "#d97706"
+      },
+      {
+        "name": "OBC",
+        "val": "0.944",
+        "pct": 53,
+        "color": "#0e7490"
+      },
+      {
+        "name": "General",
+        "val": "0.921",
+        "pct": 20,
+        "color": "#2563eb"
+      }
+    ],
+    "chartGpiNote": "GPI = 1.0 is exact parity. General (0.921) has the widest gender gap. At Secondary level all categories exceed 1.0 \u2014 girls who persist outpace boys.",
+    "chartGpiSource": "Girls outnumber boys in OBC and SC categories at the GPI level \u2014 but ST communities show a persistent gap, indicating barriers to girls' schooling in tribal regions.",
+    "chartLevel": [
+      {
+        "name": "Foundational",
+        "val": "29.3%",
+        "scPct": "18.1%",
+        "stPct": "11.2%",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Preparatory",
+        "val": "28.9%",
+        "scPct": "18.6%",
+        "stPct": "10.3%",
+        "pct": 99,
+        "color": "#d97706"
+      },
+      {
+        "name": "Middle",
+        "val": "28.7%",
+        "scPct": "18.5%",
+        "stPct": "10.2%",
+        "pct": 98,
+        "color": "#d97706"
+      },
+      {
+        "name": "Secondary",
+        "val": "26.2%",
+        "scPct": "17.6%",
+        "stPct": "8.6%",
+        "pct": 90,
+        "color": "#6366f1"
+      }
+    ],
+    "chartLevelNote": "SC+ST share rises to peak at Foundational (29.3%), then drops to Secondary (26.2%) \u2014 a 3.0-point fall indicating disproportionate dropout at the Secondary transition.",
+    "chartLevelSource": "SC and ST enrollment concentration drops sharply at Secondary and Higher Secondary \u2014 the drop-off begins at the transition from Upper Primary, where distance and cost barriers peak.",
+    "insight1": {
+      "num": "28.2%",
+      "label": "SC + ST Combined Enrollment Share",
+      "color": "#d97706",
+      "delta1_val": "6.62 Cr students",
+      "delta1_label": "SC 18.2% + ST 10.0% of 23.50 Cr total",
+      "delta1_color": "#d97706",
+      "delta2_val": "\u22123.0 pts",
+      "delta2_label": "SC+ST share drop from Foundational (29.3%) to Secondary (26.2%)",
+      "delta2_color": "#6366f1"
+    },
+    "insight2": {
+      "num": "0.921",
+      "label": "General Category GPI \u2014 Lowest of All Groups",
+      "color": "#2563eb",
+      "delta1_val": "0.928",
+      "delta1_label": "General GPI at Secondary \u2014 recovers to near-parity for those who persist",
+      "delta1_color": "#2563eb",
+      "delta2_val": "0.984",
+      "delta2_label": "SC Secondary GPI \u2014 girls outpace boys at the highest measured level",
+      "delta2_color": "#2563eb"
+    }
+  },
+  "2024-25": {
+    "year": "2024-25",
+    "grandTotal": 246932680,
+    "header": {
+      "label": "Socioeconomic Analytics",
+      "headline": "OBC leads at 45% \u2014 General has the lowest gender parity of all categories",
+      "sub": "24.69 Cr students across OBC, General, SC, and ST categories. SC+ST together form 27.7% of enrollment but their share peaks at Middle (32.6%) and drops 5.7 points by Secondary \u2014 signalling a structural access gap"
+    },
+    "cards": [
+      {
+        "id": "obc",
+        "label": "OBC",
+        "fullLabel": "Other Backward Classes",
+        "color": "#0e7490",
+        "pct": "45%",
+        "students": "11.17 Cr students",
+        "boys": "5.77 Cr",
+        "girls": "5.39 Cr",
+        "gpi": "0.934",
+        "bar": 100,
+        "note": "Largest social category \u2014 45.2% of total enrollment across all education levels"
+      },
+      {
+        "id": "general",
+        "label": "General",
+        "fullLabel": "General Category",
+        "color": "#2563eb",
+        "pct": "27%",
+        "students": "6.70 Cr students",
+        "boys": "3.51 Cr",
+        "girls": "3.19 Cr",
+        "gpi": "0.910",
+        "bar": 60,
+        "note": "Lowest GPI (0.910) of all four categories. Girls underrepresented despite higher private school access"
+      },
+      {
+        "id": "sc",
+        "label": "SC",
+        "fullLabel": "Scheduled Caste",
+        "color": "#d97706",
+        "pct": "18%",
+        "students": "4.39 Cr students",
+        "boys": "2.24 Cr",
+        "girls": "2.15 Cr",
+        "gpi": "0.958",
+        "bar": 39,
+        "note": "GPI improves to 1.051 at Secondary level \u2014 girls who remain in school persist at higher rates"
+      },
+      {
+        "id": "st",
+        "label": "ST",
+        "fullLabel": "Scheduled Tribe",
+        "color": "#d97706",
+        "pct": "10%",
+        "students": "2.44 Cr students",
+        "boys": "1.24 Cr",
+        "girls": "1.20 Cr",
+        "gpi": "0.968",
+        "bar": 22,
+        "note": "Highest GPI of all categories. Secondary GPI reaches 1.060 \u2014 girls outpace boys who remain"
+      }
+    ],
+    "chartGpi": [
+      {
+        "name": "ST",
+        "val": "0.968",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "SC",
+        "val": "0.958",
+        "pct": 87,
+        "color": "#d97706"
+      },
+      {
+        "name": "OBC",
+        "val": "0.934",
+        "pct": 54,
+        "color": "#0e7490"
+      },
+      {
+        "name": "General",
+        "val": "0.910",
+        "pct": 20,
+        "color": "#2563eb"
+      }
+    ],
+    "chartGpiNote": "GPI = 1.0 is exact parity. General (0.910) has the widest gender gap. At Secondary level all categories exceed 1.0 \u2014 girls who persist outpace boys.",
+    "chartGpiSource": "Girls outnumber boys in OBC and SC categories at the GPI level \u2014 but ST communities show a persistent gap, indicating barriers to girls' schooling in tribal regions.",
+    "chartLevel": [
+      {
+        "name": "Foundational",
+        "val": "26.5%",
+        "scPct": "16.5%",
+        "stPct": "10.0%",
+        "pct": 81,
+        "color": "#d97706"
+      },
+      {
+        "name": "Preparatory",
+        "val": "30.2%",
+        "scPct": "21.1%",
+        "stPct": "9.1%",
+        "pct": 93,
+        "color": "#d97706"
+      },
+      {
+        "name": "Middle",
+        "val": "32.6%",
+        "scPct": "23.8%",
+        "stPct": "8.7%",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Secondary",
+        "val": "26.9%",
+        "scPct": "15.5%",
+        "stPct": "11.4%",
+        "pct": 83,
+        "color": "#6366f1"
+      }
+    ],
+    "chartLevelNote": "SC+ST share rises to peak at Middle (32.6%), then drops to Secondary (26.9%) \u2014 a 5.7-point fall indicating disproportionate dropout at the Secondary transition.",
+    "chartLevelSource": "SC and ST enrollment concentration drops sharply at Secondary and Higher Secondary \u2014 the drop-off begins at the transition from Upper Primary, where distance and cost barriers peak.",
+    "insight1": {
+      "num": "27.7%",
+      "label": "SC + ST Combined Enrollment Share",
+      "color": "#d97706",
+      "delta1_val": "6.83 Cr students",
+      "delta1_label": "SC 17.8% + ST 9.9% of 24.69 Cr total",
+      "delta1_color": "#d97706",
+      "delta2_val": "\u22125.7 pts",
+      "delta2_label": "SC+ST share drop from Middle (32.6%) to Secondary (26.9%)",
+      "delta2_color": "#6366f1"
+    },
+    "insight2": {
+      "num": "0.910",
+      "label": "General Category GPI \u2014 Lowest of All Groups",
+      "color": "#2563eb",
+      "delta1_val": "0.999",
+      "delta1_label": "General GPI at Secondary \u2014 recovers to near-parity for those who persist",
+      "delta1_color": "#2563eb",
+      "delta2_val": "1.051",
+      "delta2_label": "SC Secondary GPI \u2014 girls outpace boys at the highest measured level",
+      "delta2_color": "#2563eb"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+.gd-section { min-height: 60vh; }
+
+/* ─── SOCIO GRID ─────────────────────────────────── */
+.socio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  background: var(--rule);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+.socio-card {
+  background: var(--paper);
+  padding: 28px 20px;
+  text-align: center;
+}
+
+.socio-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.socio-pct {
+  font-family: 'DM Sans', sans-serif
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.socio-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+/* ─── COMPARE BARS ───────────────────────────────── */
+.compare-bars { margin-top: 24px; }
+.compare-hint {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.compare-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+.compare-state {
+  width: 160px;
+  font-size: 13px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.compare-track {
+  flex: 1;
+  height: 28px;
+  background: var(--warm);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.compare-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--cat-compare) 0%, rgba(217,119,6,0.5) 100%);
+  border-radius: 3px;
+  transition: width 1.5s cubic-bezier(0.16,1,0.3,1);
+}
+.compare-val {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  color: var(--muted);
+  width: 60px;
+  text-align: right;
+}
+
+/* ─── PLACEHOLDER ────────────────────────────────── */
+.gd-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+  background: var(--warm);
+  border-radius: var(--radius-lg);
+  border: 2px dashed var(--rule);
+}
+.gd-placeholder-inner {
+  text-align: center;
+  max-width: 400px;
+  padding: 40px;
+}
+.gd-placeholder-icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.gd-placeholder-title {
+  font-family: 'DM Sans', sans-serif
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 12px;
+}
+.gd-placeholder-text {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.6;
+}

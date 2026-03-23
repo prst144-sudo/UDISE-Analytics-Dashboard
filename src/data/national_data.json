@@ -1,0 +1,867 @@
+{
+  "2020-21": {
+    "header": {
+      "label": "National Analytics",
+      "headline": "26.4 Cr students, 15.1 L schools \u2014 national picture 2020-21",
+      "sub": "full_school_data gives school, teacher and PTR aggregates. Student_final_25 adds management breakdown. GPI 0.92 \u00b7 PTR 27.3:1 \u00b7 70% PTR compliant \u00b7 Govt 51%"
+    },
+    "cards": [
+      {
+        "id": "schools",
+        "label": "Total Schools",
+        "fullLabel": "Total Schools",
+        "headline": "15.1 L",
+        "headlineNote": "Schools in UDISE+ 2020-21",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "83% rural by School Location",
+        "split": [
+          {
+            "val": "12.6 L",
+            "lbl": "Rural"
+          },
+          {
+            "val": "2.5 L",
+            "lbl": "Urban"
+          },
+          {
+            "val": "15.1 L",
+            "lbl": "Total",
+            "accent": true
+          }
+        ],
+        "note": "SUM \u00b7 Rural 83% (12.6 L) \u00b7 Urban 17% (2.5 L)"
+      },
+      {
+        "id": "students",
+        "label": "Total Enrollment",
+        "fullLabel": "Total Students",
+        "headline": "26.4 Cr",
+        "headlineNote": "Students enrolled nationally \u00b7 2020-21",
+        "color": "#0891b2",
+        "bar": 92,
+        "barLabel": "GPI = 0.92 (female / male ratio)",
+        "split": [
+          {
+            "val": "13.7 Cr",
+            "lbl": "Male"
+          },
+          {
+            "val": "12.7 Cr",
+            "lbl": "Female"
+          },
+          {
+            "val": "0.92",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "GPI = 0.92. Female: 48% of enrollment. Rural students: 18.5 Cr (70%)"
+      },
+      {
+        "id": "funnel",
+        "label": "Enrollment Funnel",
+        "fullLabel": "Distribution by Category",
+        "headline": "49%",
+        "headlineNote": "Students in Secondary Schools",
+        "color": "#d97706",
+        "bar": 49,
+        "barLabel": "12.9 Cr in Secondary of 26.4 Cr total",
+        "split": [
+          {
+            "val": "6.1 Cr",
+            "lbl": "Found+Prep"
+          },
+          {
+            "val": "7.5 Cr",
+            "lbl": "Middle"
+          },
+          {
+            "val": "12.9 Cr",
+            "lbl": "Secondary",
+            "accent": true
+          }
+        ],
+        "note": "Secondary schools hold 49% of total enrollment. Foundational+Prep: 6.1 Cr, Middle: 7.5 Cr, Secondary: 12.9 Cr"
+      },
+      {
+        "id": "ptr",
+        "label": "PTR Compliance",
+        "fullLabel": "/ total_schools",
+        "headline": "70%",
+        "headlineNote": "Schools within RTE PTR norm (\u226430)",
+        "color": "#6366f1",
+        "bar": 70,
+        "barLabel": "10.6 L compliant \u00b7 27.3:1 national PTR",
+        "split": [
+          {
+            "val": "10.6 L",
+            "lbl": "Compliant"
+          },
+          {
+            "val": "4.5 L",
+            "lbl": "Breach"
+          },
+          {
+            "val": "27.3:1",
+            "lbl": "Nat. PTR",
+            "accent": true
+          }
+        ],
+        "note": "/ total_schools = 70%. National PTR = 27.3:1"
+      }
+    ],
+    "chartLevel": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "6.1 Cr",
+        "pct": 47,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "7.5 Cr",
+        "pct": 58,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "12.9 Cr",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "chartLevelSource": "Foundational and Preparatory stages have the largest student base but the fewest secondary schools \u2014 creating a structural bottleneck as students move up the education ladder.",
+    "chartLevelNote": "Foundational+Prep 6.1 Cr \u00b7 Middle 7.5 Cr \u00b7 Secondary 12.9 Cr \u00b7 total 26.4 Cr.",
+    "chartCat": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "51%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "29%",
+        "pct": 57,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "19%",
+        "pct": 38,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatSource": "Secondary and Higher Secondary schools are under-represented relative to their student demand \u2014 one secondary school often serves students from multiple feeder upper-primary schools.",
+    "chartCatNote": "Foundational+Prep 51% \u00b7 Middle 29% \u00b7 Secondary 19% of 15.1 L total schools.",
+    "insight1": {
+      "num": "49%",
+      "label": "Students in Secondary Schools",
+      "color": "#2563eb",
+      "note": "Secondary schools enroll 12.9 Cr (49% of total 26.4 Cr) in 2020-21. Foundational+Prep: 6.1 Cr across 7.7 L schools. Secondary: 12.9 Cr across 2.9 L schools",
+      "delta_val": "12.9 Cr",
+      "delta_label": "Secondary enrollment \u00b7 2.9 L schools"
+    },
+    "insight2": {
+      "num": "0.92",
+      "label": "National Gender Parity Index",
+      "color": "#0891b2",
+      "note": "SUM / SUM. GPI 0.92 means for every 100 boys, 92 girls enrolled. Female share: 48%",
+      "delta_val": "48%",
+      "delta_label": "Female enrollment share \u00b7 12.7 Cr girls enrolled"
+    }
+  },
+  "2021-22": {
+    "header": {
+      "label": "National Analytics",
+      "headline": "26.5 Cr students, 14.9 L schools \u2014 national picture 2021-22",
+      "sub": "full_school_data gives school, teacher and PTR aggregates. Student_final_25 adds management breakdown. GPI 0.92 \u00b7 PTR 27.9:1 \u00b7 68% PTR compliant \u00b7 Govt 54%"
+    },
+    "cards": [
+      {
+        "id": "schools",
+        "label": "Total Schools",
+        "fullLabel": "Total Schools",
+        "headline": "14.9 L",
+        "headlineNote": "Schools in UDISE+ 2021-22",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "83% rural by School Location",
+        "split": [
+          {
+            "val": "12.3 L",
+            "lbl": "Rural"
+          },
+          {
+            "val": "2.5 L",
+            "lbl": "Urban"
+          },
+          {
+            "val": "14.9 L",
+            "lbl": "Total",
+            "accent": true
+          }
+        ],
+        "note": "SUM \u00b7 Rural 83% (12.3 L) \u00b7 Urban 17% (2.5 L)"
+      },
+      {
+        "id": "students",
+        "label": "Total Enrollment",
+        "fullLabel": "Total Students",
+        "headline": "26.5 Cr",
+        "headlineNote": "Students enrolled nationally \u00b7 2021-22",
+        "color": "#0891b2",
+        "bar": 92,
+        "barLabel": "GPI = 0.92 (female / male ratio)",
+        "split": [
+          {
+            "val": "13.8 Cr",
+            "lbl": "Male"
+          },
+          {
+            "val": "12.7 Cr",
+            "lbl": "Female"
+          },
+          {
+            "val": "0.92",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "GPI = 0.92. Female: 48% of enrollment. Rural students: 18.5 Cr (70%)"
+      },
+      {
+        "id": "funnel",
+        "label": "Enrollment Funnel",
+        "fullLabel": "Distribution by Category",
+        "headline": "49%",
+        "headlineNote": "Students in Secondary Schools",
+        "color": "#d97706",
+        "bar": 49,
+        "barLabel": "13.0 Cr in Secondary of 26.5 Cr total",
+        "split": [
+          {
+            "val": "6.1 Cr",
+            "lbl": "Found+Prep"
+          },
+          {
+            "val": "7.5 Cr",
+            "lbl": "Middle"
+          },
+          {
+            "val": "13.0 Cr",
+            "lbl": "Secondary",
+            "accent": true
+          }
+        ],
+        "note": "Secondary schools hold 49% of total enrollment. Foundational+Prep: 6.1 Cr, Middle: 7.5 Cr, Secondary: 13.0 Cr"
+      },
+      {
+        "id": "ptr",
+        "label": "PTR Compliance",
+        "fullLabel": "/ total_schools",
+        "headline": "68%",
+        "headlineNote": "Schools within RTE PTR norm (\u226430)",
+        "color": "#6366f1",
+        "bar": 68,
+        "barLabel": "10.2 L compliant \u00b7 27.9:1 national PTR",
+        "split": [
+          {
+            "val": "10.2 L",
+            "lbl": "Compliant"
+          },
+          {
+            "val": "4.7 L",
+            "lbl": "Breach"
+          },
+          {
+            "val": "27.9:1",
+            "lbl": "Nat. PTR",
+            "accent": true
+          }
+        ],
+        "note": "/ total_schools = 68%. National PTR = 27.9:1"
+      }
+    ],
+    "chartLevel": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "6.1 Cr",
+        "pct": 47,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "7.5 Cr",
+        "pct": 58,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "13.0 Cr",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "chartLevelSource": "Foundational and Preparatory stages have the largest student base but the fewest secondary schools \u2014 creating a structural bottleneck as students move up the education ladder.",
+    "chartLevelNote": "Foundational+Prep 6.1 Cr \u00b7 Middle 7.5 Cr \u00b7 Secondary 13.0 Cr \u00b7 total 26.5 Cr.",
+    "chartCat": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "51%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "29%",
+        "pct": 57,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "20%",
+        "pct": 39,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatSource": "Secondary and Higher Secondary schools are under-represented relative to their student demand \u2014 one secondary school often serves students from multiple feeder upper-primary schools.",
+    "chartCatNote": "Foundational+Prep 51% \u00b7 Middle 29% \u00b7 Secondary 20% of 14.9 L total schools.",
+    "insight1": {
+      "num": "49%",
+      "label": "Students in Secondary Schools",
+      "color": "#2563eb",
+      "note": "Secondary schools enroll 13.0 Cr (49% of total 26.5 Cr) in 2021-22. Foundational+Prep: 6.1 Cr across 7.6 L schools. Secondary: 13.0 Cr across 2.9 L schools",
+      "delta_val": "13.0 Cr",
+      "delta_label": "Secondary enrollment \u00b7 2.9 L schools"
+    },
+    "insight2": {
+      "num": "0.92",
+      "label": "National Gender Parity Index",
+      "color": "#0891b2",
+      "note": "SUM / SUM. GPI 0.92 means for every 100 boys, 92 girls enrolled. Female share: 48%",
+      "delta_val": "48%",
+      "delta_label": "Female enrollment share \u00b7 12.7 Cr girls enrolled"
+    }
+  },
+  "2022-23": {
+    "header": {
+      "label": "National Analytics",
+      "headline": "25.2 Cr students, 14.7 L schools \u2014 national picture 2022-23",
+      "sub": "full_school_data gives school, teacher and PTR aggregates. Student_final_25 adds management breakdown. GPI 0.92 \u00b7 PTR 26.6:1 \u00b7 72% PTR compliant \u00b7 Govt 54%"
+    },
+    "cards": [
+      {
+        "id": "schools",
+        "label": "Total Schools",
+        "fullLabel": "Total Schools",
+        "headline": "14.7 L",
+        "headlineNote": "Schools in UDISE+ 2022-23",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "82% rural by School Location",
+        "split": [
+          {
+            "val": "12.1 L",
+            "lbl": "Rural"
+          },
+          {
+            "val": "2.6 L",
+            "lbl": "Urban"
+          },
+          {
+            "val": "14.7 L",
+            "lbl": "Total",
+            "accent": true
+          }
+        ],
+        "note": "SUM \u00b7 Rural 82% (12.1 L) \u00b7 Urban 18% (2.6 L)"
+      },
+      {
+        "id": "students",
+        "label": "Total Enrollment",
+        "fullLabel": "Total Students",
+        "headline": "25.2 Cr",
+        "headlineNote": "Students enrolled nationally \u00b7 2022-23",
+        "color": "#0891b2",
+        "bar": 92,
+        "barLabel": "GPI = 0.92 (female / male ratio)",
+        "split": [
+          {
+            "val": "13.1 Cr",
+            "lbl": "Male"
+          },
+          {
+            "val": "12.1 Cr",
+            "lbl": "Female"
+          },
+          {
+            "val": "0.92",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "GPI = 0.92. Female: 48% of enrollment. Rural students: 17.1 Cr (68%)"
+      },
+      {
+        "id": "funnel",
+        "label": "Enrollment Funnel",
+        "fullLabel": "Distribution by Category",
+        "headline": "51%",
+        "headlineNote": "Students in Secondary Schools",
+        "color": "#d97706",
+        "bar": 51,
+        "barLabel": "12.9 Cr in Secondary of 25.2 Cr total",
+        "split": [
+          {
+            "val": "5.4 Cr",
+            "lbl": "Found+Prep"
+          },
+          {
+            "val": "6.9 Cr",
+            "lbl": "Middle"
+          },
+          {
+            "val": "12.9 Cr",
+            "lbl": "Secondary",
+            "accent": true
+          }
+        ],
+        "note": "Secondary schools hold 51% of total enrollment. Foundational+Prep: 5.4 Cr, Middle: 6.9 Cr, Secondary: 12.9 Cr"
+      },
+      {
+        "id": "ptr",
+        "label": "PTR Compliance",
+        "fullLabel": "/ total_schools",
+        "headline": "72%",
+        "headlineNote": "Schools within RTE PTR norm (\u226430)",
+        "color": "#6366f1",
+        "bar": 72,
+        "barLabel": "10.5 L compliant \u00b7 26.6:1 national PTR",
+        "split": [
+          {
+            "val": "10.5 L",
+            "lbl": "Compliant"
+          },
+          {
+            "val": "4.2 L",
+            "lbl": "Breach"
+          },
+          {
+            "val": "26.6:1",
+            "lbl": "Nat. PTR",
+            "accent": true
+          }
+        ],
+        "note": "/ total_schools = 72%. National PTR = 26.6:1"
+      }
+    ],
+    "chartLevel": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "5.4 Cr",
+        "pct": 42,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "6.9 Cr",
+        "pct": 54,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "12.9 Cr",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "chartLevelSource": "Foundational and Preparatory stages have the largest student base but the fewest secondary schools \u2014 creating a structural bottleneck as students move up the education ladder.",
+    "chartLevelNote": "Foundational+Prep 5.4 Cr \u00b7 Middle 6.9 Cr \u00b7 Secondary 12.9 Cr \u00b7 total 25.2 Cr.",
+    "chartCat": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "51%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "29%",
+        "pct": 57,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "20%",
+        "pct": 40,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatSource": "Secondary and Higher Secondary schools are under-represented relative to their student demand \u2014 one secondary school often serves students from multiple feeder upper-primary schools.",
+    "chartCatNote": "Foundational+Prep 51% \u00b7 Middle 29% \u00b7 Secondary 20% of 14.7 L total schools.",
+    "insight1": {
+      "num": "51%",
+      "label": "Students in Secondary Schools",
+      "color": "#2563eb",
+      "note": "Secondary schools enroll 12.9 Cr (51% of total 25.2 Cr) in 2022-23. Foundational+Prep: 5.4 Cr across 7.4 L schools. Secondary: 12.9 Cr across 3.0 L schools",
+      "delta_val": "12.9 Cr",
+      "delta_label": "Secondary enrollment \u00b7 3.0 L schools"
+    },
+    "insight2": {
+      "num": "0.92",
+      "label": "National Gender Parity Index",
+      "color": "#0891b2",
+      "note": "SUM / SUM. GPI 0.92 means for every 100 boys, 92 girls enrolled. Female share: 48%",
+      "delta_val": "48%",
+      "delta_label": "Female enrollment share \u00b7 12.1 Cr girls enrolled"
+    }
+  },
+  "2023-24": {
+    "header": {
+      "label": "National Analytics",
+      "headline": "24.8 Cr students, 14.7 L schools \u2014 national picture 2023-24",
+      "sub": "full_school_data gives school, teacher and PTR aggregates. Student_final_25 adds management breakdown. GPI 0.93 \u00b7 PTR 25.3:1 \u00b7 75% PTR compliant \u00b7 Govt 51%"
+    },
+    "cards": [
+      {
+        "id": "schools",
+        "label": "Total Schools",
+        "fullLabel": "Total Schools",
+        "headline": "14.7 L",
+        "headlineNote": "Schools in UDISE+ 2023-24",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "82% rural by School Location",
+        "split": [
+          {
+            "val": "12.1 L",
+            "lbl": "Rural"
+          },
+          {
+            "val": "2.6 L",
+            "lbl": "Urban"
+          },
+          {
+            "val": "14.7 L",
+            "lbl": "Total",
+            "accent": true
+          }
+        ],
+        "note": "SUM \u00b7 Rural 82% (12.1 L) \u00b7 Urban 18% (2.6 L)"
+      },
+      {
+        "id": "students",
+        "label": "Total Enrollment",
+        "fullLabel": "Total Students",
+        "headline": "24.8 Cr",
+        "headlineNote": "Students enrolled nationally \u00b7 2023-24",
+        "color": "#0891b2",
+        "bar": 93,
+        "barLabel": "GPI = 0.93 (female / male ratio)",
+        "split": [
+          {
+            "val": "12.9 Cr",
+            "lbl": "Male"
+          },
+          {
+            "val": "11.9 Cr",
+            "lbl": "Female"
+          },
+          {
+            "val": "0.93",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "GPI = 0.93. Female: 48% of enrollment. Rural students: 16.6 Cr (67%)"
+      },
+      {
+        "id": "funnel",
+        "label": "Enrollment Funnel",
+        "fullLabel": "Distribution by Category",
+        "headline": "52%",
+        "headlineNote": "Students in Secondary Schools",
+        "color": "#d97706",
+        "bar": 52,
+        "barLabel": "12.8 Cr in Secondary of 24.8 Cr total",
+        "split": [
+          {
+            "val": "5.1 Cr",
+            "lbl": "Found+Prep"
+          },
+          {
+            "val": "6.9 Cr",
+            "lbl": "Middle"
+          },
+          {
+            "val": "12.8 Cr",
+            "lbl": "Secondary",
+            "accent": true
+          }
+        ],
+        "note": "Secondary schools hold 52% of total enrollment. Foundational+Prep: 5.1 Cr, Middle: 6.9 Cr, Secondary: 12.8 Cr"
+      },
+      {
+        "id": "ptr",
+        "label": "PTR Compliance",
+        "fullLabel": "/ total_schools",
+        "headline": "75%",
+        "headlineNote": "Schools within RTE PTR norm (\u226430)",
+        "color": "#6366f1",
+        "bar": 75,
+        "barLabel": "11.0 L compliant \u00b7 25.3:1 national PTR",
+        "split": [
+          {
+            "val": "11.0 L",
+            "lbl": "Compliant"
+          },
+          {
+            "val": "3.7 L",
+            "lbl": "Breach"
+          },
+          {
+            "val": "25.3:1",
+            "lbl": "Nat. PTR",
+            "accent": true
+          }
+        ],
+        "note": "/ total_schools = 75%. National PTR = 25.3:1"
+      }
+    ],
+    "chartLevel": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "5.1 Cr",
+        "pct": 40,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "6.9 Cr",
+        "pct": 54,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "12.8 Cr",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "chartLevelSource": "Foundational and Preparatory stages have the largest student base but the fewest secondary schools \u2014 creating a structural bottleneck as students move up the education ladder.",
+    "chartLevelNote": "Foundational+Prep 5.1 Cr \u00b7 Middle 6.9 Cr \u00b7 Secondary 12.8 Cr \u00b7 total 24.8 Cr.",
+    "chartCat": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "50%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "29%",
+        "pct": 59,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "21%",
+        "pct": 41,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatSource": "Secondary and Higher Secondary schools are under-represented relative to their student demand \u2014 one secondary school often serves students from multiple feeder upper-primary schools.",
+    "chartCatNote": "Foundational+Prep 50% \u00b7 Middle 29% \u00b7 Secondary 21% of 14.7 L total schools.",
+    "insight1": {
+      "num": "52%",
+      "label": "Students in Secondary Schools",
+      "color": "#2563eb",
+      "note": "Secondary schools enroll 12.8 Cr (52% of total 24.8 Cr) in 2023-24. Foundational+Prep: 5.1 Cr across 7.4 L schools. Secondary: 12.8 Cr across 3.0 L schools",
+      "delta_val": "12.8 Cr",
+      "delta_label": "Secondary enrollment \u00b7 3.0 L schools"
+    },
+    "insight2": {
+      "num": "0.93",
+      "label": "National Gender Parity Index",
+      "color": "#0891b2",
+      "note": "SUM / SUM. GPI 0.93 means for every 100 boys, 93 girls enrolled. Female share: 48%",
+      "delta_val": "48%",
+      "delta_label": "Female enrollment share \u00b7 11.9 Cr girls enrolled"
+    }
+  },
+  "2024-25": {
+    "header": {
+      "label": "National Analytics",
+      "headline": "24.7 Cr students, 14.7 L schools \u2014 national picture 2024-25",
+      "sub": "full_school_data gives school, teacher and PTR aggregates. Student_final_25 adds management breakdown. GPI 0.94 \u00b7 PTR 24.4:1 \u00b7 78% PTR compliant \u00b7 Govt 49%"
+    },
+    "cards": [
+      {
+        "id": "schools",
+        "label": "Total Schools",
+        "fullLabel": "Total Schools",
+        "headline": "14.7 L",
+        "headlineNote": "Schools in UDISE+ 2024-25",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "82% rural by School Location",
+        "split": [
+          {
+            "val": "12.1 L",
+            "lbl": "Rural"
+          },
+          {
+            "val": "2.6 L",
+            "lbl": "Urban"
+          },
+          {
+            "val": "14.7 L",
+            "lbl": "Total",
+            "accent": true
+          }
+        ],
+        "note": "SUM \u00b7 Rural 82% (12.1 L) \u00b7 Urban 18% (2.6 L)"
+      },
+      {
+        "id": "students",
+        "label": "Total Enrollment",
+        "fullLabel": "Total Students",
+        "headline": "24.7 Cr",
+        "headlineNote": "Students enrolled nationally \u00b7 2024-25",
+        "color": "#0891b2",
+        "bar": 94,
+        "barLabel": "GPI = 0.94 (female / male ratio)",
+        "split": [
+          {
+            "val": "12.8 Cr",
+            "lbl": "Male"
+          },
+          {
+            "val": "11.9 Cr",
+            "lbl": "Female"
+          },
+          {
+            "val": "0.94",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "GPI = 0.94. Female: 48% of enrollment. Rural students: 16.4 Cr (66%)"
+      },
+      {
+        "id": "funnel",
+        "label": "Enrollment Funnel",
+        "fullLabel": "Distribution by Category",
+        "headline": "53%",
+        "headlineNote": "Students in Secondary Schools",
+        "color": "#d97706",
+        "bar": 53,
+        "barLabel": "13.1 Cr in Secondary of 24.7 Cr total",
+        "split": [
+          {
+            "val": "4.8 Cr",
+            "lbl": "Found+Prep"
+          },
+          {
+            "val": "6.8 Cr",
+            "lbl": "Middle"
+          },
+          {
+            "val": "13.1 Cr",
+            "lbl": "Secondary",
+            "accent": true
+          }
+        ],
+        "note": "Secondary schools hold 53% of total enrollment. Foundational+Prep: 4.8 Cr, Middle: 6.8 Cr, Secondary: 13.1 Cr"
+      },
+      {
+        "id": "ptr",
+        "label": "PTR Compliance",
+        "fullLabel": "/ total_schools",
+        "headline": "78%",
+        "headlineNote": "Schools within RTE PTR norm (\u226430)",
+        "color": "#6366f1",
+        "bar": 78,
+        "barLabel": "11.4 L compliant \u00b7 24.4:1 national PTR",
+        "split": [
+          {
+            "val": "11.4 L",
+            "lbl": "Compliant"
+          },
+          {
+            "val": "3.3 L",
+            "lbl": "Breach"
+          },
+          {
+            "val": "24.4:1",
+            "lbl": "Nat. PTR",
+            "accent": true
+          }
+        ],
+        "note": "/ total_schools = 78%. National PTR = 24.4:1"
+      }
+    ],
+    "chartLevel": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "4.8 Cr",
+        "pct": 37,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "6.8 Cr",
+        "pct": 52,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "13.1 Cr",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "chartLevelSource": "Foundational and Preparatory stages have the largest student base but the fewest secondary schools \u2014 creating a structural bottleneck as students move up the education ladder.",
+    "chartLevelNote": "Foundational+Prep 4.8 Cr \u00b7 Middle 6.8 Cr \u00b7 Secondary 13.1 Cr \u00b7 total 24.7 Cr.",
+    "chartCat": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "50%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "30%",
+        "pct": 59,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "21%",
+        "pct": 42,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatSource": "Secondary and Higher Secondary schools are under-represented relative to their student demand \u2014 one secondary school often serves students from multiple feeder upper-primary schools.",
+    "chartCatNote": "Foundational+Prep 50% \u00b7 Middle 30% \u00b7 Secondary 21% of 14.7 L total schools.",
+    "insight1": {
+      "num": "53%",
+      "label": "Students in Secondary Schools",
+      "color": "#2563eb",
+      "note": "Secondary schools enroll 13.1 Cr (53% of total 24.7 Cr) in 2024-25. Foundational+Prep: 4.8 Cr across 7.3 L schools. Secondary: 13.1 Cr across 3.1 L schools",
+      "delta_val": "13.1 Cr",
+      "delta_label": "Secondary enrollment \u00b7 3.1 L schools"
+    },
+    "insight2": {
+      "num": "0.94",
+      "label": "National Gender Parity Index",
+      "color": "#0891b2",
+      "note": "SUM / SUM. GPI 0.94 means for every 100 boys, 94 girls enrolled. Female share: 48%",
+      "delta_val": "48%",
+      "delta_label": "Female enrollment share \u00b7 11.9 Cr girls enrolled"
+    }
+  }
+}

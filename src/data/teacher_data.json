@@ -1,0 +1,1222 @@
+{
+  "2020-21": {
+    "year": "2020-21",
+    "header": {
+      "label": "Teacher Analytics",
+      "headline": "PTR, workforce, and the schools left behind",
+      "sub": "ptr_teacher_final has 80+ columns: 97.0 L teachers (51% female), 70% PTR compliance, 1.1 L single-teacher and 13,200 zero-teacher schools"
+    },
+    "cards": [
+      {
+        "id": "ptr",
+        "label": "PTR Analytics",
+        "fullLabel": "Pupil-Teacher Ratio",
+        "headline": "27:1",
+        "headlineNote": "National Average PTR \u00b7 2020-21",
+        "color": "#0e7490",
+        "bar": 70,
+        "barLabel": "70% compliant",
+        "split": [
+          {
+            "val": "10.6 L",
+            "lbl": "Compliant Schools"
+          },
+          {
+            "val": "4.5 L",
+            "lbl": "Non-Compliant"
+          },
+          {
+            "val": "70%",
+            "lbl": "Compliance Rate",
+            "accent": true
+          }
+        ],
+        "note": "= 70%. PTR = 27.3. 4.5 L schools exceed Right to Education"
+      },
+      {
+        "id": "workforce",
+        "label": "Teacher Workforce",
+        "fullLabel": "Total Teachers Nationally",
+        "headline": "97.0 L",
+        "headlineNote": "total_teachers_category",
+        "color": "#2563eb",
+        "bar": 51,
+        "barLabel": "51% female",
+        "split": [
+          {
+            "val": "47.5 L",
+            "lbl": "Male Teachers"
+          },
+          {
+            "val": "49.5 L",
+            "lbl": "Female Teachers"
+          },
+          {
+            "val": "51%",
+            "lbl": "Female Share",
+            "accent": true
+          }
+        ],
+        "note": "total_male + total_female teachers = 97.0 L. Female share = 51%"
+      },
+      {
+        "id": "single",
+        "label": "Single Teacher Schools",
+        "fullLabel": "Schools with 1 Teacher",
+        "headline": "1.1 L",
+        "headlineNote": "single_teacher_schools",
+        "color": "#d97706",
+        "bar": 48,
+        "barLabel": "48% non-compliant PTR",
+        "split": [
+          {
+            "val": "48.2 L",
+            "lbl": "Students Enrolled"
+          },
+          {
+            "val": "43:1",
+            "lbl": "PTR_single_teacher"
+          },
+          {
+            "val": "48%",
+            "lbl": "PTR > 30",
+            "accent": true
+          }
+        ],
+        "note": "= 48.2 L. PTR = 43:1. 48% non-compliant"
+      },
+      {
+        "id": "zero",
+        "label": "Zero Teacher Schools",
+        "fullLabel": "Schools with No Teachers",
+        "headline": "13,200",
+        "headlineNote": "zero_teacher_schools",
+        "color": "#d97706",
+        "bar": 9,
+        "barLabel": "0.88% of all schools",
+        "split": [
+          {
+            "val": "6.0 L",
+            "lbl": "Students Affected"
+          },
+          {
+            "val": "8,900",
+            "lbl": "Empty Schools (0 enrol)"
+          },
+          {
+            "val": "0.88%",
+            "lbl": "School Share",
+            "accent": true
+          }
+        ],
+        "note": "= 13,200. Students affected = 6.0 L. = 8,900"
+      }
+    ],
+    "chartLocRows": [
+      {
+        "name": "Urban",
+        "val": "66%",
+        "pct": 93,
+        "color": "#0e7490",
+        "note": "/ total"
+      },
+      {
+        "name": "Rural",
+        "val": "71%",
+        "pct": 100,
+        "color": "#0e7490",
+        "note": "/ total"
+      }
+    ],
+    "chartMgmtRows": [
+      {
+        "name": "Central Govt (KVS/NVS)",
+        "val": "54%",
+        "pct": 76,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "59%",
+        "pct": 82,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "69%",
+        "pct": 97,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Government",
+        "val": "72%",
+        "pct": 100,
+        "color": "#0e7490"
+      },
+      {
+        "name": "National Average",
+        "val": "70%",
+        "pct": 98,
+        "color": "#d97706"
+      }
+    ],
+    "chartLocSource": "Rural schools drive the majority of PTR non-compliance \u2014 concentrated teacher shortfalls in remote areas create compounding effects on learning outcomes.",
+    "chartLocNote": "Rural compliance (71%) vs Urban (66%). Gap = 5 pts. Govt schools: 72% vs Private: 69%. Most non-compliant schools are rural+govt.",
+    "singleBands": [
+      {
+        "name": "100+ students",
+        "val": "8,600",
+        "pct": 11,
+        "color": "#d97706",
+        "note": "\u2014 worst PTR burden, immediate priority"
+      },
+      {
+        "name": "51\u2013100 students",
+        "val": "20,700",
+        "pct": 27,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "5\u201350 students",
+        "val": "77,600",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "\u2014 majority of single-teacher schools"
+      },
+      {
+        "name": "< 5 students",
+        "val": "5,600",
+        "pct": 7,
+        "color": "#0e7490",
+        "note": "\u2014 small enough 1 teacher may suffice"
+      }
+    ],
+    "zeroBands": [
+      {
+        "name": "100+ enrolled, 0 teachers",
+        "val": "3.0 L",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "\u2014 most critical"
+      },
+      {
+        "name": "51\u2013100 enrolled",
+        "val": "1.6 L",
+        "pct": 55,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "5\u201350 enrolled",
+        "val": "1.5 L",
+        "pct": 50,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "< 5 enrolled",
+        "val": "806",
+        "pct": 0,
+        "color": "#0e7490",
+        "note": ""
+      }
+    ],
+    "chartBandSource": "Single-teacher schools are concentrated in small-enrollment rural settings \u2014 these schools serve the most vulnerable communities yet have the least resource coverage.",
+    "chartBandNote": "8,600 single-teacher schools have 100+ students. 3.0 L students in zero-teacher schools with 100+ each.",
+    "insight1": {
+      "num": "0",
+      "label": "Teachers Required to Reach PTR 30 Norm",
+      "color": "#d97706",
+      "delta_val": "\u221230.9 L",
+      "delta_label": "Offset: TeachersExcess_PTR_40 in over-staffed schools",
+      "delta_val2": "30.9 L",
+      "delta_label2": "Net deficit after redeployment \u2014 TeachersRequired \u2212 TeachersExcess"
+    },
+    "insight2": {
+      "num": "2.5 L",
+      "label": "Schools with PTR Above 40 \u2014 Critical Zone",
+      "color": "#d97706",
+      "delta_val": "74,200",
+      "delta_label": "Large schools (500+ students) non-compliant \u00b7 Total_Schools_PTR_above_30_students_above_500",
+      "delta_val2": "28,100",
+      "delta_label2": "Large compliant schools \u2014 Total_Schools_PTR_below_30_students_above_500"
+    }
+  },
+  "2021-22": {
+    "year": "2021-22",
+    "header": {
+      "label": "Teacher Analytics",
+      "headline": "PTR, workforce, and the schools left behind",
+      "sub": "ptr_teacher_final has 80+ columns: 95.1 L teachers (51% female), 68% PTR compliance, 1.2 L single-teacher and 12,200 zero-teacher schools"
+    },
+    "cards": [
+      {
+        "id": "ptr",
+        "label": "PTR Analytics",
+        "fullLabel": "Pupil-Teacher Ratio",
+        "headline": "28:1",
+        "headlineNote": "National Average PTR \u00b7 2021-22",
+        "color": "#0e7490",
+        "bar": 68,
+        "barLabel": "68% compliant",
+        "split": [
+          {
+            "val": "10.2 L",
+            "lbl": "Compliant Schools"
+          },
+          {
+            "val": "4.7 L",
+            "lbl": "Non-Compliant"
+          },
+          {
+            "val": "68%",
+            "lbl": "Compliance Rate",
+            "accent": true
+          }
+        ],
+        "note": "= 68%. PTR = 27.9. 4.7 L schools exceed Right to Education"
+      },
+      {
+        "id": "workforce",
+        "label": "Teacher Workforce",
+        "fullLabel": "Total Teachers Nationally",
+        "headline": "95.1 L",
+        "headlineNote": "total_teachers_category",
+        "color": "#2563eb",
+        "bar": 51,
+        "barLabel": "51% female",
+        "split": [
+          {
+            "val": "46.3 L",
+            "lbl": "Male Teachers"
+          },
+          {
+            "val": "48.8 L",
+            "lbl": "Female Teachers"
+          },
+          {
+            "val": "51%",
+            "lbl": "Female Share",
+            "accent": true
+          }
+        ],
+        "note": "total_male + total_female teachers = 95.1 L. Female share = 51%"
+      },
+      {
+        "id": "single",
+        "label": "Single Teacher Schools",
+        "fullLabel": "Schools with 1 Teacher",
+        "headline": "1.2 L",
+        "headlineNote": "single_teacher_schools",
+        "color": "#d97706",
+        "bar": 48,
+        "barLabel": "48% non-compliant PTR",
+        "split": [
+          {
+            "val": "48.4 L",
+            "lbl": "Students Enrolled"
+          },
+          {
+            "val": "41:1",
+            "lbl": "PTR_single_teacher"
+          },
+          {
+            "val": "48%",
+            "lbl": "PTR > 30",
+            "accent": true
+          }
+        ],
+        "note": "= 48.4 L. PTR = 41:1. 48% non-compliant"
+      },
+      {
+        "id": "zero",
+        "label": "Zero Teacher Schools",
+        "fullLabel": "Schools with No Teachers",
+        "headline": "12,200",
+        "headlineNote": "zero_teacher_schools",
+        "color": "#d97706",
+        "bar": 8,
+        "barLabel": "0.82% of all schools",
+        "split": [
+          {
+            "val": "4.3 L",
+            "lbl": "Students Affected"
+          },
+          {
+            "val": "11,500",
+            "lbl": "Empty Schools (0 enrol)"
+          },
+          {
+            "val": "0.82%",
+            "lbl": "School Share",
+            "accent": true
+          }
+        ],
+        "note": "= 12,200. Students affected = 4.3 L. = 11,500"
+      }
+    ],
+    "chartLocRows": [
+      {
+        "name": "Urban",
+        "val": "66%",
+        "pct": 95,
+        "color": "#0e7490",
+        "note": "/ total"
+      },
+      {
+        "name": "Rural",
+        "val": "69%",
+        "pct": 100,
+        "color": "#0e7490",
+        "note": "/ total"
+      }
+    ],
+    "chartMgmtRows": [
+      {
+        "name": "Central Govt (KVS/NVS)",
+        "val": "55%",
+        "pct": 76,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "56%",
+        "pct": 78,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "73%",
+        "pct": 100,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Government",
+        "val": "67%",
+        "pct": 93,
+        "color": "#0e7490"
+      },
+      {
+        "name": "National Average",
+        "val": "68%",
+        "pct": 94,
+        "color": "#d97706"
+      }
+    ],
+    "chartLocSource": "Rural schools drive the majority of PTR non-compliance \u2014 concentrated teacher shortfalls in remote areas create compounding effects on learning outcomes.",
+    "chartLocNote": "Rural compliance (69%) vs Urban (66%). Gap = 3 pts. Govt schools: 67% vs Private: 73%. Most non-compliant schools are rural+govt.",
+    "singleBands": [
+      {
+        "name": "100+ students",
+        "val": "8,700",
+        "pct": 11,
+        "color": "#d97706",
+        "note": "\u2014 worst PTR burden, immediate priority"
+      },
+      {
+        "name": "51\u2013100 students",
+        "val": "21,400",
+        "pct": 26,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "5\u201350 students",
+        "val": "82,500",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "\u2014 majority of single-teacher schools"
+      },
+      {
+        "name": "< 5 students",
+        "val": "5,900",
+        "pct": 7,
+        "color": "#0e7490",
+        "note": "\u2014 small enough 1 teacher may suffice"
+      }
+    ],
+    "zeroBands": [
+      {
+        "name": "100+ enrolled, 0 teachers",
+        "val": "1.9 L",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "\u2014 most critical"
+      },
+      {
+        "name": "51\u2013100 enrolled",
+        "val": "1.2 L",
+        "pct": 60,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "5\u201350 enrolled",
+        "val": "1.2 L",
+        "pct": 62,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "< 5 enrolled",
+        "val": "654",
+        "pct": 0,
+        "color": "#0e7490",
+        "note": ""
+      }
+    ],
+    "chartBandSource": "Single-teacher schools are concentrated in small-enrollment rural settings \u2014 these schools serve the most vulnerable communities yet have the least resource coverage.",
+    "chartBandNote": "8,700 single-teacher schools have 100+ students. 1.9 L students in zero-teacher schools with 100+ each.",
+    "insight1": {
+      "num": "0",
+      "label": "Teachers Required to Reach PTR 30 Norm",
+      "color": "#d97706",
+      "delta_val": "\u221228.8 L",
+      "delta_label": "Offset: TeachersExcess_PTR_40 in over-staffed schools",
+      "delta_val2": "28.8 L",
+      "delta_label2": "Net deficit after redeployment \u2014 TeachersRequired \u2212 TeachersExcess"
+    },
+    "insight2": {
+      "num": "2.6 L",
+      "label": "Schools with PTR Above 40 \u2014 Critical Zone",
+      "color": "#d97706",
+      "delta_val": "77,000",
+      "delta_label": "Large schools (500+ students) non-compliant \u00b7 Total_Schools_PTR_above_30_students_above_500",
+      "delta_val2": "26,500",
+      "delta_label2": "Large compliant schools \u2014 Total_Schools_PTR_below_30_students_above_500"
+    }
+  },
+  "2022-23": {
+    "year": "2022-23",
+    "header": {
+      "label": "Teacher Analytics",
+      "headline": "PTR, workforce, and the schools left behind",
+      "sub": "ptr_teacher_final has 80+ columns: 94.8 L teachers (52% female), 72% PTR compliance, 1.2 L single-teacher and 14,600 zero-teacher schools"
+    },
+    "cards": [
+      {
+        "id": "ptr",
+        "label": "PTR Analytics",
+        "fullLabel": "Pupil-Teacher Ratio",
+        "headline": "27:1",
+        "headlineNote": "National Average PTR \u00b7 2022-23",
+        "color": "#0e7490",
+        "bar": 72,
+        "barLabel": "72% compliant",
+        "split": [
+          {
+            "val": "10.5 L",
+            "lbl": "Compliant Schools"
+          },
+          {
+            "val": "4.2 L",
+            "lbl": "Non-Compliant"
+          },
+          {
+            "val": "72%",
+            "lbl": "Compliance Rate",
+            "accent": true
+          }
+        ],
+        "note": "= 72%. PTR = 26.6. 4.2 L schools exceed Right to Education"
+      },
+      {
+        "id": "workforce",
+        "label": "Teacher Workforce",
+        "fullLabel": "Total Teachers Nationally",
+        "headline": "94.8 L",
+        "headlineNote": "total_teachers_category",
+        "color": "#2563eb",
+        "bar": 52,
+        "barLabel": "52% female",
+        "split": [
+          {
+            "val": "45.2 L",
+            "lbl": "Male Teachers"
+          },
+          {
+            "val": "49.6 L",
+            "lbl": "Female Teachers"
+          },
+          {
+            "val": "52%",
+            "lbl": "Female Share",
+            "accent": true
+          }
+        ],
+        "note": "total_male + total_female teachers = 94.8 L. Female share = 52%"
+      },
+      {
+        "id": "single",
+        "label": "Single Teacher Schools",
+        "fullLabel": "Schools with 1 Teacher",
+        "headline": "1.2 L",
+        "headlineNote": "single_teacher_schools",
+        "color": "#d97706",
+        "bar": 43,
+        "barLabel": "43% non-compliant PTR",
+        "split": [
+          {
+            "val": "47.4 L",
+            "lbl": "Students Enrolled"
+          },
+          {
+            "val": "40:1",
+            "lbl": "PTR_single_teacher"
+          },
+          {
+            "val": "43%",
+            "lbl": "PTR > 30",
+            "accent": true
+          }
+        ],
+        "note": "= 47.4 L. PTR = 40:1. 43% non-compliant"
+      },
+      {
+        "id": "zero",
+        "label": "Zero Teacher Schools",
+        "fullLabel": "Schools with No Teachers",
+        "headline": "14,600",
+        "headlineNote": "zero_teacher_schools",
+        "color": "#d97706",
+        "bar": 10,
+        "barLabel": "1.00% of all schools",
+        "split": [
+          {
+            "val": "9.8 L",
+            "lbl": "Students Affected"
+          },
+          {
+            "val": "10,300",
+            "lbl": "Empty Schools (0 enrol)"
+          },
+          {
+            "val": "1.00%",
+            "lbl": "School Share",
+            "accent": true
+          }
+        ],
+        "note": "= 14,600. Students affected = 9.8 L. = 10,300"
+      }
+    ],
+    "chartLocRows": [
+      {
+        "name": "Urban",
+        "val": "68%",
+        "pct": 94,
+        "color": "#0e7490",
+        "note": "/ total"
+      },
+      {
+        "name": "Rural",
+        "val": "72%",
+        "pct": 100,
+        "color": "#0e7490",
+        "note": "/ total"
+      }
+    ],
+    "chartMgmtRows": [
+      {
+        "name": "Central Govt (KVS/NVS)",
+        "val": "63%",
+        "pct": 83,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "59%",
+        "pct": 78,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "76%",
+        "pct": 100,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Government",
+        "val": "71%",
+        "pct": 94,
+        "color": "#0e7490"
+      },
+      {
+        "name": "National Average",
+        "val": "72%",
+        "pct": 95,
+        "color": "#d97706"
+      }
+    ],
+    "chartLocSource": "Rural schools drive the majority of PTR non-compliance \u2014 concentrated teacher shortfalls in remote areas create compounding effects on learning outcomes.",
+    "chartLocNote": "Rural compliance (72%) vs Urban (68%). Gap = 4 pts. Govt schools: 71% vs Private: 76%. Most non-compliant schools are rural+govt.",
+    "singleBands": [
+      {
+        "name": "100+ students",
+        "val": "8,400",
+        "pct": 10,
+        "color": "#d97706",
+        "note": "\u2014 worst PTR burden, immediate priority"
+      },
+      {
+        "name": "51\u2013100 students",
+        "val": "18,300",
+        "pct": 21,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "5\u201350 students",
+        "val": "85,300",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "\u2014 majority of single-teacher schools"
+      },
+      {
+        "name": "< 5 students",
+        "val": "7,400",
+        "pct": 9,
+        "color": "#0e7490",
+        "note": "\u2014 small enough 1 teacher may suffice"
+      }
+    ],
+    "zeroBands": [
+      {
+        "name": "100+ enrolled, 0 teachers",
+        "val": "6.4 L",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "\u2014 most critical"
+      },
+      {
+        "name": "51\u2013100 enrolled",
+        "val": "1.8 L",
+        "pct": 28,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "5\u201350 enrolled",
+        "val": "1.6 L",
+        "pct": 25,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "< 5 enrolled",
+        "val": "1,100",
+        "pct": 0,
+        "color": "#0e7490",
+        "note": ""
+      }
+    ],
+    "chartBandSource": "Single-teacher schools are concentrated in small-enrollment rural settings \u2014 these schools serve the most vulnerable communities yet have the least resource coverage.",
+    "chartBandNote": "8,400 single-teacher schools have 100+ students. 6.4 L students in zero-teacher schools with 100+ each.",
+    "insight1": {
+      "num": "0",
+      "label": "Teachers Required to Reach PTR 30 Norm",
+      "color": "#d97706",
+      "delta_val": "\u221231.9 L",
+      "delta_label": "Offset: TeachersExcess_PTR_40 in over-staffed schools",
+      "delta_val2": "31.9 L",
+      "delta_label2": "Net deficit after redeployment \u2014 TeachersRequired \u2212 TeachersExcess"
+    },
+    "insight2": {
+      "num": "2.3 L",
+      "label": "Schools with PTR Above 40 \u2014 Critical Zone",
+      "color": "#d97706",
+      "delta_val": "71,300",
+      "delta_label": "Large schools (500+ students) non-compliant \u00b7 Total_Schools_PTR_above_30_students_above_500",
+      "delta_val2": "28,600",
+      "delta_label2": "Large compliant schools \u2014 Total_Schools_PTR_below_30_students_above_500"
+    }
+  },
+  "2023-24": {
+    "year": "2023-24",
+    "header": {
+      "label": "Teacher Analytics",
+      "headline": "PTR, workforce, and the schools left behind",
+      "sub": "ptr_teacher_final has 80+ columns: 98.1 L teachers (53% female), 75% PTR compliance, 1.1 L single-teacher and 13,600 zero-teacher schools"
+    },
+    "cards": [
+      {
+        "id": "ptr",
+        "label": "PTR Analytics",
+        "fullLabel": "Pupil-Teacher Ratio",
+        "headline": "25:1",
+        "headlineNote": "National Average PTR \u00b7 2023-24",
+        "color": "#0e7490",
+        "bar": 75,
+        "barLabel": "75% compliant",
+        "split": [
+          {
+            "val": "11.0 L",
+            "lbl": "Compliant Schools"
+          },
+          {
+            "val": "3.7 L",
+            "lbl": "Non-Compliant"
+          },
+          {
+            "val": "75%",
+            "lbl": "Compliance Rate",
+            "accent": true
+          }
+        ],
+        "note": "= 75%. PTR = 25.3. 3.7 L schools exceed Right to Education"
+      },
+      {
+        "id": "workforce",
+        "label": "Teacher Workforce",
+        "fullLabel": "Total Teachers Nationally",
+        "headline": "98.1 L",
+        "headlineNote": "total_teachers_category",
+        "color": "#2563eb",
+        "bar": 53,
+        "barLabel": "53% female",
+        "split": [
+          {
+            "val": "45.8 L",
+            "lbl": "Male Teachers"
+          },
+          {
+            "val": "52.3 L",
+            "lbl": "Female Teachers"
+          },
+          {
+            "val": "53%",
+            "lbl": "Female Share",
+            "accent": true
+          }
+        ],
+        "note": "total_male + total_female teachers = 98.1 L. Female share = 53%"
+      },
+      {
+        "id": "single",
+        "label": "Single Teacher Schools",
+        "fullLabel": "Schools with 1 Teacher",
+        "headline": "1.1 L",
+        "headlineNote": "single_teacher_schools",
+        "color": "#d97706",
+        "bar": 39,
+        "barLabel": "39% non-compliant PTR",
+        "split": [
+          {
+            "val": "39.9 L",
+            "lbl": "Students Enrolled"
+          },
+          {
+            "val": "36:1",
+            "lbl": "PTR_single_teacher"
+          },
+          {
+            "val": "39%",
+            "lbl": "PTR > 30",
+            "accent": true
+          }
+        ],
+        "note": "= 39.9 L. PTR = 36:1. 39% non-compliant"
+      },
+      {
+        "id": "zero",
+        "label": "Zero Teacher Schools",
+        "fullLabel": "Schools with No Teachers",
+        "headline": "13,600",
+        "headlineNote": "zero_teacher_schools",
+        "color": "#d97706",
+        "bar": 9,
+        "barLabel": "0.92% of all schools",
+        "split": [
+          {
+            "val": "6.8 L",
+            "lbl": "Students Affected"
+          },
+          {
+            "val": "13,000",
+            "lbl": "Empty Schools (0 enrol)"
+          },
+          {
+            "val": "0.92%",
+            "lbl": "School Share",
+            "accent": true
+          }
+        ],
+        "note": "= 13,600. Students affected = 6.8 L. = 13,000"
+      }
+    ],
+    "chartLocRows": [
+      {
+        "name": "Urban",
+        "val": "70%",
+        "pct": 92,
+        "color": "#0e7490",
+        "note": "/ total"
+      },
+      {
+        "name": "Rural",
+        "val": "76%",
+        "pct": 100,
+        "color": "#0e7490",
+        "note": "/ total"
+      }
+    ],
+    "chartMgmtRows": [
+      {
+        "name": "Central Govt (KVS/NVS)",
+        "val": "77%",
+        "pct": 100,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "60%",
+        "pct": 78,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "75%",
+        "pct": 98,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Government",
+        "val": "75%",
+        "pct": 98,
+        "color": "#0e7490"
+      },
+      {
+        "name": "National Average",
+        "val": "75%",
+        "pct": 97,
+        "color": "#d97706"
+      }
+    ],
+    "chartLocSource": "Rural schools drive the majority of PTR non-compliance \u2014 concentrated teacher shortfalls in remote areas create compounding effects on learning outcomes.",
+    "chartLocNote": "Rural compliance (76%) vs Urban (70%). Gap = 6 pts. Govt schools: 75% vs Private: 75%. Most non-compliant schools are rural+govt.",
+    "singleBands": [
+      {
+        "name": "100+ students",
+        "val": "6,400",
+        "pct": 8,
+        "color": "#d97706",
+        "note": "\u2014 worst PTR burden, immediate priority"
+      },
+      {
+        "name": "51\u2013100 students",
+        "val": "15,600",
+        "pct": 19,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "5\u201350 students",
+        "val": "81,200",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "\u2014 majority of single-teacher schools"
+      },
+      {
+        "name": "< 5 students",
+        "val": "8,700",
+        "pct": 11,
+        "color": "#0e7490",
+        "note": "\u2014 small enough 1 teacher may suffice"
+      }
+    ],
+    "zeroBands": [
+      {
+        "name": "100+ enrolled, 0 teachers",
+        "val": "4.3 L",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "\u2014 most critical"
+      },
+      {
+        "name": "51\u2013100 enrolled",
+        "val": "1.2 L",
+        "pct": 28,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "5\u201350 enrolled",
+        "val": "1.2 L",
+        "pct": 29,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "< 5 enrolled",
+        "val": "1,900",
+        "pct": 0,
+        "color": "#0e7490",
+        "note": ""
+      }
+    ],
+    "chartBandSource": "Single-teacher schools are concentrated in small-enrollment rural settings \u2014 these schools serve the most vulnerable communities yet have the least resource coverage.",
+    "chartBandNote": "6,400 single-teacher schools have 100+ students. 4.3 L students in zero-teacher schools with 100+ each.",
+    "insight1": {
+      "num": "0",
+      "label": "Teachers Required to Reach PTR 30 Norm",
+      "color": "#d97706",
+      "delta_val": "\u221236.1 L",
+      "delta_label": "Offset: TeachersExcess_PTR_40 in over-staffed schools",
+      "delta_val2": "36.1 L",
+      "delta_label2": "Net deficit after redeployment \u2014 TeachersRequired \u2212 TeachersExcess"
+    },
+    "insight2": {
+      "num": "1.9 L",
+      "label": "Schools with PTR Above 40 \u2014 Critical Zone",
+      "color": "#d97706",
+      "delta_val": "65,500",
+      "delta_label": "Large schools (500+ students) non-compliant \u00b7 Total_Schools_PTR_above_30_students_above_500",
+      "delta_val2": "32,300",
+      "delta_label2": "Large compliant schools \u2014 Total_Schools_PTR_below_30_students_above_500"
+    }
+  },
+  "2024-25": {
+    "year": "2024-25",
+    "header": {
+      "label": "Teacher Analytics",
+      "headline": "PTR, workforce, and the schools left behind",
+      "sub": "ptr_teacher_final has 80+ columns: 1.0 Cr teachers (54% female), 78% PTR compliance, 1.0 L single-teacher and 9,200 zero-teacher schools"
+    },
+    "cards": [
+      {
+        "id": "ptr",
+        "label": "PTR Analytics",
+        "fullLabel": "Pupil-Teacher Ratio",
+        "headline": "24:1",
+        "headlineNote": "National Average PTR \u00b7 2024-25",
+        "color": "#0e7490",
+        "bar": 78,
+        "barLabel": "78% compliant",
+        "split": [
+          {
+            "val": "11.5 L",
+            "lbl": "Compliant Schools"
+          },
+          {
+            "val": "3.3 L",
+            "lbl": "Non-Compliant"
+          },
+          {
+            "val": "78%",
+            "lbl": "Compliance Rate",
+            "accent": true
+          }
+        ],
+        "note": "= 78%. PTR = 24.4. 3.3 L schools exceed Right to Education"
+      },
+      {
+        "id": "workforce",
+        "label": "Teacher Workforce",
+        "fullLabel": "Total Teachers Nationally",
+        "headline": "1.0 Cr",
+        "headlineNote": "total_teachers_category",
+        "color": "#2563eb",
+        "bar": 54,
+        "barLabel": "54% female",
+        "split": [
+          {
+            "val": "46.4 L",
+            "lbl": "Male Teachers"
+          },
+          {
+            "val": "54.8 L",
+            "lbl": "Female Teachers"
+          },
+          {
+            "val": "54%",
+            "lbl": "Female Share",
+            "accent": true
+          }
+        ],
+        "note": "total_male + total_female teachers = 1.0 Cr. Female share = 54%"
+      },
+      {
+        "id": "single",
+        "label": "Single Teacher Schools",
+        "fullLabel": "Schools with 1 Teacher",
+        "headline": "1.0 L",
+        "headlineNote": "single_teacher_schools",
+        "color": "#d97706",
+        "bar": 34,
+        "barLabel": "34% non-compliant PTR",
+        "split": [
+          {
+            "val": "33.8 L",
+            "lbl": "Students Enrolled"
+          },
+          {
+            "val": "32:1",
+            "lbl": "PTR_single_teacher"
+          },
+          {
+            "val": "34%",
+            "lbl": "PTR > 30",
+            "accent": true
+          }
+        ],
+        "note": "= 33.8 L. PTR = 32:1. 34% non-compliant"
+      },
+      {
+        "id": "zero",
+        "label": "Zero Teacher Schools",
+        "fullLabel": "Schools with No Teachers",
+        "headline": "9,200",
+        "headlineNote": "zero_teacher_schools",
+        "color": "#d97706",
+        "bar": 6,
+        "barLabel": "0.63% of all schools",
+        "split": [
+          {
+            "val": "3.0 L",
+            "lbl": "Students Affected"
+          },
+          {
+            "val": "8,000",
+            "lbl": "Empty Schools (0 enrol)"
+          },
+          {
+            "val": "0.63%",
+            "lbl": "School Share",
+            "accent": true
+          }
+        ],
+        "note": "= 9,200. Students affected = 3.0 L. = 8,000"
+      }
+    ],
+    "chartLocRows": [
+      {
+        "name": "Urban",
+        "val": "71%",
+        "pct": 90,
+        "color": "#0e7490",
+        "note": "/ total"
+      },
+      {
+        "name": "Rural",
+        "val": "79%",
+        "pct": 100,
+        "color": "#0e7490",
+        "note": "/ total"
+      }
+    ],
+    "chartMgmtRows": [
+      {
+        "name": "Central Govt (KVS/NVS)",
+        "val": "82%",
+        "pct": 100,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "60%",
+        "pct": 73,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "75%",
+        "pct": 91,
+        "color": "#0e7490"
+      },
+      {
+        "name": "Government",
+        "val": "80%",
+        "pct": 97,
+        "color": "#0e7490"
+      },
+      {
+        "name": "National Average",
+        "val": "78%",
+        "pct": 94,
+        "color": "#d97706"
+      }
+    ],
+    "chartLocSource": "Rural schools drive the majority of PTR non-compliance \u2014 concentrated teacher shortfalls in remote areas create compounding effects on learning outcomes.",
+    "chartLocNote": "Rural compliance (79%) vs Urban (71%). Gap = 8 pts. Govt schools: 80% vs Private: 75%. Most non-compliant schools are rural+govt.",
+    "singleBands": [
+      {
+        "name": "100+ students",
+        "val": "4,900",
+        "pct": 6,
+        "color": "#d97706",
+        "note": "\u2014 worst PTR burden, immediate priority"
+      },
+      {
+        "name": "51\u2013100 students",
+        "val": "12,800",
+        "pct": 16,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "5\u201350 students",
+        "val": "78,000",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "\u2014 majority of single-teacher schools"
+      },
+      {
+        "name": "< 5 students",
+        "val": "9,200",
+        "pct": 12,
+        "color": "#0e7490",
+        "note": "\u2014 small enough 1 teacher may suffice"
+      }
+    ],
+    "zeroBands": [
+      {
+        "name": "100+ enrolled, 0 teachers",
+        "val": "1.6 L",
+        "pct": 100,
+        "color": "#d97706",
+        "note": "\u2014 most critical"
+      },
+      {
+        "name": "51\u2013100 enrolled",
+        "val": "65,700",
+        "pct": 41,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "5\u201350 enrolled",
+        "val": "79,000",
+        "pct": 50,
+        "color": "#d97706",
+        "note": ""
+      },
+      {
+        "name": "< 5 enrolled",
+        "val": "1,700",
+        "pct": 1,
+        "color": "#0e7490",
+        "note": ""
+      }
+    ],
+    "chartBandSource": "Single-teacher schools are concentrated in small-enrollment rural settings \u2014 these schools serve the most vulnerable communities yet have the least resource coverage.",
+    "chartBandNote": "4,900 single-teacher schools have 100+ students. 1.6 L students in zero-teacher schools with 100+ each.",
+    "insight1": {
+      "num": "82.3 L",
+      "label": "Teachers Required to Reach PTR 30 Norm",
+      "color": "#d97706",
+      "delta_val": "\u221239.5 L",
+      "delta_label": "Offset: TeachersExcess_PTR_40 in over-staffed schools",
+      "delta_val2": "42.8 L",
+      "delta_label2": "Net deficit after redeployment \u2014 TeachersRequired \u2212 TeachersExcess"
+    },
+    "insight2": {
+      "num": "64,800",
+      "label": "Large Schools Meeting PTR Norm",
+      "color": "#d97706",
+      "delta_val": "64,800",
+      "delta_label": "Large schools (500+ students) non-compliant \u00b7 Total_Schools_PTR_above_30_students_above_500",
+      "delta_val2": "35,300",
+      "delta_label2": "Large compliant schools \u2014 Total_Schools_PTR_below_30_students_above_500"
+    }
+  }
+}

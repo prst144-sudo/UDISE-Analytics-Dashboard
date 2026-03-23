@@ -1,0 +1,766 @@
+{
+  "2021-22": {
+    "header": {
+      "label": "Dropout Rate Analytics",
+      "headline": "Secondary 9.8% nationally · ST Secondary 13.5% · Preparatory 3.1%",
+      "sub": "In 2021-22, Secondary has the highest reported total dropout at 9.8%. At Secondary, boys are at 10.1% and girls at 9.4%. Among listed social groups at Secondary, ST is highest at 13.5% vs General at 8.1%."
+    },
+    "cards": [
+      {
+        "id": "overall",
+        "label": "Preparatory Dropout",
+        "fullLabel": "Preparatory Dropout Rate · National Total",
+        "headline": "3.1%",
+        "headlineNote": "Reported national Preparatory dropout · 2021-22",
+        "color": "#6366f1",
+        "bar": 16,
+        "barLabel": "Boys 3.1% · Girls 3.0%",
+        "split": [
+          {
+            "val": "3.1%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "3.0%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "+0.1",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Preparatory dropout is 3.1% in 2021-22. Boys 3.1% vs Girls 3.0%."
+      },
+      {
+        "id": "up",
+        "label": "Middle Dropout",
+        "fullLabel": "Middle Dropout Rate · National Total",
+        "headline": "3.0%",
+        "headlineNote": "Reported national Middle dropout · 2021-22",
+        "color": "#d97706",
+        "bar": 15,
+        "barLabel": "Boys 2.7% · Girls 3.3%",
+        "split": [
+          {
+            "val": "2.7%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "3.3%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "-0.6",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Middle dropout is 3.0% in 2021-22. Boys 2.7% vs Girls 3.3%."
+      },
+      {
+        "id": "st",
+        "label": "Secondary Dropout",
+        "fullLabel": "Secondary Dropout Rate · National Total",
+        "headline": "9.8%",
+        "headlineNote": "Highest reported stage nationally",
+        "color": "#7c3aed",
+        "bar": 49,
+        "barLabel": "Boys 10.1% · Girls 9.4%",
+        "split": [
+          {
+            "val": "10.1%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "9.4%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "+0.7",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Secondary dropout is 9.8% in 2021-22. Boys 10.1% vs Girls 9.4%."
+      },
+      {
+        "id": "gender",
+        "label": "ST Secondary Dropout",
+        "fullLabel": "Secondary Dropout Rate · ST Community",
+        "headline": "13.5%",
+        "headlineNote": "Highest listed social-group rate at Secondary",
+        "color": "#2563eb",
+        "bar": 68,
+        "barLabel": "1.7× the General rate at Secondary",
+        "split": [
+          {
+            "val": "13.5%",
+            "lbl": "ST"
+          },
+          {
+            "val": "10.1%",
+            "lbl": "OBC"
+          },
+          {
+            "val": "8.1%",
+            "lbl": "General",
+            "accent": true
+          }
+        ],
+        "note": "At Secondary in 2021-22, ST 13.5% · OBC 10.1% · SC 9.8% · General 8.1%."
+      }
+    ],
+    "chartDropClassRows": [
+      {
+        "name": "Secondary",
+        "val": "9.8%",
+        "boys": "10.1%",
+        "girls": "9.4%",
+        "pct": 100,
+        "boysPct": 103,
+        "girlsPct": 96,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Preparatory",
+        "val": "3.1%",
+        "boys": "3.1%",
+        "girls": "3.0%",
+        "pct": 32,
+        "boysPct": 32,
+        "girlsPct": 31,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Middle",
+        "val": "3.0%",
+        "boys": "2.7%",
+        "girls": "3.3%",
+        "pct": 31,
+        "boysPct": 28,
+        "girlsPct": 34,
+        "color": "#2563eb"
+      }
+    ],
+    "chartDropClassSource": "The base sheet reports dropout separately for Preparatory, Middle, and Secondary. In 2021-22, Secondary is the highest reported stage at 9.8%.",
+    "chartDropClassNote": "Secondary 9.8% · Preparatory 3.1% · Middle 3.0%. At Secondary, boys are 10.1% and girls are 9.4%.",
+    "chartDropSoc": [
+      {
+        "name": "ST",
+        "val": "13.5%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "OBC",
+        "val": "10.1%",
+        "pct": 75,
+        "color": "#0891b2"
+      },
+      {
+        "name": "SC",
+        "val": "9.8%",
+        "pct": 73,
+        "color": "#d97706"
+      },
+      {
+        "name": "General",
+        "val": "8.1%",
+        "pct": 60,
+        "color": "#2563eb"
+      }
+    ],
+    "chartDropSocSource": "This chart compares the reported Secondary dropout rates.",
+    "chartDropSocNote": "Secondary dropout by social group: ST 13.5% · OBC 10.1% · SC 9.8% · General 8.1%. ST–General gap: 5.4pts.",
+    "insight1": {
+      "num": "13.5%",
+      "label": "ST Secondary Dropout — Highest Listed Social Group · 2021-22",
+      "color": "#7c3aed",
+      "note": "At Secondary in 2021-22, ST dropout is 13.5% versus General at 8.1%. SC is 9.8% and OBC is 10.1%.",
+      "delta_val": "1.7×",
+      "delta_label": "ST vs General at Secondary · 5.4 point gap"
+    },
+    "insight2": {
+      "num": "9.8%",
+      "label": "Secondary — Highest Reported Stage · 2021-22",
+      "color": "#d97706",
+      "note": "Secondary has the highest reported national dropout in 2021-22 at 9.8%. Boys are at 10.1% and girls are at 9.4%.",
+      "delta_val": "+0.7pts",
+      "delta_label": "Boys−Girls gap at Secondary"
+    }
+  },
+  "2022-23": {
+    "header": {
+      "label": "Dropout Rate Analytics",
+      "headline": "Secondary 13.8% nationally · ST Secondary 20.1% · Preparatory 8.7%",
+      "sub": "In 2022-23, Secondary has the highest reported total dropout at 13.8%. At Secondary, boys are at 14.8% and girls at 12.6%. Among listed social groups at Secondary, ST is highest at 20.1% vs General at 11.9%."
+    },
+    "cards": [
+      {
+        "id": "overall",
+        "label": "Preparatory Dropout",
+        "fullLabel": "Preparatory Dropout Rate · National Total",
+        "headline": "8.7%",
+        "headlineNote": "Reported national Preparatory dropout · 2022-23",
+        "color": "#6366f1",
+        "bar": 44,
+        "barLabel": "Boys 8.6% · Girls 8.7%",
+        "split": [
+          {
+            "val": "8.6%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "8.7%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "-0.1",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Preparatory dropout is 8.7% in 2022-23. Boys 8.6% vs Girls 8.7%."
+      },
+      {
+        "id": "up",
+        "label": "Middle Dropout",
+        "fullLabel": "Middle Dropout Rate · National Total",
+        "headline": "8.1%",
+        "headlineNote": "Reported national Middle dropout · 2022-23",
+        "color": "#d97706",
+        "bar": 40,
+        "barLabel": "Boys 7.9% · Girls 8.3%",
+        "split": [
+          {
+            "val": "7.9%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "8.3%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "-0.4",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Middle dropout is 8.1% in 2022-23. Boys 7.9% vs Girls 8.3%."
+      },
+      {
+        "id": "st",
+        "label": "Secondary Dropout",
+        "fullLabel": "Secondary Dropout Rate · National Total",
+        "headline": "13.8%",
+        "headlineNote": "Highest reported stage nationally",
+        "color": "#7c3aed",
+        "bar": 69,
+        "barLabel": "Boys 14.8% · Girls 12.6%",
+        "split": [
+          {
+            "val": "14.8%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "12.6%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "+2.2",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Secondary dropout is 13.8% in 2022-23. Boys 14.8% vs Girls 12.6%."
+      },
+      {
+        "id": "gender",
+        "label": "ST Secondary Dropout",
+        "fullLabel": "Secondary Dropout Rate · ST Community",
+        "headline": "20.1%",
+        "headlineNote": "Highest listed social-group rate at Secondary",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "1.7× the General rate at Secondary",
+        "split": [
+          {
+            "val": "20.1%",
+            "lbl": "ST"
+          },
+          {
+            "val": "16.8%",
+            "lbl": "SC"
+          },
+          {
+            "val": "11.9%",
+            "lbl": "General",
+            "accent": true
+          }
+        ],
+        "note": "At Secondary in 2022-23, ST 20.1% · SC 16.8% · OBC 12.5% · General 11.9%."
+      }
+    ],
+    "chartDropClassRows": [
+      {
+        "name": "Secondary",
+        "val": "13.8%",
+        "boys": "14.8%",
+        "girls": "12.6%",
+        "pct": 100,
+        "boysPct": 107,
+        "girlsPct": 91,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Preparatory",
+        "val": "8.7%",
+        "boys": "8.6%",
+        "girls": "8.7%",
+        "pct": 63,
+        "boysPct": 62,
+        "girlsPct": 63,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Middle",
+        "val": "8.1%",
+        "boys": "7.9%",
+        "girls": "8.3%",
+        "pct": 59,
+        "boysPct": 57,
+        "girlsPct": 60,
+        "color": "#2563eb"
+      }
+    ],
+    "chartDropClassSource": "The base sheet reports dropout separately for Preparatory, Middle, and Secondary. In 2022-23, Secondary is the highest reported stage at 13.8%.",
+    "chartDropClassNote": "Secondary 13.8% · Preparatory 8.7% · Middle 8.1%. At Secondary, boys are 14.8% and girls are 12.6%.",
+    "chartDropSoc": [
+      {
+        "name": "ST",
+        "val": "20.1%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "SC",
+        "val": "16.8%",
+        "pct": 84,
+        "color": "#d97706"
+      },
+      {
+        "name": "OBC",
+        "val": "12.5%",
+        "pct": 62,
+        "color": "#0891b2"
+      },
+      {
+        "name": "General",
+        "val": "11.9%",
+        "pct": 59,
+        "color": "#2563eb"
+      }
+    ],
+    "chartDropSocSource": "This chart compares the reported Secondary dropout rates.",
+    "chartDropSocNote": "Secondary dropout by social group: ST 20.1% · SC 16.8% · OBC 12.5% · General 11.9%. ST–General gap: 8.2pts.",
+    "insight1": {
+      "num": "20.1%",
+      "label": "ST Secondary Dropout — Highest Listed Social Group · 2022-23",
+      "color": "#7c3aed",
+      "note": "At Secondary in 2022-23, ST dropout is 20.1% versus General at 11.9%. SC is 16.8% and OBC is 12.5%.",
+      "delta_val": "1.7×",
+      "delta_label": "ST vs General at Secondary · 8.2 point gap"
+    },
+    "insight2": {
+      "num": "13.8%",
+      "label": "Secondary — Highest Reported Stage · 2022-23",
+      "color": "#d97706",
+      "note": "Secondary has the highest reported national dropout in 2022-23 at 13.8%. Boys are at 14.8% and girls are at 12.6%.",
+      "delta_val": "+2.2pts",
+      "delta_label": "Boys−Girls gap at Secondary"
+    }
+  },
+  "2023-24": {
+    "header": {
+      "label": "Dropout Rate Analytics",
+      "headline": "Secondary 10.9% nationally · ST Secondary 15.9% · Middle 5.2%",
+      "sub": "In 2023-24, Secondary has the highest reported total dropout at 10.9%. At Secondary, boys are at 12.3% and girls at 9.4%. Among listed social groups at Secondary, ST is highest at 15.9% vs General at 8.9%."
+    },
+    "cards": [
+      {
+        "id": "overall",
+        "label": "Preparatory Dropout",
+        "fullLabel": "Preparatory Dropout Rate · National Total",
+        "headline": "3.7%",
+        "headlineNote": "Reported national Preparatory dropout · 2023-24",
+        "color": "#6366f1",
+        "bar": 18,
+        "barLabel": "Boys 3.9% · Girls 3.5%",
+        "split": [
+          {
+            "val": "3.9%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "3.5%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "+0.4",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Preparatory dropout is 3.7% in 2023-24. Boys 3.9% vs Girls 3.5%."
+      },
+      {
+        "id": "up",
+        "label": "Middle Dropout",
+        "fullLabel": "Middle Dropout Rate · National Total",
+        "headline": "5.2%",
+        "headlineNote": "Reported national Middle dropout · 2023-24",
+        "color": "#d97706",
+        "bar": 26,
+        "barLabel": "Boys 5.2% · Girls 5.3%",
+        "split": [
+          {
+            "val": "5.2%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "5.3%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "-0.1",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Middle dropout is 5.2% in 2023-24. Boys 5.2% vs Girls 5.3%."
+      },
+      {
+        "id": "st",
+        "label": "Secondary Dropout",
+        "fullLabel": "Secondary Dropout Rate · National Total",
+        "headline": "10.9%",
+        "headlineNote": "Highest reported stage nationally",
+        "color": "#7c3aed",
+        "bar": 54,
+        "barLabel": "Boys 12.3% · Girls 9.4%",
+        "split": [
+          {
+            "val": "12.3%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "9.4%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "+2.9",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Secondary dropout is 10.9% in 2023-24. Boys 12.3% vs Girls 9.4%."
+      },
+      {
+        "id": "gender",
+        "label": "ST Secondary Dropout",
+        "fullLabel": "Secondary Dropout Rate · ST Community",
+        "headline": "15.9%",
+        "headlineNote": "Highest listed social-group rate at Secondary",
+        "color": "#2563eb",
+        "bar": 80,
+        "barLabel": "1.8× the General rate at Secondary",
+        "split": [
+          {
+            "val": "15.9%",
+            "lbl": "ST"
+          },
+          {
+            "val": "12.2%",
+            "lbl": "SC"
+          },
+          {
+            "val": "8.9%",
+            "lbl": "General",
+            "accent": true
+          }
+        ],
+        "note": "At Secondary in 2023-24, ST 15.9% · SC 12.2% · OBC 10.6% · General 8.9%."
+      }
+    ],
+    "chartDropClassRows": [
+      {
+        "name": "Secondary",
+        "val": "10.9%",
+        "boys": "12.3%",
+        "girls": "9.4%",
+        "pct": 100,
+        "boysPct": 113,
+        "girlsPct": 86,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Middle",
+        "val": "5.2%",
+        "boys": "5.2%",
+        "girls": "5.3%",
+        "pct": 48,
+        "boysPct": 48,
+        "girlsPct": 49,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Preparatory",
+        "val": "3.7%",
+        "boys": "3.9%",
+        "girls": "3.5%",
+        "pct": 34,
+        "boysPct": 36,
+        "girlsPct": 32,
+        "color": "#2563eb"
+      }
+    ],
+    "chartDropClassSource": "The base sheet reports dropout separately for Preparatory, Middle, and Secondary. In 2023-24, Secondary is the highest reported stage at 10.9%.",
+    "chartDropClassNote": "Secondary 10.9% · Middle 5.2% · Preparatory 3.7%. At Secondary, boys are 12.3% and girls are 9.4%.",
+    "chartDropSoc": [
+      {
+        "name": "ST",
+        "val": "15.9%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "SC",
+        "val": "12.2%",
+        "pct": 77,
+        "color": "#d97706"
+      },
+      {
+        "name": "OBC",
+        "val": "10.6%",
+        "pct": 67,
+        "color": "#0891b2"
+      },
+      {
+        "name": "General",
+        "val": "8.9%",
+        "pct": 56,
+        "color": "#2563eb"
+      }
+    ],
+    "chartDropSocSource": "This chart compares the reported Secondary dropout rates.",
+    "chartDropSocNote": "Secondary dropout by social group: ST 15.9% · SC 12.2% · OBC 10.6% · General 8.9%. ST–General gap: 7.0pts.",
+    "insight1": {
+      "num": "15.9%",
+      "label": "ST Secondary Dropout — Highest Listed Social Group · 2023-24",
+      "color": "#7c3aed",
+      "note": "At Secondary in 2023-24, ST dropout is 15.9% versus General at 8.9%. SC is 12.2% and OBC is 10.6%.",
+      "delta_val": "1.8×",
+      "delta_label": "ST vs General at Secondary · 7.0 point gap"
+    },
+    "insight2": {
+      "num": "10.9%",
+      "label": "Secondary — Highest Reported Stage · 2023-24",
+      "color": "#d97706",
+      "note": "Secondary has the highest reported national dropout in 2023-24 at 10.9%. Boys are at 12.3% and girls are at 9.4%.",
+      "delta_val": "+2.9pts",
+      "delta_label": "Boys−Girls gap at Secondary"
+    }
+  },
+  "2024-25": {
+    "header": {
+      "label": "Dropout Rate Analytics",
+      "headline": "Secondary 8.6% nationally · ST Secondary 14.9% · Middle 3.5%",
+      "sub": "In 2024-25, Secondary has the highest reported total dropout at 8.6%. At Secondary, boys are at 10.2% and girls at 6.9%. Among listed social groups at Secondary, ST is highest at 14.9% vs General at 8.1%."
+    },
+    "cards": [
+      {
+        "id": "overall",
+        "label": "Preparatory Dropout",
+        "fullLabel": "Preparatory Dropout Rate · National Total",
+        "headline": "2.3%",
+        "headlineNote": "Reported national Preparatory dropout · 2024-25",
+        "color": "#6366f1",
+        "bar": 12,
+        "barLabel": "Boys 2.7% · Girls 1.8%",
+        "split": [
+          {
+            "val": "2.7%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "1.8%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "+0.9",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Preparatory dropout is 2.3% in 2024-25. Boys 2.7% vs Girls 1.8%."
+      },
+      {
+        "id": "up",
+        "label": "Middle Dropout",
+        "fullLabel": "Middle Dropout Rate · National Total",
+        "headline": "3.5%",
+        "headlineNote": "Reported national Middle dropout · 2024-25",
+        "color": "#d97706",
+        "bar": 18,
+        "barLabel": "Boys 4.1% · Girls 2.9%",
+        "split": [
+          {
+            "val": "4.1%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "2.9%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "+1.2",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Middle dropout is 3.5% in 2024-25. Boys 4.1% vs Girls 2.9%."
+      },
+      {
+        "id": "st",
+        "label": "Secondary Dropout",
+        "fullLabel": "Secondary Dropout Rate · National Total",
+        "headline": "8.6%",
+        "headlineNote": "Highest reported stage nationally",
+        "color": "#7c3aed",
+        "bar": 43,
+        "barLabel": "Boys 10.2% · Girls 6.9%",
+        "split": [
+          {
+            "val": "10.2%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "6.9%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "+3.3",
+            "lbl": "Gap",
+            "accent": true
+          }
+        ],
+        "note": "Secondary dropout is 8.6% in 2024-25. Boys 10.2% vs Girls 6.9%."
+      },
+      {
+        "id": "gender",
+        "label": "ST Secondary Dropout",
+        "fullLabel": "Secondary Dropout Rate · ST Community",
+        "headline": "14.9%",
+        "headlineNote": "Highest listed social-group rate at Secondary",
+        "color": "#2563eb",
+        "bar": 74,
+        "barLabel": "1.8× the General rate at Secondary",
+        "split": [
+          {
+            "val": "14.9%",
+            "lbl": "ST"
+          },
+          {
+            "val": "11.3%",
+            "lbl": "SC"
+          },
+          {
+            "val": "8.1%",
+            "lbl": "General",
+            "accent": true
+          }
+        ],
+        "note": "At Secondary in 2024-25, ST 14.9% · SC 11.3% · General 8.1% · OBC 6.6%."
+      }
+    ],
+    "chartDropClassRows": [
+      {
+        "name": "Secondary",
+        "val": "8.6%",
+        "boys": "10.2%",
+        "girls": "6.9%",
+        "pct": 100,
+        "boysPct": 119,
+        "girlsPct": 80,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Middle",
+        "val": "3.5%",
+        "boys": "4.1%",
+        "girls": "2.9%",
+        "pct": 41,
+        "boysPct": 48,
+        "girlsPct": 34,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Preparatory",
+        "val": "2.3%",
+        "boys": "2.7%",
+        "girls": "1.8%",
+        "pct": 27,
+        "boysPct": 31,
+        "girlsPct": 21,
+        "color": "#2563eb"
+      }
+    ],
+    "chartDropClassSource": "The base sheet reports dropout separately for Preparatory, Middle, and Secondary. In 2024-25, Secondary is the highest reported stage at 8.6%.",
+    "chartDropClassNote": "Secondary 8.6% · Middle 3.5% · Preparatory 2.3%. At Secondary, boys are 10.2% and girls are 6.9%.",
+    "chartDropSoc": [
+      {
+        "name": "ST",
+        "val": "14.9%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "SC",
+        "val": "11.3%",
+        "pct": 76,
+        "color": "#d97706"
+      },
+      {
+        "name": "General",
+        "val": "8.1%",
+        "pct": 54,
+        "color": "#2563eb"
+      },
+      {
+        "name": "OBC",
+        "val": "6.6%",
+        "pct": 44,
+        "color": "#0891b2"
+      }
+    ],
+    "chartDropSocSource": "This chart compares the reported Secondary dropout rates.",
+    "chartDropSocNote": "Secondary dropout by social group: ST 14.9% · SC 11.3% · General 8.1% · OBC 6.6%. ST–General gap: 6.8pts.",
+    "insight1": {
+      "num": "14.9%",
+      "label": "ST Secondary Dropout — Highest Listed Social Group · 2024-25",
+      "color": "#7c3aed",
+      "note": "At Secondary in 2024-25, ST dropout is 14.9% versus General at 8.1%. SC is 11.3% and OBC is 6.6%.",
+      "delta_val": "1.8×",
+      "delta_label": "ST vs General at Secondary · 6.8 point gap"
+    },
+    "insight2": {
+      "num": "8.6%",
+      "label": "Secondary — Highest Reported Stage · 2024-25",
+      "color": "#d97706",
+      "note": "Secondary has the highest reported national dropout in 2024-25 at 8.6%. Boys are at 10.2% and girls are at 6.9%.",
+      "delta_val": "+3.3pts",
+      "delta_label": "Boys−Girls gap at Secondary"
+    }
+  }
+}

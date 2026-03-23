@@ -1,0 +1,29 @@
+/* ═══════════════════════════════════════════════════════
+   TEACHER DASHBOARD — additional layout tokens
+   (card/section/insight/powerbi styles live in SocioDashboard.css)
+═══════════════════════════════════════════════════════ */
+
+/* ── DUAL CHART LAYOUT ──────────────────────────────── */
+.td-dual-charts {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0 24px;
+  align-items: start;
+}
+
+.td-chart-divider {
+  width: 1px;
+  background: var(--rule);
+  align-self: stretch;
+  margin: 4px 0;
+}
+
+.td-chart-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 4px;
+}

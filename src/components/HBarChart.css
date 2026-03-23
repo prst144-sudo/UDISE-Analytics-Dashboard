@@ -1,0 +1,95 @@
+/* ── HBarChart — horizontal bar chart with hover ──────────────── */
+.hbar-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.hbar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: default;
+  transition: background 0.15s ease;
+}
+.hbar-row--hov {
+  background: rgba(59, 111, 212, 0.06);
+}
+
+/* Label */
+.hbar-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--ink);
+  flex-shrink: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+}
+
+/* Track */
+.hbar-track {
+  flex: 1;
+  height: 12px;
+  background: var(--warm);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+/* Animated fill */
+.hbar-fill {
+  height: 100%;
+  width: 0;
+  animation: hbar-grow linear both;
+  transition: opacity 0.18s ease;
+}
+
+@keyframes hbar-grow {
+  from { width: 0 !important; }
+  to   { /* width set via inline style */ }
+}
+
+/* Value label */
+.hbar-val {
+  font-family: 'DM Sans', sans-serif
+  font-size: 13px;
+  font-weight: 800;
+  text-align: right;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+/* ── Tooltip ──────────────────────────────────────────────────── */
+.hbar-tooltip {
+  position: absolute;
+  z-index: 300;
+  pointer-events: none;
+  background: var(--ink);
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+  max-width: 260px;
+  transform: translate(-50%, -100%);
+  white-space: normal;
+  transition: opacity 0.1s ease;
+}
+.hbar-tt-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  color: #fff;
+}
+.hbar-tt-line {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.5;
+}

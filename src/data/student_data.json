@@ -1,0 +1,907 @@
+{
+  "2020-21": {
+    "header": {
+      "label": "Student Analytics",
+      "headline": "26.4 Cr students · GPI 0.92 · 51% in govt schools",
+      "sub": "Across 15.1 L schools in 2020-21: 6.1 Cr in Foundational+Prep, 7.5 Cr in Middle, 12.9 Cr in Secondary. Rural 70%, Female 48%"
+    },
+    "cards": [
+      {
+        "id": "enrollment",
+        "label": "ENROLLMENT",
+        "color": "#2563eb",
+        "fullLabel": "total_students · Rural + Urban · all schools",
+        "headline": "26.4 Cr",
+        "headlineNote": "All schools · 2020-21",
+        "bar": 100,
+        "barLabel": "vs 26.5 Cr peak (2021-22)",
+        "split": [
+          {
+            "val": "13.7 Cr",
+            "lbl": "Boys"
+          },
+          {
+            "val": "12.7 Cr",
+            "lbl": "Girls"
+          },
+          {
+            "val": "0.92",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "Total students enrolled across all school types. Female share: 48%"
+      },
+      {
+        "id": "government",
+        "label": "GOVT SCHOOLS",
+        "color": "#0891b2",
+        "fullLabel": "State + Central Govt enrollment share",
+        "headline": "51%",
+        "headlineNote": "13.5 Cr students",
+        "bar": 51,
+        "barLabel": "Aided 10% · Private 36%",
+        "split": [
+          {
+            "val": "70%",
+            "lbl": "Rural"
+          },
+          {
+            "val": "30%",
+            "lbl": "Urban"
+          },
+          {
+            "val": "36%",
+            "lbl": "Private %",
+            "accent": true
+          }
+        ],
+        "note": "Govt enrolls 51% — rural dominant at 70%"
+      },
+      {
+        "id": "primary",
+        "label": "FOUNDATIONAL + PREP",
+        "color": "#6366f1",
+        "fullLabel": "Foundational + Preparatory School type",
+        "headline": "6.1 Cr",
+        "headlineNote": "7.7 L schools",
+        "bar": 23,
+        "barLabel": "23% of total enrollment",
+        "split": [
+          {
+            "val": "49%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "51%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "7.5 Cr",
+            "lbl": "Middle",
+            "accent": true
+          }
+        ],
+        "note": "Foundational+Prep: 23% of total. 49% female"
+      },
+      {
+        "id": "secondary",
+        "label": "SECONDARY SCHOOLS",
+        "color": "#d97706",
+        "fullLabel": "Secondary School enrollment",
+        "headline": "12.9 Cr",
+        "headlineNote": "2.9 L schools",
+        "bar": 49,
+        "barLabel": "49% of total enrollment",
+        "split": [
+          {
+            "val": "47%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "53%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "2.7 Cr",
+            "lbl": "Aided",
+            "accent": true
+          }
+        ],
+        "note": "Secondary: 49% of total. 47% female"
+      }
+    ],
+    "chartCat": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "6.1 Cr",
+        "pct": 47,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "7.5 Cr",
+        "pct": 58,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "12.9 Cr",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatSource": "Secondary schools carry the highest per-school student load — foundational stages have more schools but fewer students each, signaling gaps in upper-grade access.",
+    "chartCatNote": "Foundational+Prep: 6.1 Cr · Middle: 7.5 Cr · Secondary: 12.9 Cr",
+    "chartMgmt": [
+      {
+        "name": "Government",
+        "val": "13.5 Cr",
+        "pct": 100,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Government-Aided",
+        "val": "2.7 Cr",
+        "pct": 20,
+        "color": "#d97706"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "9.5 Cr",
+        "pct": 71,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Others",
+        "val": "80 L",
+        "pct": 6,
+        "color": "#7a7060"
+      }
+    ],
+    "chartMgmtSource": "Government schools serve the vast majority of enrolled students despite lower resource intensity — the state sector remains the primary access channel for education across India.",
+    "chartMgmtNote": "Government 51% · Aided 10% · Private Unaided 36%",
+    "insight1": {
+      "num": "26.4 Cr",
+      "label": "Total Enrollment · 2020-21",
+      "color": "#2563eb",
+      "delta_val": "48%",
+      "delta_label": "Female share — 12.7 Cr girls enrolled",
+      "delta_val2": "0.92",
+      "delta_label2": "Gender Parity Index — below parity"
+    },
+    "insight2": {
+      "num": "51%",
+      "label": "Govt School Share · 2020-21",
+      "color": "#0891b2",
+      "delta_val": "70%",
+      "delta_label": "Rural enrollment — 18.5 Cr students",
+      "delta_val2": "36%",
+      "delta_label2": "Private Unaided share — 9.5 Cr students"
+    }
+  },
+  "2021-22": {
+    "header": {
+      "label": "Student Analytics",
+      "headline": "26.5 Cr students · GPI 0.92 · 54% in govt schools",
+      "sub": "Across 14.9 L schools in 2021-22: 6.1 Cr in Foundational+Prep, 7.5 Cr in Middle, 13 Cr in Secondary. Rural 70%, Female 48%"
+    },
+    "cards": [
+      {
+        "id": "enrollment",
+        "label": "ENROLLMENT",
+        "color": "#2563eb",
+        "fullLabel": "total_students · Rural + Urban · all schools",
+        "headline": "26.5 Cr",
+        "headlineNote": "All schools · 2021-22",
+        "bar": 100,
+        "barLabel": "vs 26.5 Cr peak (2021-22)",
+        "split": [
+          {
+            "val": "13.8 Cr",
+            "lbl": "Boys"
+          },
+          {
+            "val": "12.7 Cr",
+            "lbl": "Girls"
+          },
+          {
+            "val": "0.92",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "Total students enrolled across all school types. Female share: 48%"
+      },
+      {
+        "id": "government",
+        "label": "GOVT SCHOOLS",
+        "color": "#0891b2",
+        "fullLabel": "State + Central Govt enrollment share",
+        "headline": "54%",
+        "headlineNote": "14.3 Cr students",
+        "bar": 54,
+        "barLabel": "Aided 10% · Private 33%",
+        "split": [
+          {
+            "val": "70%",
+            "lbl": "Rural"
+          },
+          {
+            "val": "30%",
+            "lbl": "Urban"
+          },
+          {
+            "val": "33%",
+            "lbl": "Private %",
+            "accent": true
+          }
+        ],
+        "note": "Govt enrolls 54% — rural dominant at 70%"
+      },
+      {
+        "id": "primary",
+        "label": "FOUNDATIONAL + PREP",
+        "color": "#6366f1",
+        "fullLabel": "Foundational + Preparatory School type",
+        "headline": "6.1 Cr",
+        "headlineNote": "7.6 L schools",
+        "bar": 23,
+        "barLabel": "23% of total enrollment",
+        "split": [
+          {
+            "val": "49%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "51%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "7.5 Cr",
+            "lbl": "Middle",
+            "accent": true
+          }
+        ],
+        "note": "Foundational+Prep: 23% of total. 49% female"
+      },
+      {
+        "id": "secondary",
+        "label": "SECONDARY SCHOOLS",
+        "color": "#d97706",
+        "fullLabel": "Secondary School enrollment",
+        "headline": "13 Cr",
+        "headlineNote": "2.9 L schools",
+        "bar": 49,
+        "barLabel": "49% of total enrollment",
+        "split": [
+          {
+            "val": "48%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "52%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "2.7 Cr",
+            "lbl": "Aided",
+            "accent": true
+          }
+        ],
+        "note": "Secondary: 49% of total. 48% female"
+      }
+    ],
+    "chartCat": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "6.1 Cr",
+        "pct": 47,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "7.5 Cr",
+        "pct": 58,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "13 Cr",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatSource": "Secondary schools carry the highest per-school student load — foundational stages have more schools but fewer students each, signaling gaps in upper-grade access.",
+    "chartCatNote": "Foundational+Prep: 6.1 Cr · Middle: 7.5 Cr · Secondary: 13 Cr",
+    "chartMgmt": [
+      {
+        "name": "Government",
+        "val": "14.3 Cr",
+        "pct": 100,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Government-Aided",
+        "val": "2.7 Cr",
+        "pct": 19,
+        "color": "#d97706"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "8.8 Cr",
+        "pct": 62,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Others",
+        "val": "70 L",
+        "pct": 5,
+        "color": "#7a7060"
+      }
+    ],
+    "chartMgmtSource": "Government schools serve the vast majority of enrolled students despite lower resource intensity — the state sector remains the primary access channel for education across India.",
+    "chartMgmtNote": "Government 54% · Aided 10% · Private Unaided 33%",
+    "insight1": {
+      "num": "26.5 Cr",
+      "label": "Total Enrollment · 2021-22",
+      "color": "#2563eb",
+      "delta_val": "48%",
+      "delta_label": "Female share — 12.7 Cr girls enrolled",
+      "delta_val2": "0.92",
+      "delta_label2": "Gender Parity Index — below parity"
+    },
+    "insight2": {
+      "num": "54%",
+      "label": "Govt School Share · 2021-22",
+      "color": "#0891b2",
+      "delta_val": "70%",
+      "delta_label": "Rural enrollment — 18.5 Cr students",
+      "delta_val2": "33%",
+      "delta_label2": "Private Unaided share — 8.8 Cr students"
+    }
+  },
+  "2022-23": {
+    "header": {
+      "label": "Student Analytics",
+      "headline": "25.2 Cr students · GPI 0.92 · 54% in govt schools",
+      "sub": "Across 14.7 L schools in 2022-23: 5.4 Cr in Foundational+Prep, 6.9 Cr in Middle, 12.9 Cr in Secondary. Rural 68%, Female 48%"
+    },
+    "cards": [
+      {
+        "id": "enrollment",
+        "label": "ENROLLMENT",
+        "color": "#2563eb",
+        "fullLabel": "total_students · Rural + Urban · all schools",
+        "headline": "25.2 Cr",
+        "headlineNote": "All schools · 2022-23",
+        "bar": 95,
+        "barLabel": "vs 26.5 Cr peak (2021-22)",
+        "split": [
+          {
+            "val": "13.1 Cr",
+            "lbl": "Boys"
+          },
+          {
+            "val": "12.1 Cr",
+            "lbl": "Girls"
+          },
+          {
+            "val": "0.92",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "Total students enrolled across all school types. Female share: 48%"
+      },
+      {
+        "id": "government",
+        "label": "GOVT SCHOOLS",
+        "color": "#0891b2",
+        "fullLabel": "State + Central Govt enrollment share",
+        "headline": "54%",
+        "headlineNote": "13.6 Cr students",
+        "bar": 54,
+        "barLabel": "Aided 10% · Private 33%",
+        "split": [
+          {
+            "val": "68%",
+            "lbl": "Rural"
+          },
+          {
+            "val": "32%",
+            "lbl": "Urban"
+          },
+          {
+            "val": "33%",
+            "lbl": "Private %",
+            "accent": true
+          }
+        ],
+        "note": "Govt enrolls 54% — rural dominant at 68%"
+      },
+      {
+        "id": "primary",
+        "label": "FOUNDATIONAL + PREP",
+        "color": "#6366f1",
+        "fullLabel": "Foundational + Preparatory School type",
+        "headline": "5.4 Cr",
+        "headlineNote": "7.4 L schools",
+        "bar": 22,
+        "barLabel": "22% of total enrollment",
+        "split": [
+          {
+            "val": "49%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "51%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "6.9 Cr",
+            "lbl": "Middle",
+            "accent": true
+          }
+        ],
+        "note": "Foundational+Prep: 22% of total. 49% female"
+      },
+      {
+        "id": "secondary",
+        "label": "SECONDARY SCHOOLS",
+        "color": "#d97706",
+        "fullLabel": "Secondary School enrollment",
+        "headline": "12.9 Cr",
+        "headlineNote": "3 L schools",
+        "bar": 51,
+        "barLabel": "51% of total enrollment",
+        "split": [
+          {
+            "val": "48%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "52%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "2.6 Cr",
+            "lbl": "Aided",
+            "accent": true
+          }
+        ],
+        "note": "Secondary: 51% of total. 48% female"
+      }
+    ],
+    "chartCat": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "5.4 Cr",
+        "pct": 42,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "6.9 Cr",
+        "pct": 54,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "12.9 Cr",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatSource": "Secondary schools carry the highest per-school student load — foundational stages have more schools but fewer students each, signaling gaps in upper-grade access.",
+    "chartCatNote": "Foundational+Prep: 5.4 Cr · Middle: 6.9 Cr · Secondary: 12.9 Cr",
+    "chartMgmt": [
+      {
+        "name": "Government",
+        "val": "13.6 Cr",
+        "pct": 100,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Government-Aided",
+        "val": "2.6 Cr",
+        "pct": 19,
+        "color": "#d97706"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "8.4 Cr",
+        "pct": 62,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Others",
+        "val": "50 L",
+        "pct": 4,
+        "color": "#7a7060"
+      }
+    ],
+    "chartMgmtSource": "Government schools serve the vast majority of enrolled students despite lower resource intensity — the state sector remains the primary access channel for education across India.",
+    "chartMgmtNote": "Government 54% · Aided 10% · Private Unaided 33%",
+    "insight1": {
+      "num": "25.2 Cr",
+      "label": "Total Enrollment · 2022-23",
+      "color": "#2563eb",
+      "delta_val": "48%",
+      "delta_label": "Female share — 12.1 Cr girls enrolled",
+      "delta_val2": "0.92",
+      "delta_label2": "Gender Parity Index — below parity"
+    },
+    "insight2": {
+      "num": "54%",
+      "label": "Govt School Share · 2022-23",
+      "color": "#0891b2",
+      "delta_val": "68%",
+      "delta_label": "Rural enrollment — 17.1 Cr students",
+      "delta_val2": "33%",
+      "delta_label2": "Private Unaided share — 8.4 Cr students"
+    }
+  },
+  "2023-24": {
+    "header": {
+      "label": "Student Analytics",
+      "headline": "24.8 Cr students · GPI 0.93 · 51% in govt schools",
+      "sub": "Across 14.7 L schools in 2023-24: 5.1 Cr in Foundational+Prep, 6.9 Cr in Middle, 12.8 Cr in Secondary. Rural 67%, Female 48%"
+    },
+    "cards": [
+      {
+        "id": "enrollment",
+        "label": "ENROLLMENT",
+        "color": "#2563eb",
+        "fullLabel": "total_students · Rural + Urban · all schools",
+        "headline": "24.8 Cr",
+        "headlineNote": "All schools · 2023-24",
+        "bar": 94,
+        "barLabel": "vs 26.5 Cr peak (2021-22)",
+        "split": [
+          {
+            "val": "12.9 Cr",
+            "lbl": "Boys"
+          },
+          {
+            "val": "11.9 Cr",
+            "lbl": "Girls"
+          },
+          {
+            "val": "0.93",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "Total students enrolled across all school types. Female share: 48%"
+      },
+      {
+        "id": "government",
+        "label": "GOVT SCHOOLS",
+        "color": "#0891b2",
+        "fullLabel": "State + Central Govt enrollment share",
+        "headline": "51%",
+        "headlineNote": "12.7 Cr students",
+        "bar": 51,
+        "barLabel": "Aided 10% · Private 36%",
+        "split": [
+          {
+            "val": "67%",
+            "lbl": "Rural"
+          },
+          {
+            "val": "33%",
+            "lbl": "Urban"
+          },
+          {
+            "val": "36%",
+            "lbl": "Private %",
+            "accent": true
+          }
+        ],
+        "note": "Govt enrolls 51% — rural dominant at 67%"
+      },
+      {
+        "id": "primary",
+        "label": "FOUNDATIONAL + PREP",
+        "color": "#6366f1",
+        "fullLabel": "Foundational + Preparatory School type",
+        "headline": "5.1 Cr",
+        "headlineNote": "7.4 L schools",
+        "bar": 21,
+        "barLabel": "21% of total enrollment",
+        "split": [
+          {
+            "val": "49%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "51%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "6.9 Cr",
+            "lbl": "Middle",
+            "accent": true
+          }
+        ],
+        "note": "Foundational+Prep: 21% of total. 49% female"
+      },
+      {
+        "id": "secondary",
+        "label": "SECONDARY SCHOOLS",
+        "color": "#d97706",
+        "fullLabel": "Secondary School enrollment",
+        "headline": "12.8 Cr",
+        "headlineNote": "3 L schools",
+        "bar": 52,
+        "barLabel": "52% of total enrollment",
+        "split": [
+          {
+            "val": "48%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "52%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "2.6 Cr",
+            "lbl": "Aided",
+            "accent": true
+          }
+        ],
+        "note": "Secondary: 52% of total. 48% female"
+      }
+    ],
+    "chartCat": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "5.1 Cr",
+        "pct": 40,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "6.9 Cr",
+        "pct": 54,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "12.8 Cr",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatSource": "Secondary schools carry the highest per-school student load — foundational stages have more schools but fewer students each, signaling gaps in upper-grade access.",
+    "chartCatNote": "Foundational+Prep: 5.1 Cr · Middle: 6.9 Cr · Secondary: 12.8 Cr",
+    "chartMgmt": [
+      {
+        "name": "Government",
+        "val": "12.7 Cr",
+        "pct": 100,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Government-Aided",
+        "val": "2.6 Cr",
+        "pct": 20,
+        "color": "#d97706"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "9 Cr",
+        "pct": 71,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Others",
+        "val": "50 L",
+        "pct": 4,
+        "color": "#7a7060"
+      }
+    ],
+    "chartMgmtSource": "Government schools serve the vast majority of enrolled students despite lower resource intensity — the state sector remains the primary access channel for education across India.",
+    "chartMgmtNote": "Government 51% · Aided 10% · Private Unaided 36%",
+    "insight1": {
+      "num": "24.8 Cr",
+      "label": "Total Enrollment · 2023-24",
+      "color": "#2563eb",
+      "delta_val": "48%",
+      "delta_label": "Female share — 11.9 Cr girls enrolled",
+      "delta_val2": "0.93",
+      "delta_label2": "Gender Parity Index — near parity"
+    },
+    "insight2": {
+      "num": "51%",
+      "label": "Govt School Share · 2023-24",
+      "color": "#0891b2",
+      "delta_val": "67%",
+      "delta_label": "Rural enrollment — 16.6 Cr students",
+      "delta_val2": "36%",
+      "delta_label2": "Private Unaided share — 9 Cr students"
+    }
+  },
+  "2024-25": {
+    "header": {
+      "label": "Student Analytics",
+      "headline": "24.7 Cr students · GPI 0.94 · 49% in govt schools",
+      "sub": "Across 14.7 L schools in 2024-25: 4.8 Cr in Foundational+Prep, 6.8 Cr in Middle, 13.1 Cr in Secondary. Rural 66%, Female 48%"
+    },
+    "cards": [
+      {
+        "id": "enrollment",
+        "label": "ENROLLMENT",
+        "color": "#2563eb",
+        "fullLabel": "total_students · Rural + Urban · all schools",
+        "headline": "24.7 Cr",
+        "headlineNote": "All schools · 2024-25",
+        "bar": 93,
+        "barLabel": "vs 26.5 Cr peak (2021-22)",
+        "split": [
+          {
+            "val": "12.8 Cr",
+            "lbl": "Boys"
+          },
+          {
+            "val": "11.9 Cr",
+            "lbl": "Girls"
+          },
+          {
+            "val": "0.94",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "Total students enrolled across all school types. Female share: 48%"
+      },
+      {
+        "id": "government",
+        "label": "GOVT SCHOOLS",
+        "color": "#0891b2",
+        "fullLabel": "State + Central Govt enrollment share",
+        "headline": "49%",
+        "headlineNote": "12.2 Cr students",
+        "bar": 49,
+        "barLabel": "Aided 10% · Private 39%",
+        "split": [
+          {
+            "val": "66%",
+            "lbl": "Rural"
+          },
+          {
+            "val": "34%",
+            "lbl": "Urban"
+          },
+          {
+            "val": "39%",
+            "lbl": "Private %",
+            "accent": true
+          }
+        ],
+        "note": "Govt enrolls 49% — rural dominant at 66%"
+      },
+      {
+        "id": "primary",
+        "label": "FOUNDATIONAL + PREP",
+        "color": "#6366f1",
+        "fullLabel": "Foundational + Preparatory School type",
+        "headline": "4.8 Cr",
+        "headlineNote": "7.3 L schools",
+        "bar": 19,
+        "barLabel": "19% of total enrollment",
+        "split": [
+          {
+            "val": "49%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "51%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "6.8 Cr",
+            "lbl": "Middle",
+            "accent": true
+          }
+        ],
+        "note": "Foundational+Prep: 19% of total. 49% female"
+      },
+      {
+        "id": "secondary",
+        "label": "SECONDARY SCHOOLS",
+        "color": "#d97706",
+        "fullLabel": "Secondary School enrollment",
+        "headline": "13.1 Cr",
+        "headlineNote": "3.1 L schools",
+        "bar": 53,
+        "barLabel": "53% of total enrollment",
+        "split": [
+          {
+            "val": "48%",
+            "lbl": "Girls"
+          },
+          {
+            "val": "52%",
+            "lbl": "Boys"
+          },
+          {
+            "val": "2.5 Cr",
+            "lbl": "Aided",
+            "accent": true
+          }
+        ],
+        "note": "Secondary: 53% of total. 48% female"
+      }
+    ],
+    "chartCat": [
+      {
+        "name": "Foundational & Preparatory",
+        "val": "4.8 Cr",
+        "pct": 37,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle Schools",
+        "val": "6.8 Cr",
+        "pct": 52,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Secondary Schools",
+        "val": "13.1 Cr",
+        "pct": 100,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatSource": "Secondary schools carry the highest per-school student load — foundational stages have more schools but fewer students each, signaling gaps in upper-grade access.",
+    "chartCatNote": "Foundational+Prep: 4.8 Cr · Middle: 6.8 Cr · Secondary: 13.1 Cr",
+    "chartMgmt": [
+      {
+        "name": "Government",
+        "val": "12.2 Cr",
+        "pct": 100,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Government-Aided",
+        "val": "2.5 Cr",
+        "pct": 20,
+        "color": "#d97706"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "9.6 Cr",
+        "pct": 79,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Others",
+        "val": "50 L",
+        "pct": 4,
+        "color": "#7a7060"
+      }
+    ],
+    "chartMgmtSource": "Government schools serve the vast majority of enrolled students despite lower resource intensity — the state sector remains the primary access channel for education across India.",
+    "chartMgmtNote": "Government 49% · Aided 10% · Private Unaided 39%",
+    "insight1": {
+      "num": "24.7 Cr",
+      "label": "Total Enrollment · 2024-25",
+      "color": "#2563eb",
+      "delta_val": "48%",
+      "delta_label": "Female share — 11.9 Cr girls enrolled",
+      "delta_val2": "0.94",
+      "delta_label2": "Gender Parity Index — near parity"
+    },
+    "insight2": {
+      "num": "49%",
+      "label": "Govt School Share · 2024-25",
+      "color": "#0891b2",
+      "delta_val": "66%",
+      "delta_label": "Rural enrollment — 16.4 Cr students",
+      "delta_val2": "39%",
+      "delta_label2": "Private Unaided share — 9.6 Cr students"
+    }
+  }
+}

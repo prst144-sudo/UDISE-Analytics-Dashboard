@@ -1,0 +1,1252 @@
+{
+  "2020-21": {
+    "year": "2020-21",
+    "header": {
+      "label": "Comparative Analytics",
+      "headline": "Government vs private, rural vs urban \u2014 the same system, different outcomes",
+      "sub": "In 2020-21: National PTR compliance 65%. State Govt: 71% compliant vs Private: 69%. Rural: 67% vs Urban: 64%."
+    },
+    "cards": [
+      {
+        "id": "mgmt-ptr",
+        "label": "Govt vs Private PTR",
+        "fullLabel": "PTR compliance by Management type",
+        "headline": "71%",
+        "headlineNote": "Government schools PTR compliance",
+        "color": "#d97706",
+        "bar": 71,
+        "barLabel": "71% govt schools compliant",
+        "split": [
+          {
+            "val": "71%",
+            "lbl": "Govt Comply"
+          },
+          {
+            "val": "69%",
+            "lbl": "Private Comply"
+          },
+          {
+            "val": "+2 pts",
+            "lbl": "Govt Lead",
+            "accent": true
+          }
+        ],
+        "note": "Government schools 71% compliant vs Private 69%. Gap: +2 points."
+      },
+      {
+        "id": "loc-ptr",
+        "label": "Rural vs Urban PTR",
+        "fullLabel": "PTR compliance by School Location",
+        "headline": "67%",
+        "headlineNote": "Rural school PTR compliance",
+        "color": "#d97706",
+        "bar": 67,
+        "barLabel": "67% rural compliance",
+        "split": [
+          {
+            "val": "67%",
+            "lbl": "Rural Comply"
+          },
+          {
+            "val": "64%",
+            "lbl": "Urban Comply"
+          },
+          {
+            "val": "+3 pts",
+            "lbl": "Rural Lead",
+            "accent": true
+          }
+        ],
+        "note": "Rural compliance (67%) vs Urban (64%) \u2014 3-point difference"
+      },
+      {
+        "id": "gender",
+        "label": "Teacher Gender Parity",
+        "fullLabel": "Female teacher share by management",
+        "headline": "51%",
+        "headlineNote": "National female teacher share",
+        "color": "#2563eb",
+        "bar": 51,
+        "barLabel": "51% national female share",
+        "split": [
+          {
+            "val": "44%",
+            "lbl": "Govt Female%"
+          },
+          {
+            "val": "63%",
+            "lbl": "Private Female%"
+          },
+          {
+            "val": "+19",
+            "lbl": "Private Lead",
+            "accent": true
+          }
+        ],
+        "note": "Private female share (63%) vs Govt (44%). National = 51%"
+      },
+      {
+        "id": "deficit",
+        "label": "Teacher Deficit vs Surplus",
+        "fullLabel": "Teachers required for PTR 30 vs redeployable excess",
+        "headline": "8K",
+        "headlineNote": "Net teacher deficit nationally",
+        "color": "#0e7490",
+        "bar": 52,
+        "barLabel": "99K needed, 90K redeployable",
+        "split": [
+          {
+            "val": "99K",
+            "lbl": "Required"
+          },
+          {
+            "val": "90K",
+            "lbl": "Redeployable"
+          },
+          {
+            "val": "8K",
+            "lbl": "Net Deficit",
+            "accent": true
+          }
+        ],
+        "note": "Net deficit = 99K required \u2212 90K excess = 8K"
+      }
+    ],
+    "chartCrossRows": [
+      {
+        "name": "Others \u00b7 Urban",
+        "val": "74%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "State Govt \u00b7 Rural",
+        "val": "72%",
+        "pct": 97,
+        "color": "#d97706"
+      },
+      {
+        "name": "Private Unaided \u00b7 Rural",
+        "val": "70%",
+        "pct": 95,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Others \u00b7 Rural",
+        "val": "70%",
+        "pct": 95,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Private Unaided \u00b7 Urban",
+        "val": "69%",
+        "pct": 93,
+        "color": "#0e7490"
+      }
+    ],
+    "chartGenderRows": [
+      {
+        "name": "State Govt",
+        "val": "44%",
+        "pct": 70,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Central Govt",
+        "val": "45%",
+        "pct": 71,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "44%",
+        "pct": 70,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "63%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Others",
+        "val": "48%",
+        "pct": 76,
+        "color": "#2563eb"
+      }
+    ],
+    "chartCrossSource": "PTR compliance rate by management \u00d7 location combination \u2014 reveals which school types and geographies face the greatest overcrowding risk.",
+    "chartCrossNote": "Top-performing segments achieve over 74% compliance. The largest gaps are in State Government schools in urban areas.",
+    "chartSingleMgmt": [
+      {
+        "name": "State Govt",
+        "val": "88%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "88% of total"
+      },
+      {
+        "name": "Central Govt",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706",
+        "note": "0% of total"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "4%",
+        "pct": 5,
+        "color": "#0891b2",
+        "note": "4% of total"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "7%",
+        "pct": 8,
+        "color": "#2563eb",
+        "note": "7% of total"
+      },
+      {
+        "name": "Others",
+        "val": "2%",
+        "pct": 2,
+        "color": "#0e7490",
+        "note": "2% of total"
+      }
+    ],
+    "chartZeroLoc": [
+      {
+        "name": "Rural",
+        "val": "82%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": ""
+      },
+      {
+        "name": "Urban",
+        "val": "18%",
+        "pct": 22,
+        "color": "#0891b2"
+      }
+    ],
+    "chartVulSource": "Single-teacher school distribution by management and zero-teacher school distribution by location \u2014 reveals structural vulnerabilities in school staffing.",
+    "chartVulNote": "State Government schools account for the majority of single-teacher schools. Rural locations host most zero-teacher schools.",
+    "insight1": {
+      "num": "65%",
+      "label": "National PTR Compliance",
+      "note": "26,230 of 40,438 schools meet PTR \u2264 30 norm in 2020-21. National average compliance rate.",
+      "color": "#d97706",
+      "delta_val": "67%",
+      "delta_label": "Rural compliance rate"
+    },
+    "insight2": {
+      "num": "51%",
+      "label": "Female Teacher Share",
+      "note": "49.5 L female of 97.0 L total teachers. Private schools lead at 63% vs Govt 44%.",
+      "color": "#2563eb",
+      "delta_val": "8K",
+      "delta_label": "Net teacher deficit"
+    }
+  },
+  "2021-22": {
+    "year": "2021-22",
+    "header": {
+      "label": "Comparative Analytics",
+      "headline": "Government vs private, rural vs urban \u2014 the same system, different outcomes",
+      "sub": "In 2021-22: National PTR compliance 61%. State Govt: 67% compliant vs Private: 73%. Rural: 62% vs Urban: 61%."
+    },
+    "cards": [
+      {
+        "id": "mgmt-ptr",
+        "label": "Govt vs Private PTR",
+        "fullLabel": "PTR compliance by Management type",
+        "headline": "67%",
+        "headlineNote": "Government schools PTR compliance",
+        "color": "#d97706",
+        "bar": 67,
+        "barLabel": "67% govt schools compliant",
+        "split": [
+          {
+            "val": "67%",
+            "lbl": "Govt Comply"
+          },
+          {
+            "val": "73%",
+            "lbl": "Private Comply"
+          },
+          {
+            "val": "-6 pts",
+            "lbl": "Govt Lead",
+            "accent": true
+          }
+        ],
+        "note": "Government schools 67% compliant vs Private 73%. Gap: -6 points."
+      },
+      {
+        "id": "loc-ptr",
+        "label": "Rural vs Urban PTR",
+        "fullLabel": "PTR compliance by School Location",
+        "headline": "62%",
+        "headlineNote": "Rural school PTR compliance",
+        "color": "#d97706",
+        "bar": 62,
+        "barLabel": "62% rural compliance",
+        "split": [
+          {
+            "val": "62%",
+            "lbl": "Rural Comply"
+          },
+          {
+            "val": "61%",
+            "lbl": "Urban Comply"
+          },
+          {
+            "val": "+1 pts",
+            "lbl": "Rural Lead",
+            "accent": true
+          }
+        ],
+        "note": "Rural compliance (62%) vs Urban (61%) \u2014 1-point difference"
+      },
+      {
+        "id": "gender",
+        "label": "Teacher Gender Parity",
+        "fullLabel": "Female teacher share by management",
+        "headline": "51%",
+        "headlineNote": "National female teacher share",
+        "color": "#2563eb",
+        "bar": 51,
+        "barLabel": "51% national female share",
+        "split": [
+          {
+            "val": "44%",
+            "lbl": "Govt Female%"
+          },
+          {
+            "val": "63%",
+            "lbl": "Private Female%"
+          },
+          {
+            "val": "+19",
+            "lbl": "Private Lead",
+            "accent": true
+          }
+        ],
+        "note": "Private female share (63%) vs Govt (44%). National = 51%"
+      },
+      {
+        "id": "deficit",
+        "label": "Teacher Deficit vs Surplus",
+        "fullLabel": "Teachers required for PTR 30 vs redeployable excess",
+        "headline": "23K",
+        "headlineNote": "Net teacher deficit nationally",
+        "color": "#0e7490",
+        "bar": 56,
+        "barLabel": "1.1 L needed, 84K redeployable",
+        "split": [
+          {
+            "val": "1.1 L",
+            "lbl": "Required"
+          },
+          {
+            "val": "84K",
+            "lbl": "Redeployable"
+          },
+          {
+            "val": "23K",
+            "lbl": "Net Deficit",
+            "accent": true
+          }
+        ],
+        "note": "Net deficit = 1.1 L required \u2212 84K excess = 23K"
+      }
+    ],
+    "chartCrossRows": [
+      {
+        "name": "Others \u00b7 Urban",
+        "val": "77%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Private Unaided \u00b7 Rural",
+        "val": "74%",
+        "pct": 96,
+        "color": "#d97706"
+      },
+      {
+        "name": "Others \u00b7 Rural",
+        "val": "72%",
+        "pct": 94,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Private Unaided \u00b7 Urban",
+        "val": "71%",
+        "pct": 92,
+        "color": "#2563eb"
+      },
+      {
+        "name": "State Govt \u00b7 Rural",
+        "val": "68%",
+        "pct": 88,
+        "color": "#0e7490"
+      }
+    ],
+    "chartGenderRows": [
+      {
+        "name": "State Govt",
+        "val": "44%",
+        "pct": 70,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Central Govt",
+        "val": "46%",
+        "pct": 73,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "45%",
+        "pct": 71,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "63%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Others",
+        "val": "48%",
+        "pct": 76,
+        "color": "#2563eb"
+      }
+    ],
+    "chartCrossSource": "PTR compliance rate by management \u00d7 location combination \u2014 reveals which school types and geographies face the greatest overcrowding risk.",
+    "chartCrossNote": "Top-performing segments achieve over 77% compliance. The largest gaps are in State Government schools in urban areas.",
+    "chartSingleMgmt": [
+      {
+        "name": "State Govt",
+        "val": "89%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "89% of total"
+      },
+      {
+        "name": "Central Govt",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706",
+        "note": "0% of total"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "3%",
+        "pct": 3,
+        "color": "#0891b2",
+        "note": "3% of total"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "6%",
+        "pct": 7,
+        "color": "#2563eb",
+        "note": "6% of total"
+      },
+      {
+        "name": "Others",
+        "val": "2%",
+        "pct": 2,
+        "color": "#0e7490",
+        "note": "2% of total"
+      }
+    ],
+    "chartZeroLoc": [
+      {
+        "name": "Rural",
+        "val": "82%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": ""
+      },
+      {
+        "name": "Urban",
+        "val": "18%",
+        "pct": 22,
+        "color": "#0891b2"
+      }
+    ],
+    "chartVulSource": "Single-teacher school distribution by management and zero-teacher school distribution by location \u2014 reveals structural vulnerabilities in school staffing.",
+    "chartVulNote": "State Government schools account for the majority of single-teacher schools. Rural locations host most zero-teacher schools.",
+    "insight1": {
+      "num": "61%",
+      "label": "National PTR Compliance",
+      "note": "23,588 of 38,694 schools meet PTR \u2264 30 norm in 2021-22. National average compliance rate.",
+      "color": "#d97706",
+      "delta_val": "62%",
+      "delta_label": "Rural compliance rate"
+    },
+    "insight2": {
+      "num": "51%",
+      "label": "Female Teacher Share",
+      "note": "48.8 L female of 95.1 L total teachers. Private schools lead at 63% vs Govt 44%.",
+      "color": "#2563eb",
+      "delta_val": "23K",
+      "delta_label": "Net teacher deficit"
+    }
+  },
+  "2022-23": {
+    "year": "2022-23",
+    "header": {
+      "label": "Comparative Analytics",
+      "headline": "Government vs private, rural vs urban \u2014 the same system, different outcomes",
+      "sub": "In 2022-23: National PTR compliance 63%. State Govt: 70% compliant vs Private: 76%. Rural: 66% vs Urban: 62%."
+    },
+    "cards": [
+      {
+        "id": "mgmt-ptr",
+        "label": "Govt vs Private PTR",
+        "fullLabel": "PTR compliance by Management type",
+        "headline": "70%",
+        "headlineNote": "Government schools PTR compliance",
+        "color": "#d97706",
+        "bar": 70,
+        "barLabel": "70% govt schools compliant",
+        "split": [
+          {
+            "val": "70%",
+            "lbl": "Govt Comply"
+          },
+          {
+            "val": "76%",
+            "lbl": "Private Comply"
+          },
+          {
+            "val": "-6 pts",
+            "lbl": "Govt Lead",
+            "accent": true
+          }
+        ],
+        "note": "Government schools 70% compliant vs Private 76%. Gap: -6 points."
+      },
+      {
+        "id": "loc-ptr",
+        "label": "Rural vs Urban PTR",
+        "fullLabel": "PTR compliance by School Location",
+        "headline": "66%",
+        "headlineNote": "Rural school PTR compliance",
+        "color": "#d97706",
+        "bar": 66,
+        "barLabel": "66% rural compliance",
+        "split": [
+          {
+            "val": "66%",
+            "lbl": "Rural Comply"
+          },
+          {
+            "val": "62%",
+            "lbl": "Urban Comply"
+          },
+          {
+            "val": "+4 pts",
+            "lbl": "Rural Lead",
+            "accent": true
+          }
+        ],
+        "note": "Rural compliance (66%) vs Urban (62%) \u2014 4-point difference"
+      },
+      {
+        "id": "gender",
+        "label": "Teacher Gender Parity",
+        "fullLabel": "Female teacher share by management",
+        "headline": "52%",
+        "headlineNote": "National female teacher share",
+        "color": "#2563eb",
+        "bar": 52,
+        "barLabel": "52% national female share",
+        "split": [
+          {
+            "val": "44%",
+            "lbl": "Govt Female%"
+          },
+          {
+            "val": "65%",
+            "lbl": "Private Female%"
+          },
+          {
+            "val": "+21",
+            "lbl": "Private Lead",
+            "accent": true
+          }
+        ],
+        "note": "Private female share (65%) vs Govt (44%). National = 52%"
+      },
+      {
+        "id": "deficit",
+        "label": "Teacher Deficit vs Surplus",
+        "fullLabel": "Teachers required for PTR 30 vs redeployable excess",
+        "headline": "9K",
+        "headlineNote": "Net teacher deficit nationally",
+        "color": "#0e7490",
+        "bar": 52,
+        "barLabel": "95K needed, 87K redeployable",
+        "split": [
+          {
+            "val": "95K",
+            "lbl": "Required"
+          },
+          {
+            "val": "87K",
+            "lbl": "Redeployable"
+          },
+          {
+            "val": "9K",
+            "lbl": "Net Deficit",
+            "accent": true
+          }
+        ],
+        "note": "Net deficit = 95K required \u2212 87K excess = 9K"
+      }
+    ],
+    "chartCrossRows": [
+      {
+        "name": "Others \u00b7 Urban",
+        "val": "86%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Others \u00b7 Rural",
+        "val": "83%",
+        "pct": 97,
+        "color": "#d97706"
+      },
+      {
+        "name": "Private Unaided \u00b7 Rural",
+        "val": "78%",
+        "pct": 91,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Central Govt \u00b7 Rural",
+        "val": "76%",
+        "pct": 88,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Private Unaided \u00b7 Urban",
+        "val": "73%",
+        "pct": 85,
+        "color": "#0e7490"
+      }
+    ],
+    "chartGenderRows": [
+      {
+        "name": "State Govt",
+        "val": "44%",
+        "pct": 68,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Central Govt",
+        "val": "46%",
+        "pct": 71,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "45%",
+        "pct": 69,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "65%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Others",
+        "val": "48%",
+        "pct": 74,
+        "color": "#2563eb"
+      }
+    ],
+    "chartCrossSource": "PTR compliance rate by management \u00d7 location combination \u2014 reveals which school types and geographies face the greatest overcrowding risk.",
+    "chartCrossNote": "Top-performing segments achieve over 86% compliance. The largest gaps are in State Government schools in urban areas.",
+    "chartSingleMgmt": [
+      {
+        "name": "State Govt",
+        "val": "89%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "89% of total"
+      },
+      {
+        "name": "Central Govt",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706",
+        "note": "0% of total"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "3%",
+        "pct": 3,
+        "color": "#0891b2",
+        "note": "3% of total"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "6%",
+        "pct": 7,
+        "color": "#2563eb",
+        "note": "6% of total"
+      },
+      {
+        "name": "Others",
+        "val": "2%",
+        "pct": 2,
+        "color": "#0e7490",
+        "note": "2% of total"
+      }
+    ],
+    "chartZeroLoc": [
+      {
+        "name": "Rural",
+        "val": "82%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": ""
+      },
+      {
+        "name": "Urban",
+        "val": "18%",
+        "pct": 22,
+        "color": "#0891b2"
+      }
+    ],
+    "chartVulSource": "Single-teacher school distribution by management and zero-teacher school distribution by location \u2014 reveals structural vulnerabilities in school staffing.",
+    "chartVulNote": "State Government schools account for the majority of single-teacher schools. Rural locations host most zero-teacher schools.",
+    "insight1": {
+      "num": "63%",
+      "label": "National PTR Compliance",
+      "note": "22,958 of 36,568 schools meet PTR \u2264 30 norm in 2022-23. National average compliance rate.",
+      "color": "#d97706",
+      "delta_val": "66%",
+      "delta_label": "Rural compliance rate"
+    },
+    "insight2": {
+      "num": "52%",
+      "label": "Female Teacher Share",
+      "note": "49.6 L female of 94.8 L total teachers. Private schools lead at 65% vs Govt 44%.",
+      "color": "#2563eb",
+      "delta_val": "9K",
+      "delta_label": "Net teacher deficit"
+    }
+  },
+  "2023-24": {
+    "year": "2023-24",
+    "header": {
+      "label": "Comparative Analytics",
+      "headline": "Government vs private, rural vs urban \u2014 the same system, different outcomes",
+      "sub": "In 2023-24: National PTR compliance 67%. State Govt: 74% compliant vs Private: 75%. Rural: 71% vs Urban: 66%."
+    },
+    "cards": [
+      {
+        "id": "mgmt-ptr",
+        "label": "Govt vs Private PTR",
+        "fullLabel": "PTR compliance by Management type",
+        "headline": "74%",
+        "headlineNote": "Government schools PTR compliance",
+        "color": "#d97706",
+        "bar": 74,
+        "barLabel": "74% govt schools compliant",
+        "split": [
+          {
+            "val": "74%",
+            "lbl": "Govt Comply"
+          },
+          {
+            "val": "75%",
+            "lbl": "Private Comply"
+          },
+          {
+            "val": "-1 pts",
+            "lbl": "Govt Lead",
+            "accent": true
+          }
+        ],
+        "note": "Government schools 74% compliant vs Private 75%. Gap: -1 points."
+      },
+      {
+        "id": "loc-ptr",
+        "label": "Rural vs Urban PTR",
+        "fullLabel": "PTR compliance by School Location",
+        "headline": "71%",
+        "headlineNote": "Rural school PTR compliance",
+        "color": "#d97706",
+        "bar": 71,
+        "barLabel": "71% rural compliance",
+        "split": [
+          {
+            "val": "71%",
+            "lbl": "Rural Comply"
+          },
+          {
+            "val": "66%",
+            "lbl": "Urban Comply"
+          },
+          {
+            "val": "+5 pts",
+            "lbl": "Rural Lead",
+            "accent": true
+          }
+        ],
+        "note": "Rural compliance (71%) vs Urban (66%) \u2014 5-point difference"
+      },
+      {
+        "id": "gender",
+        "label": "Teacher Gender Parity",
+        "fullLabel": "Female teacher share by management",
+        "headline": "53%",
+        "headlineNote": "National female teacher share",
+        "color": "#2563eb",
+        "bar": 53,
+        "barLabel": "53% national female share",
+        "split": [
+          {
+            "val": "45%",
+            "lbl": "Govt Female%"
+          },
+          {
+            "val": "66%",
+            "lbl": "Private Female%"
+          },
+          {
+            "val": "+21",
+            "lbl": "Private Lead",
+            "accent": true
+          }
+        ],
+        "note": "Private female share (66%) vs Govt (45%). National = 53%"
+      },
+      {
+        "id": "deficit",
+        "label": "Teacher Deficit vs Surplus",
+        "fullLabel": "Teachers required for PTR 30 vs redeployable excess",
+        "headline": "-15,033",
+        "headlineNote": "Net teacher deficit nationally",
+        "color": "#0e7490",
+        "bar": 46,
+        "barLabel": "81K needed, 96K redeployable",
+        "split": [
+          {
+            "val": "81K",
+            "lbl": "Required"
+          },
+          {
+            "val": "96K",
+            "lbl": "Redeployable"
+          },
+          {
+            "val": "-15,033",
+            "lbl": "Net Deficit",
+            "accent": true
+          }
+        ],
+        "note": "Net deficit = 81K required \u2212 96K excess = -15,033"
+      }
+    ],
+    "chartCrossRows": [
+      {
+        "name": "Central Govt \u00b7 Rural",
+        "val": "87%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Others \u00b7 Urban",
+        "val": "86%",
+        "pct": 99,
+        "color": "#d97706"
+      },
+      {
+        "name": "Others \u00b7 Rural",
+        "val": "84%",
+        "pct": 97,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Private Unaided \u00b7 Rural",
+        "val": "77%",
+        "pct": 89,
+        "color": "#2563eb"
+      },
+      {
+        "name": "State Govt \u00b7 Rural",
+        "val": "76%",
+        "pct": 87,
+        "color": "#0e7490"
+      }
+    ],
+    "chartGenderRows": [
+      {
+        "name": "State Govt",
+        "val": "45%",
+        "pct": 68,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Central Govt",
+        "val": "48%",
+        "pct": 73,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "46%",
+        "pct": 70,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "66%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Others",
+        "val": "49%",
+        "pct": 74,
+        "color": "#2563eb"
+      }
+    ],
+    "chartCrossSource": "PTR compliance rate by management \u00d7 location combination \u2014 reveals which school types and geographies face the greatest overcrowding risk.",
+    "chartCrossNote": "Top-performing segments achieve over 87% compliance. The largest gaps are in State Government schools in urban areas.",
+    "chartSingleMgmt": [
+      {
+        "name": "State Govt",
+        "val": "89%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "89% of total"
+      },
+      {
+        "name": "Central Govt",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706",
+        "note": "0% of total"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "3%",
+        "pct": 3,
+        "color": "#0891b2",
+        "note": "3% of total"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "6%",
+        "pct": 7,
+        "color": "#2563eb",
+        "note": "6% of total"
+      },
+      {
+        "name": "Others",
+        "val": "2%",
+        "pct": 2,
+        "color": "#0e7490",
+        "note": "2% of total"
+      }
+    ],
+    "chartZeroLoc": [
+      {
+        "name": "Rural",
+        "val": "82%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": ""
+      },
+      {
+        "name": "Urban",
+        "val": "18%",
+        "pct": 22,
+        "color": "#0891b2"
+      }
+    ],
+    "chartVulSource": "Single-teacher school distribution by management and zero-teacher school distribution by location \u2014 reveals structural vulnerabilities in school staffing.",
+    "chartVulNote": "State Government schools account for the majority of single-teacher schools. Rural locations host most zero-teacher schools.",
+    "insight1": {
+      "num": "67%",
+      "label": "National PTR Compliance",
+      "note": "23,925 of 35,691 schools meet PTR \u2264 30 norm in 2023-24. National average compliance rate.",
+      "color": "#d97706",
+      "delta_val": "71%",
+      "delta_label": "Rural compliance rate"
+    },
+    "insight2": {
+      "num": "53%",
+      "label": "Female Teacher Share",
+      "note": "52.3 L female of 98.1 L total teachers. Private schools lead at 66% vs Govt 45%.",
+      "color": "#2563eb",
+      "delta_val": "-15,033",
+      "delta_label": "Net teacher deficit"
+    }
+  },
+  "2024-25": {
+    "year": "2024-25",
+    "header": {
+      "label": "Comparative Analytics",
+      "headline": "Government vs private, rural vs urban \u2014 the same system, different outcomes",
+      "sub": "In 2024-25: National PTR compliance 69%. State Govt: 79% compliant vs Private: 75%. Rural: 74% vs Urban: 67%."
+    },
+    "cards": [
+      {
+        "id": "mgmt-ptr",
+        "label": "Govt vs Private PTR",
+        "fullLabel": "PTR compliance by Management type",
+        "headline": "79%",
+        "headlineNote": "Government schools PTR compliance",
+        "color": "#d97706",
+        "bar": 79,
+        "barLabel": "79% govt schools compliant",
+        "split": [
+          {
+            "val": "79%",
+            "lbl": "Govt Comply"
+          },
+          {
+            "val": "75%",
+            "lbl": "Private Comply"
+          },
+          {
+            "val": "+4 pts",
+            "lbl": "Govt Lead",
+            "accent": true
+          }
+        ],
+        "note": "Government schools 79% compliant vs Private 75%. Gap: +4 points."
+      },
+      {
+        "id": "loc-ptr",
+        "label": "Rural vs Urban PTR",
+        "fullLabel": "PTR compliance by School Location",
+        "headline": "74%",
+        "headlineNote": "Rural school PTR compliance",
+        "color": "#d97706",
+        "bar": 74,
+        "barLabel": "74% rural compliance",
+        "split": [
+          {
+            "val": "74%",
+            "lbl": "Rural Comply"
+          },
+          {
+            "val": "67%",
+            "lbl": "Urban Comply"
+          },
+          {
+            "val": "+7 pts",
+            "lbl": "Rural Lead",
+            "accent": true
+          }
+        ],
+        "note": "Rural compliance (74%) vs Urban (67%) \u2014 7-point difference"
+      },
+      {
+        "id": "gender",
+        "label": "Teacher Gender Parity",
+        "fullLabel": "Female teacher share by management",
+        "headline": "54%",
+        "headlineNote": "National female teacher share",
+        "color": "#2563eb",
+        "bar": 54,
+        "barLabel": "54% national female share",
+        "split": [
+          {
+            "val": "45%",
+            "lbl": "Govt Female%"
+          },
+          {
+            "val": "67%",
+            "lbl": "Private Female%"
+          },
+          {
+            "val": "+22",
+            "lbl": "Private Lead",
+            "accent": true
+          }
+        ],
+        "note": "Private female share (67%) vs Govt (45%). National = 54%"
+      },
+      {
+        "id": "deficit",
+        "label": "Teacher Deficit vs Surplus",
+        "fullLabel": "Teachers required for PTR 30 vs redeployable excess",
+        "headline": "-24,713",
+        "headlineNote": "Net teacher deficit nationally",
+        "color": "#0e7490",
+        "bar": 43,
+        "barLabel": "73K needed, 98K redeployable",
+        "split": [
+          {
+            "val": "73K",
+            "lbl": "Required"
+          },
+          {
+            "val": "98K",
+            "lbl": "Redeployable"
+          },
+          {
+            "val": "-24,713",
+            "lbl": "Net Deficit",
+            "accent": true
+          }
+        ],
+        "note": "Net deficit = 73K required \u2212 98K excess = -24,713"
+      }
+    ],
+    "chartCrossRows": [
+      {
+        "name": "Central Govt \u00b7 Rural",
+        "val": "91%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Others \u00b7 Urban",
+        "val": "87%",
+        "pct": 96,
+        "color": "#d97706"
+      },
+      {
+        "name": "Others \u00b7 Rural",
+        "val": "84%",
+        "pct": 92,
+        "color": "#0891b2"
+      },
+      {
+        "name": "State Govt \u00b7 Rural",
+        "val": "80%",
+        "pct": 88,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Private Unaided \u00b7 Rural",
+        "val": "76%",
+        "pct": 84,
+        "color": "#0e7490"
+      }
+    ],
+    "chartGenderRows": [
+      {
+        "name": "State Govt",
+        "val": "45%",
+        "pct": 67,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Central Govt",
+        "val": "49%",
+        "pct": 73,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "47%",
+        "pct": 70,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "67%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Others",
+        "val": "50%",
+        "pct": 75,
+        "color": "#2563eb"
+      }
+    ],
+    "chartCrossSource": "PTR compliance rate by management \u00d7 location combination \u2014 reveals which school types and geographies face the greatest overcrowding risk.",
+    "chartCrossNote": "Top-performing segments achieve over 91% compliance. The largest gaps are in State Government schools in urban areas.",
+    "chartSingleMgmt": [
+      {
+        "name": "State Govt",
+        "val": "89%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "89% of total"
+      },
+      {
+        "name": "Central Govt",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706",
+        "note": "0% of total"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "4%",
+        "pct": 4,
+        "color": "#0891b2",
+        "note": "4% of total"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "6%",
+        "pct": 7,
+        "color": "#2563eb",
+        "note": "6% of total"
+      },
+      {
+        "name": "Others",
+        "val": "2%",
+        "pct": 2,
+        "color": "#0e7490",
+        "note": "2% of total"
+      }
+    ],
+    "chartZeroLoc": [
+      {
+        "name": "Rural",
+        "val": "82%",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": ""
+      },
+      {
+        "name": "Urban",
+        "val": "18%",
+        "pct": 22,
+        "color": "#0891b2"
+      }
+    ],
+    "chartVulSource": "Single-teacher school distribution by management and zero-teacher school distribution by location \u2014 reveals structural vulnerabilities in school staffing.",
+    "chartVulNote": "State Government schools account for the majority of single-teacher schools. Rural locations host most zero-teacher schools.",
+    "insight1": {
+      "num": "69%",
+      "label": "National PTR Compliance",
+      "note": "23,918 of 34,515 schools meet PTR \u2264 30 norm in 2024-25. National average compliance rate.",
+      "color": "#d97706",
+      "delta_val": "74%",
+      "delta_label": "Rural compliance rate"
+    },
+    "insight2": {
+      "num": "54%",
+      "label": "Female Teacher Share",
+      "note": "54.8 L female of 1.0 Cr total teachers. Private schools lead at 67% vs Govt 45%.",
+      "color": "#2563eb",
+      "delta_val": "-24,713",
+      "delta_label": "Net teacher deficit"
+    }
+  }
+}

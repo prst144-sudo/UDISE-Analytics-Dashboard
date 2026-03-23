@@ -1,0 +1,957 @@
+{
+  "2020-21": {
+    "year": "2020-21",
+    "header": {
+      "label": "Teacher Comparison Analytics",
+      "headline": "51% female teachers nationally — State Govt schools hold 61% of teacher deficit",
+      "sub": "In 2020-21: 97 L total teachers, 51% female. Teachers required for PTR 30: 98.6T. Redeployable excess: 90.2T."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "Total Teachers",
+        "fullLabel": "Total Teaching Workforce",
+        "headline": "97 L",
+        "headlineNote": "Total teachers nationally",
+        "color": "#0891b2",
+        "bar": 51,
+        "barLabel": "51% female teachers",
+        "split": [
+          {
+            "val": "47.5 L",
+            "lbl": "Male"
+          },
+          {
+            "val": "49.5 L",
+            "lbl": "Female"
+          },
+          {
+            "val": "51%",
+            "lbl": "Female Share",
+            "accent": true
+          }
+        ],
+        "note": "Male 47.5 L + Female 49.5 L = 97 L. Female share: 51%"
+      },
+      {
+        "id": "req_ptr30",
+        "label": "Teachers Required (PTR 30)",
+        "fullLabel": "Additional teachers needed for PTR ≤ 30",
+        "headline": "98.6T",
+        "headlineNote": "Teachers needed to achieve PTR ≤ 30",
+        "color": "#d97706",
+        "bar": 52,
+        "barLabel": "98.6T needed vs 90.2T redeployable",
+        "split": [
+          {
+            "val": "98.6T",
+            "lbl": "Required"
+          },
+          {
+            "val": "90.2T",
+            "lbl": "Excess (redeployable)"
+          },
+          {
+            "val": "91%",
+            "lbl": "Gap closeable",
+            "accent": true
+          }
+        ],
+        "note": "98.6T new teachers required. 90.2T excess teachers can be redeployed to close 91% of the gap"
+      },
+      {
+        "id": "female_secondary",
+        "label": "Female Teachers — Secondary",
+        "fullLabel": "Female teacher share at Secondary level",
+        "headline": "52%",
+        "headlineNote": "Female teacher share at Secondary stage",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "Female share at Secondary level",
+        "split": [
+          {
+            "val": "52%",
+            "lbl": "Secondary"
+          },
+          {
+            "val": "50%",
+            "lbl": "Middle"
+          },
+          {
+            "val": "50%",
+            "lbl": "Foundational",
+            "accent": true
+          }
+        ],
+        "note": "Female teacher representation increases at higher school categories — 52% at Secondary vs 50% at Foundational"
+      },
+      {
+        "id": "state_deficit",
+        "label": "State Govt Teacher Deficit",
+        "fullLabel": "State Government share of teacher deficit",
+        "headline": "59.9T",
+        "headlineNote": "Teachers required in State Govt schools",
+        "color": "#7c3aed",
+        "bar": 61,
+        "barLabel": "61% of national deficit is in State Govt schools",
+        "split": [
+          {
+            "val": "59.9T",
+            "lbl": "State Govt"
+          },
+          {
+            "val": "98.6T",
+            "lbl": "Total Required"
+          },
+          {
+            "val": "61%",
+            "lbl": "Govt Share",
+            "accent": true
+          }
+        ],
+        "note": "State Government schools account for 61% of the national teacher deficit — the largest single contributor"
+      }
+    ],
+    "chartGenderCat": [
+      {
+        "name": "Secondary",
+        "val": "52%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle",
+        "val": "50%",
+        "pct": 96,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Foundational",
+        "val": "50%",
+        "pct": 96,
+        "color": "#2563eb"
+      }
+    ],
+    "chartGenderCatSource": "Female teacher share by school category — representation improves at higher school levels, with Secondary schools having the highest female teacher proportion.",
+    "chartGenderCatNote": "Female teacher share is highest at Secondary (52%) and lowest at Foundational (50%) stage.",
+    "chartDeficitMgmt": [
+      {
+        "name": "State Govt",
+        "val": "59.9T",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "Required: 59.9T, Excess: 65.2T"
+      },
+      {
+        "name": "Central Govt",
+        "val": "20",
+        "pct": 0,
+        "color": "#d97706",
+        "note": "Required: 20, Excess: 105"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "26.2T",
+        "pct": 44,
+        "color": "#0891b2",
+        "note": "Required: 26.2T, Excess: 8.9T"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "11.6T",
+        "pct": 19,
+        "color": "#2563eb",
+        "note": "Required: 11.6T, Excess: 13.2T"
+      },
+      {
+        "name": "Others",
+        "val": "931",
+        "pct": 2,
+        "color": "#0e7490",
+        "note": "Required: 931, Excess: 2.7T"
+      }
+    ],
+    "chartDeficitMgmtSource": "Teacher deficit (teachers required to achieve PTR 30) by management type — State Government schools carry the largest share of unfilled teaching positions.",
+    "chartDeficitMgmtNote": "State Government schools require 59.9T additional teachers — 61% of the national deficit — due to their large share of total enrollment.",
+    "insight1": {
+      "num": "97 L",
+      "label": "Total Teaching Workforce",
+      "note": "49.5 L female (51%) and 47.5 L male teachers across all school types in 2020-21",
+      "color": "#0891b2",
+      "delta_val": "51%",
+      "delta_label": "Female teacher share"
+    },
+    "insight2": {
+      "num": "98.6T",
+      "label": "Teachers Required",
+      "note": "Achieving PTR 30 requires 98.6T additional teachers. 90.2T excess teachers are redeployable.",
+      "color": "#d97706",
+      "delta_val": "90.2T",
+      "delta_label": "Redeployable excess teachers"
+    }
+  },
+  "2021-22": {
+    "year": "2021-22",
+    "header": {
+      "label": "Teacher Comparison Analytics",
+      "headline": "51% female teachers nationally — State Govt schools hold 66% of teacher deficit",
+      "sub": "In 2021-22: 95.1 L total teachers, 51% female. Teachers required for PTR 30: 1.1 L. Redeployable excess: 83.8T."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "Total Teachers",
+        "fullLabel": "Total Teaching Workforce",
+        "headline": "95.1 L",
+        "headlineNote": "Total teachers nationally",
+        "color": "#0891b2",
+        "bar": 51,
+        "barLabel": "51% female teachers",
+        "split": [
+          {
+            "val": "46.3 L",
+            "lbl": "Male"
+          },
+          {
+            "val": "48.8 L",
+            "lbl": "Female"
+          },
+          {
+            "val": "51%",
+            "lbl": "Female Share",
+            "accent": true
+          }
+        ],
+        "note": "Male 46.3 L + Female 48.8 L = 95.1 L. Female share: 51%"
+      },
+      {
+        "id": "req_ptr30",
+        "label": "Teachers Required (PTR 30)",
+        "fullLabel": "Additional teachers needed for PTR ≤ 30",
+        "headline": "1.1 L",
+        "headlineNote": "Teachers needed to achieve PTR ≤ 30",
+        "color": "#d97706",
+        "bar": 56,
+        "barLabel": "1.1 L needed vs 83.8T redeployable",
+        "split": [
+          {
+            "val": "1.1 L",
+            "lbl": "Required"
+          },
+          {
+            "val": "83.8T",
+            "lbl": "Excess (redeployable)"
+          },
+          {
+            "val": "78%",
+            "lbl": "Gap closeable",
+            "accent": true
+          }
+        ],
+        "note": "1.1 L new teachers required. 83.8T excess teachers can be redeployed to close 78% of the gap"
+      },
+      {
+        "id": "female_secondary",
+        "label": "Female Teachers — Secondary",
+        "fullLabel": "Female teacher share at Secondary level",
+        "headline": "53%",
+        "headlineNote": "Female teacher share at Secondary stage",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "Female share at Secondary level",
+        "split": [
+          {
+            "val": "53%",
+            "lbl": "Secondary"
+          },
+          {
+            "val": "50%",
+            "lbl": "Middle"
+          },
+          {
+            "val": "50%",
+            "lbl": "Foundational",
+            "accent": true
+          }
+        ],
+        "note": "Female teacher representation increases at higher school categories — 53% at Secondary vs 50% at Foundational"
+      },
+      {
+        "id": "state_deficit",
+        "label": "State Govt Teacher Deficit",
+        "fullLabel": "State Government share of teacher deficit",
+        "headline": "70.7T",
+        "headlineNote": "Teachers required in State Govt schools",
+        "color": "#7c3aed",
+        "bar": 66,
+        "barLabel": "66% of national deficit is in State Govt schools",
+        "split": [
+          {
+            "val": "70.7T",
+            "lbl": "State Govt"
+          },
+          {
+            "val": "1.1 L",
+            "lbl": "Total Required"
+          },
+          {
+            "val": "66%",
+            "lbl": "Govt Share",
+            "accent": true
+          }
+        ],
+        "note": "State Government schools account for 66% of the national teacher deficit — the largest single contributor"
+      }
+    ],
+    "chartGenderCat": [
+      {
+        "name": "Secondary",
+        "val": "53%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle",
+        "val": "50%",
+        "pct": 94,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Foundational",
+        "val": "50%",
+        "pct": 94,
+        "color": "#2563eb"
+      }
+    ],
+    "chartGenderCatSource": "Female teacher share by school category — representation improves at higher school levels, with Secondary schools having the highest female teacher proportion.",
+    "chartGenderCatNote": "Female teacher share is highest at Secondary (53%) and lowest at Foundational (50%) stage.",
+    "chartDeficitMgmt": [
+      {
+        "name": "State Govt",
+        "val": "70.7T",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "Required: 70.7T, Excess: 58.9T"
+      },
+      {
+        "name": "Central Govt",
+        "val": "3",
+        "pct": 0,
+        "color": "#d97706",
+        "note": "Required: 3, Excess: 83"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "25.3T",
+        "pct": 36,
+        "color": "#0891b2",
+        "note": "Required: 25.3T, Excess: 8.6T"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "10.5T",
+        "pct": 15,
+        "color": "#2563eb",
+        "note": "Required: 10.5T, Excess: 13.6T"
+      },
+      {
+        "name": "Others",
+        "val": "693",
+        "pct": 1,
+        "color": "#0e7490",
+        "note": "Required: 693, Excess: 2.6T"
+      }
+    ],
+    "chartDeficitMgmtSource": "Teacher deficit (teachers required to achieve PTR 30) by management type — State Government schools carry the largest share of unfilled teaching positions.",
+    "chartDeficitMgmtNote": "State Government schools require 70.7T additional teachers — 66% of the national deficit — due to their large share of total enrollment.",
+    "insight1": {
+      "num": "95.1 L",
+      "label": "Total Teaching Workforce",
+      "note": "48.8 L female (51%) and 46.3 L male teachers across all school types in 2021-22",
+      "color": "#0891b2",
+      "delta_val": "51%",
+      "delta_label": "Female teacher share"
+    },
+    "insight2": {
+      "num": "1.1 L",
+      "label": "Teachers Required",
+      "note": "Achieving PTR 30 requires 1.1 L additional teachers. 83.8T excess teachers are redeployable.",
+      "color": "#d97706",
+      "delta_val": "83.8T",
+      "delta_label": "Redeployable excess teachers"
+    }
+  },
+  "2022-23": {
+    "year": "2022-23",
+    "header": {
+      "label": "Teacher Comparison Analytics",
+      "headline": "52% female teachers nationally — State Govt schools hold 65% of teacher deficit",
+      "sub": "In 2022-23: 94.8 L total teachers, 52% female. Teachers required for PTR 30: 95.3T. Redeployable excess: 86.5T."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "Total Teachers",
+        "fullLabel": "Total Teaching Workforce",
+        "headline": "94.8 L",
+        "headlineNote": "Total teachers nationally",
+        "color": "#0891b2",
+        "bar": 52,
+        "barLabel": "52% female teachers",
+        "split": [
+          {
+            "val": "45.2 L",
+            "lbl": "Male"
+          },
+          {
+            "val": "49.6 L",
+            "lbl": "Female"
+          },
+          {
+            "val": "52%",
+            "lbl": "Female Share",
+            "accent": true
+          }
+        ],
+        "note": "Male 45.2 L + Female 49.6 L = 94.8 L. Female share: 52%"
+      },
+      {
+        "id": "req_ptr30",
+        "label": "Teachers Required (PTR 30)",
+        "fullLabel": "Additional teachers needed for PTR ≤ 30",
+        "headline": "95.3T",
+        "headlineNote": "Teachers needed to achieve PTR ≤ 30",
+        "color": "#d97706",
+        "bar": 52,
+        "barLabel": "95.3T needed vs 86.5T redeployable",
+        "split": [
+          {
+            "val": "95.3T",
+            "lbl": "Required"
+          },
+          {
+            "val": "86.5T",
+            "lbl": "Excess (redeployable)"
+          },
+          {
+            "val": "91%",
+            "lbl": "Gap closeable",
+            "accent": true
+          }
+        ],
+        "note": "95.3T new teachers required. 86.5T excess teachers can be redeployed to close 91% of the gap"
+      },
+      {
+        "id": "female_secondary",
+        "label": "Female Teachers — Secondary",
+        "fullLabel": "Female teacher share at Secondary level",
+        "headline": "54%",
+        "headlineNote": "Female teacher share at Secondary stage",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "Female share at Secondary level",
+        "split": [
+          {
+            "val": "54%",
+            "lbl": "Secondary"
+          },
+          {
+            "val": "51%",
+            "lbl": "Middle"
+          },
+          {
+            "val": "50%",
+            "lbl": "Foundational",
+            "accent": true
+          }
+        ],
+        "note": "Female teacher representation increases at higher school categories — 54% at Secondary vs 50% at Foundational"
+      },
+      {
+        "id": "state_deficit",
+        "label": "State Govt Teacher Deficit",
+        "fullLabel": "State Government share of teacher deficit",
+        "headline": "62.4T",
+        "headlineNote": "Teachers required in State Govt schools",
+        "color": "#7c3aed",
+        "bar": 65,
+        "barLabel": "65% of national deficit is in State Govt schools",
+        "split": [
+          {
+            "val": "62.4T",
+            "lbl": "State Govt"
+          },
+          {
+            "val": "95.3T",
+            "lbl": "Total Required"
+          },
+          {
+            "val": "65%",
+            "lbl": "Govt Share",
+            "accent": true
+          }
+        ],
+        "note": "State Government schools account for 65% of the national teacher deficit — the largest single contributor"
+      }
+    ],
+    "chartGenderCat": [
+      {
+        "name": "Secondary",
+        "val": "54%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle",
+        "val": "51%",
+        "pct": 94,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Foundational",
+        "val": "50%",
+        "pct": 93,
+        "color": "#2563eb"
+      }
+    ],
+    "chartGenderCatSource": "Female teacher share by school category — representation improves at higher school levels, with Secondary schools having the highest female teacher proportion.",
+    "chartGenderCatNote": "Female teacher share is highest at Secondary (54%) and lowest at Foundational (50%) stage.",
+    "chartDeficitMgmt": [
+      {
+        "name": "State Govt",
+        "val": "62.4T",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "Required: 62.4T, Excess: 61.3T"
+      },
+      {
+        "name": "Central Govt",
+        "val": "13",
+        "pct": 0,
+        "color": "#d97706",
+        "note": "Required: 13, Excess: 57"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "23.5T",
+        "pct": 38,
+        "color": "#0891b2",
+        "note": "Required: 23.5T, Excess: 8.5T"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "8.9T",
+        "pct": 14,
+        "color": "#2563eb",
+        "note": "Required: 8.9T, Excess: 13.4T"
+      },
+      {
+        "name": "Others",
+        "val": "596",
+        "pct": 1,
+        "color": "#0e7490",
+        "note": "Required: 596, Excess: 3.2T"
+      }
+    ],
+    "chartDeficitMgmtSource": "Teacher deficit (teachers required to achieve PTR 30) by management type — State Government schools carry the largest share of unfilled teaching positions.",
+    "chartDeficitMgmtNote": "State Government schools require 62.4T additional teachers — 65% of the national deficit — due to their large share of total enrollment.",
+    "insight1": {
+      "num": "94.8 L",
+      "label": "Total Teaching Workforce",
+      "note": "49.6 L female (52%) and 45.2 L male teachers across all school types in 2022-23",
+      "color": "#0891b2",
+      "delta_val": "52%",
+      "delta_label": "Female teacher share"
+    },
+    "insight2": {
+      "num": "95.3T",
+      "label": "Teachers Required",
+      "note": "Achieving PTR 30 requires 95.3T additional teachers. 86.5T excess teachers are redeployable.",
+      "color": "#d97706",
+      "delta_val": "86.5T",
+      "delta_label": "Redeployable excess teachers"
+    }
+  },
+  "2023-24": {
+    "year": "2023-24",
+    "header": {
+      "label": "Teacher Comparison Analytics",
+      "headline": "53% female teachers nationally — State Govt schools hold 63% of teacher deficit",
+      "sub": "In 2023-24: 98.1 L total teachers, 53% female. Teachers required for PTR 30: 81T. Redeployable excess: 96T."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "Total Teachers",
+        "fullLabel": "Total Teaching Workforce",
+        "headline": "98.1 L",
+        "headlineNote": "Total teachers nationally",
+        "color": "#0891b2",
+        "bar": 53,
+        "barLabel": "53% female teachers",
+        "split": [
+          {
+            "val": "45.8 L",
+            "lbl": "Male"
+          },
+          {
+            "val": "52.3 L",
+            "lbl": "Female"
+          },
+          {
+            "val": "53%",
+            "lbl": "Female Share",
+            "accent": true
+          }
+        ],
+        "note": "Male 45.8 L + Female 52.3 L = 98.1 L. Female share: 53%"
+      },
+      {
+        "id": "req_ptr30",
+        "label": "Teachers Required (PTR 30)",
+        "fullLabel": "Additional teachers needed for PTR ≤ 30",
+        "headline": "81T",
+        "headlineNote": "Teachers needed to achieve PTR ≤ 30",
+        "color": "#d97706",
+        "bar": 46,
+        "barLabel": "81T needed vs 96T redeployable",
+        "split": [
+          {
+            "val": "81T",
+            "lbl": "Required"
+          },
+          {
+            "val": "96T",
+            "lbl": "Excess (redeployable)"
+          },
+          {
+            "val": "119%",
+            "lbl": "Gap closeable",
+            "accent": true
+          }
+        ],
+        "note": "81T new teachers required. 96T excess teachers can be redeployed to close 119% of the gap"
+      },
+      {
+        "id": "female_secondary",
+        "label": "Female Teachers — Secondary",
+        "fullLabel": "Female teacher share at Secondary level",
+        "headline": "55%",
+        "headlineNote": "Female teacher share at Secondary stage",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "Female share at Secondary level",
+        "split": [
+          {
+            "val": "55%",
+            "lbl": "Secondary"
+          },
+          {
+            "val": "53%",
+            "lbl": "Middle"
+          },
+          {
+            "val": "50%",
+            "lbl": "Foundational",
+            "accent": true
+          }
+        ],
+        "note": "Female teacher representation increases at higher school categories — 55% at Secondary vs 50% at Foundational"
+      },
+      {
+        "id": "state_deficit",
+        "label": "State Govt Teacher Deficit",
+        "fullLabel": "State Government share of teacher deficit",
+        "headline": "50.7T",
+        "headlineNote": "Teachers required in State Govt schools",
+        "color": "#7c3aed",
+        "bar": 63,
+        "barLabel": "63% of national deficit is in State Govt schools",
+        "split": [
+          {
+            "val": "50.7T",
+            "lbl": "State Govt"
+          },
+          {
+            "val": "81T",
+            "lbl": "Total Required"
+          },
+          {
+            "val": "63%",
+            "lbl": "Govt Share",
+            "accent": true
+          }
+        ],
+        "note": "State Government schools account for 63% of the national teacher deficit — the largest single contributor"
+      }
+    ],
+    "chartGenderCat": [
+      {
+        "name": "Secondary",
+        "val": "55%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle",
+        "val": "53%",
+        "pct": 96,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Foundational",
+        "val": "50%",
+        "pct": 91,
+        "color": "#2563eb"
+      }
+    ],
+    "chartGenderCatSource": "Female teacher share by school category — representation improves at higher school levels, with Secondary schools having the highest female teacher proportion.",
+    "chartGenderCatNote": "Female teacher share is highest at Secondary (55%) and lowest at Foundational (50%) stage.",
+    "chartDeficitMgmt": [
+      {
+        "name": "State Govt",
+        "val": "50.7T",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "Required: 50.7T, Excess: 70.2T"
+      },
+      {
+        "name": "Central Govt",
+        "val": "14",
+        "pct": 0,
+        "color": "#d97706",
+        "note": "Required: 14, Excess: 57"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "21.5T",
+        "pct": 42,
+        "color": "#0891b2",
+        "note": "Required: 21.5T, Excess: 8.8T"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "8.2T",
+        "pct": 16,
+        "color": "#2563eb",
+        "note": "Required: 8.2T, Excess: 13.8T"
+      },
+      {
+        "name": "Others",
+        "val": "499",
+        "pct": 1,
+        "color": "#0e7490",
+        "note": "Required: 499, Excess: 3.2T"
+      }
+    ],
+    "chartDeficitMgmtSource": "Teacher deficit (teachers required to achieve PTR 30) by management type — State Government schools carry the largest share of unfilled teaching positions.",
+    "chartDeficitMgmtNote": "State Government schools require 50.7T additional teachers — 63% of the national deficit — due to their large share of total enrollment.",
+    "insight1": {
+      "num": "98.1 L",
+      "label": "Total Teaching Workforce",
+      "note": "52.3 L female (53%) and 45.8 L male teachers across all school types in 2023-24",
+      "color": "#0891b2",
+      "delta_val": "53%",
+      "delta_label": "Female teacher share"
+    },
+    "insight2": {
+      "num": "81T",
+      "label": "Teachers Required",
+      "note": "Achieving PTR 30 requires 81T additional teachers. 96T excess teachers are redeployable.",
+      "color": "#d97706",
+      "delta_val": "96T",
+      "delta_label": "Redeployable excess teachers"
+    }
+  },
+  "2024-25": {
+    "year": "2024-25",
+    "header": {
+      "label": "Teacher Comparison Analytics",
+      "headline": "54% female teachers nationally — State Govt schools hold 61% of teacher deficit",
+      "sub": "In 2024-25: 1 Cr total teachers, 54% female. Teachers required for PTR 30: 73.1T. Redeployable excess: 97.9T."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "Total Teachers",
+        "fullLabel": "Total Teaching Workforce",
+        "headline": "1 Cr",
+        "headlineNote": "Total teachers nationally",
+        "color": "#0891b2",
+        "bar": 54,
+        "barLabel": "54% female teachers",
+        "split": [
+          {
+            "val": "46.4 L",
+            "lbl": "Male"
+          },
+          {
+            "val": "54.8 L",
+            "lbl": "Female"
+          },
+          {
+            "val": "54%",
+            "lbl": "Female Share",
+            "accent": true
+          }
+        ],
+        "note": "Male 46.4 L + Female 54.8 L = 1 Cr. Female share: 54%"
+      },
+      {
+        "id": "req_ptr30",
+        "label": "Teachers Required (PTR 30)",
+        "fullLabel": "Additional teachers needed for PTR ≤ 30",
+        "headline": "73.1T",
+        "headlineNote": "Teachers needed to achieve PTR ≤ 30",
+        "color": "#d97706",
+        "bar": 43,
+        "barLabel": "73.1T needed vs 97.9T redeployable",
+        "split": [
+          {
+            "val": "73.1T",
+            "lbl": "Required"
+          },
+          {
+            "val": "97.9T",
+            "lbl": "Excess (redeployable)"
+          },
+          {
+            "val": "134%",
+            "lbl": "Gap closeable",
+            "accent": true
+          }
+        ],
+        "note": "73.1T new teachers required. 97.9T excess teachers can be redeployed to close 134% of the gap"
+      },
+      {
+        "id": "female_secondary",
+        "label": "Female Teachers — Secondary",
+        "fullLabel": "Female teacher share at Secondary level",
+        "headline": "56%",
+        "headlineNote": "Female teacher share at Secondary stage",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "Female share at Secondary level",
+        "split": [
+          {
+            "val": "56%",
+            "lbl": "Secondary"
+          },
+          {
+            "val": "53%",
+            "lbl": "Middle"
+          },
+          {
+            "val": "51%",
+            "lbl": "Foundational",
+            "accent": true
+          }
+        ],
+        "note": "Female teacher representation increases at higher school categories — 56% at Secondary vs 51% at Foundational"
+      },
+      {
+        "id": "state_deficit",
+        "label": "State Govt Teacher Deficit",
+        "fullLabel": "State Government share of teacher deficit",
+        "headline": "44.4T",
+        "headlineNote": "Teachers required in State Govt schools",
+        "color": "#7c3aed",
+        "bar": 61,
+        "barLabel": "61% of national deficit is in State Govt schools",
+        "split": [
+          {
+            "val": "44.4T",
+            "lbl": "State Govt"
+          },
+          {
+            "val": "73.1T",
+            "lbl": "Total Required"
+          },
+          {
+            "val": "61%",
+            "lbl": "Govt Share",
+            "accent": true
+          }
+        ],
+        "note": "State Government schools account for 61% of the national teacher deficit — the largest single contributor"
+      }
+    ],
+    "chartGenderCat": [
+      {
+        "name": "Secondary",
+        "val": "56%",
+        "pct": 100,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Middle",
+        "val": "53%",
+        "pct": 95,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Foundational",
+        "val": "51%",
+        "pct": 91,
+        "color": "#2563eb"
+      }
+    ],
+    "chartGenderCatSource": "Female teacher share by school category — representation improves at higher school levels, with Secondary schools having the highest female teacher proportion.",
+    "chartGenderCatNote": "Female teacher share is highest at Secondary (56%) and lowest at Foundational (51%) stage.",
+    "chartDeficitMgmt": [
+      {
+        "name": "State Govt",
+        "val": "44.4T",
+        "pct": 100,
+        "color": "#6366f1",
+        "note": "Required: 44.4T, Excess: 73.2T"
+      },
+      {
+        "name": "Central Govt",
+        "val": "7",
+        "pct": 0,
+        "color": "#d97706",
+        "note": "Required: 7, Excess: 52"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "20.7T",
+        "pct": 47,
+        "color": "#0891b2",
+        "note": "Required: 20.7T, Excess: 8.3T"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "7.7T",
+        "pct": 17,
+        "color": "#2563eb",
+        "note": "Required: 7.7T, Excess: 13.7T"
+      },
+      {
+        "name": "Others",
+        "val": "330",
+        "pct": 1,
+        "color": "#0e7490",
+        "note": "Required: 330, Excess: 2.6T"
+      }
+    ],
+    "chartDeficitMgmtSource": "Teacher deficit (teachers required to achieve PTR 30) by management type — State Government schools carry the largest share of unfilled teaching positions.",
+    "chartDeficitMgmtNote": "State Government schools require 44.4T additional teachers — 61% of the national deficit — due to their large share of total enrollment.",
+    "insight1": {
+      "num": "1 Cr",
+      "label": "Total Teaching Workforce",
+      "note": "54.8 L female (54%) and 46.4 L male teachers across all school types in 2024-25",
+      "color": "#0891b2",
+      "delta_val": "54%",
+      "delta_label": "Female teacher share"
+    },
+    "insight2": {
+      "num": "73.1T",
+      "label": "Teachers Required",
+      "note": "Achieving PTR 30 requires 73.1T additional teachers. 97.9T excess teachers are redeployable.",
+      "color": "#d97706",
+      "delta_val": "97.9T",
+      "delta_label": "Redeployable excess teachers"
+    }
+  }
+}

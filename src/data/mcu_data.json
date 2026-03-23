@@ -1,0 +1,214 @@
+{
+  "2024-25": {
+    "year": "2024-25",
+    "header": {
+      "label": "Multi-Class Unit Analytics",
+      "headline": "27% of schools report MCU — 4.04 L schools, 2.78 Cr students enrolled",
+      "sub": "4.04 L of 14.71 L schools report Multi-Class Units. Incidence is 31% in rural schools and 10% in urban schools. State Government schools account for 98.5% of all MCU schools"
+    },
+    "cards": [
+      {
+        "id": "scale",
+        "label": "MCU School Coverage",
+        "fullLabel": "/ total schools",
+        "headline": "27%",
+        "headlineNote": "Schools reporting Multi-Class Units",
+        "color": "#6366f1",
+        "bar": 27,
+        "barLabel": "4.04 L of 14.71 L total schools",
+        "split": [
+          {
+            "val": "4.04 L",
+            "lbl": "MCU Schools"
+          },
+          {
+            "val": "2.78 Cr",
+            "lbl": "Students Enrolled"
+          },
+          {
+            "val": "31%",
+            "lbl": "Rural MCU Share",
+            "accent": true
+          }
+        ],
+        "note": "27% of schools report MCU. Students enrolled in schools reporting MCU total 2.78 Cr"
+      },
+      {
+        "id": "rural",
+        "label": "Rural Incidence",
+        "fullLabel": "Rural schools with MCU arrangement",
+        "headline": "31%",
+        "headlineNote": "Rural schools reporting MCU",
+        "color": "#2563eb",
+        "bar": 31,
+        "barLabel": "3.77 L rural MCU schools",
+        "split": [
+          {
+            "val": "3.77 L",
+            "lbl": "Rural MCU Schools"
+          },
+          {
+            "val": "10%",
+            "lbl": "Urban MCU Share"
+          },
+          {
+            "val": "20.9 pts",
+            "lbl": "Rural–Urban Gap",
+            "accent": true
+          }
+        ],
+        "note": "MCU incidence is 20.9 points higher in rural schools than in urban schools (31.2% vs 10.3%)"
+      },
+      {
+        "id": "state",
+        "label": "State Government Concentration",
+        "fullLabel": "State Government MCU schools",
+        "headline": "39%",
+        "headlineNote": "State Government schools reporting MCU",
+        "color": "#0891b2",
+        "bar": 39,
+        "barLabel": "3.98 L State Government MCU schools",
+        "split": [
+          {
+            "val": "3.98 L",
+            "lbl": "State Govt MCU"
+          },
+          {
+            "val": "98.5%",
+            "lbl": "Share of All MCU"
+          },
+          {
+            "val": "7%",
+            "lbl": "Aided MCU Share",
+            "accent": true
+          }
+        ],
+        "note": "State Government schools account for 98.5% of all MCU schools; MCU incidence within State Government schools is 39.4%"
+      },
+      {
+        "id": "grades",
+        "label": "School Category Profile",
+        "fullLabel": "distribution by school category",
+        "headline": "75%",
+        "headlineNote": "MCU schools in Foundational + Preparatory category",
+        "color": "#7c3aed",
+        "bar": 75,
+        "barLabel": "3.01 L MCU schools in Foundational + Preparatory",
+        "split": [
+          {
+            "val": "3.01 L",
+            "lbl": "Foundational + Preparatory"
+          },
+          {
+            "val": "41%",
+            "lbl": "Incidence in Category"
+          },
+          {
+            "val": "74.6%",
+            "lbl": "Share of All MCU",
+            "accent": true
+          }
+        ],
+        "note": "Foundational + Preparatory schools comprise 74.6% of all MCU schools and show the highest MCU incidence at 41.3%"
+      }
+    ],
+    "chartLoc": [
+      {
+        "name": "Rural",
+        "val": "31%",
+        "pct": 100,
+        "color": "#2563eb",
+        "note": "3.77 L MCU schools — 2.50 Cr students enrolled"
+      },
+      {
+        "name": "Urban",
+        "val": "10%",
+        "pct": 33,
+        "color": "#6366f1",
+        "note": "0.27 L MCU schools — 0.27 Cr students enrolled"
+      }
+    ],
+    "chartMgmt": [
+      {
+        "name": "State Government",
+        "val": "39.4%",
+        "pct": 100,
+        "color": "#2563eb",
+        "note": "3.98 L MCU schools of 10.11 L total; 98.5% of all MCU schools"
+      },
+      {
+        "name": "Govt. Aided",
+        "val": "7.3%",
+        "pct": 19,
+        "color": "#0891b2",
+        "note": "0.06 L MCU schools of 0.79 L total"
+      },
+      {
+        "name": "Central Government",
+        "val": "3.0%",
+        "pct": 8,
+        "color": "#d97706",
+        "note": "0.00 L MCU schools of 0.02 L total"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "0.0%",
+        "pct": 0,
+        "color": "#7a7060",
+        "note": "0.00 L MCU schools of 3.40 L total"
+      },
+      {
+        "name": "Others",
+        "val": "0.0%",
+        "pct": 0,
+        "color": "#6366f1",
+        "note": "0.00 L MCU schools of 0.39 L total"
+      }
+    ],
+    "chartLocMgmtSource": "MCU incidence is materially higher in rural schools and is concentrated within State Government management.",
+    "chartLocNote": "Rural MCU incidence stands at 31.2% against 10.3% in urban schools. State Government schools account for 98.5% of MCU schools nationwide.",
+    "chartGrades": [
+      {
+        "name": "Foundational + Preparatory",
+        "val": "41.3%",
+        "pct": 100,
+        "color": "#2563eb",
+        "note": "3.01 L MCU schools of 7.31 L total; 74.6% of all MCU schools"
+      },
+      {
+        "name": "Middle",
+        "val": "20.2%",
+        "pct": 49,
+        "color": "#0891b2",
+        "note": "0.88 L MCU schools of 4.34 L total; 21.7% of all MCU schools"
+      },
+      {
+        "name": "Secondary",
+        "val": "4.9%",
+        "pct": 12,
+        "color": "#6366f1",
+        "note": "0.15 L MCU schools of 3.07 L total; 3.7% of all MCU schools"
+      }
+    ],
+    "chartGradesSource": "MCU prevalence varies significantly by school category, with the highest incidence in Foundational + Preparatory schools.",
+    "chartGradesNote": "Foundational + Preparatory: 41.3%; Middle: 20.2%; Secondary: 4.9%.",
+    "insight1": {
+      "num": "27%",
+      "label": "Schools Reporting Multi-Class Units",
+      "color": "#6366f1",
+      "delta_val": "4.04 L",
+      "delta_label": "MCU schools",
+      "delta_val2": "2.78 Cr",
+      "delta_label2": "Students enrolled in schools reporting MCU"
+    },
+    "insight2": {
+      "num": "31%",
+      "label": "Rural MCU Incidence",
+      "color": "#2563eb",
+      "delta_val": "20.9 pts",
+      "delta_label": "Higher than urban incidence",
+      "delta_val2": "74.6%",
+      "delta_label2": "MCU schools in Foundational + Preparatory category"
+    }
+  }
+}

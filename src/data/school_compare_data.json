@@ -1,0 +1,962 @@
+{
+  "2020-21": {
+    "year": "2020-21",
+    "header": {
+      "label": "School Comparison Analytics",
+      "headline": "13T schools with no teacher, 1.1 L with one teacher — 80% of zero-teacher schools are in State Govt",
+      "sub": "In 2020-21: 13T zero-teacher schools, 1.1 L single-teacher schools. 9T single-teacher schools with 100+ students. 8T schools with PTR above 40."
+    },
+    "cards": [
+      {
+        "id": "zero",
+        "label": "Zero-Teacher Schools",
+        "fullLabel": "Schools with no teacher posted",
+        "headline": "13T",
+        "headlineNote": "Schools with no teacher on record",
+        "color": "#6366f1",
+        "bar": 1,
+        "barLabel": "80% are State Government schools",
+        "split": [
+          {
+            "val": "13T",
+            "lbl": "Total"
+          },
+          {
+            "val": "80%",
+            "lbl": "State Govt Share"
+          },
+          {
+            "val": "11T",
+            "lbl": "State Govt Count",
+            "accent": true
+          }
+        ],
+        "note": "80% of zero-teacher schools are State Government managed. Total: 13T."
+      },
+      {
+        "id": "single",
+        "label": "Single-Teacher Schools",
+        "fullLabel": "Schools with exactly one teacher",
+        "headline": "1.1 L",
+        "headlineNote": "Schools with only one teacher",
+        "color": "#d97706",
+        "bar": 7,
+        "barLabel": "88% are State Government schools",
+        "split": [
+          {
+            "val": "1.1 L",
+            "lbl": "Total"
+          },
+          {
+            "val": "9T",
+            "lbl": "With 100+ Students"
+          },
+          {
+            "val": "88%",
+            "lbl": "State Govt Share",
+            "accent": true
+          }
+        ],
+        "note": "1.1 L single-teacher schools. 88% in State Govt. 9T have 100+ students."
+      },
+      {
+        "id": "single_100",
+        "label": "Single-Teacher, 100+ Students",
+        "fullLabel": "Highest-risk: one teacher, 100+ students",
+        "headline": "9T",
+        "headlineNote": "Single-teacher schools with 100+ students",
+        "color": "#7c3aed",
+        "bar": 8,
+        "barLabel": "Effective PTR of 100:1 or worse",
+        "split": [
+          {
+            "val": "9T",
+            "lbl": "Schools"
+          },
+          {
+            "val": "100+",
+            "lbl": "Students/School"
+          },
+          {
+            "val": "100:1+",
+            "lbl": "Effective PTR",
+            "accent": true
+          }
+        ],
+        "note": "9T schools where a single teacher manages 100+ students — the most extreme workload situation"
+      },
+      {
+        "id": "ptr40",
+        "label": "Schools with PTR Above 40",
+        "fullLabel": "Severely overcrowded schools",
+        "headline": "8T",
+        "headlineNote": "Schools with PTR exceeding 40",
+        "color": "#0891b2",
+        "bar": 1,
+        "barLabel": "1% of all schools severely over-norm",
+        "split": [
+          {
+            "val": "8T",
+            "lbl": "PTR > 40"
+          },
+          {
+            "val": "1%",
+            "lbl": "Share of All Schools"
+          },
+          {
+            "val": ">40:1",
+            "lbl": "PTR Breach",
+            "accent": true
+          }
+        ],
+        "note": "8T schools with PTR exceeding 40 — the most severely overcrowded classrooms in the system"
+      }
+    ],
+    "chartZeroMgmt": [
+      {
+        "name": "State Govt",
+        "val": "80%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Central Govt",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "2%",
+        "pct": 3,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "13%",
+        "pct": 17,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Others",
+        "val": "4%",
+        "pct": 4,
+        "color": "#0e7490"
+      }
+    ],
+    "chartZeroMgmtSource": "Zero-teacher school distribution by management type — State Government schools carry the overwhelming majority of administrative failures in teacher posting.",
+    "chartZeroMgmtNote": "State Government schools account for 80% of all zero-teacher schools, reflecting challenges in rural teacher deployment and vacancy management.",
+    "chartSingleBand": [
+      {
+        "name": "Single-teacher, < 5 students",
+        "val": "6T",
+        "pct": 7,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Single-teacher, 5–50 students",
+        "val": "78T",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Single-teacher, 50–100 students",
+        "val": "21T",
+        "pct": 27,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Single-teacher, 100+ students",
+        "val": "9T",
+        "pct": 11,
+        "color": "#2563eb"
+      }
+    ],
+    "chartSingleBandSource": "Single-teacher schools by enrollment size band — most single-teacher schools serve small populations, but a critical segment serves 100+ students with one teacher.",
+    "chartSingleBandNote": "The majority (78T) of single-teacher schools serve 5–50 students. But 9T schools with 100+ students have only one teacher, creating extreme workloads.",
+    "insight1": {
+      "num": "13T",
+      "label": "Zero-Teacher Schools",
+      "note": "13T schools have no teacher posted. 80% are in State Government management in 2020-21.",
+      "color": "#6366f1",
+      "delta_val": "1.1 L",
+      "delta_label": "Single-teacher schools"
+    },
+    "insight2": {
+      "num": "9T",
+      "label": "Highest-Risk Schools",
+      "note": "9T single-teacher schools have 100+ students — a 100:1 or worse teacher-student ratio.",
+      "color": "#7c3aed",
+      "delta_val": "8T",
+      "delta_label": "Schools with PTR above 40"
+    }
+  },
+  "2021-22": {
+    "year": "2021-22",
+    "header": {
+      "label": "School Comparison Analytics",
+      "headline": "12T schools with no teacher, 1.2 L with one teacher — 78% of zero-teacher schools are in State Govt",
+      "sub": "In 2021-22: 12T zero-teacher schools, 1.2 L single-teacher schools. 9T single-teacher schools with 100+ students. 8T schools with PTR above 40."
+    },
+    "cards": [
+      {
+        "id": "zero",
+        "label": "Zero-Teacher Schools",
+        "fullLabel": "Schools with no teacher posted",
+        "headline": "12T",
+        "headlineNote": "Schools with no teacher on record",
+        "color": "#6366f1",
+        "bar": 1,
+        "barLabel": "78% are State Government schools",
+        "split": [
+          {
+            "val": "12T",
+            "lbl": "Total"
+          },
+          {
+            "val": "78%",
+            "lbl": "State Govt Share"
+          },
+          {
+            "val": "10T",
+            "lbl": "State Govt Count",
+            "accent": true
+          }
+        ],
+        "note": "78% of zero-teacher schools are State Government managed. Total: 12T."
+      },
+      {
+        "id": "single",
+        "label": "Single-Teacher Schools",
+        "fullLabel": "Schools with exactly one teacher",
+        "headline": "1.2 L",
+        "headlineNote": "Schools with only one teacher",
+        "color": "#d97706",
+        "bar": 8,
+        "barLabel": "89% are State Government schools",
+        "split": [
+          {
+            "val": "1.2 L",
+            "lbl": "Total"
+          },
+          {
+            "val": "9T",
+            "lbl": "With 100+ Students"
+          },
+          {
+            "val": "89%",
+            "lbl": "State Govt Share",
+            "accent": true
+          }
+        ],
+        "note": "1.2 L single-teacher schools. 89% in State Govt. 9T have 100+ students."
+      },
+      {
+        "id": "single_100",
+        "label": "Single-Teacher, 100+ Students",
+        "fullLabel": "Highest-risk: one teacher, 100+ students",
+        "headline": "9T",
+        "headlineNote": "Single-teacher schools with 100+ students",
+        "color": "#7c3aed",
+        "bar": 7,
+        "barLabel": "Effective PTR of 100:1 or worse",
+        "split": [
+          {
+            "val": "9T",
+            "lbl": "Schools"
+          },
+          {
+            "val": "100+",
+            "lbl": "Students/School"
+          },
+          {
+            "val": "100:1+",
+            "lbl": "Effective PTR",
+            "accent": true
+          }
+        ],
+        "note": "9T schools where a single teacher manages 100+ students — the most extreme workload situation"
+      },
+      {
+        "id": "ptr40",
+        "label": "Schools with PTR Above 40",
+        "fullLabel": "Severely overcrowded schools",
+        "headline": "8T",
+        "headlineNote": "Schools with PTR exceeding 40",
+        "color": "#0891b2",
+        "bar": 1,
+        "barLabel": "1% of all schools severely over-norm",
+        "split": [
+          {
+            "val": "8T",
+            "lbl": "PTR > 40"
+          },
+          {
+            "val": "1%",
+            "lbl": "Share of All Schools"
+          },
+          {
+            "val": ">40:1",
+            "lbl": "PTR Breach",
+            "accent": true
+          }
+        ],
+        "note": "8T schools with PTR exceeding 40 — the most severely overcrowded classrooms in the system"
+      }
+    ],
+    "chartZeroMgmt": [
+      {
+        "name": "State Govt",
+        "val": "78%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Central Govt",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "3%",
+        "pct": 3,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "18%",
+        "pct": 23,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Others",
+        "val": "1%",
+        "pct": 2,
+        "color": "#0e7490"
+      }
+    ],
+    "chartZeroMgmtSource": "Zero-teacher school distribution by management type — State Government schools carry the overwhelming majority of administrative failures in teacher posting.",
+    "chartZeroMgmtNote": "State Government schools account for 78% of all zero-teacher schools, reflecting challenges in rural teacher deployment and vacancy management.",
+    "chartSingleBand": [
+      {
+        "name": "Single-teacher, < 5 students",
+        "val": "6T",
+        "pct": 7,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Single-teacher, 5–50 students",
+        "val": "83T",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Single-teacher, 50–100 students",
+        "val": "21T",
+        "pct": 26,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Single-teacher, 100+ students",
+        "val": "9T",
+        "pct": 11,
+        "color": "#2563eb"
+      }
+    ],
+    "chartSingleBandSource": "Single-teacher schools by enrollment size band — most single-teacher schools serve small populations, but a critical segment serves 100+ students with one teacher.",
+    "chartSingleBandNote": "The majority (83T) of single-teacher schools serve 5–50 students. But 9T schools with 100+ students have only one teacher, creating extreme workloads.",
+    "insight1": {
+      "num": "12T",
+      "label": "Zero-Teacher Schools",
+      "note": "12T schools have no teacher posted. 78% are in State Government management in 2021-22.",
+      "color": "#6366f1",
+      "delta_val": "1.2 L",
+      "delta_label": "Single-teacher schools"
+    },
+    "insight2": {
+      "num": "9T",
+      "label": "Highest-Risk Schools",
+      "note": "9T single-teacher schools have 100+ students — a 100:1 or worse teacher-student ratio.",
+      "color": "#7c3aed",
+      "delta_val": "8T",
+      "delta_label": "Schools with PTR above 40"
+    }
+  },
+  "2022-23": {
+    "year": "2022-23",
+    "header": {
+      "label": "School Comparison Analytics",
+      "headline": "15T schools with no teacher, 1.2 L with one teacher — 75% of zero-teacher schools are in State Govt",
+      "sub": "In 2022-23: 15T zero-teacher schools, 1.2 L single-teacher schools. 8T single-teacher schools with 100+ students. 8T schools with PTR above 40."
+    },
+    "cards": [
+      {
+        "id": "zero",
+        "label": "Zero-Teacher Schools",
+        "fullLabel": "Schools with no teacher posted",
+        "headline": "15T",
+        "headlineNote": "Schools with no teacher on record",
+        "color": "#6366f1",
+        "bar": 1,
+        "barLabel": "75% are State Government schools",
+        "split": [
+          {
+            "val": "15T",
+            "lbl": "Total"
+          },
+          {
+            "val": "75%",
+            "lbl": "State Govt Share"
+          },
+          {
+            "val": "11T",
+            "lbl": "State Govt Count",
+            "accent": true
+          }
+        ],
+        "note": "75% of zero-teacher schools are State Government managed. Total: 15T."
+      },
+      {
+        "id": "single",
+        "label": "Single-Teacher Schools",
+        "fullLabel": "Schools with exactly one teacher",
+        "headline": "1.2 L",
+        "headlineNote": "Schools with only one teacher",
+        "color": "#d97706",
+        "bar": 8,
+        "barLabel": "89% are State Government schools",
+        "split": [
+          {
+            "val": "1.2 L",
+            "lbl": "Total"
+          },
+          {
+            "val": "8T",
+            "lbl": "With 100+ Students"
+          },
+          {
+            "val": "89%",
+            "lbl": "State Govt Share",
+            "accent": true
+          }
+        ],
+        "note": "1.2 L single-teacher schools. 89% in State Govt. 8T have 100+ students."
+      },
+      {
+        "id": "single_100",
+        "label": "Single-Teacher, 100+ Students",
+        "fullLabel": "Highest-risk: one teacher, 100+ students",
+        "headline": "8T",
+        "headlineNote": "Single-teacher schools with 100+ students",
+        "color": "#7c3aed",
+        "bar": 7,
+        "barLabel": "Effective PTR of 100:1 or worse",
+        "split": [
+          {
+            "val": "8T",
+            "lbl": "Schools"
+          },
+          {
+            "val": "100+",
+            "lbl": "Students/School"
+          },
+          {
+            "val": "100:1+",
+            "lbl": "Effective PTR",
+            "accent": true
+          }
+        ],
+        "note": "8T schools where a single teacher manages 100+ students — the most extreme workload situation"
+      },
+      {
+        "id": "ptr40",
+        "label": "Schools with PTR Above 40",
+        "fullLabel": "Severely overcrowded schools",
+        "headline": "8T",
+        "headlineNote": "Schools with PTR exceeding 40",
+        "color": "#0891b2",
+        "bar": 1,
+        "barLabel": "1% of all schools severely over-norm",
+        "split": [
+          {
+            "val": "8T",
+            "lbl": "PTR > 40"
+          },
+          {
+            "val": "1%",
+            "lbl": "Share of All Schools"
+          },
+          {
+            "val": ">40:1",
+            "lbl": "PTR Breach",
+            "accent": true
+          }
+        ],
+        "note": "8T schools with PTR exceeding 40 — the most severely overcrowded classrooms in the system"
+      }
+    ],
+    "chartZeroMgmt": [
+      {
+        "name": "State Govt",
+        "val": "75%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Central Govt",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "2%",
+        "pct": 3,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "20%",
+        "pct": 27,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Others",
+        "val": "3%",
+        "pct": 3,
+        "color": "#0e7490"
+      }
+    ],
+    "chartZeroMgmtSource": "Zero-teacher school distribution by management type — State Government schools carry the overwhelming majority of administrative failures in teacher posting.",
+    "chartZeroMgmtNote": "State Government schools account for 75% of all zero-teacher schools, reflecting challenges in rural teacher deployment and vacancy management.",
+    "chartSingleBand": [
+      {
+        "name": "Single-teacher, < 5 students",
+        "val": "7T",
+        "pct": 9,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Single-teacher, 5–50 students",
+        "val": "85T",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Single-teacher, 50–100 students",
+        "val": "18T",
+        "pct": 21,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Single-teacher, 100+ students",
+        "val": "8T",
+        "pct": 10,
+        "color": "#2563eb"
+      }
+    ],
+    "chartSingleBandSource": "Single-teacher schools by enrollment size band — most single-teacher schools serve small populations, but a critical segment serves 100+ students with one teacher.",
+    "chartSingleBandNote": "The majority (85T) of single-teacher schools serve 5–50 students. But 8T schools with 100+ students have only one teacher, creating extreme workloads.",
+    "insight1": {
+      "num": "15T",
+      "label": "Zero-Teacher Schools",
+      "note": "15T schools have no teacher posted. 75% are in State Government management in 2022-23.",
+      "color": "#6366f1",
+      "delta_val": "1.2 L",
+      "delta_label": "Single-teacher schools"
+    },
+    "insight2": {
+      "num": "8T",
+      "label": "Highest-Risk Schools",
+      "note": "8T single-teacher schools have 100+ students — a 100:1 or worse teacher-student ratio.",
+      "color": "#7c3aed",
+      "delta_val": "8T",
+      "delta_label": "Schools with PTR above 40"
+    }
+  },
+  "2023-24": {
+    "year": "2023-24",
+    "header": {
+      "label": "School Comparison Analytics",
+      "headline": "14T schools with no teacher, 1.1 L with one teacher — 74% of zero-teacher schools are in State Govt",
+      "sub": "In 2023-24: 14T zero-teacher schools, 1.1 L single-teacher schools. 6T single-teacher schools with 100+ students. 6T schools with PTR above 40."
+    },
+    "cards": [
+      {
+        "id": "zero",
+        "label": "Zero-Teacher Schools",
+        "fullLabel": "Schools with no teacher posted",
+        "headline": "14T",
+        "headlineNote": "Schools with no teacher on record",
+        "color": "#6366f1",
+        "bar": 1,
+        "barLabel": "74% are State Government schools",
+        "split": [
+          {
+            "val": "14T",
+            "lbl": "Total"
+          },
+          {
+            "val": "74%",
+            "lbl": "State Govt Share"
+          },
+          {
+            "val": "10T",
+            "lbl": "State Govt Count",
+            "accent": true
+          }
+        ],
+        "note": "74% of zero-teacher schools are State Government managed. Total: 14T."
+      },
+      {
+        "id": "single",
+        "label": "Single-Teacher Schools",
+        "fullLabel": "Schools with exactly one teacher",
+        "headline": "1.1 L",
+        "headlineNote": "Schools with only one teacher",
+        "color": "#d97706",
+        "bar": 8,
+        "barLabel": "89% are State Government schools",
+        "split": [
+          {
+            "val": "1.1 L",
+            "lbl": "Total"
+          },
+          {
+            "val": "6T",
+            "lbl": "With 100+ Students"
+          },
+          {
+            "val": "89%",
+            "lbl": "State Govt Share",
+            "accent": true
+          }
+        ],
+        "note": "1.1 L single-teacher schools. 89% in State Govt. 6T have 100+ students."
+      },
+      {
+        "id": "single_100",
+        "label": "Single-Teacher, 100+ Students",
+        "fullLabel": "Highest-risk: one teacher, 100+ students",
+        "headline": "6T",
+        "headlineNote": "Single-teacher schools with 100+ students",
+        "color": "#7c3aed",
+        "bar": 6,
+        "barLabel": "Effective PTR of 100:1 or worse",
+        "split": [
+          {
+            "val": "6T",
+            "lbl": "Schools"
+          },
+          {
+            "val": "100+",
+            "lbl": "Students/School"
+          },
+          {
+            "val": "100:1+",
+            "lbl": "Effective PTR",
+            "accent": true
+          }
+        ],
+        "note": "6T schools where a single teacher manages 100+ students — the most extreme workload situation"
+      },
+      {
+        "id": "ptr40",
+        "label": "Schools with PTR Above 40",
+        "fullLabel": "Severely overcrowded schools",
+        "headline": "6T",
+        "headlineNote": "Schools with PTR exceeding 40",
+        "color": "#0891b2",
+        "bar": 0,
+        "barLabel": "0% of all schools severely over-norm",
+        "split": [
+          {
+            "val": "6T",
+            "lbl": "PTR > 40"
+          },
+          {
+            "val": "0%",
+            "lbl": "Share of All Schools"
+          },
+          {
+            "val": ">40:1",
+            "lbl": "PTR Breach",
+            "accent": true
+          }
+        ],
+        "note": "6T schools with PTR exceeding 40 — the most severely overcrowded classrooms in the system"
+      }
+    ],
+    "chartZeroMgmt": [
+      {
+        "name": "State Govt",
+        "val": "74%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Central Govt",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "3%",
+        "pct": 3,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "21%",
+        "pct": 28,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Others",
+        "val": "2%",
+        "pct": 3,
+        "color": "#0e7490"
+      }
+    ],
+    "chartZeroMgmtSource": "Zero-teacher school distribution by management type — State Government schools carry the overwhelming majority of administrative failures in teacher posting.",
+    "chartZeroMgmtNote": "State Government schools account for 74% of all zero-teacher schools, reflecting challenges in rural teacher deployment and vacancy management.",
+    "chartSingleBand": [
+      {
+        "name": "Single-teacher, < 5 students",
+        "val": "9T",
+        "pct": 11,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Single-teacher, 5–50 students",
+        "val": "81T",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Single-teacher, 50–100 students",
+        "val": "16T",
+        "pct": 19,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Single-teacher, 100+ students",
+        "val": "6T",
+        "pct": 8,
+        "color": "#2563eb"
+      }
+    ],
+    "chartSingleBandSource": "Single-teacher schools by enrollment size band — most single-teacher schools serve small populations, but a critical segment serves 100+ students with one teacher.",
+    "chartSingleBandNote": "The majority (81T) of single-teacher schools serve 5–50 students. But 6T schools with 100+ students have only one teacher, creating extreme workloads.",
+    "insight1": {
+      "num": "14T",
+      "label": "Zero-Teacher Schools",
+      "note": "14T schools have no teacher posted. 74% are in State Government management in 2023-24.",
+      "color": "#6366f1",
+      "delta_val": "1.1 L",
+      "delta_label": "Single-teacher schools"
+    },
+    "insight2": {
+      "num": "6T",
+      "label": "Highest-Risk Schools",
+      "note": "6T single-teacher schools have 100+ students — a 100:1 or worse teacher-student ratio.",
+      "color": "#7c3aed",
+      "delta_val": "6T",
+      "delta_label": "Schools with PTR above 40"
+    }
+  },
+  "2024-25": {
+    "year": "2024-25",
+    "header": {
+      "label": "School Comparison Analytics",
+      "headline": "9T schools with no teacher, 1 L with one teacher — 80% of zero-teacher schools are in State Govt",
+      "sub": "In 2024-25: 9T zero-teacher schools, 1 L single-teacher schools. 5T single-teacher schools with 100+ students. 5T schools with PTR above 40."
+    },
+    "cards": [
+      {
+        "id": "zero",
+        "label": "Zero-Teacher Schools",
+        "fullLabel": "Schools with no teacher posted",
+        "headline": "9T",
+        "headlineNote": "Schools with no teacher on record",
+        "color": "#6366f1",
+        "bar": 1,
+        "barLabel": "80% are State Government schools",
+        "split": [
+          {
+            "val": "9T",
+            "lbl": "Total"
+          },
+          {
+            "val": "80%",
+            "lbl": "State Govt Share"
+          },
+          {
+            "val": "7T",
+            "lbl": "State Govt Count",
+            "accent": true
+          }
+        ],
+        "note": "80% of zero-teacher schools are State Government managed. Total: 9T."
+      },
+      {
+        "id": "single",
+        "label": "Single-Teacher Schools",
+        "fullLabel": "Schools with exactly one teacher",
+        "headline": "1 L",
+        "headlineNote": "Schools with only one teacher",
+        "color": "#d97706",
+        "bar": 7,
+        "barLabel": "89% are State Government schools",
+        "split": [
+          {
+            "val": "1 L",
+            "lbl": "Total"
+          },
+          {
+            "val": "5T",
+            "lbl": "With 100+ Students"
+          },
+          {
+            "val": "89%",
+            "lbl": "State Govt Share",
+            "accent": true
+          }
+        ],
+        "note": "1 L single-teacher schools. 89% in State Govt. 5T have 100+ students."
+      },
+      {
+        "id": "single_100",
+        "label": "Single-Teacher, 100+ Students",
+        "fullLabel": "Highest-risk: one teacher, 100+ students",
+        "headline": "5T",
+        "headlineNote": "Single-teacher schools with 100+ students",
+        "color": "#7c3aed",
+        "bar": 5,
+        "barLabel": "Effective PTR of 100:1 or worse",
+        "split": [
+          {
+            "val": "5T",
+            "lbl": "Schools"
+          },
+          {
+            "val": "100+",
+            "lbl": "Students/School"
+          },
+          {
+            "val": "100:1+",
+            "lbl": "Effective PTR",
+            "accent": true
+          }
+        ],
+        "note": "5T schools where a single teacher manages 100+ students — the most extreme workload situation"
+      },
+      {
+        "id": "ptr40",
+        "label": "Schools with PTR Above 40",
+        "fullLabel": "Severely overcrowded schools",
+        "headline": "5T",
+        "headlineNote": "Schools with PTR exceeding 40",
+        "color": "#0891b2",
+        "bar": 0,
+        "barLabel": "0% of all schools severely over-norm",
+        "split": [
+          {
+            "val": "5T",
+            "lbl": "PTR > 40"
+          },
+          {
+            "val": "0%",
+            "lbl": "Share of All Schools"
+          },
+          {
+            "val": ">40:1",
+            "lbl": "PTR Breach",
+            "accent": true
+          }
+        ],
+        "note": "5T schools with PTR exceeding 40 — the most severely overcrowded classrooms in the system"
+      }
+    ],
+    "chartZeroMgmt": [
+      {
+        "name": "State Govt",
+        "val": "80%",
+        "pct": 100,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Central Govt",
+        "val": "0%",
+        "pct": 0,
+        "color": "#d97706"
+      },
+      {
+        "name": "Govt Aided",
+        "val": "3%",
+        "pct": 3,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Private Unaided",
+        "val": "15%",
+        "pct": 19,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Others",
+        "val": "2%",
+        "pct": 3,
+        "color": "#0e7490"
+      }
+    ],
+    "chartZeroMgmtSource": "Zero-teacher school distribution by management type — State Government schools carry the overwhelming majority of administrative failures in teacher posting.",
+    "chartZeroMgmtNote": "State Government schools account for 80% of all zero-teacher schools, reflecting challenges in rural teacher deployment and vacancy management.",
+    "chartSingleBand": [
+      {
+        "name": "Single-teacher, < 5 students",
+        "val": "9T",
+        "pct": 12,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Single-teacher, 5–50 students",
+        "val": "78T",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Single-teacher, 50–100 students",
+        "val": "13T",
+        "pct": 16,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Single-teacher, 100+ students",
+        "val": "5T",
+        "pct": 6,
+        "color": "#2563eb"
+      }
+    ],
+    "chartSingleBandSource": "Single-teacher schools by enrollment size band — most single-teacher schools serve small populations, but a critical segment serves 100+ students with one teacher.",
+    "chartSingleBandNote": "The majority (78T) of single-teacher schools serve 5–50 students. But 5T schools with 100+ students have only one teacher, creating extreme workloads.",
+    "insight1": {
+      "num": "9T",
+      "label": "Zero-Teacher Schools",
+      "note": "9T schools have no teacher posted. 80% are in State Government management in 2024-25.",
+      "color": "#6366f1",
+      "delta_val": "1 L",
+      "delta_label": "Single-teacher schools"
+    },
+    "insight2": {
+      "num": "5T",
+      "label": "Highest-Risk Schools",
+      "note": "5T single-teacher schools have 100+ students — a 100:1 or worse teacher-student ratio.",
+      "color": "#7c3aed",
+      "delta_val": "5T",
+      "delta_label": "Schools with PTR above 40"
+    }
+  }
+}

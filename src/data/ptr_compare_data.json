@@ -1,0 +1,842 @@
+{
+  "2020-21": {
+    "year": "2020-21",
+    "header": {
+      "label": "PTR Comparison Analytics",
+      "headline": "Rural schools 67% PTR compliant \u2014 79.0 L students in overcrowded schools",
+      "sub": "65% national PTR compliance in 2020-21. 79.0 L students (57%) in PTR-breaching schools. 7,778 schools with PTR above 40."
+    },
+    "cards": [
+      {
+        "id": "students_above30",
+        "label": "Students in Non-Compliant Schools",
+        "fullLabel": "Students in schools with PTR > 30",
+        "headline": "79.0 L",
+        "headlineNote": "Students in schools with PTR > 30",
+        "color": "#6366f1",
+        "bar": 57,
+        "barLabel": "57% of enrollment in overcrowded schools",
+        "split": [
+          {
+            "val": "79.0 L",
+            "lbl": "PTR > 30"
+          },
+          {
+            "val": "59.1 L",
+            "lbl": "PTR \u2264 30"
+          },
+          {
+            "val": "57%",
+            "lbl": "At-risk Share",
+            "accent": true
+          }
+        ],
+        "note": "79.0 L students in schools exceeding PTR 30 \u2014 57% of total enrollment"
+      },
+      {
+        "id": "ptr_above40",
+        "label": "Schools with PTR Above 40",
+        "fullLabel": "Schools with PTR > 40",
+        "headline": "7,778",
+        "headlineNote": "Schools with severely high PTR (>40)",
+        "color": "#d97706",
+        "bar": 19,
+        "barLabel": "19% of schools severely overcrowded",
+        "split": [
+          {
+            "val": "7,778",
+            "lbl": "PTR > 40"
+          },
+          {
+            "val": "14,208",
+            "lbl": "PTR > 30"
+          },
+          {
+            "val": "55%",
+            "lbl": "% of non-compliant",
+            "accent": true
+          }
+        ],
+        "note": "7,778 schools exceed PTR 40 \u2014 the most severely overcrowded classrooms"
+      },
+      {
+        "id": "teachers_required",
+        "label": "Teachers Required (PTR 30)",
+        "fullLabel": "Additional teachers needed to achieve PTR \u2264 30",
+        "headline": "98,607",
+        "headlineNote": "Teachers required to achieve PTR 30",
+        "color": "#0891b2",
+        "bar": 100,
+        "barLabel": "98,607 additional teachers required",
+        "split": [
+          {
+            "val": "98,607",
+            "lbl": "Required"
+          },
+          {
+            "val": "90,204",
+            "lbl": "Redeployable"
+          },
+          {
+            "val": "91%",
+            "lbl": "Gap closeable",
+            "accent": true
+          }
+        ],
+        "note": "98,607 teachers required to bring all schools to PTR 30 norm"
+      },
+      {
+        "id": "compliance",
+        "label": "National PTR Compliance",
+        "fullLabel": "Schools with PTR \u2264 30",
+        "headline": "65%",
+        "headlineNote": "Schools meeting PTR \u2264 30 norm",
+        "color": "#7c3aed",
+        "bar": 65,
+        "barLabel": "65% of schools within RTE PTR norm",
+        "split": [
+          {
+            "val": "26,230",
+            "lbl": "Compliant"
+          },
+          {
+            "val": "14,208",
+            "lbl": "Non-compliant"
+          },
+          {
+            "val": "65%",
+            "lbl": "Compliance Rate",
+            "accent": true
+          }
+        ],
+        "note": "65% of schools meet the PTR \u2264 30 norm \u2014 14,208 schools still non-compliant"
+      }
+    ],
+    "chartLocPtr": [
+      {
+        "name": "Rural",
+        "val": "67%",
+        "pct": 100,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Urban",
+        "val": "64%",
+        "pct": 96,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatPtr": [
+      {
+        "name": "Secondary",
+        "val": "57%",
+        "pct": 79,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Middle",
+        "val": "72%",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Foundational",
+        "val": "71%",
+        "pct": 99,
+        "color": "#2563eb"
+      }
+    ],
+    "chartLocPtrSource": "PTR compliance rate (schools with PTR \u2264 30) by school location \u2014 rural schools consistently outperform urban schools on PTR compliance due to smaller enrollment sizes.",
+    "chartLocNote": "Rural schools show higher PTR compliance than urban schools. Urban concentration of large schools drives higher PTR.",
+    "chartCatPtrSource": "PTR compliance rate by school category \u2014 Secondary schools have the lowest compliance as they serve larger, more concentrated student populations.",
+    "chartCatNote": "Secondary schools face the greatest PTR challenge, while Foundational schools benefit from smaller class sizes.",
+    "insight1": {
+      "num": "65%",
+      "label": "National Compliance Rate",
+      "note": "26,230 schools meet PTR \u2264 30 norm out of 40,438 total schools in 2020-21",
+      "color": "#6366f1",
+      "delta_val": "14,208",
+      "delta_label": "Schools above PTR 30"
+    },
+    "insight2": {
+      "num": "98,607",
+      "label": "Teachers Required",
+      "note": "Additional teachers needed to bring all 14,208 non-compliant schools to PTR 30 norm",
+      "color": "#0891b2",
+      "delta_val": "90,204",
+      "delta_label": "Redeployable excess teachers"
+    }
+  },
+  "2021-22": {
+    "year": "2021-22",
+    "header": {
+      "label": "PTR Comparison Analytics",
+      "headline": "Rural schools 62% PTR compliant \u2014 93.5 L students in overcrowded schools",
+      "sub": "61% national PTR compliance in 2021-22. 93.5 L students (65%) in PTR-breaching schools. 8,225 schools with PTR above 40."
+    },
+    "cards": [
+      {
+        "id": "students_above30",
+        "label": "Students in Non-Compliant Schools",
+        "fullLabel": "Students in schools with PTR > 30",
+        "headline": "93.5 L",
+        "headlineNote": "Students in schools with PTR > 30",
+        "color": "#6366f1",
+        "bar": 65,
+        "barLabel": "65% of enrollment in overcrowded schools",
+        "split": [
+          {
+            "val": "93.5 L",
+            "lbl": "PTR > 30"
+          },
+          {
+            "val": "49.3 L",
+            "lbl": "PTR \u2264 30"
+          },
+          {
+            "val": "65%",
+            "lbl": "At-risk Share",
+            "accent": true
+          }
+        ],
+        "note": "93.5 L students in schools exceeding PTR 30 \u2014 65% of total enrollment"
+      },
+      {
+        "id": "ptr_above40",
+        "label": "Schools with PTR Above 40",
+        "fullLabel": "Schools with PTR > 40",
+        "headline": "8,225",
+        "headlineNote": "Schools with severely high PTR (>40)",
+        "color": "#d97706",
+        "bar": 21,
+        "barLabel": "21% of schools severely overcrowded",
+        "split": [
+          {
+            "val": "8,225",
+            "lbl": "PTR > 40"
+          },
+          {
+            "val": "15,106",
+            "lbl": "PTR > 30"
+          },
+          {
+            "val": "54%",
+            "lbl": "% of non-compliant",
+            "accent": true
+          }
+        ],
+        "note": "8,225 schools exceed PTR 40 \u2014 the most severely overcrowded classrooms"
+      },
+      {
+        "id": "teachers_required",
+        "label": "Teachers Required (PTR 30)",
+        "fullLabel": "Additional teachers needed to achieve PTR \u2264 30",
+        "headline": "1.1 L",
+        "headlineNote": "Teachers required to achieve PTR 30",
+        "color": "#0891b2",
+        "bar": 100,
+        "barLabel": "1.1 L additional teachers required",
+        "split": [
+          {
+            "val": "1.1 L",
+            "lbl": "Required"
+          },
+          {
+            "val": "83,832",
+            "lbl": "Redeployable"
+          },
+          {
+            "val": "78%",
+            "lbl": "Gap closeable",
+            "accent": true
+          }
+        ],
+        "note": "1.1 L teachers required to bring all schools to PTR 30 norm"
+      },
+      {
+        "id": "compliance",
+        "label": "National PTR Compliance",
+        "fullLabel": "Schools with PTR \u2264 30",
+        "headline": "61%",
+        "headlineNote": "Schools meeting PTR \u2264 30 norm",
+        "color": "#7c3aed",
+        "bar": 61,
+        "barLabel": "61% of schools within RTE PTR norm",
+        "split": [
+          {
+            "val": "23,588",
+            "lbl": "Compliant"
+          },
+          {
+            "val": "15,106",
+            "lbl": "Non-compliant"
+          },
+          {
+            "val": "61%",
+            "lbl": "Compliance Rate",
+            "accent": true
+          }
+        ],
+        "note": "61% of schools meet the PTR \u2264 30 norm \u2014 15,106 schools still non-compliant"
+      }
+    ],
+    "chartLocPtr": [
+      {
+        "name": "Rural",
+        "val": "62%",
+        "pct": 100,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Urban",
+        "val": "61%",
+        "pct": 98,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatPtr": [
+      {
+        "name": "Secondary",
+        "val": "56%",
+        "pct": 84,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Middle",
+        "val": "67%",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Foundational",
+        "val": "64%",
+        "pct": 96,
+        "color": "#2563eb"
+      }
+    ],
+    "chartLocPtrSource": "PTR compliance rate (schools with PTR \u2264 30) by school location \u2014 rural schools consistently outperform urban schools on PTR compliance due to smaller enrollment sizes.",
+    "chartLocNote": "Rural schools show higher PTR compliance than urban schools. Urban concentration of large schools drives higher PTR.",
+    "chartCatPtrSource": "PTR compliance rate by school category \u2014 Secondary schools have the lowest compliance as they serve larger, more concentrated student populations.",
+    "chartCatNote": "Secondary schools face the greatest PTR challenge, while Foundational schools benefit from smaller class sizes.",
+    "insight1": {
+      "num": "61%",
+      "label": "National Compliance Rate",
+      "note": "23,588 schools meet PTR \u2264 30 norm out of 38,694 total schools in 2021-22",
+      "color": "#6366f1",
+      "delta_val": "15,106",
+      "delta_label": "Schools above PTR 30"
+    },
+    "insight2": {
+      "num": "1.1 L",
+      "label": "Teachers Required",
+      "note": "Additional teachers needed to bring all 15,106 non-compliant schools to PTR 30 norm",
+      "color": "#0891b2",
+      "delta_val": "83,832",
+      "delta_label": "Redeployable excess teachers"
+    }
+  },
+  "2022-23": {
+    "year": "2022-23",
+    "header": {
+      "label": "PTR Comparison Analytics",
+      "headline": "Rural schools 66% PTR compliant \u2014 86.8 L students in overcrowded schools",
+      "sub": "63% national PTR compliance in 2022-23. 86.8 L students (66%) in PTR-breaching schools. 7,505 schools with PTR above 40."
+    },
+    "cards": [
+      {
+        "id": "students_above30",
+        "label": "Students in Non-Compliant Schools",
+        "fullLabel": "Students in schools with PTR > 30",
+        "headline": "86.8 L",
+        "headlineNote": "Students in schools with PTR > 30",
+        "color": "#6366f1",
+        "bar": 66,
+        "barLabel": "66% of enrollment in overcrowded schools",
+        "split": [
+          {
+            "val": "86.8 L",
+            "lbl": "PTR > 30"
+          },
+          {
+            "val": "43.9 L",
+            "lbl": "PTR \u2264 30"
+          },
+          {
+            "val": "66%",
+            "lbl": "At-risk Share",
+            "accent": true
+          }
+        ],
+        "note": "86.8 L students in schools exceeding PTR 30 \u2014 66% of total enrollment"
+      },
+      {
+        "id": "ptr_above40",
+        "label": "Schools with PTR Above 40",
+        "fullLabel": "Schools with PTR > 40",
+        "headline": "7,505",
+        "headlineNote": "Schools with severely high PTR (>40)",
+        "color": "#d97706",
+        "bar": 21,
+        "barLabel": "21% of schools severely overcrowded",
+        "split": [
+          {
+            "val": "7,505",
+            "lbl": "PTR > 40"
+          },
+          {
+            "val": "13,610",
+            "lbl": "PTR > 30"
+          },
+          {
+            "val": "55%",
+            "lbl": "% of non-compliant",
+            "accent": true
+          }
+        ],
+        "note": "7,505 schools exceed PTR 40 \u2014 the most severely overcrowded classrooms"
+      },
+      {
+        "id": "teachers_required",
+        "label": "Teachers Required (PTR 30)",
+        "fullLabel": "Additional teachers needed to achieve PTR \u2264 30",
+        "headline": "95,343",
+        "headlineNote": "Teachers required to achieve PTR 30",
+        "color": "#0891b2",
+        "bar": 100,
+        "barLabel": "95,343 additional teachers required",
+        "split": [
+          {
+            "val": "95,343",
+            "lbl": "Required"
+          },
+          {
+            "val": "86,524",
+            "lbl": "Redeployable"
+          },
+          {
+            "val": "91%",
+            "lbl": "Gap closeable",
+            "accent": true
+          }
+        ],
+        "note": "95,343 teachers required to bring all schools to PTR 30 norm"
+      },
+      {
+        "id": "compliance",
+        "label": "National PTR Compliance",
+        "fullLabel": "Schools with PTR \u2264 30",
+        "headline": "63%",
+        "headlineNote": "Schools meeting PTR \u2264 30 norm",
+        "color": "#7c3aed",
+        "bar": 63,
+        "barLabel": "63% of schools within RTE PTR norm",
+        "split": [
+          {
+            "val": "22,958",
+            "lbl": "Compliant"
+          },
+          {
+            "val": "13,610",
+            "lbl": "Non-compliant"
+          },
+          {
+            "val": "63%",
+            "lbl": "Compliance Rate",
+            "accent": true
+          }
+        ],
+        "note": "63% of schools meet the PTR \u2264 30 norm \u2014 13,610 schools still non-compliant"
+      }
+    ],
+    "chartLocPtr": [
+      {
+        "name": "Rural",
+        "val": "66%",
+        "pct": 100,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Urban",
+        "val": "62%",
+        "pct": 94,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatPtr": [
+      {
+        "name": "Secondary",
+        "val": "59%",
+        "pct": 87,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Middle",
+        "val": "67%",
+        "pct": 99,
+        "color": "#d97706"
+      },
+      {
+        "name": "Foundational",
+        "val": "68%",
+        "pct": 100,
+        "color": "#2563eb"
+      }
+    ],
+    "chartLocPtrSource": "PTR compliance rate (schools with PTR \u2264 30) by school location \u2014 rural schools consistently outperform urban schools on PTR compliance due to smaller enrollment sizes.",
+    "chartLocNote": "Rural schools show higher PTR compliance than urban schools. Urban concentration of large schools drives higher PTR.",
+    "chartCatPtrSource": "PTR compliance rate by school category \u2014 Secondary schools have the lowest compliance as they serve larger, more concentrated student populations.",
+    "chartCatNote": "Secondary schools face the greatest PTR challenge, while Foundational schools benefit from smaller class sizes.",
+    "insight1": {
+      "num": "63%",
+      "label": "National Compliance Rate",
+      "note": "22,958 schools meet PTR \u2264 30 norm out of 36,568 total schools in 2022-23",
+      "color": "#6366f1",
+      "delta_val": "13,610",
+      "delta_label": "Schools above PTR 30"
+    },
+    "insight2": {
+      "num": "95,343",
+      "label": "Teachers Required",
+      "note": "Additional teachers needed to bring all 13,610 non-compliant schools to PTR 30 norm",
+      "color": "#0891b2",
+      "delta_val": "86,524",
+      "delta_label": "Redeployable excess teachers"
+    }
+  },
+  "2023-24": {
+    "year": "2023-24",
+    "header": {
+      "label": "PTR Comparison Analytics",
+      "headline": "Rural schools 71% PTR compliant \u2014 30.3 L students in overcrowded schools",
+      "sub": "67% national PTR compliance in 2023-24. 30.3 L students (24%) in PTR-breaching schools. 6,298 schools with PTR above 40."
+    },
+    "cards": [
+      {
+        "id": "students_above30",
+        "label": "Students in Non-Compliant Schools",
+        "fullLabel": "Students in schools with PTR > 30",
+        "headline": "30.3 L",
+        "headlineNote": "Students in schools with PTR > 30",
+        "color": "#6366f1",
+        "bar": 24,
+        "barLabel": "24% of enrollment in overcrowded schools",
+        "split": [
+          {
+            "val": "30.3 L",
+            "lbl": "PTR > 30"
+          },
+          {
+            "val": "95.2 L",
+            "lbl": "PTR \u2264 30"
+          },
+          {
+            "val": "24%",
+            "lbl": "At-risk Share",
+            "accent": true
+          }
+        ],
+        "note": "30.3 L students in schools exceeding PTR 30 \u2014 24% of total enrollment"
+      },
+      {
+        "id": "ptr_above40",
+        "label": "Schools with PTR Above 40",
+        "fullLabel": "Schools with PTR > 40",
+        "headline": "6,298",
+        "headlineNote": "Schools with severely high PTR (>40)",
+        "color": "#d97706",
+        "bar": 18,
+        "barLabel": "18% of schools severely overcrowded",
+        "split": [
+          {
+            "val": "6,298",
+            "lbl": "PTR > 40"
+          },
+          {
+            "val": "11,766",
+            "lbl": "PTR > 30"
+          },
+          {
+            "val": "54%",
+            "lbl": "% of non-compliant",
+            "accent": true
+          }
+        ],
+        "note": "6,298 schools exceed PTR 40 \u2014 the most severely overcrowded classrooms"
+      },
+      {
+        "id": "teachers_required",
+        "label": "Teachers Required (PTR 30)",
+        "fullLabel": "Additional teachers needed to achieve PTR \u2264 30",
+        "headline": "81,013",
+        "headlineNote": "Teachers required to achieve PTR 30",
+        "color": "#0891b2",
+        "bar": 100,
+        "barLabel": "81,013 additional teachers required",
+        "split": [
+          {
+            "val": "81,013",
+            "lbl": "Required"
+          },
+          {
+            "val": "96,046",
+            "lbl": "Redeployable"
+          },
+          {
+            "val": "119%",
+            "lbl": "Gap closeable",
+            "accent": true
+          }
+        ],
+        "note": "81,013 teachers required to bring all schools to PTR 30 norm"
+      },
+      {
+        "id": "compliance",
+        "label": "National PTR Compliance",
+        "fullLabel": "Schools with PTR \u2264 30",
+        "headline": "67%",
+        "headlineNote": "Schools meeting PTR \u2264 30 norm",
+        "color": "#7c3aed",
+        "bar": 67,
+        "barLabel": "67% of schools within RTE PTR norm",
+        "split": [
+          {
+            "val": "23,925",
+            "lbl": "Compliant"
+          },
+          {
+            "val": "11,766",
+            "lbl": "Non-compliant"
+          },
+          {
+            "val": "67%",
+            "lbl": "Compliance Rate",
+            "accent": true
+          }
+        ],
+        "note": "67% of schools meet the PTR \u2264 30 norm \u2014 11,766 schools still non-compliant"
+      }
+    ],
+    "chartLocPtr": [
+      {
+        "name": "Rural",
+        "val": "71%",
+        "pct": 100,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Urban",
+        "val": "66%",
+        "pct": 93,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatPtr": [
+      {
+        "name": "Secondary",
+        "val": "64%",
+        "pct": 90,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Middle",
+        "val": "71%",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Foundational",
+        "val": "70%",
+        "pct": 99,
+        "color": "#2563eb"
+      }
+    ],
+    "chartLocPtrSource": "PTR compliance rate (schools with PTR \u2264 30) by school location \u2014 rural schools consistently outperform urban schools on PTR compliance due to smaller enrollment sizes.",
+    "chartLocNote": "Rural schools show higher PTR compliance than urban schools. Urban concentration of large schools drives higher PTR.",
+    "chartCatPtrSource": "PTR compliance rate by school category \u2014 Secondary schools have the lowest compliance as they serve larger, more concentrated student populations.",
+    "chartCatNote": "Secondary schools face the greatest PTR challenge, while Foundational schools benefit from smaller class sizes.",
+    "insight1": {
+      "num": "67%",
+      "label": "National Compliance Rate",
+      "note": "23,925 schools meet PTR \u2264 30 norm out of 35,691 total schools in 2023-24",
+      "color": "#6366f1",
+      "delta_val": "11,766",
+      "delta_label": "Schools above PTR 30"
+    },
+    "insight2": {
+      "num": "81,013",
+      "label": "Teachers Required",
+      "note": "Additional teachers needed to bring all 11,766 non-compliant schools to PTR 30 norm",
+      "color": "#0891b2",
+      "delta_val": "96,046",
+      "delta_label": "Redeployable excess teachers"
+    }
+  },
+  "2024-25": {
+    "year": "2024-25",
+    "header": {
+      "label": "PTR Comparison Analytics",
+      "headline": "Rural schools 74% PTR compliant \u2014 23.6 L students in overcrowded schools",
+      "sub": "69% national PTR compliance in 2024-25. 23.6 L students (20%) in PTR-breaching schools. 5,490 schools with PTR above 40."
+    },
+    "cards": [
+      {
+        "id": "students_above30",
+        "label": "Students in Non-Compliant Schools",
+        "fullLabel": "Students in schools with PTR > 30",
+        "headline": "23.6 L",
+        "headlineNote": "Students in schools with PTR > 30",
+        "color": "#6366f1",
+        "bar": 20,
+        "barLabel": "20% of enrollment in overcrowded schools",
+        "split": [
+          {
+            "val": "23.6 L",
+            "lbl": "PTR > 30"
+          },
+          {
+            "val": "96.3 L",
+            "lbl": "PTR \u2264 30"
+          },
+          {
+            "val": "20%",
+            "lbl": "At-risk Share",
+            "accent": true
+          }
+        ],
+        "note": "23.6 L students in schools exceeding PTR 30 \u2014 20% of total enrollment"
+      },
+      {
+        "id": "ptr_above40",
+        "label": "Schools with PTR Above 40",
+        "fullLabel": "Schools with PTR > 40",
+        "headline": "5,490",
+        "headlineNote": "Schools with severely high PTR (>40)",
+        "color": "#d97706",
+        "bar": 16,
+        "barLabel": "16% of schools severely overcrowded",
+        "split": [
+          {
+            "val": "5,490",
+            "lbl": "PTR > 40"
+          },
+          {
+            "val": "10,597",
+            "lbl": "PTR > 30"
+          },
+          {
+            "val": "52%",
+            "lbl": "% of non-compliant",
+            "accent": true
+          }
+        ],
+        "note": "5,490 schools exceed PTR 40 \u2014 the most severely overcrowded classrooms"
+      },
+      {
+        "id": "teachers_required",
+        "label": "Teachers Required (PTR 30)",
+        "fullLabel": "Additional teachers needed to achieve PTR \u2264 30",
+        "headline": "73,149",
+        "headlineNote": "Teachers required to achieve PTR 30",
+        "color": "#0891b2",
+        "bar": 100,
+        "barLabel": "73,149 additional teachers required",
+        "split": [
+          {
+            "val": "73,149",
+            "lbl": "Required"
+          },
+          {
+            "val": "97,862",
+            "lbl": "Redeployable"
+          },
+          {
+            "val": "134%",
+            "lbl": "Gap closeable",
+            "accent": true
+          }
+        ],
+        "note": "73,149 teachers required to bring all schools to PTR 30 norm"
+      },
+      {
+        "id": "compliance",
+        "label": "National PTR Compliance",
+        "fullLabel": "Schools with PTR \u2264 30",
+        "headline": "69%",
+        "headlineNote": "Schools meeting PTR \u2264 30 norm",
+        "color": "#7c3aed",
+        "bar": 69,
+        "barLabel": "69% of schools within RTE PTR norm",
+        "split": [
+          {
+            "val": "23,918",
+            "lbl": "Compliant"
+          },
+          {
+            "val": "10,597",
+            "lbl": "Non-compliant"
+          },
+          {
+            "val": "69%",
+            "lbl": "Compliance Rate",
+            "accent": true
+          }
+        ],
+        "note": "69% of schools meet the PTR \u2264 30 norm \u2014 10,597 schools still non-compliant"
+      }
+    ],
+    "chartLocPtr": [
+      {
+        "name": "Rural",
+        "val": "74%",
+        "pct": 100,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Urban",
+        "val": "67%",
+        "pct": 91,
+        "color": "#6366f1"
+      }
+    ],
+    "chartCatPtr": [
+      {
+        "name": "Secondary",
+        "val": "66%",
+        "pct": 89,
+        "color": "#0891b2"
+      },
+      {
+        "name": "Middle",
+        "val": "73%",
+        "pct": 99,
+        "color": "#d97706"
+      },
+      {
+        "name": "Foundational",
+        "val": "74%",
+        "pct": 100,
+        "color": "#2563eb"
+      }
+    ],
+    "chartLocPtrSource": "PTR compliance rate (schools with PTR \u2264 30) by school location \u2014 rural schools consistently outperform urban schools on PTR compliance due to smaller enrollment sizes.",
+    "chartLocNote": "Rural schools show higher PTR compliance than urban schools. Urban concentration of large schools drives higher PTR.",
+    "chartCatPtrSource": "PTR compliance rate by school category \u2014 Secondary schools have the lowest compliance as they serve larger, more concentrated student populations.",
+    "chartCatNote": "Secondary schools face the greatest PTR challenge, while Foundational schools benefit from smaller class sizes.",
+    "insight1": {
+      "num": "69%",
+      "label": "National Compliance Rate",
+      "note": "23,918 schools meet PTR \u2264 30 norm out of 34,515 total schools in 2024-25",
+      "color": "#6366f1",
+      "delta_val": "10,597",
+      "delta_label": "Schools above PTR 30"
+    },
+    "insight2": {
+      "num": "73,149",
+      "label": "Teachers Required",
+      "note": "Additional teachers needed to bring all 10,597 non-compliant schools to PTR 30 norm",
+      "color": "#0891b2",
+      "delta_val": "97,862",
+      "delta_label": "Redeployable excess teachers"
+    }
+  }
+}

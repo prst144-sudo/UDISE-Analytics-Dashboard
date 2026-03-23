@@ -1,0 +1,1097 @@
+{
+  "2020-21": {
+    "year": "2020-21",
+    "header": {
+      "label": "CWSN Teacher Analytics",
+      "headline": "Only 7% of teachers are CWSN-trained \u2014 private schools trail at 6%",
+      "sub": "Teacher analytics for CWSN inclusion \u2014 covering CWSN-trained teachers, recently trained staff, and teachers with disabilities, broken down by school management type."
+    },
+    "cards": [
+      {
+        "id": "trained",
+        "label": "CWSN-Trained Teachers",
+        "fullLabel": "CWSN-Trained Teachers",
+        "headline": "7%",
+        "headlineNote": "Teachers with CWSN training nationally",
+        "color": "#0891b2",
+        "bar": 7,
+        "barLabel": "6.7 L of 97.0 L teachers trained",
+        "split": [
+          {
+            "val": "2.8 L",
+            "lbl": "Male Trained"
+          },
+          {
+            "val": "3.8 L",
+            "lbl": "Female Trained"
+          },
+          {
+            "val": "7%",
+            "lbl": "Training Rate",
+            "accent": true
+          }
+        ],
+        "note": "/ = 6.9%. 6.7 L trained of 97.0 L total"
+      },
+      {
+        "id": "recent",
+        "label": "Recently Trained",
+        "fullLabel": "Recently Trained Teachers",
+        "headline": "0.0 L",
+        "headlineNote": "Teachers trained in last reporting cycle",
+        "color": "#2563eb",
+        "bar": 0,
+        "barLabel": "0.0% of total teachers refreshed",
+        "split": [
+          {
+            "val": "0.0 L",
+            "lbl": "Rec Trained"
+          },
+          {
+            "val": "0.0%",
+            "lbl": "Share of Total"
+          },
+          {
+            "val": "0.0 L",
+            "lbl": "Female",
+            "accent": true
+          }
+        ],
+        "note": "= 0.0 L. Female share of recent trainees: 0%"
+      },
+      {
+        "id": "disabled",
+        "label": "Teachers with Disability",
+        "fullLabel": "Teachers with Disability",
+        "headline": "1.6 L",
+        "headlineNote": "Teachers with reported disability",
+        "color": "#d97706",
+        "bar": 2,
+        "barLabel": "1.7% of total teaching workforce",
+        "split": [
+          {
+            "val": "1.0 L",
+            "lbl": "Male dis."
+          },
+          {
+            "val": "0.6 L",
+            "lbl": "Female dis."
+          },
+          {
+            "val": "1.7%",
+            "lbl": "Dis. Share",
+            "accent": true
+          }
+        ],
+        "note": "= 1.6 L. 1.7% of all teachers. Locomotor (53%) most common"
+      },
+      {
+        "id": "gap",
+        "label": "Training Gap",
+        "fullLabel": "Untrained for CWSN",
+        "headline": "93%",
+        "headlineNote": "Teachers without CWSN training",
+        "color": "#6366f1",
+        "bar": 93,
+        "barLabel": "90.3 L teachers untrained",
+        "split": [
+          {
+            "val": "93%",
+            "lbl": "Untrained"
+          },
+          {
+            "val": "6%",
+            "lbl": "Private Trained"
+          },
+          {
+            "val": "7%",
+            "lbl": "Central Trained",
+            "accent": true
+          }
+        ],
+        "note": "Private Unaided training rate: 6.0% vs Central Govt: 7.3%. Gap = 1 pts"
+      }
+    ],
+    "chartMgmtTraining": [
+      {
+        "name": "State Govt",
+        "teacher": 4869906,
+        "trained": 372808,
+        "rate_raw": 7.655342834132734,
+        "color": "#2563eb",
+        "val": "7.7%",
+        "pct": 100
+      },
+      {
+        "name": "Govt Aided",
+        "teacher": 808355,
+        "trained": 61623,
+        "rate_raw": 7.623259582732834,
+        "color": "#0891b2",
+        "val": "7.6%",
+        "pct": 100
+      },
+      {
+        "name": "Central Govt",
+        "teacher": 57193,
+        "trained": 4193,
+        "rate_raw": 7.331316769534733,
+        "color": "#d97706",
+        "val": "7.3%",
+        "pct": 96
+      },
+      {
+        "name": "Private Unaided",
+        "teacher": 3647674,
+        "trained": 219354,
+        "rate_raw": 6.013530814431334,
+        "color": "#6366f1",
+        "val": "6.0%",
+        "pct": 79
+      },
+      {
+        "name": "Others",
+        "teacher": 313297,
+        "trained": 9882,
+        "rate_raw": 3.1541955396955603,
+        "color": "#7a7060",
+        "val": "3.2%",
+        "pct": 41
+      }
+    ],
+    "chartMgmtSource": "Central Government schools have the highest share of CWSN-trained teachers \u2014 state and private schools show a significant training gap that needs targeted investment.",
+    "chartMgmtNote": "Central Govt (7%) leads CWSN teacher training. Private Unaided (6%) has the lowest rate \u2014 a 1-point gap.",
+    "chartDisability": [
+      {
+        "name": "Locomotor",
+        "raw": 84347,
+        "color": "#2563eb",
+        "pct_raw": 52.6205136843156,
+        "val": "53%",
+        "pct": 100
+      },
+      {
+        "name": "Other",
+        "raw": 50280,
+        "color": "#7a7060",
+        "pct_raw": 31.36755815912111,
+        "val": "31%",
+        "pct": 60
+      },
+      {
+        "name": "Visual",
+        "raw": 21143,
+        "color": "#0891b2",
+        "pct_raw": 13.190220408876247,
+        "val": "13%",
+        "pct": 25
+      },
+      {
+        "name": "Hearing",
+        "raw": 4523,
+        "color": "#d97706",
+        "pct_raw": 2.8217077476870482,
+        "val": "3%",
+        "pct": 5
+      }
+    ],
+    "chartDisabilitySource": "Teacher training for locomotor disability far exceeds training for hearing and visual impairments \u2014 yet those categories represent a significant share of enrolled CWSN students.",
+    "chartDisabilityNote": "Locomotor disability (53%) is most common among teachers with disability.",
+    "insight1": {
+      "num": "7%",
+      "label": "National CWSN Teacher Training Rate",
+      "color": "#0891b2",
+      "note": "/ = 6.9%. 93% of teachers have never received CWSN training",
+      "delta_val": "\u2212-0 pts",
+      "delta_label": "Training gap: State Govt (8%) vs Central Govt (7%) \u2014 sch_mgmt filter",
+      "delta_val2": "6.0%",
+      "delta_label2": "Private Unaided training rate \u2014 lowest of all management types"
+    },
+    "insight2": {
+      "num": "0.0 L",
+      "label": "Recently Trained Teachers (Latest Cycle)",
+      "color": "#2563eb",
+      "note": "= 0.0 L. Female recently-trained share: 0%",
+      "delta_val": "0%",
+      "delta_label": "Recent CWSN trainees who are female \u2014 /",
+      "delta_val2": "0.0 L",
+      "delta_label2": "Female teachers recently trained \u2014"
+    }
+  },
+  "2021-22": {
+    "year": "2021-22",
+    "header": {
+      "label": "CWSN Teacher Analytics",
+      "headline": "Only 8% of teachers are CWSN-trained \u2014 private schools trail at 7%",
+      "sub": "Teacher analytics for CWSN inclusion \u2014 covering CWSN-trained teachers, recently trained staff, and teachers with disabilities, broken down by school management type."
+    },
+    "cards": [
+      {
+        "id": "trained",
+        "label": "CWSN-Trained Teachers",
+        "fullLabel": "CWSN-Trained Teachers",
+        "headline": "8%",
+        "headlineNote": "Teachers with CWSN training nationally",
+        "color": "#0891b2",
+        "bar": 8,
+        "barLabel": "7.4 L of 95.1 L teachers trained",
+        "split": [
+          {
+            "val": "3.1 L",
+            "lbl": "Male Trained"
+          },
+          {
+            "val": "4.3 L",
+            "lbl": "Female Trained"
+          },
+          {
+            "val": "8%",
+            "lbl": "Training Rate",
+            "accent": true
+          }
+        ],
+        "note": "/ = 7.8%. 7.4 L trained of 95.1 L total"
+      },
+      {
+        "id": "recent",
+        "label": "Recently Trained",
+        "fullLabel": "Recently Trained Teachers",
+        "headline": "17.6 L",
+        "headlineNote": "Teachers trained in last reporting cycle",
+        "color": "#2563eb",
+        "bar": 19,
+        "barLabel": "18.6% of total teachers refreshed",
+        "split": [
+          {
+            "val": "17.6 L",
+            "lbl": "Rec Trained"
+          },
+          {
+            "val": "18.6%",
+            "lbl": "Share of Total"
+          },
+          {
+            "val": "9.7 L",
+            "lbl": "Female",
+            "accent": true
+          }
+        ],
+        "note": "= 17.6 L. Female share of recent trainees: 55%"
+      },
+      {
+        "id": "disabled",
+        "label": "Teachers with Disability",
+        "fullLabel": "Teachers with Disability",
+        "headline": "2.2 L",
+        "headlineNote": "Teachers with reported disability",
+        "color": "#d97706",
+        "bar": 2,
+        "barLabel": "2.3% of total teaching workforce",
+        "split": [
+          {
+            "val": "1.3 L",
+            "lbl": "Male dis."
+          },
+          {
+            "val": "0.9 L",
+            "lbl": "Female dis."
+          },
+          {
+            "val": "2.3%",
+            "lbl": "Dis. Share",
+            "accent": true
+          }
+        ],
+        "note": "= 2.2 L. 2.3% of all teachers. Locomotor (49%) most common"
+      },
+      {
+        "id": "gap",
+        "label": "Training Gap",
+        "fullLabel": "Untrained for CWSN",
+        "headline": "92%",
+        "headlineNote": "Teachers without CWSN training",
+        "color": "#6366f1",
+        "bar": 92,
+        "barLabel": "87.7 L teachers untrained",
+        "split": [
+          {
+            "val": "92%",
+            "lbl": "Untrained"
+          },
+          {
+            "val": "7%",
+            "lbl": "Private Trained"
+          },
+          {
+            "val": "10%",
+            "lbl": "Central Trained",
+            "accent": true
+          }
+        ],
+        "note": "Private Unaided training rate: 6.9% vs Central Govt: 9.5%. Gap = 3 pts"
+      }
+    ],
+    "chartMgmtTraining": [
+      {
+        "name": "State Govt",
+        "teacher": 4823952,
+        "trained": 400892,
+        "rate_raw": 8.310447533474628,
+        "color": "#2563eb",
+        "val": "8.3%",
+        "pct": 83
+      },
+      {
+        "name": "Govt Aided",
+        "teacher": 796631,
+        "trained": 79678,
+        "rate_raw": 10.001870376623556,
+        "color": "#0891b2",
+        "val": "10.0%",
+        "pct": 100
+      },
+      {
+        "name": "Central Govt",
+        "teacher": 58494,
+        "trained": 5586,
+        "rate_raw": 9.549697404862037,
+        "color": "#d97706",
+        "val": "9.5%",
+        "pct": 95
+      },
+      {
+        "name": "Private Unaided",
+        "teacher": 3540647,
+        "trained": 245557,
+        "rate_raw": 6.935370851711566,
+        "color": "#6366f1",
+        "val": "6.9%",
+        "pct": 69
+      },
+      {
+        "name": "Others",
+        "teacher": 287399,
+        "trained": 10107,
+        "rate_raw": 3.5167136976816207,
+        "color": "#7a7060",
+        "val": "3.5%",
+        "pct": 35
+      }
+    ],
+    "chartMgmtSource": "Central Government schools have the highest share of CWSN-trained teachers \u2014 state and private schools show a significant training gap that needs targeted investment.",
+    "chartMgmtNote": "Central Govt (10%) leads CWSN teacher training. Private Unaided (7%) has the lowest rate \u2014 a 3-point gap.",
+    "chartDisability": [
+      {
+        "name": "Other",
+        "raw": 107990,
+        "color": "#7a7060",
+        "pct_raw": 48.80595126184106,
+        "val": "49%",
+        "pct": 100
+      },
+      {
+        "name": "Locomotor",
+        "raw": 84533,
+        "color": "#2563eb",
+        "pct_raw": 38.20458818425049,
+        "val": "38%",
+        "pct": 78
+      },
+      {
+        "name": "Visual",
+        "raw": 22279,
+        "color": "#0891b2",
+        "pct_raw": 10.068967387374359,
+        "val": "10%",
+        "pct": 21
+      },
+      {
+        "name": "Hearing",
+        "raw": 6462,
+        "color": "#d97706",
+        "pct_raw": 2.920493166534095,
+        "val": "3%",
+        "pct": 6
+      }
+    ],
+    "chartDisabilitySource": "Teacher training for locomotor disability far exceeds training for hearing and visual impairments \u2014 yet those categories represent a significant share of enrolled CWSN students.",
+    "chartDisabilityNote": "Other disability (49%) is most common among teachers with disability.",
+    "insight1": {
+      "num": "8%",
+      "label": "National CWSN Teacher Training Rate",
+      "color": "#0891b2",
+      "note": "/ = 7.8%. 92% of teachers have never received CWSN training",
+      "delta_val": "\u22121 pts",
+      "delta_label": "Training gap: State Govt (8%) vs Central Govt (10%) \u2014 sch_mgmt filter",
+      "delta_val2": "6.9%",
+      "delta_label2": "Private Unaided training rate \u2014 lowest of all management types"
+    },
+    "insight2": {
+      "num": "17.6 L",
+      "label": "Recently Trained Teachers (Latest Cycle)",
+      "color": "#2563eb",
+      "note": "= 17.6 L. Female recently-trained share: 55%",
+      "delta_val": "55%",
+      "delta_label": "Recent CWSN trainees who are female \u2014 /",
+      "delta_val2": "9.7 L",
+      "delta_label2": "Female teachers recently trained \u2014"
+    }
+  },
+  "2022-23": {
+    "year": "2022-23",
+    "header": {
+      "label": "CWSN Teacher Analytics",
+      "headline": "Only 11% of teachers are CWSN-trained \u2014 private schools trail at 9%",
+      "sub": "Teacher analytics for CWSN inclusion \u2014 covering CWSN-trained teachers, recently trained staff, and teachers with disabilities, broken down by school management type."
+    },
+    "cards": [
+      {
+        "id": "trained",
+        "label": "CWSN-Trained Teachers",
+        "fullLabel": "CWSN-Trained Teachers",
+        "headline": "11%",
+        "headlineNote": "Teachers with CWSN training nationally",
+        "color": "#0891b2",
+        "bar": 11,
+        "barLabel": "10.3 L of 94.8 L teachers trained",
+        "split": [
+          {
+            "val": "4.4 L",
+            "lbl": "Male Trained"
+          },
+          {
+            "val": "5.9 L",
+            "lbl": "Female Trained"
+          },
+          {
+            "val": "11%",
+            "lbl": "Training Rate",
+            "accent": true
+          }
+        ],
+        "note": "/ = 10.8%. 10.3 L trained of 94.8 L total"
+      },
+      {
+        "id": "recent",
+        "label": "Recently Trained",
+        "fullLabel": "Recently Trained Teachers",
+        "headline": "22.3 L",
+        "headlineNote": "Teachers trained in last reporting cycle",
+        "color": "#2563eb",
+        "bar": 24,
+        "barLabel": "23.5% of total teachers refreshed",
+        "split": [
+          {
+            "val": "22.3 L",
+            "lbl": "Rec Trained"
+          },
+          {
+            "val": "23.5%",
+            "lbl": "Share of Total"
+          },
+          {
+            "val": "13.4 L",
+            "lbl": "Female",
+            "accent": true
+          }
+        ],
+        "note": "= 22.3 L. Female share of recent trainees: 60%"
+      },
+      {
+        "id": "disabled",
+        "label": "Teachers with Disability",
+        "fullLabel": "Teachers with Disability",
+        "headline": "2.2 L",
+        "headlineNote": "Teachers with reported disability",
+        "color": "#d97706",
+        "bar": 2,
+        "barLabel": "2.3% of total teaching workforce",
+        "split": [
+          {
+            "val": "1.3 L",
+            "lbl": "Male dis."
+          },
+          {
+            "val": "0.9 L",
+            "lbl": "Female dis."
+          },
+          {
+            "val": "2.3%",
+            "lbl": "Dis. Share",
+            "accent": true
+          }
+        ],
+        "note": "= 2.2 L. 2.3% of all teachers. Locomotor (46%) most common"
+      },
+      {
+        "id": "gap",
+        "label": "Training Gap",
+        "fullLabel": "Untrained for CWSN",
+        "headline": "89%",
+        "headlineNote": "Teachers without CWSN training",
+        "color": "#6366f1",
+        "bar": 89,
+        "barLabel": "84.5 L teachers untrained",
+        "split": [
+          {
+            "val": "89%",
+            "lbl": "Untrained"
+          },
+          {
+            "val": "9%",
+            "lbl": "Private Trained"
+          },
+          {
+            "val": "10%",
+            "lbl": "Central Trained",
+            "accent": true
+          }
+        ],
+        "note": "Private Unaided training rate: 8.7% vs Central Govt: 10.1%. Gap = 1 pts"
+      }
+    ],
+    "chartMgmtTraining": [
+      {
+        "name": "State Govt",
+        "teacher": 4837268,
+        "trained": 578379,
+        "rate_raw": 11.956728467391098,
+        "color": "#2563eb",
+        "val": "12.0%",
+        "pct": 75
+      },
+      {
+        "name": "Govt Aided",
+        "teacher": 789634,
+        "trained": 125296,
+        "rate_raw": 15.867604485115889,
+        "color": "#0891b2",
+        "val": "15.9%",
+        "pct": 100
+      },
+      {
+        "name": "Central Govt",
+        "teacher": 58333,
+        "trained": 5904,
+        "rate_raw": 10.121200692575385,
+        "color": "#d97706",
+        "val": "10.1%",
+        "pct": 64
+      },
+      {
+        "name": "Private Unaided",
+        "teacher": 3523567,
+        "trained": 306836,
+        "rate_raw": 8.708107437718652,
+        "color": "#6366f1",
+        "val": "8.7%",
+        "pct": 55
+      },
+      {
+        "name": "Others",
+        "teacher": 274492,
+        "trained": 12417,
+        "rate_raw": 4.523629103944741,
+        "color": "#7a7060",
+        "val": "4.5%",
+        "pct": 29
+      }
+    ],
+    "chartMgmtSource": "Central Government schools have the highest share of CWSN-trained teachers \u2014 state and private schools show a significant training gap that needs targeted investment.",
+    "chartMgmtNote": "Central Govt (10%) leads CWSN teacher training. Private Unaided (9%) has the lowest rate \u2014 a 1-point gap.",
+    "chartDisability": [
+      {
+        "name": "Other",
+        "raw": 99539,
+        "color": "#7a7060",
+        "pct_raw": 46.072205507984265,
+        "val": "46%",
+        "pct": 100
+      },
+      {
+        "name": "Locomotor",
+        "raw": 81733,
+        "color": "#2563eb",
+        "pct_raw": 37.83059476972923,
+        "val": "38%",
+        "pct": 82
+      },
+      {
+        "name": "Visual",
+        "raw": 23312,
+        "color": "#0891b2",
+        "pct_raw": 10.790094885443184,
+        "val": "11%",
+        "pct": 23
+      },
+      {
+        "name": "Hearing",
+        "raw": 11466,
+        "color": "#d97706",
+        "pct_raw": 5.307104836843323,
+        "val": "5%",
+        "pct": 12
+      }
+    ],
+    "chartDisabilitySource": "Teacher training for locomotor disability far exceeds training for hearing and visual impairments \u2014 yet those categories represent a significant share of enrolled CWSN students.",
+    "chartDisabilityNote": "Other disability (46%) is most common among teachers with disability.",
+    "insight1": {
+      "num": "11%",
+      "label": "National CWSN Teacher Training Rate",
+      "color": "#0891b2",
+      "note": "/ = 10.8%. 89% of teachers have never received CWSN training",
+      "delta_val": "\u2212-2 pts",
+      "delta_label": "Training gap: State Govt (12%) vs Central Govt (10%) \u2014 sch_mgmt filter",
+      "delta_val2": "8.7%",
+      "delta_label2": "Private Unaided training rate \u2014 lowest of all management types"
+    },
+    "insight2": {
+      "num": "22.3 L",
+      "label": "Recently Trained Teachers (Latest Cycle)",
+      "color": "#2563eb",
+      "note": "= 22.3 L. Female recently-trained share: 60%",
+      "delta_val": "60%",
+      "delta_label": "Recent CWSN trainees who are female \u2014 /",
+      "delta_val2": "13.4 L",
+      "delta_label2": "Female teachers recently trained \u2014"
+    }
+  },
+  "2023-24": {
+    "year": "2023-24",
+    "header": {
+      "label": "CWSN Teacher Analytics",
+      "headline": "Only 12% of teachers are CWSN-trained \u2014 private schools trail at 11%",
+      "sub": "Teacher analytics for CWSN inclusion \u2014 covering CWSN-trained teachers, recently trained staff, and teachers with disabilities, broken down by school management type."
+    },
+    "cards": [
+      {
+        "id": "trained",
+        "label": "CWSN-Trained Teachers",
+        "fullLabel": "CWSN-Trained Teachers",
+        "headline": "12%",
+        "headlineNote": "Teachers with CWSN training nationally",
+        "color": "#0891b2",
+        "bar": 12,
+        "barLabel": "12.0 L of 98.1 L teachers trained",
+        "split": [
+          {
+            "val": "5.1 L",
+            "lbl": "Male Trained"
+          },
+          {
+            "val": "6.9 L",
+            "lbl": "Female Trained"
+          },
+          {
+            "val": "12%",
+            "lbl": "Training Rate",
+            "accent": true
+          }
+        ],
+        "note": "/ = 12.2%. 12.0 L trained of 98.1 L total"
+      },
+      {
+        "id": "recent",
+        "label": "Recently Trained",
+        "fullLabel": "Recently Trained Teachers",
+        "headline": "23.9 L",
+        "headlineNote": "Teachers trained in last reporting cycle",
+        "color": "#2563eb",
+        "bar": 24,
+        "barLabel": "24.3% of total teachers refreshed",
+        "split": [
+          {
+            "val": "23.9 L",
+            "lbl": "Rec Trained"
+          },
+          {
+            "val": "24.3%",
+            "lbl": "Share of Total"
+          },
+          {
+            "val": "14.4 L",
+            "lbl": "Female",
+            "accent": true
+          }
+        ],
+        "note": "= 23.9 L. Female share of recent trainees: 60%"
+      },
+      {
+        "id": "disabled",
+        "label": "Teachers with Disability",
+        "fullLabel": "Teachers with Disability",
+        "headline": "2.5 L",
+        "headlineNote": "Teachers with reported disability",
+        "color": "#d97706",
+        "bar": 3,
+        "barLabel": "2.5% of total teaching workforce",
+        "split": [
+          {
+            "val": "1.4 L",
+            "lbl": "Male dis."
+          },
+          {
+            "val": "1.1 L",
+            "lbl": "Female dis."
+          },
+          {
+            "val": "2.5%",
+            "lbl": "Dis. Share",
+            "accent": true
+          }
+        ],
+        "note": "= 2.5 L. 2.5% of all teachers. Locomotor (50%) most common"
+      },
+      {
+        "id": "gap",
+        "label": "Training Gap",
+        "fullLabel": "Untrained for CWSN",
+        "headline": "88%",
+        "headlineNote": "Teachers without CWSN training",
+        "color": "#6366f1",
+        "bar": 88,
+        "barLabel": "86.1 L teachers untrained",
+        "split": [
+          {
+            "val": "88%",
+            "lbl": "Untrained"
+          },
+          {
+            "val": "11%",
+            "lbl": "Private Trained"
+          },
+          {
+            "val": "11%",
+            "lbl": "Central Trained",
+            "accent": true
+          }
+        ],
+        "note": "Private Unaided training rate: 10.5% vs Central Govt: 11.4%. Gap = 1 pts"
+      }
+    ],
+    "chartMgmtTraining": [
+      {
+        "name": "State Govt",
+        "teacher": 4969875,
+        "trained": 664514,
+        "rate_raw": 13.370839306823612,
+        "color": "#2563eb",
+        "val": "13.4%",
+        "pct": 86
+      },
+      {
+        "name": "Govt Aided",
+        "teacher": 775574,
+        "trained": 120608,
+        "rate_raw": 15.550804952203142,
+        "color": "#0891b2",
+        "val": "15.6%",
+        "pct": 100
+      },
+      {
+        "name": "Central Govt",
+        "teacher": 67796,
+        "trained": 7714,
+        "rate_raw": 11.378252404271638,
+        "color": "#d97706",
+        "val": "11.4%",
+        "pct": 73
+      },
+      {
+        "name": "Private Unaided",
+        "teacher": 3730047,
+        "trained": 392641,
+        "rate_raw": 10.526435725876912,
+        "color": "#6366f1",
+        "val": "10.5%",
+        "pct": 68
+      },
+      {
+        "name": "Others",
+        "teacher": 264308,
+        "trained": 13997,
+        "rate_raw": 5.295715604521997,
+        "color": "#7a7060",
+        "val": "5.3%",
+        "pct": 34
+      }
+    ],
+    "chartMgmtSource": "Central Government schools have the highest share of CWSN-trained teachers \u2014 state and private schools show a significant training gap that needs targeted investment.",
+    "chartMgmtNote": "Central Govt (11%) leads CWSN teacher training. Private Unaided (11%) has the lowest rate \u2014 a 1-point gap.",
+    "chartDisability": [
+      {
+        "name": "Other",
+        "raw": 122888,
+        "color": "#7a7060",
+        "pct_raw": 49.66195054334428,
+        "val": "50%",
+        "pct": 100
+      },
+      {
+        "name": "Locomotor",
+        "raw": 86023,
+        "color": "#2563eb",
+        "pct_raw": 34.76393115349021,
+        "val": "35%",
+        "pct": 70
+      },
+      {
+        "name": "Visual",
+        "raw": 25668,
+        "color": "#0891b2",
+        "pct_raw": 10.373046567171418,
+        "val": "10%",
+        "pct": 21
+      },
+      {
+        "name": "Hearing",
+        "raw": 12870,
+        "color": "#d97706",
+        "pct_raw": 5.201071735994084,
+        "val": "5%",
+        "pct": 10
+      }
+    ],
+    "chartDisabilitySource": "Teacher training for locomotor disability far exceeds training for hearing and visual impairments \u2014 yet those categories represent a significant share of enrolled CWSN students.",
+    "chartDisabilityNote": "Other disability (50%) is most common among teachers with disability.",
+    "insight1": {
+      "num": "12%",
+      "label": "National CWSN Teacher Training Rate",
+      "color": "#0891b2",
+      "note": "/ = 12.2%. 88% of teachers have never received CWSN training",
+      "delta_val": "\u2212-2 pts",
+      "delta_label": "Training gap: State Govt (13%) vs Central Govt (11%) \u2014 sch_mgmt filter",
+      "delta_val2": "10.5%",
+      "delta_label2": "Private Unaided training rate \u2014 lowest of all management types"
+    },
+    "insight2": {
+      "num": "23.9 L",
+      "label": "Recently Trained Teachers (Latest Cycle)",
+      "color": "#2563eb",
+      "note": "= 23.9 L. Female recently-trained share: 60%",
+      "delta_val": "60%",
+      "delta_label": "Recent CWSN trainees who are female \u2014 /",
+      "delta_val2": "14.4 L",
+      "delta_label2": "Female teachers recently trained \u2014"
+    }
+  },
+  "2024-25": {
+    "year": "2024-25",
+    "header": {
+      "label": "CWSN Teacher Analytics",
+      "headline": "Only 13% of teachers are CWSN-trained \u2014 private schools trail at 11%",
+      "sub": "Teacher analytics for CWSN inclusion \u2014 covering CWSN-trained teachers, recently trained staff, and teachers with disabilities, broken down by school management type."
+    },
+    "cards": [
+      {
+        "id": "trained",
+        "label": "CWSN-Trained Teachers",
+        "fullLabel": "CWSN-Trained Teachers",
+        "headline": "13%",
+        "headlineNote": "Teachers with CWSN training nationally",
+        "color": "#0891b2",
+        "bar": 13,
+        "barLabel": "12.9 L of 101.2 L teachers trained",
+        "split": [
+          {
+            "val": "5.5 L",
+            "lbl": "Male Trained"
+          },
+          {
+            "val": "7.4 L",
+            "lbl": "Female Trained"
+          },
+          {
+            "val": "13%",
+            "lbl": "Training Rate",
+            "accent": true
+          }
+        ],
+        "note": "/ = 12.7%. 12.9 L trained of 101.2 L total"
+      },
+      {
+        "id": "recent",
+        "label": "Recently Trained",
+        "fullLabel": "Recently Trained Teachers",
+        "headline": "23.3 L",
+        "headlineNote": "Teachers trained in last reporting cycle",
+        "color": "#2563eb",
+        "bar": 23,
+        "barLabel": "23.1% of total teachers refreshed",
+        "split": [
+          {
+            "val": "23.3 L",
+            "lbl": "Rec Trained"
+          },
+          {
+            "val": "23.1%",
+            "lbl": "Share of Total"
+          },
+          {
+            "val": "13.9 L",
+            "lbl": "Female",
+            "accent": true
+          }
+        ],
+        "note": "= 23.3 L. Female share of recent trainees: 60%"
+      },
+      {
+        "id": "disabled",
+        "label": "Teachers with Disability",
+        "fullLabel": "Teachers with Disability",
+        "headline": "2.7 L",
+        "headlineNote": "Teachers with reported disability",
+        "color": "#d97706",
+        "bar": 3,
+        "barLabel": "2.6% of total teaching workforce",
+        "split": [
+          {
+            "val": "1.5 L",
+            "lbl": "Male dis."
+          },
+          {
+            "val": "1.2 L",
+            "lbl": "Female dis."
+          },
+          {
+            "val": "2.6%",
+            "lbl": "Dis. Share",
+            "accent": true
+          }
+        ],
+        "note": "= 2.7 L. 2.6% of all teachers. Locomotor (51%) most common"
+      },
+      {
+        "id": "gap",
+        "label": "Training Gap",
+        "fullLabel": "Untrained for CWSN",
+        "headline": "87%",
+        "headlineNote": "Teachers without CWSN training",
+        "color": "#6366f1",
+        "bar": 87,
+        "barLabel": "88.3 L teachers untrained",
+        "split": [
+          {
+            "val": "87%",
+            "lbl": "Untrained"
+          },
+          {
+            "val": "11%",
+            "lbl": "Private Trained"
+          },
+          {
+            "val": "12%",
+            "lbl": "Central Trained",
+            "accent": true
+          }
+        ],
+        "note": "Private Unaided training rate: 10.6% vs Central Govt: 12.3%. Gap = 2 pts"
+      }
+    ],
+    "chartMgmtTraining": [
+      {
+        "name": "State Govt",
+        "teacher": 5079408,
+        "trained": 730101,
+        "rate_raw": 14.373741979380275,
+        "color": "#2563eb",
+        "val": "14.4%",
+        "pct": 92
+      },
+      {
+        "name": "Govt Aided",
+        "teacher": 757624,
+        "trained": 118753,
+        "rate_raw": 15.674397854344635,
+        "color": "#0891b2",
+        "val": "15.7%",
+        "pct": 100
+      },
+      {
+        "name": "Central Govt",
+        "teacher": 70363,
+        "trained": 8669,
+        "rate_raw": 12.320395662493071,
+        "color": "#d97706",
+        "val": "12.3%",
+        "pct": 79
+      },
+      {
+        "name": "Private Unaided",
+        "teacher": 3962114,
+        "trained": 419014,
+        "rate_raw": 10.57551599979203,
+        "color": "#6366f1",
+        "val": "10.6%",
+        "pct": 67
+      },
+      {
+        "name": "Others",
+        "teacher": 252911,
+        "trained": 13696,
+        "rate_raw": 5.415343737520314,
+        "color": "#7a7060",
+        "val": "5.4%",
+        "pct": 35
+      }
+    ],
+    "chartMgmtSource": "Central Government schools have the highest share of CWSN-trained teachers \u2014 state and private schools show a significant training gap that needs targeted investment.",
+    "chartMgmtNote": "Central Govt (12%) leads CWSN teacher training. Private Unaided (11%) has the lowest rate \u2014 a 2-point gap.",
+    "chartDisability": [
+      {
+        "name": "Other",
+        "raw": 135471,
+        "color": "#7a7060",
+        "pct_raw": 50.791657137286805,
+        "val": "51%",
+        "pct": 100
+      },
+      {
+        "name": "Locomotor",
+        "raw": 89165,
+        "color": "#2563eb",
+        "pct_raw": 33.430314300818466,
+        "val": "33%",
+        "pct": 66
+      },
+      {
+        "name": "Visual",
+        "raw": 28064,
+        "color": "#0891b2",
+        "pct_raw": 10.521935070242465,
+        "val": "11%",
+        "pct": 21
+      },
+      {
+        "name": "Hearing",
+        "raw": 14019,
+        "color": "#d97706",
+        "pct_raw": 5.256093491652263,
+        "val": "5%",
+        "pct": 10
+      }
+    ],
+    "chartDisabilitySource": "Teacher training for locomotor disability far exceeds training for hearing and visual impairments \u2014 yet those categories represent a significant share of enrolled CWSN students.",
+    "chartDisabilityNote": "Other disability (51%) is most common among teachers with disability.",
+    "insight1": {
+      "num": "13%",
+      "label": "National CWSN Teacher Training Rate",
+      "color": "#0891b2",
+      "note": "/ = 12.7%. 87% of teachers have never received CWSN training",
+      "delta_val": "\u2212-2 pts",
+      "delta_label": "Training gap: State Govt (14%) vs Central Govt (12%) \u2014 sch_mgmt filter",
+      "delta_val2": "10.6%",
+      "delta_label2": "Private Unaided training rate \u2014 lowest of all management types"
+    },
+    "insight2": {
+      "num": "23.3 L",
+      "label": "Recently Trained Teachers (Latest Cycle)",
+      "color": "#2563eb",
+      "note": "= 23.3 L. Female recently-trained share: 60%",
+      "delta_val": "60%",
+      "delta_label": "Recent CWSN trainees who are female \u2014 /",
+      "delta_val2": "13.9 L",
+      "delta_label2": "Female teachers recently trained \u2014"
+    }
+  }
+}

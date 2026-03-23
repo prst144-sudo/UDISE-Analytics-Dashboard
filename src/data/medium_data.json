@@ -1,0 +1,1232 @@
+{
+  "2020-21": {
+    "year": "2020-21",
+    "header": {
+      "label": "Medium of Instruction",
+      "headline": "Hindi serves 42% of students — English serves 28%",
+      "sub": "31 languages serve as medium of instruction for 25.38 Cr students. Hindi enrolls 42%; English enrolls 28%; national GPI is 0.93"
+    },
+    "cards": [
+      {
+        "id": "reach",
+        "label": "Hindi Student Share",
+        "fullLabel": "Students in Hindi-medium education",
+        "headline": "42%",
+        "headlineNote": "Students in Hindi-medium education",
+        "color": "#2563eb",
+        "bar": 42,
+        "barLabel": "10.65 Cr students",
+        "split": [
+          {
+            "val": "42%",
+            "lbl": "Student Share"
+          },
+          {
+            "val": "10.65 Cr",
+            "lbl": "Students"
+          },
+          {
+            "val": "0.96",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "Hindi accounts for 42% of students (10.65 Cr) with GPI 0.96"
+      },
+      {
+        "id": "english",
+        "label": "English Student Share",
+        "fullLabel": "Students in English-medium education",
+        "headline": "28%",
+        "headlineNote": "Students in English-medium education",
+        "color": "#0891b2",
+        "bar": 28,
+        "barLabel": "6.99 Cr students",
+        "split": [
+          {
+            "val": "28%",
+            "lbl": "Student Share"
+          },
+          {
+            "val": "6.99 Cr",
+            "lbl": "Students"
+          },
+          {
+            "val": "0.83",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "English accounts for 28% of students (6.99 Cr) with GPI 0.83"
+      },
+      {
+        "id": "gpi",
+        "label": "GPI by Medium",
+        "fullLabel": "total_girls / total_boys by medium",
+        "headline": "0.93",
+        "headlineNote": "National GPI across all mediums",
+        "color": "#7c3aed",
+        "bar": 88,
+        "barLabel": "near-parity nationally",
+        "split": [
+          {
+            "val": "0.83",
+            "lbl": "English GPI"
+          },
+          {
+            "val": "0.96",
+            "lbl": "Hindi GPI"
+          },
+          {
+            "val": "±0.21",
+            "lbl": "Range",
+            "accent": true
+          }
+        ],
+        "note": "English GPI (0.83) vs Hindi GPI (0.96). National = 0.93"
+      },
+      {
+        "id": "diversity",
+        "label": "Linguistic Diversity",
+        "fullLabel": "Languages of Instruction",
+        "headline": "31+",
+        "headlineNote": "Languages used as medium of instruction",
+        "color": "#6366f1",
+        "bar": 88,
+        "barLabel": "Top 6 cover 88% of students",
+        "split": [
+          {
+            "val": "88%",
+            "lbl": "Top 6 Mediums"
+          },
+          {
+            "val": "12%",
+            "lbl": "Others"
+          },
+          {
+            "val": "31",
+            "lbl": "Total Languages",
+            "accent": true
+          }
+        ],
+        "note": "31 languages used as MOI. Top 6 cover 88% of students"
+      }
+    ],
+    "chartMedium": [
+      {
+        "name": "Hindi",
+        "color": "#2563eb",
+        "schoolsPct": 41.970718552500145,
+        "studentsPct": 0.9583253523944169,
+        "schoolsVal": "42%",
+        "studentsVal": "0.96",
+        "pct": 100,
+        "gpct": 93
+      },
+      {
+        "name": "English",
+        "color": "#0891b2",
+        "schoolsPct": 27.552627611222324,
+        "studentsPct": 0.8270074226930392,
+        "schoolsVal": "28%",
+        "studentsVal": "0.83",
+        "pct": 66,
+        "gpct": 80
+      },
+      {
+        "name": "Bengali",
+        "color": "#d97706",
+        "schoolsPct": 6.7350136134920024,
+        "studentsPct": 1.0357160295488947,
+        "schoolsVal": "7%",
+        "studentsVal": "1.04",
+        "pct": 16,
+        "gpct": 100
+      },
+      {
+        "name": "Marathi",
+        "color": "#7c3aed",
+        "schoolsPct": 5.403816365544497,
+        "studentsPct": 0.9012326083533135,
+        "schoolsVal": "5%",
+        "studentsVal": "0.90",
+        "pct": 13,
+        "gpct": 87
+      },
+      {
+        "name": "Gujarati",
+        "color": "#f59e0b",
+        "schoolsPct": 3.6726734286991114,
+        "studentsPct": 0.8975959952933704,
+        "schoolsVal": "4%",
+        "studentsVal": "0.90",
+        "pct": 9,
+        "gpct": 87
+      },
+      {
+        "name": "Odia",
+        "color": "#0ea5e9",
+        "schoolsPct": 2.5381728810511333,
+        "studentsPct": 0.9523513240508193,
+        "schoolsVal": "3%",
+        "studentsVal": "0.95",
+        "pct": 6,
+        "gpct": 92
+      },
+      {
+        "name": "Others",
+        "color": "#7a7060",
+        "schoolsPct": 12.126977547490783,
+        "studentsPct": 1.0198139730594435,
+        "schoolsVal": "12%",
+        "studentsVal": "1.02",
+        "pct": 29,
+        "gpct": 98
+      }
+    ],
+    "chartMediumSource": "This comparison uses only data-backed measures: student share by medium and GPI by medium. Hindi and English account for the largest enrollment shares, while Bengali and several regional mediums show higher GPI values.",
+    "chartMediumNote": "In this chart, the first value is student share and the second is GPI. 2020-21: Hindi = 42.0% share, GPI 0.96; English = 27.6% share, GPI 0.83.",
+    "chartGpi": [
+      {
+        "name": "Bengali",
+        "val": "1.04",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Hindi",
+        "val": "0.96",
+        "pct": 84,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Odia",
+        "val": "0.95",
+        "pct": 79,
+        "color": "#0ea5e9"
+      },
+      {
+        "name": "Marathi",
+        "val": "0.90",
+        "pct": 53,
+        "color": "#7c3aed"
+      },
+      {
+        "name": "Gujarati",
+        "val": "0.90",
+        "pct": 50,
+        "color": "#f59e0b"
+      },
+      {
+        "name": "English",
+        "val": "0.83",
+        "pct": 20,
+        "color": "#0891b2"
+      }
+    ],
+    "chartGpiSource": "GPI varies by medium. In the major-medium comparison shown here, Bengali is highest, while English is lowest.",
+    "chartGpiNote": "GPI = total_girls / total_boys. Among the major mediums shown, Bengali = 1.04, Hindi = 0.96, English = 0.83, national = 0.93.",
+    "insight1": {
+      "num": "28%",
+      "label": "Students in English-Medium Education",
+      "color": "#0891b2",
+      "delta_val": "14.4 pts",
+      "delta_label": "Gap between Hindi share (42%) and English share (28%)",
+      "delta_val2": "6.99 Cr",
+      "delta_label2": "Total students enrolled in English-medium education"
+    },
+    "insight2": {
+      "num": "1.04",
+      "label": "Bengali-Medium GPI — Highest Among Major Mediums",
+      "color": "#d97706",
+      "delta_val": "0.96",
+      "delta_label": "Hindi-medium GPI — 0.08-point gap vs Bengali",
+      "delta_val2": "0.93",
+      "delta_label2": "National GPI — total_girls / total_boys across all mediums"
+    }
+  },
+  "2021-22": {
+    "year": "2021-22",
+    "header": {
+      "label": "Medium of Instruction",
+      "headline": "Hindi serves 41% of students — English serves 29%",
+      "sub": "37 languages serve as medium of instruction for 26.52 Cr students. Hindi enrolls 41%; English enrolls 29%; national GPI is 0.92"
+    },
+    "cards": [
+      {
+        "id": "reach",
+        "label": "Hindi Student Share",
+        "fullLabel": "Students in Hindi-medium education",
+        "headline": "41%",
+        "headlineNote": "Students in Hindi-medium education",
+        "color": "#2563eb",
+        "bar": 41,
+        "barLabel": "10.93 Cr students",
+        "split": [
+          {
+            "val": "41%",
+            "lbl": "Student Share"
+          },
+          {
+            "val": "10.93 Cr",
+            "lbl": "Students"
+          },
+          {
+            "val": "0.95",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "Hindi accounts for 41% of students (10.93 Cr) with GPI 0.95"
+      },
+      {
+        "id": "english",
+        "label": "English Student Share",
+        "fullLabel": "Students in English-medium education",
+        "headline": "29%",
+        "headlineNote": "Students in English-medium education",
+        "color": "#0891b2",
+        "bar": 29,
+        "barLabel": "7.56 Cr students",
+        "split": [
+          {
+            "val": "29%",
+            "lbl": "Student Share"
+          },
+          {
+            "val": "7.56 Cr",
+            "lbl": "Students"
+          },
+          {
+            "val": "0.84",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "English accounts for 29% of students (7.56 Cr) with GPI 0.84"
+      },
+      {
+        "id": "gpi",
+        "label": "GPI by Medium",
+        "fullLabel": "total_girls / total_boys by medium",
+        "headline": "0.92",
+        "headlineNote": "National GPI across all mediums",
+        "color": "#7c3aed",
+        "bar": 88,
+        "barLabel": "near-parity nationally",
+        "split": [
+          {
+            "val": "0.84",
+            "lbl": "English GPI"
+          },
+          {
+            "val": "0.95",
+            "lbl": "Hindi GPI"
+          },
+          {
+            "val": "±0.18",
+            "lbl": "Range",
+            "accent": true
+          }
+        ],
+        "note": "English GPI (0.84) vs Hindi GPI (0.95). National = 0.92"
+      },
+      {
+        "id": "diversity",
+        "label": "Linguistic Diversity",
+        "fullLabel": "Languages of Instruction",
+        "headline": "37+",
+        "headlineNote": "Languages used as medium of instruction",
+        "color": "#6366f1",
+        "bar": 88,
+        "barLabel": "Top 6 cover 88% of students",
+        "split": [
+          {
+            "val": "88%",
+            "lbl": "Top 6 Mediums"
+          },
+          {
+            "val": "12%",
+            "lbl": "Others"
+          },
+          {
+            "val": "37",
+            "lbl": "Total Languages",
+            "accent": true
+          }
+        ],
+        "note": "37 languages used as MOI. Top 6 cover 88% of students"
+      }
+    ],
+    "chartMedium": [
+      {
+        "name": "Hindi",
+        "color": "#2563eb",
+        "schoolsPct": 41.223540952216,
+        "studentsPct": 0.9499008300430346,
+        "schoolsVal": "41%",
+        "studentsVal": "0.95",
+        "pct": 100,
+        "gpct": 93
+      },
+      {
+        "name": "English",
+        "color": "#0891b2",
+        "schoolsPct": 28.510243506693644,
+        "studentsPct": 0.8380764171090875,
+        "schoolsVal": "29%",
+        "studentsVal": "0.84",
+        "pct": 69,
+        "gpct": 82
+      },
+      {
+        "name": "Bengali",
+        "color": "#d97706",
+        "schoolsPct": 6.880890866064362,
+        "studentsPct": 1.020885874673236,
+        "schoolsVal": "7%",
+        "studentsVal": "1.02",
+        "pct": 17,
+        "gpct": 100
+      },
+      {
+        "name": "Marathi",
+        "color": "#7c3aed",
+        "schoolsPct": 5.2692609441190505,
+        "studentsPct": 0.8976368148902373,
+        "schoolsVal": "5%",
+        "studentsVal": "0.90",
+        "pct": 13,
+        "gpct": 88
+      },
+      {
+        "name": "Gujarati",
+        "color": "#f59e0b",
+        "schoolsPct": 3.5406528597588043,
+        "studentsPct": 0.9037151218278104,
+        "schoolsVal": "4%",
+        "studentsVal": "0.90",
+        "pct": 9,
+        "gpct": 89
+      },
+      {
+        "name": "Odia",
+        "color": "#0ea5e9",
+        "schoolsPct": 2.4620795010990784,
+        "studentsPct": 0.9692631935736984,
+        "schoolsVal": "2%",
+        "studentsVal": "0.97",
+        "pct": 6,
+        "gpct": 95
+      },
+      {
+        "name": "Others",
+        "color": "#7a7060",
+        "schoolsPct": 12.113331370049062,
+        "studentsPct": 1.0029771385929553,
+        "schoolsVal": "12%",
+        "studentsVal": "1.00",
+        "pct": 29,
+        "gpct": 98
+      }
+    ],
+    "chartMediumSource": "This comparison uses only data-backed measures: student share by medium and GPI by medium. Hindi and English account for the largest enrollment shares, while Bengali and several regional mediums show higher GPI values.",
+    "chartMediumNote": "In this chart, the first value is student share and the second is GPI. 2021-22: Hindi = 41.2% share, GPI 0.95; English = 28.5% share, GPI 0.84.",
+    "chartGpi": [
+      {
+        "name": "Bengali",
+        "val": "1.02",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Hindi",
+        "val": "0.95",
+        "pct": 84,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Odia",
+        "val": "0.97",
+        "pct": 79,
+        "color": "#0ea5e9"
+      },
+      {
+        "name": "Marathi",
+        "val": "0.90",
+        "pct": 53,
+        "color": "#7c3aed"
+      },
+      {
+        "name": "Gujarati",
+        "val": "0.90",
+        "pct": 50,
+        "color": "#f59e0b"
+      },
+      {
+        "name": "English",
+        "val": "0.84",
+        "pct": 20,
+        "color": "#0891b2"
+      }
+    ],
+    "chartGpiSource": "GPI varies by medium. In the major-medium comparison shown here, Bengali is highest, while English is lowest.",
+    "chartGpiNote": "GPI = total_girls / total_boys. Among the major mediums shown, Bengali = 1.02, Hindi = 0.95, English = 0.84, national = 0.92.",
+    "insight1": {
+      "num": "29%",
+      "label": "Students in English-Medium Education",
+      "color": "#0891b2",
+      "delta_val": "12.7 pts",
+      "delta_label": "Gap between Hindi share (41%) and English share (29%)",
+      "delta_val2": "7.56 Cr",
+      "delta_label2": "Total students enrolled in English-medium education"
+    },
+    "insight2": {
+      "num": "1.02",
+      "label": "Bengali-Medium GPI — Highest Among Major Mediums",
+      "color": "#d97706",
+      "delta_val": "0.95",
+      "delta_label": "Hindi-medium GPI — 0.07-point gap vs Bengali",
+      "delta_val2": "0.92",
+      "delta_label2": "National GPI — total_girls / total_boys across all mediums"
+    }
+  },
+  "2022-23": {
+    "year": "2022-23",
+    "header": {
+      "label": "Medium of Instruction",
+      "headline": "Hindi serves 39% of students — English serves 32%",
+      "sub": "29 languages serve as medium of instruction for 25.18 Cr students. Hindi enrolls 39%; English enrolls 32%; national GPI is 0.92"
+    },
+    "cards": [
+      {
+        "id": "reach",
+        "label": "Hindi Student Share",
+        "fullLabel": "Students in Hindi-medium education",
+        "headline": "39%",
+        "headlineNote": "Students in Hindi-medium education",
+        "color": "#2563eb",
+        "bar": 39,
+        "barLabel": "9.77 Cr students",
+        "split": [
+          {
+            "val": "39%",
+            "lbl": "Student Share"
+          },
+          {
+            "val": "9.77 Cr",
+            "lbl": "Students"
+          },
+          {
+            "val": "0.96",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "Hindi accounts for 39% of students (9.77 Cr) with GPI 0.96"
+      },
+      {
+        "id": "english",
+        "label": "English Student Share",
+        "fullLabel": "Students in English-medium education",
+        "headline": "32%",
+        "headlineNote": "Students in English-medium education",
+        "color": "#0891b2",
+        "bar": 32,
+        "barLabel": "7.98 Cr students",
+        "split": [
+          {
+            "val": "32%",
+            "lbl": "Student Share"
+          },
+          {
+            "val": "7.98 Cr",
+            "lbl": "Students"
+          },
+          {
+            "val": "0.84",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "English accounts for 32% of students (7.98 Cr) with GPI 0.84"
+      },
+      {
+        "id": "gpi",
+        "label": "GPI by Medium",
+        "fullLabel": "total_girls / total_boys by medium",
+        "headline": "0.92",
+        "headlineNote": "National GPI across all mediums",
+        "color": "#7c3aed",
+        "bar": 89,
+        "barLabel": "near-parity nationally",
+        "split": [
+          {
+            "val": "0.84",
+            "lbl": "English GPI"
+          },
+          {
+            "val": "0.96",
+            "lbl": "Hindi GPI"
+          },
+          {
+            "val": "±0.18",
+            "lbl": "Range",
+            "accent": true
+          }
+        ],
+        "note": "English GPI (0.84) vs Hindi GPI (0.96). National = 0.92"
+      },
+      {
+        "id": "diversity",
+        "label": "Linguistic Diversity",
+        "fullLabel": "Languages of Instruction",
+        "headline": "29+",
+        "headlineNote": "Languages used as medium of instruction",
+        "color": "#6366f1",
+        "bar": 89,
+        "barLabel": "Top 6 cover 89% of students",
+        "split": [
+          {
+            "val": "89%",
+            "lbl": "Top 6 Mediums"
+          },
+          {
+            "val": "11%",
+            "lbl": "Others"
+          },
+          {
+            "val": "29",
+            "lbl": "Total Languages",
+            "accent": true
+          }
+        ],
+        "note": "29 languages used as MOI. Top 6 cover 89% of students"
+      }
+    ],
+    "chartMedium": [
+      {
+        "name": "Hindi",
+        "color": "#2563eb",
+        "schoolsPct": 38.81591587828292,
+        "studentsPct": 0.9597121678117857,
+        "schoolsVal": "39%",
+        "studentsVal": "0.96",
+        "pct": 100,
+        "gpct": 94
+      },
+      {
+        "name": "English",
+        "color": "#0891b2",
+        "schoolsPct": 31.700298312428238,
+        "studentsPct": 0.8390401550292721,
+        "schoolsVal": "32%",
+        "studentsVal": "0.84",
+        "pct": 82,
+        "gpct": 82
+      },
+      {
+        "name": "Bengali",
+        "color": "#d97706",
+        "schoolsPct": 6.979654001492551,
+        "studentsPct": 1.021326755293992,
+        "schoolsVal": "7%",
+        "studentsVal": "1.02",
+        "pct": 18,
+        "gpct": 100
+      },
+      {
+        "name": "Marathi",
+        "color": "#7c3aed",
+        "schoolsPct": 5.2161254133684345,
+        "studentsPct": 0.9002230999609359,
+        "schoolsVal": "5%",
+        "studentsVal": "0.90",
+        "pct": 13,
+        "gpct": 88
+      },
+      {
+        "name": "Gujarati",
+        "color": "#f59e0b",
+        "schoolsPct": 3.6927882005588732,
+        "studentsPct": 0.9015080961186321,
+        "schoolsVal": "4%",
+        "studentsVal": "0.90",
+        "pct": 10,
+        "gpct": 88
+      },
+      {
+        "name": "Odia",
+        "color": "#0ea5e9",
+        "schoolsPct": 2.6039958533664582,
+        "studentsPct": 0.96435920143903,
+        "schoolsVal": "3%",
+        "studentsVal": "0.96",
+        "pct": 7,
+        "gpct": 94
+      },
+      {
+        "name": "Others",
+        "color": "#7a7060",
+        "schoolsPct": 10.991222340502521,
+        "studentsPct": 1.0098555953532555,
+        "schoolsVal": "11%",
+        "studentsVal": "1.01",
+        "pct": 28,
+        "gpct": 99
+      }
+    ],
+    "chartMediumSource": "This comparison uses only data-backed measures: student share by medium and GPI by medium. Hindi and English account for the largest enrollment shares, while Bengali and several regional mediums show higher GPI values.",
+    "chartMediumNote": "In this chart, the first value is student share and the second is GPI. 2022-23: Hindi = 38.8% share, GPI 0.96; English = 31.7% share, GPI 0.84.",
+    "chartGpi": [
+      {
+        "name": "Bengali",
+        "val": "1.02",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Hindi",
+        "val": "0.96",
+        "pct": 84,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Odia",
+        "val": "0.96",
+        "pct": 79,
+        "color": "#0ea5e9"
+      },
+      {
+        "name": "Marathi",
+        "val": "0.90",
+        "pct": 53,
+        "color": "#7c3aed"
+      },
+      {
+        "name": "Gujarati",
+        "val": "0.90",
+        "pct": 50,
+        "color": "#f59e0b"
+      },
+      {
+        "name": "English",
+        "val": "0.84",
+        "pct": 20,
+        "color": "#0891b2"
+      }
+    ],
+    "chartGpiSource": "GPI varies by medium. In the major-medium comparison shown here, Bengali is highest, while English is lowest.",
+    "chartGpiNote": "GPI = total_girls / total_boys. Among the major mediums shown, Bengali = 1.02, Hindi = 0.96, English = 0.84, national = 0.92.",
+    "insight1": {
+      "num": "32%",
+      "label": "Students in English-Medium Education",
+      "color": "#0891b2",
+      "delta_val": "7.1 pts",
+      "delta_label": "Gap between Hindi share (39%) and English share (32%)",
+      "delta_val2": "7.98 Cr",
+      "delta_label2": "Total students enrolled in English-medium education"
+    },
+    "insight2": {
+      "num": "1.02",
+      "label": "Bengali-Medium GPI — Highest Among Major Mediums",
+      "color": "#d97706",
+      "delta_val": "0.96",
+      "delta_label": "Hindi-medium GPI — 0.06-point gap vs Bengali",
+      "delta_val2": "0.92",
+      "delta_label2": "National GPI — total_girls / total_boys across all mediums"
+    }
+  },
+  "2023-24": {
+    "year": "2023-24",
+    "header": {
+      "label": "Medium of Instruction",
+      "headline": "Hindi serves 37% of students — English serves 34%",
+      "sub": "31 languages serve as medium of instruction for 24.74 Cr students. Hindi enrolls 37%; English enrolls 34%; national GPI is 0.93"
+    },
+    "cards": [
+      {
+        "id": "reach",
+        "label": "Hindi Student Share",
+        "fullLabel": "Students in Hindi-medium education",
+        "headline": "37%",
+        "headlineNote": "Students in Hindi-medium education",
+        "color": "#2563eb",
+        "bar": 37,
+        "barLabel": "9.15 Cr students",
+        "split": [
+          {
+            "val": "37%",
+            "lbl": "Student Share"
+          },
+          {
+            "val": "9.15 Cr",
+            "lbl": "Students"
+          },
+          {
+            "val": "0.97",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "Hindi accounts for 37% of students (9.15 Cr) with GPI 0.97"
+      },
+      {
+        "id": "english",
+        "label": "English Student Share",
+        "fullLabel": "Students in English-medium education",
+        "headline": "34%",
+        "headlineNote": "Students in English-medium education",
+        "color": "#0891b2",
+        "bar": 34,
+        "barLabel": "8.31 Cr students",
+        "split": [
+          {
+            "val": "34%",
+            "lbl": "Student Share"
+          },
+          {
+            "val": "8.31 Cr",
+            "lbl": "Students"
+          },
+          {
+            "val": "0.84",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "English accounts for 34% of students (8.31 Cr) with GPI 0.84"
+      },
+      {
+        "id": "gpi",
+        "label": "GPI by Medium",
+        "fullLabel": "total_girls / total_boys by medium",
+        "headline": "0.93",
+        "headlineNote": "National GPI across all mediums",
+        "color": "#7c3aed",
+        "bar": 89,
+        "barLabel": "near-parity nationally",
+        "split": [
+          {
+            "val": "0.84",
+            "lbl": "English GPI"
+          },
+          {
+            "val": "0.97",
+            "lbl": "Hindi GPI"
+          },
+          {
+            "val": "±0.17",
+            "lbl": "Range",
+            "accent": true
+          }
+        ],
+        "note": "English GPI (0.84) vs Hindi GPI (0.97). National = 0.93"
+      },
+      {
+        "id": "diversity",
+        "label": "Linguistic Diversity",
+        "fullLabel": "Languages of Instruction",
+        "headline": "31+",
+        "headlineNote": "Languages used as medium of instruction",
+        "color": "#6366f1",
+        "bar": 89,
+        "barLabel": "Top 6 cover 89% of students",
+        "split": [
+          {
+            "val": "89%",
+            "lbl": "Top 6 Mediums"
+          },
+          {
+            "val": "11%",
+            "lbl": "Others"
+          },
+          {
+            "val": "31",
+            "lbl": "Total Languages",
+            "accent": true
+          }
+        ],
+        "note": "31 languages used as MOI. Top 6 cover 89% of students"
+      }
+    ],
+    "chartMedium": [
+      {
+        "name": "Hindi",
+        "color": "#2563eb",
+        "schoolsPct": 36.982274824677916,
+        "studentsPct": 0.9672791198222888,
+        "schoolsVal": "37%",
+        "studentsVal": "0.97",
+        "pct": 100,
+        "gpct": 95
+      },
+      {
+        "name": "English",
+        "color": "#0891b2",
+        "schoolsPct": 33.58297118413449,
+        "studentsPct": 0.8431365061769908,
+        "schoolsVal": "34%",
+        "studentsVal": "0.84",
+        "pct": 91,
+        "gpct": 83
+      },
+      {
+        "name": "Bengali",
+        "color": "#d97706",
+        "schoolsPct": 7.007101871625525,
+        "studentsPct": 1.0108862401650784,
+        "schoolsVal": "7%",
+        "studentsVal": "1.01",
+        "pct": 19,
+        "gpct": 100
+      },
+      {
+        "name": "Marathi",
+        "color": "#7c3aed",
+        "schoolsPct": 5.246922708799573,
+        "studentsPct": 0.911162862612281,
+        "schoolsVal": "5%",
+        "studentsVal": "0.91",
+        "pct": 14,
+        "gpct": 90
+      },
+      {
+        "name": "Gujarati",
+        "color": "#f59e0b",
+        "schoolsPct": 3.710315446018146,
+        "studentsPct": 0.9097229461712754,
+        "schoolsVal": "4%",
+        "studentsVal": "0.91",
+        "pct": 10,
+        "gpct": 90
+      },
+      {
+        "name": "Odia",
+        "color": "#0ea5e9",
+        "schoolsPct": 2.665069998658142,
+        "studentsPct": 0.9661128159122014,
+        "schoolsVal": "3%",
+        "studentsVal": "0.97",
+        "pct": 7,
+        "gpct": 96
+      },
+      {
+        "name": "Others",
+        "color": "#7a7060",
+        "schoolsPct": 10.805343966086205,
+        "studentsPct": 1.0145819381355647,
+        "schoolsVal": "11%",
+        "studentsVal": "1.01",
+        "pct": 29,
+        "gpct": 100
+      }
+    ],
+    "chartMediumSource": "This comparison uses only data-backed measures: student share by medium and GPI by medium. Hindi and English account for the largest enrollment shares, while Bengali and several regional mediums show higher GPI values.",
+    "chartMediumNote": "In this chart, the first value is student share and the second is GPI. 2023-24: Hindi = 37.0% share, GPI 0.97; English = 33.6% share, GPI 0.84.",
+    "chartGpi": [
+      {
+        "name": "Bengali",
+        "val": "1.01",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Hindi",
+        "val": "0.97",
+        "pct": 84,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Odia",
+        "val": "0.97",
+        "pct": 79,
+        "color": "#0ea5e9"
+      },
+      {
+        "name": "Marathi",
+        "val": "0.91",
+        "pct": 53,
+        "color": "#7c3aed"
+      },
+      {
+        "name": "Gujarati",
+        "val": "0.91",
+        "pct": 50,
+        "color": "#f59e0b"
+      },
+      {
+        "name": "English",
+        "val": "0.84",
+        "pct": 20,
+        "color": "#0891b2"
+      }
+    ],
+    "chartGpiSource": "GPI varies by medium. In the major-medium comparison shown here, Bengali is highest, while English is lowest.",
+    "chartGpiNote": "GPI = total_girls / total_boys. Among the major mediums shown, Bengali = 1.01, Hindi = 0.97, English = 0.84, national = 0.93.",
+    "insight1": {
+      "num": "34%",
+      "label": "Students in English-Medium Education",
+      "color": "#0891b2",
+      "delta_val": "3.4 pts",
+      "delta_label": "Gap between Hindi share (37%) and English share (34%)",
+      "delta_val2": "8.31 Cr",
+      "delta_label2": "Total students enrolled in English-medium education"
+    },
+    "insight2": {
+      "num": "1.01",
+      "label": "Bengali-Medium GPI — Highest Among Major Mediums",
+      "color": "#d97706",
+      "delta_val": "0.97",
+      "delta_label": "Hindi-medium GPI — 0.04-point gap vs Bengali",
+      "delta_val2": "0.93",
+      "delta_label2": "National GPI — total_girls / total_boys across all mediums"
+    }
+  },
+  "2024-25": {
+    "year": "2024-25",
+    "header": {
+      "label": "Medium of Instruction",
+      "headline": "Hindi and English each serve about 36% of students",
+      "sub": "31 languages serve as medium of instruction for 24.69 Cr students. Hindi enrolls 36%; English enrolls 36%; national GPI is 0.94"
+    },
+    "cards": [
+      {
+        "id": "reach",
+        "label": "Hindi Student Share",
+        "fullLabel": "Students in Hindi-medium education",
+        "headline": "36%",
+        "headlineNote": "Students in Hindi-medium education",
+        "color": "#2563eb",
+        "bar": 36,
+        "barLabel": "8.92 Cr students",
+        "split": [
+          {
+            "val": "36%",
+            "lbl": "Student Share"
+          },
+          {
+            "val": "8.92 Cr",
+            "lbl": "Students"
+          },
+          {
+            "val": "0.99",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "Hindi accounts for 36% of students (8.92 Cr) with GPI 0.99"
+      },
+      {
+        "id": "english",
+        "label": "English Student Share",
+        "fullLabel": "Students in English-medium education",
+        "headline": "36%",
+        "headlineNote": "Students in English-medium education",
+        "color": "#0891b2",
+        "bar": 36,
+        "barLabel": "8.80 Cr students",
+        "split": [
+          {
+            "val": "36%",
+            "lbl": "Student Share"
+          },
+          {
+            "val": "8.80 Cr",
+            "lbl": "Students"
+          },
+          {
+            "val": "0.85",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "English accounts for 36% of students (8.80 Cr) with GPI 0.85"
+      },
+      {
+        "id": "gpi",
+        "label": "GPI by Medium",
+        "fullLabel": "total_girls / total_boys by medium",
+        "headline": "0.94",
+        "headlineNote": "National GPI across all mediums",
+        "color": "#7c3aed",
+        "bar": 90,
+        "barLabel": "near-parity nationally",
+        "split": [
+          {
+            "val": "0.85",
+            "lbl": "English GPI"
+          },
+          {
+            "val": "0.99",
+            "lbl": "Hindi GPI"
+          },
+          {
+            "val": "±0.17",
+            "lbl": "Range",
+            "accent": true
+          }
+        ],
+        "note": "English GPI (0.85) vs Hindi GPI (0.99). National = 0.94"
+      },
+      {
+        "id": "diversity",
+        "label": "Linguistic Diversity",
+        "fullLabel": "Languages of Instruction",
+        "headline": "31+",
+        "headlineNote": "Languages used as medium of instruction",
+        "color": "#6366f1",
+        "bar": 90,
+        "barLabel": "Top 6 cover 90% of students",
+        "split": [
+          {
+            "val": "90%",
+            "lbl": "Top 6 Mediums"
+          },
+          {
+            "val": "10%",
+            "lbl": "Others"
+          },
+          {
+            "val": "31",
+            "lbl": "Total Languages",
+            "accent": true
+          }
+        ],
+        "note": "31 languages used as MOI. Top 6 cover 90% of students"
+      }
+    ],
+    "chartMedium": [
+      {
+        "name": "Hindi",
+        "color": "#2563eb",
+        "schoolsPct": 36.12799488508366,
+        "studentsPct": 0.9853991911549995,
+        "schoolsVal": "36%",
+        "studentsVal": "0.99",
+        "pct": 100,
+        "gpct": 96
+      },
+      {
+        "name": "English",
+        "color": "#0891b2",
+        "schoolsPct": 35.63231039326184,
+        "studentsPct": 0.8512221956586491,
+        "schoolsVal": "36%",
+        "studentsVal": "0.85",
+        "pct": 99,
+        "gpct": 83
+      },
+      {
+        "name": "Bengali",
+        "color": "#d97706",
+        "schoolsPct": 6.75547359709537,
+        "studentsPct": 1.0179016110578993,
+        "schoolsVal": "7%",
+        "studentsVal": "1.02",
+        "pct": 19,
+        "gpct": 99
+      },
+      {
+        "name": "Marathi",
+        "color": "#7c3aed",
+        "schoolsPct": 5.118933225039311,
+        "studentsPct": 0.9201757220263358,
+        "schoolsVal": "5%",
+        "studentsVal": "0.92",
+        "pct": 14,
+        "gpct": 90
+      },
+      {
+        "name": "Gujarati",
+        "color": "#f59e0b",
+        "schoolsPct": 3.6900130027341866,
+        "studentsPct": 0.9133208366256705,
+        "schoolsVal": "4%",
+        "studentsVal": "0.91",
+        "pct": 10,
+        "gpct": 89
+      },
+      {
+        "name": "Odia",
+        "color": "#0ea5e9",
+        "schoolsPct": 2.623788394472534,
+        "studentsPct": 0.9751136553127705,
+        "schoolsVal": "3%",
+        "studentsVal": "0.98",
+        "pct": 7,
+        "gpct": 95
+      },
+      {
+        "name": "Others",
+        "color": "#7a7060",
+        "schoolsPct": 10.0514865023131,
+        "studentsPct": 1.0273615006739112,
+        "schoolsVal": "10%",
+        "studentsVal": "1.03",
+        "pct": 28,
+        "gpct": 100
+      }
+    ],
+    "chartMediumSource": "This comparison uses only data-backed measures: student share by medium and GPI by medium. Hindi and English account for the largest enrollment shares, while Bengali and several regional mediums show higher GPI values.",
+    "chartMediumNote": "In this chart, the first value is student share and the second is GPI. 2024-25: Hindi = 36.1% share, GPI 0.99; English = 35.6% share, GPI 0.85.",
+    "chartGpi": [
+      {
+        "name": "Bengali",
+        "val": "1.02",
+        "pct": 100,
+        "color": "#d97706"
+      },
+      {
+        "name": "Hindi",
+        "val": "0.99",
+        "pct": 84,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Odia",
+        "val": "0.98",
+        "pct": 79,
+        "color": "#0ea5e9"
+      },
+      {
+        "name": "Marathi",
+        "val": "0.92",
+        "pct": 53,
+        "color": "#7c3aed"
+      },
+      {
+        "name": "Gujarati",
+        "val": "0.91",
+        "pct": 50,
+        "color": "#f59e0b"
+      },
+      {
+        "name": "English",
+        "val": "0.85",
+        "pct": 20,
+        "color": "#0891b2"
+      }
+    ],
+    "chartGpiSource": "GPI varies by medium. In the major-medium comparison shown here, Bengali is highest, while English is lowest.",
+    "chartGpiNote": "GPI = total_girls / total_boys. Among the major mediums shown, Bengali = 1.02, Hindi = 0.99, English = 0.85, national = 0.94.",
+    "insight1": {
+      "num": "36%",
+      "label": "Students in English-Medium Education",
+      "color": "#0891b2",
+      "delta_val": "0.5 pts",
+      "delta_label": "Gap between Hindi share (36%) and English share (36%)",
+      "delta_val2": "8.80 Cr",
+      "delta_label2": "Total students enrolled in English-medium education"
+    },
+    "insight2": {
+      "num": "1.02",
+      "label": "Bengali-Medium GPI — Highest Among Major Mediums",
+      "color": "#d97706",
+      "delta_val": "0.99",
+      "delta_label": "Hindi-medium GPI — 0.03-point gap vs Bengali",
+      "delta_val2": "0.94",
+      "delta_label2": "National GPI — total_girls / total_boys across all mediums"
+    }
+  }
+}

@@ -1,0 +1,1142 @@
+{
+  "2020-21": {
+    "year": "2020-21",
+    "header": {
+      "label": "CWSN Student Analytics",
+      "headline": "21.7 L CWSN students \u2014 girls undercounted by 3.0 L",
+      "sub": "Children with Special Needs (CWSN) analytics \u2014 covering boys, girls, and total enrollment by disability type and school management. Total: 21."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "CWSN Enrollment",
+        "fullLabel": "Total CWSN Students",
+        "headline": "21.7 L",
+        "headlineNote": "CWSN students in UDISE+ 2020-21",
+        "color": "#7c3aed",
+        "bar": 100,
+        "barLabel": "21.7 L total CWSN students enrolled",
+        "split": [
+          {
+            "val": "12.4 L",
+            "lbl": "cwsn_boys"
+          },
+          {
+            "val": "9.3 L",
+            "lbl": "cwsn_girls"
+          },
+          {
+            "val": "0.754",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "SUM from . GPI = 0.754 \u2014 /"
+      },
+      {
+        "id": "gpi",
+        "label": "CWSN Gender Gap",
+        "fullLabel": "/",
+        "headline": "0.75",
+        "headlineNote": "GPI for CWSN students nationally",
+        "color": "#6366f1",
+        "bar": 75,
+        "barLabel": "9.3 L CWSN girls enrolled",
+        "split": [
+          {
+            "val": "12.4 L",
+            "lbl": "Boys"
+          },
+          {
+            "val": "9.3 L",
+            "lbl": "Girls"
+          },
+          {
+            "val": "\u22123.0 L",
+            "lbl": "Boys Surplus",
+            "accent": true
+          }
+        ],
+        "note": "/ = 0.754. CWSN girls are 3.0 L fewer than boys"
+      },
+      {
+        "id": "schools",
+        "label": "Schools with CWSN",
+        "fullLabel": "Schools with CWSN Students",
+        "headline": "11.3 L",
+        "headlineNote": "Schools reporting at least 1 CWSN student",
+        "color": "#0891b2",
+        "bar": 80,
+        "barLabel": "Schools reporting CWSN students",
+        "split": [
+          {
+            "val": "76%",
+            "lbl": "Govt Share"
+          },
+          {
+            "val": "11.3 L",
+            "lbl": "Schools"
+          },
+          {
+            "val": "1.9",
+            "lbl": "Avg CWSN/Sch",
+            "accent": true
+          }
+        ],
+        "note": "total_schools from . Avg CWSN = 1.9 per school. 76% of CWSN in govt schools"
+      },
+      {
+        "id": "disability",
+        "label": "Speech & Language Dominance",
+        "fullLabel": "Top Disability Category",
+        "headline": "21%",
+        "headlineNote": "Speech & Language is the largest group",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "4.6 L with Speech & Language",
+        "split": [
+          {
+            "val": "21%",
+            "lbl": "Speech & L"
+          },
+          {
+            "val": "19%",
+            "lbl": "Visual Imp"
+          },
+          {
+            "val": "17%",
+            "lbl": "Locomotor ",
+            "accent": true
+          }
+        ],
+        "note": "Top 3: Speech & Language (21%), Visual Impairment (19%), Locomotor Disability (17%)"
+      }
+    ],
+    "chartDisability": [
+      {
+        "name": "Speech & Language",
+        "val": "21%",
+        "pct": 100,
+        "color": "#7c3aed"
+      },
+      {
+        "name": "Visual Impairment",
+        "val": "19%",
+        "pct": 91,
+        "color": "#d97706"
+      },
+      {
+        "name": "Locomotor Disability",
+        "val": "17%",
+        "pct": 82,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Intellectual Disability",
+        "val": "16%",
+        "pct": 77,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Multiple / Others",
+        "val": "15%",
+        "pct": 71,
+        "color": "#7a7060"
+      },
+      {
+        "name": "Hearing Impairment",
+        "val": "10%",
+        "pct": 49,
+        "color": "#0891b2"
+      }
+    ],
+    "chartDisabilitySource": "Locomotor disability accounts for the largest CWSN segment \u2014 schools need ramps and accessible infrastructure most urgently. Visual and hearing impairments are the next priority.",
+    "chartDisabilityNote": "Speech & Language (21%) is the most reported category, followed by Visual Impairment (19%) and Locomotor Disability (17%).",
+    "chartMgmt": [
+      {
+        "name": "State Govt",
+        "total": 1640610,
+        "boys": 922862,
+        "girls": 717748,
+        "pct_raw": 75.63304137848054,
+        "color": "#2563eb",
+        "val": "75.6%",
+        "pct": 100
+      },
+      {
+        "name": "Govt Aided",
+        "total": 292454,
+        "boys": 170177,
+        "girls": 122277,
+        "pct_raw": 13.482293466029189,
+        "color": "#0891b2",
+        "val": "13.5%",
+        "pct": 18
+      },
+      {
+        "name": "Central Govt",
+        "total": 5762,
+        "boys": 3566,
+        "girls": 2196,
+        "pct_raw": 0.26563143246890175,
+        "color": "#d97706",
+        "val": "0.3%",
+        "pct": 0
+      },
+      {
+        "name": "Private Unaided",
+        "total": 216188,
+        "boys": 131678,
+        "girls": 84510,
+        "pct_raw": 9.966388080976557,
+        "color": "#6366f1",
+        "val": "10.0%",
+        "pct": 13
+      },
+      {
+        "name": "Others",
+        "total": 14157,
+        "boys": 8377,
+        "girls": 5780,
+        "pct_raw": 0.652645642044818,
+        "color": "#7a7060",
+        "val": "0.7%",
+        "pct": 1
+      }
+    ],
+    "chartMgmtSource": "Government schools enroll the majority of CWSN students \u2014 indicating that public schools bear the greatest responsibility for inclusive education infrastructure and teacher training.",
+    "chartMgmtNote": "State Govt schools account for 75.6% of all CWSN enrollment. Private Unaided holds only 10.0%.",
+    "insight1": {
+      "num": "0.75",
+      "label": "CWSN GPI \u2014 Girls Severely Undercounted",
+      "color": "#6366f1",
+      "note": "/ = 0.754. CWSN girls are 3.0 L fewer than boys \u2014 possibly reflecting under-identification of girls with disabilities",
+      "delta_val": "\u22120.19",
+      "delta_label": "CWSN GPI vs overall enrollment GPI (0.94) \u2014 the largest gender gap in UDISE+",
+      "delta_val2": "12.4 L",
+      "delta_label2": "Boys (12.4 L) vs Girls (9.3 L) \u2014 and columns"
+    },
+    "insight2": {
+      "num": "76%",
+      "label": "Govt School Share of CWSN Enrollment",
+      "color": "#2563eb",
+      "note": "75.6% of all CWSN students are enrolled in State Government schools. The state sector carries the overwhelming responsibility for inclusive education.",
+      "delta_val": "10.0%",
+      "delta_label": "Private Unaided school CWSN share \u2014 vs 76% in State Govt schools",
+      "delta_val2": "10.0%",
+      "delta_label2": "Private Unaided CWSN share \u2014 vs 76% in State Govt schools"
+    }
+  },
+  "2021-22": {
+    "year": "2021-22",
+    "header": {
+      "label": "CWSN Student Analytics",
+      "headline": "18.3 L CWSN students \u2014 girls undercounted by 2.9 L",
+      "sub": "Children with Special Needs (CWSN) analytics \u2014 covering boys, girls, and total enrollment by disability type and school management. Total: 18."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "CWSN Enrollment",
+        "fullLabel": "Total CWSN Students",
+        "headline": "18.3 L",
+        "headlineNote": "CWSN students in UDISE+ 2021-22",
+        "color": "#7c3aed",
+        "bar": 100,
+        "barLabel": "18.3 L total CWSN students enrolled",
+        "split": [
+          {
+            "val": "10.6 L",
+            "lbl": "cwsn_boys"
+          },
+          {
+            "val": "7.7 L",
+            "lbl": "cwsn_girls"
+          },
+          {
+            "val": "0.729",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "SUM from . GPI = 0.729 \u2014 /"
+      },
+      {
+        "id": "gpi",
+        "label": "CWSN Gender Gap",
+        "fullLabel": "/",
+        "headline": "0.73",
+        "headlineNote": "GPI for CWSN students nationally",
+        "color": "#6366f1",
+        "bar": 73,
+        "barLabel": "7.7 L CWSN girls enrolled",
+        "split": [
+          {
+            "val": "10.6 L",
+            "lbl": "Boys"
+          },
+          {
+            "val": "7.7 L",
+            "lbl": "Girls"
+          },
+          {
+            "val": "\u22122.9 L",
+            "lbl": "Boys Surplus",
+            "accent": true
+          }
+        ],
+        "note": "/ = 0.729. CWSN girls are 2.9 L fewer than boys"
+      },
+      {
+        "id": "schools",
+        "label": "Schools with CWSN",
+        "fullLabel": "Schools with CWSN Students",
+        "headline": "9.1 L",
+        "headlineNote": "Schools reporting at least 1 CWSN student",
+        "color": "#0891b2",
+        "bar": 80,
+        "barLabel": "Schools reporting CWSN students",
+        "split": [
+          {
+            "val": "74%",
+            "lbl": "Govt Share"
+          },
+          {
+            "val": "9.1 L",
+            "lbl": "Schools"
+          },
+          {
+            "val": "2.0",
+            "lbl": "Avg CWSN/Sch",
+            "accent": true
+          }
+        ],
+        "note": "total_schools from . Avg CWSN = 2.0 per school. 74% of CWSN in govt schools"
+      },
+      {
+        "id": "disability",
+        "label": "Speech & Language Dominance",
+        "fullLabel": "Top Disability Category",
+        "headline": "22%",
+        "headlineNote": "Speech & Language is the largest group",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "3.9 L with Speech & Language",
+        "split": [
+          {
+            "val": "22%",
+            "lbl": "Speech & L"
+          },
+          {
+            "val": "20%",
+            "lbl": "Visual Imp"
+          },
+          {
+            "val": "18%",
+            "lbl": "Intellectu",
+            "accent": true
+          }
+        ],
+        "note": "Top 3: Speech & Language (22%), Visual Impairment (20%), Intellectual Disability (18%)"
+      }
+    ],
+    "chartDisability": [
+      {
+        "name": "Speech & Language",
+        "val": "22%",
+        "pct": 100,
+        "color": "#7c3aed"
+      },
+      {
+        "name": "Visual Impairment",
+        "val": "20%",
+        "pct": 93,
+        "color": "#d97706"
+      },
+      {
+        "name": "Intellectual Disability",
+        "val": "18%",
+        "pct": 84,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Locomotor Disability",
+        "val": "18%",
+        "pct": 82,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Multiple / Others",
+        "val": "13%",
+        "pct": 59,
+        "color": "#7a7060"
+      },
+      {
+        "name": "Hearing Impairment",
+        "val": "10%",
+        "pct": 46,
+        "color": "#0891b2"
+      }
+    ],
+    "chartDisabilitySource": "Locomotor disability accounts for the largest CWSN segment \u2014 schools need ramps and accessible infrastructure most urgently. Visual and hearing impairments are the next priority.",
+    "chartDisabilityNote": "Speech & Language (22%) is the most reported category, followed by Visual Impairment (20%) and Intellectual Disability (18%).",
+    "chartMgmt": [
+      {
+        "name": "State Govt",
+        "total": 1361790,
+        "boys": 778868,
+        "girls": 582922,
+        "pct_raw": 74.28392508712797,
+        "color": "#2563eb",
+        "val": "74.3%",
+        "pct": 100
+      },
+      {
+        "name": "Govt Aided",
+        "total": 281095,
+        "boys": 165517,
+        "girls": 115578,
+        "pct_raw": 15.333377335981494,
+        "color": "#0891b2",
+        "val": "15.3%",
+        "pct": 21
+      },
+      {
+        "name": "Central Govt",
+        "total": 6560,
+        "boys": 3919,
+        "girls": 2641,
+        "pct_raw": 0.35783971726298436,
+        "color": "#d97706",
+        "val": "0.4%",
+        "pct": 0
+      },
+      {
+        "name": "Private Unaided",
+        "total": 170044,
+        "boys": 103478,
+        "girls": 66566,
+        "pct_raw": 9.275685500345567,
+        "color": "#6366f1",
+        "val": "9.3%",
+        "pct": 12
+      },
+      {
+        "name": "Others",
+        "total": 13734,
+        "boys": 8267,
+        "girls": 5467,
+        "pct_raw": 0.7491723592819859,
+        "color": "#7a7060",
+        "val": "0.7%",
+        "pct": 1
+      }
+    ],
+    "chartMgmtSource": "Government schools enroll the majority of CWSN students \u2014 indicating that public schools bear the greatest responsibility for inclusive education infrastructure and teacher training.",
+    "chartMgmtNote": "State Govt schools account for 74.3% of all CWSN enrollment. Private Unaided holds only 9.3%.",
+    "insight1": {
+      "num": "0.73",
+      "label": "CWSN GPI \u2014 Girls Severely Undercounted",
+      "color": "#6366f1",
+      "note": "/ = 0.729. CWSN girls are 2.9 L fewer than boys \u2014 possibly reflecting under-identification of girls with disabilities",
+      "delta_val": "\u22120.21",
+      "delta_label": "CWSN GPI vs overall enrollment GPI (0.94) \u2014 the largest gender gap in UDISE+",
+      "delta_val2": "10.6 L",
+      "delta_label2": "Boys (10.6 L) vs Girls (7.7 L) \u2014 and columns"
+    },
+    "insight2": {
+      "num": "74%",
+      "label": "Govt School Share of CWSN Enrollment",
+      "color": "#2563eb",
+      "note": "74.3% of all CWSN students are enrolled in State Government schools. The state sector carries the overwhelming responsibility for inclusive education.",
+      "delta_val": "9.3%",
+      "delta_label": "Private Unaided school CWSN share \u2014 vs 74% in State Govt schools",
+      "delta_val2": "9.3%",
+      "delta_label2": "Private Unaided CWSN share \u2014 vs 74% in State Govt schools"
+    }
+  },
+  "2022-23": {
+    "year": "2022-23",
+    "header": {
+      "label": "CWSN Student Analytics",
+      "headline": "20.8 L CWSN students \u2014 girls undercounted by 3.0 L",
+      "sub": "Children with Special Needs (CWSN) analytics \u2014 covering boys, girls, and total enrollment by disability type and school management. Total: 20."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "CWSN Enrollment",
+        "fullLabel": "Total CWSN Students",
+        "headline": "20.8 L",
+        "headlineNote": "CWSN students in UDISE+ 2022-23",
+        "color": "#7c3aed",
+        "bar": 100,
+        "barLabel": "20.8 L total CWSN students enrolled",
+        "split": [
+          {
+            "val": "11.9 L",
+            "lbl": "cwsn_boys"
+          },
+          {
+            "val": "8.9 L",
+            "lbl": "cwsn_girls"
+          },
+          {
+            "val": "0.746",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "SUM from . GPI = 0.746 \u2014 /"
+      },
+      {
+        "id": "gpi",
+        "label": "CWSN Gender Gap",
+        "fullLabel": "/",
+        "headline": "0.75",
+        "headlineNote": "GPI for CWSN students nationally",
+        "color": "#6366f1",
+        "bar": 75,
+        "barLabel": "8.9 L CWSN girls enrolled",
+        "split": [
+          {
+            "val": "11.9 L",
+            "lbl": "Boys"
+          },
+          {
+            "val": "8.9 L",
+            "lbl": "Girls"
+          },
+          {
+            "val": "\u22123.0 L",
+            "lbl": "Boys Surplus",
+            "accent": true
+          }
+        ],
+        "note": "/ = 0.746. CWSN girls are 3.0 L fewer than boys"
+      },
+      {
+        "id": "schools",
+        "label": "Schools with CWSN",
+        "fullLabel": "Schools with CWSN Students",
+        "headline": "11.9 L",
+        "headlineNote": "Schools reporting at least 1 CWSN student",
+        "color": "#0891b2",
+        "bar": 80,
+        "barLabel": "Schools reporting CWSN students",
+        "split": [
+          {
+            "val": "78%",
+            "lbl": "Govt Share"
+          },
+          {
+            "val": "11.9 L",
+            "lbl": "Schools"
+          },
+          {
+            "val": "1.8",
+            "lbl": "Avg CWSN/Sch",
+            "accent": true
+          }
+        ],
+        "note": "total_schools from . Avg CWSN = 1.8 per school. 78% of CWSN in govt schools"
+      },
+      {
+        "id": "disability",
+        "label": "Speech & Language Dominance",
+        "fullLabel": "Top Disability Category",
+        "headline": "22%",
+        "headlineNote": "Speech & Language is the largest group",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "4.6 L with Speech & Language",
+        "split": [
+          {
+            "val": "22%",
+            "lbl": "Speech & L"
+          },
+          {
+            "val": "19%",
+            "lbl": "Intellectu"
+          },
+          {
+            "val": "19%",
+            "lbl": "Locomotor ",
+            "accent": true
+          }
+        ],
+        "note": "Top 3: Speech & Language (22%), Intellectual Disability (19%), Locomotor Disability (19%)"
+      }
+    ],
+    "chartDisability": [
+      {
+        "name": "Speech & Language",
+        "val": "22%",
+        "pct": 100,
+        "color": "#7c3aed"
+      },
+      {
+        "name": "Intellectual Disability",
+        "val": "19%",
+        "pct": 87,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Locomotor Disability",
+        "val": "19%",
+        "pct": 84,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Visual Impairment",
+        "val": "17%",
+        "pct": 75,
+        "color": "#d97706"
+      },
+      {
+        "name": "Multiple / Others",
+        "val": "13%",
+        "pct": 60,
+        "color": "#7a7060"
+      },
+      {
+        "name": "Hearing Impairment",
+        "val": "10%",
+        "pct": 44,
+        "color": "#0891b2"
+      }
+    ],
+    "chartDisabilitySource": "Locomotor disability accounts for the largest CWSN segment \u2014 schools need ramps and accessible infrastructure most urgently. Visual and hearing impairments are the next priority.",
+    "chartDisabilityNote": "Speech & Language (22%) is the most reported category, followed by Intellectual Disability (19%) and Locomotor Disability (19%).",
+    "chartMgmt": [
+      {
+        "name": "State Govt",
+        "total": 1632379,
+        "boys": 923498,
+        "girls": 708881,
+        "pct_raw": 78.33935139327207,
+        "color": "#2563eb",
+        "val": "78.3%",
+        "pct": 100
+      },
+      {
+        "name": "Govt Aided",
+        "total": 270436,
+        "boys": 158618,
+        "girls": 111818,
+        "pct_raw": 12.978469358764674,
+        "color": "#0891b2",
+        "val": "13.0%",
+        "pct": 17
+      },
+      {
+        "name": "Central Govt",
+        "total": 5000,
+        "boys": 3111,
+        "girls": 1889,
+        "pct_raw": 0.23995454301137192,
+        "color": "#d97706",
+        "val": "0.2%",
+        "pct": 0
+      },
+      {
+        "name": "Private Unaided",
+        "total": 161885,
+        "boys": 100283,
+        "girls": 61602,
+        "pct_raw": 7.76900823907919,
+        "color": "#6366f1",
+        "val": "7.8%",
+        "pct": 10
+      },
+      {
+        "name": "Others",
+        "total": 14028,
+        "boys": 7999,
+        "girls": 6029,
+        "pct_raw": 0.6732164658727051,
+        "color": "#7a7060",
+        "val": "0.7%",
+        "pct": 1
+      }
+    ],
+    "chartMgmtSource": "Government schools enroll the majority of CWSN students \u2014 indicating that public schools bear the greatest responsibility for inclusive education infrastructure and teacher training.",
+    "chartMgmtNote": "State Govt schools account for 78.3% of all CWSN enrollment. Private Unaided holds only 7.8%.",
+    "insight1": {
+      "num": "0.75",
+      "label": "CWSN GPI \u2014 Girls Severely Undercounted",
+      "color": "#6366f1",
+      "note": "/ = 0.746. CWSN girls are 3.0 L fewer than boys \u2014 possibly reflecting under-identification of girls with disabilities",
+      "delta_val": "\u22120.19",
+      "delta_label": "CWSN GPI vs overall enrollment GPI (0.94) \u2014 the largest gender gap in UDISE+",
+      "delta_val2": "11.9 L",
+      "delta_label2": "Boys (11.9 L) vs Girls (8.9 L) \u2014 and columns"
+    },
+    "insight2": {
+      "num": "78%",
+      "label": "Govt School Share of CWSN Enrollment",
+      "color": "#2563eb",
+      "note": "78.3% of all CWSN students are enrolled in State Government schools. The state sector carries the overwhelming responsibility for inclusive education.",
+      "delta_val": "7.8%",
+      "delta_label": "Private Unaided school CWSN share \u2014 vs 78% in State Govt schools",
+      "delta_val2": "7.8%",
+      "delta_label2": "Private Unaided CWSN share \u2014 vs 78% in State Govt schools"
+    }
+  },
+  "2023-24": {
+    "year": "2023-24",
+    "header": {
+      "label": "CWSN Student Analytics",
+      "headline": "20.9 L CWSN students \u2014 girls undercounted by 3.0 L",
+      "sub": "Children with Special Needs (CWSN) analytics \u2014 covering boys, girls, and total enrollment by disability type and school management. Total: 20."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "CWSN Enrollment",
+        "fullLabel": "Total CWSN Students",
+        "headline": "20.9 L",
+        "headlineNote": "CWSN students in UDISE+ 2023-24",
+        "color": "#7c3aed",
+        "bar": 100,
+        "barLabel": "20.9 L total CWSN students enrolled",
+        "split": [
+          {
+            "val": "11.9 L",
+            "lbl": "cwsn_boys"
+          },
+          {
+            "val": "8.9 L",
+            "lbl": "cwsn_girls"
+          },
+          {
+            "val": "0.748",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "SUM from . GPI = 0.748 \u2014 /"
+      },
+      {
+        "id": "gpi",
+        "label": "CWSN Gender Gap",
+        "fullLabel": "/",
+        "headline": "0.75",
+        "headlineNote": "GPI for CWSN students nationally",
+        "color": "#6366f1",
+        "bar": 75,
+        "barLabel": "8.9 L CWSN girls enrolled",
+        "split": [
+          {
+            "val": "11.9 L",
+            "lbl": "Boys"
+          },
+          {
+            "val": "8.9 L",
+            "lbl": "Girls"
+          },
+          {
+            "val": "\u22123.0 L",
+            "lbl": "Boys Surplus",
+            "accent": true
+          }
+        ],
+        "note": "/ = 0.748. CWSN girls are 3.0 L fewer than boys"
+      },
+      {
+        "id": "schools",
+        "label": "Schools with CWSN",
+        "fullLabel": "Schools with CWSN Students",
+        "headline": "12.1 L",
+        "headlineNote": "Schools reporting at least 1 CWSN student",
+        "color": "#0891b2",
+        "bar": 80,
+        "barLabel": "Schools reporting CWSN students",
+        "split": [
+          {
+            "val": "78%",
+            "lbl": "Govt Share"
+          },
+          {
+            "val": "12.1 L",
+            "lbl": "Schools"
+          },
+          {
+            "val": "1.7",
+            "lbl": "Avg CWSN/Sch",
+            "accent": true
+          }
+        ],
+        "note": "total_schools from . Avg CWSN = 1.7 per school. 78% of CWSN in govt schools"
+      },
+      {
+        "id": "disability",
+        "label": "Speech & Language Dominance",
+        "fullLabel": "Top Disability Category",
+        "headline": "23%",
+        "headlineNote": "Speech & Language is the largest group",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "4.8 L with Speech & Language",
+        "split": [
+          {
+            "val": "23%",
+            "lbl": "Speech & L"
+          },
+          {
+            "val": "20%",
+            "lbl": "Intellectu"
+          },
+          {
+            "val": "19%",
+            "lbl": "Locomotor ",
+            "accent": true
+          }
+        ],
+        "note": "Top 3: Speech & Language (23%), Intellectual Disability (20%), Locomotor Disability (19%)"
+      }
+    ],
+    "chartDisability": [
+      {
+        "name": "Speech & Language",
+        "val": "23%",
+        "pct": 100,
+        "color": "#7c3aed"
+      },
+      {
+        "name": "Intellectual Disability",
+        "val": "20%",
+        "pct": 85,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Locomotor Disability",
+        "val": "19%",
+        "pct": 83,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Visual Impairment",
+        "val": "16%",
+        "pct": 69,
+        "color": "#d97706"
+      },
+      {
+        "name": "Multiple / Others",
+        "val": "13%",
+        "pct": 54,
+        "color": "#7a7060"
+      },
+      {
+        "name": "Hearing Impairment",
+        "val": "10%",
+        "pct": 42,
+        "color": "#0891b2"
+      }
+    ],
+    "chartDisabilitySource": "Locomotor disability accounts for the largest CWSN segment \u2014 schools need ramps and accessible infrastructure most urgently. Visual and hearing impairments are the next priority.",
+    "chartDisabilityNote": "Speech & Language (23%) is the most reported category, followed by Intellectual Disability (20%) and Locomotor Disability (19%).",
+    "chartMgmt": [
+      {
+        "name": "State Govt",
+        "total": 1633686,
+        "boys": 922656,
+        "girls": 711030,
+        "pct_raw": 78.29284949212489,
+        "color": "#2563eb",
+        "val": "78.3%",
+        "pct": 100
+      },
+      {
+        "name": "Govt Aided",
+        "total": 268575,
+        "boys": 156590,
+        "girls": 111985,
+        "pct_raw": 12.871201719514913,
+        "color": "#0891b2",
+        "val": "12.9%",
+        "pct": 16
+      },
+      {
+        "name": "Central Govt",
+        "total": 7345,
+        "boys": 4640,
+        "girls": 2705,
+        "pct_raw": 0.3520021469974384,
+        "color": "#d97706",
+        "val": "0.4%",
+        "pct": 0
+      },
+      {
+        "name": "Private Unaided",
+        "total": 163096,
+        "boys": 102234,
+        "girls": 60862,
+        "pct_raw": 7.8162208531918616,
+        "color": "#6366f1",
+        "val": "7.8%",
+        "pct": 10
+      },
+      {
+        "name": "Others",
+        "total": 13933,
+        "boys": 7889,
+        "girls": 6044,
+        "pct_raw": 0.6677257881709068,
+        "color": "#7a7060",
+        "val": "0.7%",
+        "pct": 1
+      }
+    ],
+    "chartMgmtSource": "Government schools enroll the majority of CWSN students \u2014 indicating that public schools bear the greatest responsibility for inclusive education infrastructure and teacher training.",
+    "chartMgmtNote": "State Govt schools account for 78.3% of all CWSN enrollment. Private Unaided holds only 7.8%.",
+    "insight1": {
+      "num": "0.75",
+      "label": "CWSN GPI \u2014 Girls Severely Undercounted",
+      "color": "#6366f1",
+      "note": "/ = 0.748. CWSN girls are 3.0 L fewer than boys \u2014 possibly reflecting under-identification of girls with disabilities",
+      "delta_val": "\u22120.19",
+      "delta_label": "CWSN GPI vs overall enrollment GPI (0.94) \u2014 the largest gender gap in UDISE+",
+      "delta_val2": "11.9 L",
+      "delta_label2": "Boys (11.9 L) vs Girls (8.9 L) \u2014 and columns"
+    },
+    "insight2": {
+      "num": "78%",
+      "label": "Govt School Share of CWSN Enrollment",
+      "color": "#2563eb",
+      "note": "78.3% of all CWSN students are enrolled in State Government schools. The state sector carries the overwhelming responsibility for inclusive education.",
+      "delta_val": "7.8%",
+      "delta_label": "Private Unaided school CWSN share \u2014 vs 78% in State Govt schools",
+      "delta_val2": "7.8%",
+      "delta_label2": "Private Unaided CWSN share \u2014 vs 78% in State Govt schools"
+    }
+  },
+  "2024-25": {
+    "year": "2024-25",
+    "header": {
+      "label": "CWSN Student Analytics",
+      "headline": "21.2 L CWSN students \u2014 girls undercounted by 3.0 L",
+      "sub": "Children with Special Needs (CWSN) analytics \u2014 covering boys, girls, and total enrollment by disability type and school management. Total: 21."
+    },
+    "cards": [
+      {
+        "id": "total",
+        "label": "CWSN Enrollment",
+        "fullLabel": "Total CWSN Students",
+        "headline": "21.2 L",
+        "headlineNote": "CWSN students in UDISE+ 2024-25",
+        "color": "#7c3aed",
+        "bar": 100,
+        "barLabel": "21.2 L total CWSN students enrolled",
+        "split": [
+          {
+            "val": "12.1 L",
+            "lbl": "cwsn_boys"
+          },
+          {
+            "val": "9.1 L",
+            "lbl": "cwsn_girls"
+          },
+          {
+            "val": "0.752",
+            "lbl": "GPI",
+            "accent": true
+          }
+        ],
+        "note": "SUM from . GPI = 0.752 \u2014 /"
+      },
+      {
+        "id": "gpi",
+        "label": "CWSN Gender Gap",
+        "fullLabel": "/",
+        "headline": "0.75",
+        "headlineNote": "GPI for CWSN students nationally",
+        "color": "#6366f1",
+        "bar": 75,
+        "barLabel": "9.1 L CWSN girls enrolled",
+        "split": [
+          {
+            "val": "12.1 L",
+            "lbl": "Boys"
+          },
+          {
+            "val": "9.1 L",
+            "lbl": "Girls"
+          },
+          {
+            "val": "\u22123.0 L",
+            "lbl": "Boys Surplus",
+            "accent": true
+          }
+        ],
+        "note": "/ = 0.752. CWSN girls are 3.0 L fewer than boys"
+      },
+      {
+        "id": "schools",
+        "label": "Schools with CWSN",
+        "fullLabel": "Schools with CWSN Students",
+        "headline": "12.5 L",
+        "headlineNote": "Schools reporting at least 1 CWSN student",
+        "color": "#0891b2",
+        "bar": 80,
+        "barLabel": "Schools reporting CWSN students",
+        "split": [
+          {
+            "val": "75%",
+            "lbl": "Govt Share"
+          },
+          {
+            "val": "12.5 L",
+            "lbl": "Schools"
+          },
+          {
+            "val": "1.7",
+            "lbl": "Avg CWSN/Sch",
+            "accent": true
+          }
+        ],
+        "note": "total_schools from . Avg CWSN = 1.7 per school. 75% of CWSN in govt schools"
+      },
+      {
+        "id": "disability",
+        "label": "Speech & Language Dominance",
+        "fullLabel": "Top Disability Category",
+        "headline": "23%",
+        "headlineNote": "Speech & Language is the largest group",
+        "color": "#2563eb",
+        "bar": 100,
+        "barLabel": "4.9 L with Speech & Language",
+        "split": [
+          {
+            "val": "23%",
+            "lbl": "Speech & L"
+          },
+          {
+            "val": "19%",
+            "lbl": "Intellectu"
+          },
+          {
+            "val": "19%",
+            "lbl": "Locomotor ",
+            "accent": true
+          }
+        ],
+        "note": "Top 3: Speech & Language (23%), Intellectual Disability (19%), Locomotor Disability (19%)"
+      }
+    ],
+    "chartDisability": [
+      {
+        "name": "Speech & Language",
+        "val": "23%",
+        "pct": 100,
+        "color": "#7c3aed"
+      },
+      {
+        "name": "Intellectual Disability",
+        "val": "19%",
+        "pct": 85,
+        "color": "#6366f1"
+      },
+      {
+        "name": "Locomotor Disability",
+        "val": "19%",
+        "pct": 82,
+        "color": "#2563eb"
+      },
+      {
+        "name": "Visual Impairment",
+        "val": "17%",
+        "pct": 73,
+        "color": "#d97706"
+      },
+      {
+        "name": "Multiple / Others",
+        "val": "12%",
+        "pct": 53,
+        "color": "#7a7060"
+      },
+      {
+        "name": "Hearing Impairment",
+        "val": "10%",
+        "pct": 42,
+        "color": "#0891b2"
+      }
+    ],
+    "chartDisabilitySource": "Locomotor disability accounts for the largest CWSN segment \u2014 schools need ramps and accessible infrastructure most urgently. Visual and hearing impairments are the next priority.",
+    "chartDisabilityNote": "Speech & Language (23%) is the most reported category, followed by Intellectual Disability (19%) and Locomotor Disability (19%).",
+    "chartMgmt": [
+      {
+        "name": "State Govt",
+        "total": 1589841,
+        "boys": 894152,
+        "girls": 695689,
+        "pct_raw": 75.13358811995545,
+        "color": "#2563eb",
+        "val": "75.1%",
+        "pct": 100
+      },
+      {
+        "name": "Govt Aided",
+        "total": 287437,
+        "boys": 166809,
+        "girls": 120628,
+        "pct_raw": 13.583857233796104,
+        "color": "#0891b2",
+        "val": "13.6%",
+        "pct": 18
+      },
+      {
+        "name": "Central Govt",
+        "total": 9258,
+        "boys": 5871,
+        "girls": 3387,
+        "pct_raw": 0.437519700910058,
+        "color": "#d97706",
+        "val": "0.4%",
+        "pct": 1
+      },
+      {
+        "name": "Private Unaided",
+        "total": 213086,
+        "boys": 131677,
+        "girls": 81409,
+        "pct_raw": 10.07013642127032,
+        "color": "#6366f1",
+        "val": "10.1%",
+        "pct": 13
+      },
+      {
+        "name": "Others",
+        "total": 16397,
+        "boys": 9331,
+        "girls": 7066,
+        "pct_raw": 0.7748985240680731,
+        "color": "#7a7060",
+        "val": "0.8%",
+        "pct": 1
+      }
+    ],
+    "chartMgmtSource": "Government schools enroll the majority of CWSN students \u2014 indicating that public schools bear the greatest responsibility for inclusive education infrastructure and teacher training.",
+    "chartMgmtNote": "State Govt schools account for 75.1% of all CWSN enrollment. Private Unaided holds only 10.1%.",
+    "insight1": {
+      "num": "0.75",
+      "label": "CWSN GPI \u2014 Girls Severely Undercounted",
+      "color": "#6366f1",
+      "note": "/ = 0.752. CWSN girls are 3.0 L fewer than boys \u2014 possibly reflecting under-identification of girls with disabilities",
+      "delta_val": "\u22120.19",
+      "delta_label": "CWSN GPI vs overall enrollment GPI (0.94) \u2014 the largest gender gap in UDISE+",
+      "delta_val2": "12.1 L",
+      "delta_label2": "Boys (12.1 L) vs Girls (9.1 L) \u2014 and columns"
+    },
+    "insight2": {
+      "num": "75%",
+      "label": "Govt School Share of CWSN Enrollment",
+      "color": "#2563eb",
+      "note": "75.1% of all CWSN students are enrolled in State Government schools. The state sector carries the overwhelming responsibility for inclusive education.",
+      "delta_val": "10.1%",
+      "delta_label": "Private Unaided school CWSN share \u2014 vs 75% in State Govt schools",
+      "delta_val2": "10.1%",
+      "delta_label2": "Private Unaided CWSN share \u2014 vs 75% in State Govt schools"
+    }
+  }
+}
