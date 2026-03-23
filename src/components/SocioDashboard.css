@@ -15,8 +15,17 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 24px;
+  gap: 80px;
   flex-wrap: wrap;
+}
+
+.socio-header .powerbi-btn {
+  align-self: center;
+}
+
+.socio-header>div:first-child {
+  flex: 1;
+  min-width: 0;
 }
 
 /* ── POWER BI BUTTON ────────────────────────────────── */

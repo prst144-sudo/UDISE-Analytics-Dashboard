@@ -521,7 +521,7 @@
     "teacherCompare": {
       "header": {
         "label": "Teacher Comparison Analytics",
-        "headline": "51% female teachers nationally · Private Unaided 63% vs State Govt 44%",
+        "headline": "51% female teachers nationally",
         "sub": "Workforce: 97 L teachers, 51% female. PTR ranges 24.1–33.2:1 across management types."
       },
       "cards": [
@@ -716,7 +716,7 @@
     "schoolCompare": {
       "header": {
         "label": "School Comparison Analytics",
-        "headline": "83% rural schools · 51% foundational/preparatory · 70% compliant",
+        "headline": "83% rural schools · 51% foundational · 70% compliant",
         "sub": "15.1 L schools in 2020-21. Rural = 12.6 L; Urban = 2.5 L. Foundational + Preparatory schools are 51% of all schools."
       },
       "cards": [
@@ -1702,7 +1702,7 @@
     "teacherCompare": {
       "header": {
         "label": "Teacher Comparison Analytics",
-        "headline": "51% female teachers nationally · Private Unaided 63% vs State Govt 44%",
+        "headline": "51% female teachers nationally",
         "sub": "Workforce: 95.1 L teachers, 51% female. PTR ranges 23.3–33.9:1 across management types."
       },
       "cards": [
@@ -1897,7 +1897,7 @@
     "schoolCompare": {
       "header": {
         "label": "School Comparison Analytics",
-        "headline": "83% rural schools · 51% foundational/preparatory · 68% compliant",
+        "headline": "83% rural schools · 51% foundational · 68% compliant",
         "sub": "14.9 L schools in 2021-22. Rural = 12.3 L; Urban = 2.5 L. Foundational + Preparatory schools are 51% of all schools."
       },
       "cards": [
@@ -2883,7 +2883,7 @@
     "teacherCompare": {
       "header": {
         "label": "Teacher Comparison Analytics",
-        "headline": "52% female teachers nationally · Private Unaided 65% vs State Govt 44%",
+        "headline": "52% female teachers nationally",
         "sub": "Workforce: 94.8 L teachers, 52% female. PTR ranges 18.9–33.2:1 across management types."
       },
       "cards": [
@@ -3078,7 +3078,7 @@
     "schoolCompare": {
       "header": {
         "label": "School Comparison Analytics",
-        "headline": "82% rural schools · 51% foundational/preparatory · 72% compliant",
+        "headline": "82% rural schools · 51% foundational · 72% compliant",
         "sub": "14.7 L schools in 2022-23. Rural = 12.1 L; Urban = 2.6 L. Foundational + Preparatory schools are 51% of all schools."
       },
       "cards": [
@@ -4064,7 +4064,7 @@
     "teacherCompare": {
       "header": {
         "label": "Teacher Comparison Analytics",
-        "headline": "53% female teachers nationally · Private Unaided 66% vs State Govt 45%",
+        "headline": "53% female teachers nationally",
         "sub": "Workforce: 98.1 L teachers, 53% female. PTR ranges 18.8–32.9:1 across management types."
       },
       "cards": [
@@ -4259,7 +4259,7 @@
     "schoolCompare": {
       "header": {
         "label": "School Comparison Analytics",
-        "headline": "82% rural schools · 50% foundational/preparatory · 75% compliant",
+        "headline": "82% rural schools · 50% foundational · 75% compliant",
         "sub": "14.7 L schools in 2023-24. Rural = 12.1 L; Urban = 2.6 L. Foundational + Preparatory schools are 50% of all schools."
       },
       "cards": [
@@ -5245,7 +5245,7 @@
     "teacherCompare": {
       "header": {
         "label": "Teacher Comparison Analytics",
-        "headline": "54% female teachers nationally · Private Unaided 67% vs State Govt 45%",
+        "headline": "54% female teachers nationally",
         "sub": "Workforce: 1.01 Cr teachers, 54% female. PTR ranges 18.7–32.7:1 across management types."
       },
       "cards": [
@@ -5440,7 +5440,7 @@
     "schoolCompare": {
       "header": {
         "label": "School Comparison Analytics",
-        "headline": "82% rural schools · 50% foundational/preparatory · 78% compliant",
+        "headline": "82% rural schools · 50% foundational · 78% compliant",
         "sub": "14.7 L schools in 2024-25. Rural = 12.1 L; Urban = 2.6 L. Foundational + Preparatory schools are 50% of all schools."
       },
       "cards": [

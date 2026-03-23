@@ -9,15 +9,15 @@ const NAV_ITEMS = [
     dotColor: 'var(--cat-student)',
     children: [
       { id: 'student-main', label: 'Student Analytics' },
-      { id: 'socio',        label: 'Socioeconomic Analytics' },
-      { id: 'migration',    label: 'Migration Analytics' },
-      { id: 'medium',       label: 'Medium of Instruction' },
-      { id: 'dropout',      label: 'Dropout Rate' },
-      { id: 'transition',   label: 'Transition Rate' },
+      { id: 'socio', label: 'Socioeconomic Analytics' },
+      { id: 'migration', label: 'Migration Analytics' },
+      { id: 'medium', label: 'Medium of Instruction' },
+      { id: 'dropout', label: 'Dropout Rate' },
+      { id: 'transition', label: 'Transition Rate' },
       { id: 'cwsn-student', label: 'CWSN Students' },
-      { id: 'national',     label: 'National Analytics' },
-      { id: 'vocational',   label: 'Vocational Analytics' },
-      { id: 'stream',       label: 'Stream Analytics' },
+      { id: 'national', label: 'National Analytics' },
+      { id: 'vocational', label: 'Vocational Analytics' },
+      { id: 'stream', label: 'Stream Analytics' },
     ],
   },
   {
@@ -26,10 +26,10 @@ const NAV_ITEMS = [
     cat: 'cat-teacher',
     dotColor: 'var(--cat-teacher)',
     children: [
-      { id: 'teacher-main',  label: 'Teacher Analytics' },
-      { id: 'ptr',           label: 'PTR Analytics' },
-      { id: 'cwsn-teacher',  label: 'CWSN Analytics' },
-      { id: 'retirement',    label: 'Teacher Retirement' },
+      { id: 'teacher-main', label: 'Teacher Analytics' },
+      { id: 'ptr', label: 'PTR Analytics' },
+      { id: 'cwsn-teacher', label: 'CWSN Analytics' },
+      { id: 'retirement', label: 'Teacher Retirement' },
     ],
   },
   {
@@ -38,9 +38,9 @@ const NAV_ITEMS = [
     cat: 'cat-school',
     dotColor: 'var(--cat-school)',
     children: [
-      { id: 'infra',        label: 'Infrastructure Analytics' },
-      { id: 'school-main',  label: 'School Analytics' },
-      { id: 'multiclass',   label: 'Multi Class Units' },
+      { id: 'infra', label: 'Infrastructure Analytics' },
+      { id: 'school-main', label: 'School Analytics' },
+      { id: 'multiclass', label: 'Multi Class Units' },
     ],
   },
   {
@@ -50,14 +50,14 @@ const NAV_ITEMS = [
     dotColor: 'var(--cat-compare)',
     children: [
       { id: 'student-compare', label: 'Student Comparison Analytics' },
-      { id: 'school-compare',  label: 'School Comparison Analytics' },
+      { id: 'school-compare', label: 'School Comparison Analytics' },
       { id: 'teacher-compare', label: 'Teacher Comparison Analytics' },
-      { id: 'ptr-compare',     label: 'PTR Comparison Analytics' },
+      { id: 'ptr-compare', label: 'PTR Comparison Analytics' },
     ],
   },
 ];
 
-export default function TopNav({ activeCat, activeDash, onShowLanding, onShowDashboard }) {
+export default function TopNav({ activeCat, activeDash, onShowLanding, onShowDashboard, onGoHome }) {
   const [openId, setOpenId] = useState(null);
   const closeTimer = useRef(null);
 
@@ -72,11 +72,11 @@ export default function TopNav({ activeCat, activeDash, onShowLanding, onShowDas
 
   return (
     <header className="topnav">
-      <div className="topnav-brand">
+      <button className="topnav-brand" onClick={onGoHome} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
         <div className="topnav-logo">UDISE<span>+</span></div>
         <div className="topnav-divider" />
         <div className="topnav-subtitle">Analytics Platform</div>
-      </div>
+      </button>
 
       <ul className="topnav-items">
         {NAV_ITEMS.map((item) => (
@@ -107,7 +107,7 @@ export default function TopNav({ activeCat, activeDash, onShowLanding, onShowDas
                         background: item.dotColor,
                         /* active dot is solid, inactive is semi-transparent */
                         opacity: activeDash === child.id ? 1 : 0.45,
-                        width:  activeDash === child.id ? 7 : 6,
+                        width: activeDash === child.id ? 7 : 6,
                         height: activeDash === child.id ? 7 : 6,
                       }}
                     />
