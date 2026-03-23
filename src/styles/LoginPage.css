@@ -1,0 +1,485 @@
+/* ═══════════════════════════════════════════════════════
+   LOGIN PAGE
+═══════════════════════════════════════════════════════ */
+
+.lp-root {
+  min-height: 100vh;
+  background: #0d1b3e;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.lp-bg-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 60% 70% at 10% 50%, rgba(37, 99, 235, 0.22) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 50% at 85% 20%, rgba(99, 102, 241, 0.14) 0%, transparent 55%),
+    radial-gradient(ellipse 50% 60% at 80% 80%, rgba(8, 145, 178, 0.10) 0%, transparent 55%);
+}
+
+/* ── TOP BAR ─────────────────────────────────────────── */
+.lp-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px;
+  height: 56px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  z-index: 10;
+  flex-shrink: 0;
+}
+
+.lp-topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lp-topbar-logo {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.06em;
+}
+
+.lp-topbar-logo span {
+  color: #7eb3ff;
+  font-weight: 800;
+}
+
+.lp-topbar-divider {
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.lp-topbar-sub {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.38);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.lp-topbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.lp-dosel-emblem {
+  height: 42px;
+  width: auto;
+  flex-shrink: 0;
+  filter: brightness(0) invert(1);
+  opacity: 0.88;
+}
+
+/* ── MAIN ────────────────────────────────────────────── */
+.lp-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* LEFT branding */
+.lp-left {
+  flex: 1;
+  padding: 48px 48px 48px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.lp-left-inner {
+  max-width: 480px;
+}
+
+.lp-badge {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 4px;
+  background: rgba(37, 99, 235, 0.18);
+  border: 1px solid rgba(37, 99, 235, 0.35);
+  color: #93c5fd;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.lp-hero-h1 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: clamp(28px, 3.2vw, 48px);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.lp-hero-accent {
+  color: #93c5fd;
+}
+
+.lp-hero-p {
+  font-size: 14px;
+  line-height: 1.72;
+  color: rgba(255, 255, 255, 0.45);
+  margin-bottom: 40px;
+  max-width: 400px;
+}
+
+.lp-hero-stats {
+  display: flex;
+  gap: 0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.lp-hero-stat {
+  flex: 1;
+  padding: 20px 24px;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.lp-hero-stat:last-child {
+  border-right: none;
+}
+
+.lp-hero-stat-val {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #93c5fd;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.lp-hero-stat-lbl {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.38);
+}
+
+/* ── RIGHT — Login card ──────────────────────────────── */
+.lp-right {
+  width: 560px;
+  flex-shrink: 0;
+  padding: 48px 60px 48px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lp-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-top: 2px solid rgba(37, 99, 235, 0.5);
+  border-radius: 20px;
+  padding: 40px 40px 32px;
+  width: 100%;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.30);
+}
+
+.lp-card-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.lp-card-logo {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+}
+
+.lp-card-logo span {
+  color: #7eb3ff;
+}
+
+.lp-card-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.lp-card-sub {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.35);
+  letter-spacing: 0.06em;
+}
+
+/* FORM */
+.lp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.lp-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.lp-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.lp-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lp-input-icon {
+  position: absolute;
+  left: 12px;
+  color: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+.lp-input {
+  width: 100%;
+  padding: 10px 12px 10px 36px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.18s, background 0.18s;
+}
+
+.lp-input::placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.lp-input:focus {
+  border-color: rgba(37, 99, 235, 0.6);
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.lp-show-pass {
+  position: absolute;
+  right: 12px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  transition: color 0.15s;
+}
+
+.lp-show-pass:hover {
+  color: #93c5fd;
+}
+
+/* CAPTCHA */
+.lp-captcha-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lp-captcha-box {
+  background: rgba(37, 99, 235, 0.15);
+  border: 1px solid rgba(37, 99, 235, 0.3);
+  border-radius: 8px;
+  padding: 9px 16px;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.lp-captcha-text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  color: #93c5fd;
+  letter-spacing: 0.12em;
+}
+
+.lp-captcha-refresh {
+  padding: 9px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.5);
+  flex-shrink: 0;
+  transition: color 0.15s, background 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lp-captcha-refresh:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.lp-captcha-input {
+  flex: 1;
+  padding-left: 12px !important;
+}
+
+.lp-error {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 8px;
+  padding: 9px 14px;
+  color: #fca5a5;
+  font-size: 12px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.lp-submit {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 10px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  transition: background 0.18s, transform 0.18s, box-shadow 0.18s;
+  box-shadow: 0 2px 12px rgba(37, 99, 235, 0.35);
+  margin-top: 4px;
+}
+
+.lp-submit:hover:not(:disabled) {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.45);
+}
+
+.lp-submit:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+/* Card footer */
+.lp-card-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.lp-nic-logo {
+  height: 30px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 3px;
+  opacity: 0.9;
+}
+
+.lp-card-footer span {
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.28);
+  line-height: 1.5;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* ── BOTTOM BAR ──────────────────────────────────────── */
+.lp-bottombar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 48px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.lp-bottombar span {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.25);
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+/* ─── BACK BUTTON ────────────────────────────────────── */
+.lp-back-btn {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.04em;
+  margin-right: 12px;
+  transition: color 0.15s;
+  padding: 4px 0;
+}
+
+.lp-back-btn:hover {
+  color: #93c5fd;
+}
+
+
+/* ─── NIC TEXT BADGE ─────────────────────────────────── */
+.lp-nic-badge {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 4px 9px;
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+/* ─── DOSEL TEXT (topbar right) ─────────────────────── */
+.lp-dosel-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.lp-dosel-name {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+}
+
+.lp-dosel-sub {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.38);
+  white-space: nowrap;
+}

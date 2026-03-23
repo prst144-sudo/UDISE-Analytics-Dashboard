@@ -1,0 +1,142 @@
+/* ═══════════════════════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════════════════════ */
+
+.ft-root {
+  background: #0d1b3e;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ft-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 0.8fr 1.4fr;
+  gap: 40px 48px;
+  padding: 48px var(--px) 36px;
+}
+
+/* ── COLUMN ──────────────────────────────────────────── */
+.ft-col-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.ft-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ft-link {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.4;
+  transition: color 0.15s;
+}
+
+.ft-link:hover {
+  color: #fff;
+}
+
+.ft-arrow {
+  color: rgba(255, 255, 255, 0.3);
+  flex-shrink: 0;
+  font-size: 11px;
+  margin-top: 1px;
+}
+
+/* ── LOGOS COL ───────────────────────────────────────── */
+.ft-col-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ft-nic-desc {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.38);
+}
+
+/* ── BOTTOM BAR ──────────────────────────────────────── */
+.ft-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px var(--px);
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.ft-bottom span {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.28);
+  letter-spacing: 0.04em;
+}
+
+.ft-bottom-divider {
+  color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* ─── DOSEL BRAND ──────────────────────────────────── */
+.ft-dosel-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ft-dosel-emblem {
+  height: 44px;
+  width: auto;
+  flex-shrink: 0;
+  filter: brightness(0) invert(1);
+  opacity: 0.85;
+}
+
+.ft-dosel-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ft-dosel-name {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.3;
+}
+
+.ft-dosel-sub {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.38);
+}
+
+/* ─── NIC LOGO ──────────────────────────────────────── */
+.ft-nic-logo {
+  height: 48px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  object-position: left;
+  border-radius: 6px;
+  display: block;
+}

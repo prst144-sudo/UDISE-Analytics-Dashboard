@@ -177,70 +177,62 @@ export default function HomeLanding({ onShowLanding, onShowDashboard }) {
         </div>
       </div>
 
-      {/* ── SECTION CARDS ──────────────────────────────── */}
-      <div className="hl-cards-section">
-        <div className="hl-cards-header">
-          <h2 className="hl-cards-title">Choose an Analytics Domain</h2>
-          <p className="hl-cards-sub">Four lenses into India's school system — each powered by the same verified UDISE+ data.</p>
+      {/* ── INSIGHT CARDS ──────────────────────────────── */}
+      <div className="hl-insight-section">
+
+        <div className="hl-insight-left">
+          <div className="hl-insight-eyebrow">What Do We Do</div>
+          <h2 className="hl-insight-title">Data Insights</h2>
+          <p className="hl-insight-sub">Explore detailed dashboards on student performance, teacher analytics, and school &amp; infrastructure analytics.</p>
+          <button className="hl-cta-primary" style={{ marginTop: 24 }} onClick={() => onShowLanding('student')}>
+            Explore Dashboards
+          </button>
         </div>
 
-        <div className="hl-cards-grid">
-          {SECTIONS.map((s, i) => (
-            <button
-              key={s.cat}
-              className="hl-card"
-              onClick={() => onShowLanding(s.cat)}
-              style={{ '--card-accent': s.accent, '--card-light': s.accentLight, '--card-border': s.accentBorder }}
-            >
-              <div className="hl-card-top-bar" />
-              <div className="hl-card-inner">
-                <div className="hl-card-head">
-                  <span className="hl-card-emoji">{s.emoji}</span>
-                  <span className="hl-card-cat">{s.title}</span>
-                </div>
-                <h3 className="hl-card-h3">{s.headline}</h3>
-                <p className="hl-card-desc">{s.desc}</p>
-
-                <div className="hl-card-stats">
-                  {s.stats.map((st, j) => (
-                    <div key={j} className="hl-card-stat">
-                      <div className="hl-card-stat-val">{st.val}</div>
-                      <div className="hl-card-stat-lbl">{st.label}</div>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="hl-card-tags">
-                  {s.tags.map(t => (
-                    <button
-                      key={t.id}
-                      className="hl-card-tag"
-                      onClick={(e) => { e.stopPropagation(); onShowDashboard(t.id); }}
-                    >{t.label}</button>
-                  ))}
-                </div>
-
-                <div className="hl-card-cta">
-                  Explore {s.title} <span>→</span>
-                </div>
+        <div className="hl-insight-grid">
+          {[
+            {
+              cat: 'student', color: '#2563eb', bg: 'rgba(37,99,235,0.07)',
+              label: 'Student Analytics',
+              desc: "Enrollment, dropout, transition, migration and socioeconomic trends across India's 25 crore students.",
+              icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3L2 8.5L12 14L22 8.5L12 3Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" /><path d="M6 11.5v4c0 1.1 2.69 2 6 2s6-.9 6-2v-4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /><path d="M22 8.5v5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>,
+              onclick: () => onShowLanding('student'),
+            },
+            {
+              cat: 'teacher', color: '#0891b2', bg: 'rgba(8,145,178,0.07)',
+              label: 'Teacher & PTR Analytics',
+              desc: 'Teacher deployment, student-teacher ratios, CWSN training, gender distribution and retirement pipeline.',
+              icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="7" r="3.5" stroke="currentColor" strokeWidth="1.6" /><path d="M4 21v-2a8 8 0 0 1 16 0v2" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /><rect x="2" y="14" width="6" height="5" rx="1.5" stroke="currentColor" strokeWidth="1.4" /></svg>,
+              onclick: () => onShowLanding('teacher'),
+            },
+            {
+              cat: 'school', color: '#6366f1', bg: 'rgba(99,102,241,0.07)',
+              label: 'School Analytics',
+              desc: 'School types, basic and digital infrastructure, multi-class units and single-teacher school concentrations.',
+              icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 22V10l9-7 9 7v12" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" /><rect x="9" y="15" width="4" height="7" rx="0.5" stroke="currentColor" strokeWidth="1.4" /><rect x="15" y="13" width="3.5" height="3.5" rx="0.5" stroke="currentColor" strokeWidth="1.4" /></svg>,
+              onclick: () => onShowLanding('school'),
+            },
+            {
+              cat: 'compare', color: '#d97706', bg: 'rgba(217,119,6,0.07)',
+              label: 'Comparative Analytics',
+              desc: 'Side-by-side state comparisons across enrollment, PTR, infrastructure and teacher deployment.',
+              icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="12" width="4.5" height="9" rx="1" stroke="currentColor" strokeWidth="1.5" /><rect x="9.75" y="7" width="4.5" height="14" rx="1" stroke="currentColor" strokeWidth="1.5" /><rect x="16.5" y="9.5" width="4.5" height="11.5" rx="1" stroke="currentColor" strokeWidth="1.5" /></svg>,
+              onclick: () => onShowLanding('compare'),
+            },
+          ].map((card) => (
+            <button key={card.cat} className="hl-insight-card" onClick={card.onclick}
+              style={{ '--ic-color': card.color, '--ic-bg': card.bg }}>
+              <div className="hl-ic-icon-wrap">
+                {card.icon}
               </div>
+              <div className="hl-ic-title">{card.label}</div>
+              <div className="hl-ic-desc">{card.desc}</div>
+              <div className="hl-ic-link">View Dashboards →</div>
             </button>
           ))}
         </div>
-      </div>
 
-      {/* ── FOOTER ─────────────────────────────────────── */}
-      <footer className="hl-footer">
-        <div className="hl-footer-left">
-          <div className="hl-footer-logo">UDISE<span>+</span></div>
-          <div className="hl-footer-tagline">India's students deserve better than averages.</div>
-        </div>
-        <div className="hl-footer-right">
-          Data Source: UDISE+ Official Base Files<br />
-          Overall · Socio · MOI · Stream · Dropout · Transition: 2024–25<br />
-          Migration: AY 2022–23 to 2023–24
-        </div>
-      </footer>
+      </div>
     </div>
   );
 }

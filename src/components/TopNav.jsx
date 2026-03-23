@@ -57,7 +57,7 @@ const NAV_ITEMS = [
   },
 ];
 
-export default function TopNav({ activeCat, activeDash, onShowLanding, onShowDashboard, onGoHome }) {
+export default function TopNav({ activeCat, activeDash, onShowLanding, onShowDashboard, onGoHome, isLoggedIn, onLogout, onLogin }) {
   const [openId, setOpenId] = useState(null);
   const closeTimer = useRef(null);
 
@@ -78,47 +78,57 @@ export default function TopNav({ activeCat, activeDash, onShowLanding, onShowDas
         <div className="topnav-subtitle">Analytics Platform</div>
       </button>
 
-      <ul className="topnav-items">
-        {NAV_ITEMS.map((item) => (
-          <li
-            key={item.id}
-            className={`nav-item ${item.cat} ${activeCat && activeCat === item.id ? 'active' : ''} ${openId === item.id ? 'open' : ''}`}
-            onMouseEnter={() => handleMouseEnter(item.id)}
-            onMouseLeave={handleMouseLeave}
-          >
-            <button
-              className="nav-item-btn"
-              onClick={() => onShowLanding(item.id)}
-            >
-              {item.label}
-              <span className="nav-chevron" />
-            </button>
-
-            <ul className={`nav-dropdown nav-dropdown-${item.id}`}>
-              {item.children.map((child) => (
-                <li key={child.id}>
-                  <button
-                    className={activeDash === child.id ? 'dd-item-active' : ''}
-                    onClick={() => { onShowDashboard(child.id); setOpenId(null); }}
-                  >
-                    <span
-                      className="dd-dot"
-                      style={{
-                        background: item.dotColor,
-                        /* active dot is solid, inactive is semi-transparent */
-                        opacity: activeDash === child.id ? 1 : 0.45,
-                        width: activeDash === child.id ? 7 : 6,
-                        height: activeDash === child.id ? 7 : 6,
-                      }}
-                    />
-                    {child.label}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </li>
-        ))}
-      </ul>
+      {/* ── RIGHT SIDE ── */}
+      {isLoggedIn ? (
+        /* Post-login: full nav + logout */
+        <div style={{ display: 'flex', alignItems: 'center', gap: 0 }}>
+          <ul className="topnav-items">
+            {NAV_ITEMS.map((item) => (
+              <li
+                key={item.id}
+                className={`nav-item ${item.cat} ${activeCat && activeCat === item.id ? 'active' : ''} ${openId === item.id ? 'open' : ''}`}
+                onMouseEnter={() => handleMouseEnter(item.id)}
+                onMouseLeave={handleMouseLeave}
+              >
+                <button className="nav-item-btn" onClick={() => onShowLanding(item.id)}>
+                  {item.label}
+                  <span className="nav-chevron" />
+                </button>
+                <ul className={`nav-dropdown nav-dropdown-${item.id}`}>
+                  {item.children.map((child) => (
+                    <li key={child.id}>
+                      <button
+                        className={activeDash === child.id ? 'dd-item-active' : ''}
+                        onClick={() => { onShowDashboard(child.id); setOpenId(null); }}
+                      >
+                        <span className="dd-dot" style={{
+                          background: item.dotColor,
+                          opacity: activeDash === child.id ? 1 : 0.45,
+                          width: activeDash === child.id ? 7 : 6,
+                          height: activeDash === child.id ? 7 : 6,
+                        }} />
+                        {child.label}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ul>
+          <button className="topnav-logout-btn" onClick={onLogout}>
+            Logout
+          </button>
+        </div>
+      ) : (
+        /* Pre-login: DOSEL logo + Log In button */
+        <div className="topnav-prelogin">
+          <div className="topnav-dosel-text">
+            Department of School Education &amp; Literacy
+            <span>Ministry of Education, Government of India</span>
+          </div>
+          <button className="topnav-login-btn" onClick={onLogin}>Log In</button>
+        </div>
+      )}
     </header>
   );
 }
