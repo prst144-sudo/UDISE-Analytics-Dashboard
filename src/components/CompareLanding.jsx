@@ -91,14 +91,6 @@ function Hero() {
         position: 'relative', zIndex: 1
       }}>
         <div style={{ flex: '0 0 auto', maxWidth: 480 }}>
-          <span style={{
-            display: 'inline-block', padding: '5px 14px', borderRadius: 20,
-            background: 'rgba(217,119,6,0.18)', border: '1px solid rgba(217,119,6,0.35)',
-            color: '#fcd34d', fontSize: 9, fontWeight: 700,
-            letterSpacing: '0.18em', textTransform: 'uppercase', marginBottom: 20
-          }}>
-            ⚖️ Comparative Analytics
-          </span>
           <h1 style={{
             fontFamily: "'DM Sans', sans-serif",
             fontSize: 'clamp(30px,3.6vw,52px)', fontWeight: 900,

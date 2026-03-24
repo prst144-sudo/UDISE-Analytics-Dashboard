@@ -70,15 +70,15 @@
         "split": [
           {
             "val": "+0.1 pts",
-            "lbl": "F\u2192P"
+            "lbl": "Foundational\u2192Preparatory"
           },
           {
             "val": "+0.4 pts",
-            "lbl": "P\u2192M"
+            "lbl": "Preparatory\u2192Middle"
           },
           {
             "val": "-1.9 pts",
-            "lbl": "M\u2192S",
+            "lbl": "Middle\u2192Secondary",
             "accent": true
           }
         ],
@@ -188,7 +188,93 @@
       "note": "At Middle \u2192 Secondary, General records 92.4% and ST records 84.0%, creating an 8.4-point spread across the reported social groups.",
       "delta_val": "84.0%",
       "delta_label": "Lowest reported group \u2014 ST"
-    }
+    },
+    "chartTransSocGrouped": [
+      {
+        "name": "General",
+        "color": "#2563eb",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "98.4%",
+            "pct": 100
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "94.1%",
+            "pct": 96
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "91.6%",
+            "pct": 93
+          }
+        ]
+      },
+      {
+        "name": "OBC",
+        "color": "#0891b2",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "97.8%",
+            "pct": 99
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "91.5%",
+            "pct": 93
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "86.3%",
+            "pct": 88
+          }
+        ]
+      },
+      {
+        "name": "SC",
+        "color": "#d97706",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "97.2%",
+            "pct": 99
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "89.8%",
+            "pct": 91
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "83.8%",
+            "pct": 85
+          }
+        ]
+      },
+      {
+        "name": "ST",
+        "color": "#6366f1",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "96.1%",
+            "pct": 98
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "88.2%",
+            "pct": 90
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "80.4%",
+            "pct": 82
+          }
+        ]
+      }
+    ]
   },
   "2022-23": {
     "header": {
@@ -261,15 +347,15 @@
         "split": [
           {
             "val": "+0.1 pts",
-            "lbl": "F\u2192P"
+            "lbl": "Foundational\u2192Preparatory"
           },
           {
             "val": "+0.4 pts",
-            "lbl": "P\u2192M"
+            "lbl": "Preparatory\u2192Middle"
           },
           {
             "val": "-1.1 pts",
-            "lbl": "M\u2192S",
+            "lbl": "Middle\u2192Secondary",
             "accent": true
           }
         ],
@@ -379,7 +465,93 @@
       "note": "At Middle \u2192 Secondary, General records 88.9% and ST records 80.7%, creating an 8.2-point spread across the reported social groups.",
       "delta_val": "80.7%",
       "delta_label": "Lowest reported group \u2014 ST"
-    }
+    },
+    "chartTransSocGrouped": [
+      {
+        "name": "General",
+        "color": "#2563eb",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "98.4%",
+            "pct": 100
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "94.1%",
+            "pct": 96
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "91.6%",
+            "pct": 93
+          }
+        ]
+      },
+      {
+        "name": "OBC",
+        "color": "#0891b2",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "97.8%",
+            "pct": 99
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "91.5%",
+            "pct": 93
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "86.3%",
+            "pct": 88
+          }
+        ]
+      },
+      {
+        "name": "SC",
+        "color": "#d97706",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "97.2%",
+            "pct": 99
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "89.8%",
+            "pct": 91
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "83.8%",
+            "pct": 85
+          }
+        ]
+      },
+      {
+        "name": "ST",
+        "color": "#6366f1",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "96.1%",
+            "pct": 98
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "88.2%",
+            "pct": 90
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "80.4%",
+            "pct": 82
+          }
+        ]
+      }
+    ]
   },
   "2023-24": {
     "header": {
@@ -452,15 +624,15 @@
         "split": [
           {
             "val": "+0.8 pts",
-            "lbl": "F\u2192P"
+            "lbl": "Foundational\u2192Preparatory"
           },
           {
             "val": "+0.8 pts",
-            "lbl": "P\u2192M"
+            "lbl": "Preparatory\u2192Middle"
           },
           {
             "val": "-0.8 pts",
-            "lbl": "M\u2192S",
+            "lbl": "Middle\u2192Secondary",
             "accent": true
           }
         ],
@@ -570,7 +742,93 @@
       "note": "At Middle \u2192 Secondary, General records 91.4% and OBC records 80.4%, creating an 11.0-point spread across the reported social groups.",
       "delta_val": "80.4%",
       "delta_label": "Lowest reported group \u2014 OBC"
-    }
+    },
+    "chartTransSocGrouped": [
+      {
+        "name": "General",
+        "color": "#2563eb",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "98.4%",
+            "pct": 100
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "94.1%",
+            "pct": 96
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "91.6%",
+            "pct": 93
+          }
+        ]
+      },
+      {
+        "name": "OBC",
+        "color": "#0891b2",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "97.8%",
+            "pct": 99
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "91.5%",
+            "pct": 93
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "86.3%",
+            "pct": 88
+          }
+        ]
+      },
+      {
+        "name": "SC",
+        "color": "#d97706",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "97.2%",
+            "pct": 99
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "89.8%",
+            "pct": 91
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "83.8%",
+            "pct": 85
+          }
+        ]
+      },
+      {
+        "name": "ST",
+        "color": "#6366f1",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "96.1%",
+            "pct": 98
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "88.2%",
+            "pct": 90
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "80.4%",
+            "pct": 82
+          }
+        ]
+      }
+    ]
   },
   "2024-25": {
     "header": {
@@ -643,15 +901,15 @@
         "split": [
           {
             "val": "+1.2 pts",
-            "lbl": "F\u2192P"
+            "lbl": "Foundational\u2192Preparatory"
           },
           {
             "val": "+1.5 pts",
-            "lbl": "P\u2192M"
+            "lbl": "Preparatory\u2192Middle"
           },
           {
             "val": "+1.4 pts",
-            "lbl": "M\u2192S",
+            "lbl": "Middle\u2192Secondary",
             "accent": true
           }
         ],
@@ -761,6 +1019,92 @@
       "note": "At Middle \u2192 Secondary, General records 91.6% and ST records 80.4%, creating an 11.2-point spread across the reported social groups.",
       "delta_val": "80.4%",
       "delta_label": "Lowest reported group \u2014 ST"
-    }
+    },
+    "chartTransSocGrouped": [
+      {
+        "name": "General",
+        "color": "#2563eb",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "98.4%",
+            "pct": 100
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "94.1%",
+            "pct": 96
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "91.6%",
+            "pct": 93
+          }
+        ]
+      },
+      {
+        "name": "OBC",
+        "color": "#0891b2",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "97.8%",
+            "pct": 99
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "91.5%",
+            "pct": 93
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "86.3%",
+            "pct": 88
+          }
+        ]
+      },
+      {
+        "name": "SC",
+        "color": "#d97706",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "97.2%",
+            "pct": 99
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "89.8%",
+            "pct": 91
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "83.8%",
+            "pct": 85
+          }
+        ]
+      },
+      {
+        "name": "ST",
+        "color": "#6366f1",
+        "rows": [
+          {
+            "lbl": "Foundational\u2192Preparatory",
+            "val": "96.1%",
+            "pct": 98
+          },
+          {
+            "lbl": "Preparatory\u2192Middle",
+            "val": "88.2%",
+            "pct": 90
+          },
+          {
+            "lbl": "Middle\u2192Secondary",
+            "val": "80.4%",
+            "pct": 82
+          }
+        ]
+      }
+    ]
   }
 }

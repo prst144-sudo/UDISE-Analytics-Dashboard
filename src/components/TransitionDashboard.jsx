@@ -65,7 +65,7 @@ export default function TransitionDashboard({ selectedYear, onShowPowerBi }) {
   if (!d) return null;
 
   const { header, cards, chartTransClass, chartTransClassSource, chartTransClassNote,
-          chartTransSoc, chartTransSocSource, chartTransSocNote, insight1, insight2 } = d;
+          chartTransSoc, chartTransSocGrouped, chartTransSocSource, chartTransSocNote, insight1, insight2 } = d;
 
   return (
     <div className="dashboard">
@@ -172,16 +172,27 @@ export default function TransitionDashboard({ selectedYear, onShowPowerBi }) {
             {tab === 'soc' && (
               <div key={tab} className="socio-chart-panel" data-dir={panelDir}>
                 <div className="scp-source">{chartTransSocSource}</div>
-                <div className="states-list" style={{ marginTop: 16 }}>
-                  {chartTransSoc.map(r => (
-                    <div key={r.name} className="state-row">
-                      <div className="state-name" style={{ width: 88 }}>{r.name}</div>
-                      <div className="state-track">
-                        <div className="state-bar" data-bar-w={r.pct} style={{ width:0, background:r.color }} />
+                <div style={{ marginTop: 16 }}>
+                  {(chartTransSocGrouped || []).map(grp => (
+                    <div key={grp.name} style={{ marginBottom: 20 }}>
+                      <div style={{ fontFamily:"'DM Sans',sans-serif", fontSize:12, fontWeight:700,
+                                    color:grp.color, marginBottom:7, letterSpacing:'0.04em' }}>{grp.name}</div>
+                      <div style={{ display:'flex', flexDirection:'column', gap:5 }}>
+                        {grp.rows.map(row => (
+                          <div key={row.lbl} style={{ display:'flex', alignItems:'center', gap:8 }}>
+                            <div style={{ width:88, fontFamily:"'DM Sans',sans-serif",
+                                          fontSize:10, color:'var(--muted)' }}>{row.lbl}</div>
+                            <div style={{ flex:1, height:12, background:'var(--warm)',
+                                          borderRadius:2, overflow:'hidden' }}>
+                              <div data-bar-w={row.pct}
+                                style={{ width:0, height:'100%', background:grp.color, borderRadius:2,
+                                         transition:'width 1.8s cubic-bezier(0.16,1,0.3,1)', opacity:0.85 }} />
+                            </div>
+                            <div style={{ fontFamily:"'DM Sans',sans-serif", fontSize:12, fontWeight:700,
+                                          color:grp.color, width:50, textAlign:'right' }}>{row.val}</div>
+                          </div>
+                        ))}
                       </div>
-                      <div className="state-val"
-                        style={{ fontFamily:"'DM Sans', sans-serif", fontSize:14, fontWeight:800,
-                                 color:r.color, width:52 }}>{r.val}</div>
                     </div>
                   ))}
                 </div>

@@ -4,6 +4,7 @@ import ContextBar from './components/ContextBar';
 import PowerBiView from './components/PowerBiView';
 import LoginPage from './components/LoginPage';
 import Footer from './components/Footer';
+import WalkthroughPage from './components/WalkthroughPage';
 import HomeLanding from './components/HomeLanding';
 import StudentLanding from './components/StudentLanding';
 import StudentDashboard from './components/StudentDashboard';
@@ -33,42 +34,43 @@ import PtrCompareDashboard from './components/PtrCompareDashboard';
 import './styles/global.css';
 
 const DASH_TITLES = {
-  'student-main': 'Student Analytics', 'socio': 'Socioeconomic Analytics',
-  'migration': 'Migration Analytics', 'medium': 'Medium of Instruction',
-  'dropout': 'Dropout Rate', 'transition': 'Transition Rate',
-  'cwsn-student': 'CWSN Students', 'national': 'National Analytics',
-  'vocational': 'Vocational Analytics', 'stream': 'Stream Analytics',
-  'teacher-main': 'Teacher Analytics', 'ptr': 'PTR Analytics',
-  'cwsn-teacher': 'CWSN Analytics', 'retirement': 'Teacher Retirement',
-  'infra': 'Infrastructure Analytics', 'school-main': 'School Analytics',
-  'multiclass': 'Multi-Class Units', 'student-compare': 'Student Comparison Analytics',
-  'school-compare': 'School Comparison Analytics', 'teacher-compare': 'Teacher Comparison Analytics',
-  'ptr-compare': 'PTR Comparison Analytics',
+  'student-main':'Student Analytics','socio':'Socioeconomic Analytics',
+  'migration':'Migration Analytics','medium':'Medium of Instruction',
+  'dropout':'Dropout Rate','transition':'Transition Rate',
+  'cwsn-student':'CWSN Students','national':'National Analytics',
+  'vocational':'Vocational Analytics','stream':'Stream Analytics',
+  'teacher-main':'Teacher Analytics','ptr':'PTR Analytics',
+  'cwsn-teacher':'CWSN Analytics','retirement':'Teacher Retirement',
+  'infra':'Infrastructure Analytics','school-main':'School Analytics',
+  'multiclass':'Multi-Class Units','student-compare':'Student Comparison Analytics',
+  'school-compare':'School Comparison Analytics','teacher-compare':'Teacher Comparison Analytics',
+  'ptr-compare':'PTR Comparison Analytics',
 };
 
 const DASH_CAT = {
-  'student-main': 'student', 'socio': 'student', 'migration': 'student', 'medium': 'student',
-  'dropout': 'student', 'transition': 'student', 'cwsn-student': 'student', 'national': 'student',
-  'vocational': 'student', 'stream': 'student', 'teacher-main': 'teacher', 'ptr': 'teacher',
-  'cwsn-teacher': 'teacher', 'retirement': 'teacher', 'infra': 'school', 'school-main': 'school',
-  'multiclass': 'school', 'student-compare': 'compare', 'school-compare': 'compare',
-  'teacher-compare': 'compare', 'ptr-compare': 'compare',
+  'student-main':'student','socio':'student','migration':'student','medium':'student',
+  'dropout':'student','transition':'student','cwsn-student':'student','national':'student',
+  'vocational':'student','stream':'student','teacher-main':'teacher','ptr':'teacher',
+  'cwsn-teacher':'teacher','retirement':'teacher','infra':'school','school-main':'school',
+  'multiclass':'school','student-compare':'compare','school-compare':'compare',
+  'teacher-compare':'compare','ptr-compare':'compare',
 };
 
 const CAT_LABELS = {
-  student: 'Student Centric Analytics', teacher: 'Teacher & PTR Analytics',
-  school: 'School Analytics', compare: 'Comparative',
+  student:'Student Centric Analytics',teacher:'Teacher & PTR Analytics',
+  school:'School Analytics',compare:'Comparative',
 };
 
 export default function App() {
   // isLoggedIn: null = home (pre-login), false = login page, true = logged in
-  const [isLoggedIn, setIsLoggedIn] = useState(null); // null = show home first
-  const [pendingDash, setPendingDash] = useState(null); // dash to go to after login
-  const [pendingCat, setPendingCat] = useState(null); // cat to go to after login
-  const [activeCat, setActiveCat] = useState(null);
-  const [activeDash, setActiveDash] = useState(null);
-  const [selectedYear, setSelectedYear] = useState('2024\u201325');
-  const [powerBiUrl, setPowerBiUrl] = useState(null);
+  const [isLoggedIn,      setIsLoggedIn]      = useState(null);
+  const [showWalkthrough, setShowWalkthrough] = useState(false); // null = show home first
+  const [pendingDash,     setPendingDash]      = useState(null); // dash to go to after login
+  const [pendingCat,      setPendingCat]       = useState(null); // cat to go to after login
+  const [activeCat,       setActiveCat]        = useState(null);
+  const [activeDash,      setActiveDash]       = useState(null);
+  const [selectedYear,    setSelectedYear]     = useState('2024\u201325');
+  const [powerBiUrl,      setPowerBiUrl]       = useState(null);
 
   function goHome() {
     setActiveCat(null); setActiveDash(null); setPowerBiUrl(null);
@@ -131,6 +133,22 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  // ── WALKTHROUGH PAGE ──
+  if (showWalkthrough) return (
+    <div className="app">
+      <TopNav isLoggedIn={isLoggedIn === true} activeCat={activeCat} activeDash={activeDash}
+        onShowLanding={isLoggedIn ? showLanding : requestLanding}
+        onShowDashboard={isLoggedIn ? showDashboard : requestDashboard}
+        onGoHome={isLoggedIn ? goHome : () => { setShowWalkthrough(false); setIsLoggedIn(null); }}
+        onLogout={isLoggedIn ? handleLogout : undefined}
+        onLogin={() => setIsLoggedIn(false)} />
+      <main className="main-content">
+        <WalkthroughPage onClose={() => setShowWalkthrough(false)} />
+      </main>
+      <Footer onShowWalkthrough={() => setShowWalkthrough(true)} />
+    </div>
+  );
+
   // ── HOME LANDING (pre-login, no auth needed) ──
   if (isLoggedIn === null) {
     return (
@@ -141,7 +159,7 @@ export default function App() {
         <main className="main-content">
           <HomeLanding onShowLanding={requestLanding} onShowDashboard={requestDashboard} />
         </main>
-        <Footer />
+        <Footer onShowWalkthrough={() => setShowWalkthrough(true)} />
       </div>
     );
   }
@@ -172,31 +190,31 @@ export default function App() {
         {powerBiUrl && <PowerBiView url={powerBiUrl} />}
         {!powerBiUrl && !activeDash && activeCat === 'student' && <StudentLanding onShowDashboard={showDashboard} />}
         {!powerBiUrl && !activeDash && activeCat === 'teacher' && <TeacherLanding onShowDashboard={showDashboard} />}
-        {!powerBiUrl && !activeDash && activeCat === 'school' && <SchoolLanding onShowDashboard={showDashboard} />}
+        {!powerBiUrl && !activeDash && activeCat === 'school'  && <SchoolLanding  onShowDashboard={showDashboard} />}
         {!powerBiUrl && !activeDash && activeCat === 'compare' && <CompareLanding onShowDashboard={showDashboard} />}
-        {!powerBiUrl && activeDash === 'student-main' && <StudentDashboard  {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'socio' && <SocioDashboard    {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'migration' && <MigrationDashboard {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'medium' && <MediumDashboard   {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'dropout' && <DropoutDashboard  {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'transition' && <TransitionDashboard {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'cwsn-student' && <CwsnStudentDashboard {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'national' && <NationalDashboard {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'vocational' && <VocationalDashboard {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'stream' && <StreamDashboard   {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'teacher-main' && <TeacherDashboard  {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'ptr' && <PtrDashboard      {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'cwsn-teacher' && <CwsnTeacherDashboard {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'retirement' && <RetirementDashboard {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'school-main' && <SchoolDashboard   {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'infra' && <InfraDashboard    {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'multiclass' && <McuDashboard      {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'student-compare' && <CompareDashboard       {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'school-compare' && <SchoolCompareDashboard  {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'teacher-compare' && <TeacherCompareDashboard {...dashProps(selectedYear)} />}
-        {!powerBiUrl && activeDash === 'ptr-compare' && <PtrCompareDashboard     {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'student-main'   && <StudentDashboard  {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'socio'          && <SocioDashboard    {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'migration'      && <MigrationDashboard {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'medium'         && <MediumDashboard   {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'dropout'        && <DropoutDashboard  {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'transition'     && <TransitionDashboard {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'cwsn-student'   && <CwsnStudentDashboard {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'national'       && <NationalDashboard {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'vocational'     && <VocationalDashboard {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'stream'         && <StreamDashboard   {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'teacher-main'   && <TeacherDashboard  {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'ptr'            && <PtrDashboard      {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'cwsn-teacher'   && <CwsnTeacherDashboard {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'retirement'     && <RetirementDashboard {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'school-main'    && <SchoolDashboard   {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'infra'          && <InfraDashboard    {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'multiclass'     && <McuDashboard      {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'student-compare'  && <CompareDashboard       {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'school-compare'   && <SchoolCompareDashboard  {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'teacher-compare'  && <TeacherCompareDashboard {...dashProps(selectedYear)} />}
+        {!powerBiUrl && activeDash === 'ptr-compare'      && <PtrCompareDashboard     {...dashProps(selectedYear)} />}
       </main>
-      {!powerBiUrl && <Footer />}
+      {!powerBiUrl && <Footer onShowWalkthrough={() => setShowWalkthrough(true)} />}
     </div>
   );
 }

@@ -143,7 +143,6 @@ export default function HomeLanding({ onShowLanding, onShowDashboard }) {
         <div className="hl-hero-inner">
           {/* Left */}
           <div className="hl-hero-left">
-            <span className="hl-badge">📊 UDISE+ Analytics Platform · 2024–25</span>
             <h1 className="hl-hero-h1">
               India's School System.<br />
               <span className="hl-hero-accent">In One Place.</span>
@@ -154,10 +153,7 @@ export default function HomeLanding({ onShowLanding, onShowDashboard }) {
             </p>
             <div className="hl-hero-ctas">
               <button className="hl-cta-primary" onClick={() => onShowLanding('student')}>
-                Explore Students →
-              </button>
-              <button className="hl-cta-ghost" onClick={() => onShowLanding('school')}>
-                Explore Schools
+                Explore Dashboards
               </button>
             </div>
           </div>
@@ -184,9 +180,6 @@ export default function HomeLanding({ onShowLanding, onShowDashboard }) {
           <div className="hl-insight-eyebrow">What Do We Do</div>
           <h2 className="hl-insight-title">Data Insights</h2>
           <p className="hl-insight-sub">Explore detailed dashboards on student performance, teacher analytics, and school &amp; infrastructure analytics.</p>
-          <button className="hl-cta-primary" style={{ marginTop: 24 }} onClick={() => onShowLanding('student')}>
-            Explore Dashboards
-          </button>
         </div>
 
         <div className="hl-insight-grid">
@@ -227,7 +220,6 @@ export default function HomeLanding({ onShowLanding, onShowDashboard }) {
               </div>
               <div className="hl-ic-title">{card.label}</div>
               <div className="hl-ic-desc">{card.desc}</div>
-              <div className="hl-ic-link">View Dashboards →</div>
             </button>
           ))}
         </div>

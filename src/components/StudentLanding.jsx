@@ -86,14 +86,6 @@ function Hero({ onShowDashboard }) {
       }}>
         {/* ── LEFT: text ── */}
         <div style={{ flex: '0 0 auto', maxWidth: 480 }}>
-          <span style={{
-            display: 'inline-block', padding: '5px 14px', borderRadius: 20,
-            background: ACCENT_DIM, border: `1px solid ${ACCENT_BORDER}`,
-            color: ACCENT, fontSize: 9, fontWeight: 700,
-            letterSpacing: '0.18em', textTransform: 'uppercase', marginBottom: 20,
-          }}>
-            📊 Student Centric Analytics
-          </span>
           <h1 style={{
             fontFamily: "'DM Sans', sans-serif",
             fontSize: 'clamp(30px,3.6vw,52px)', fontWeight: 900,

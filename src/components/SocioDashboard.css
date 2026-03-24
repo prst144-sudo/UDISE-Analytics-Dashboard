@@ -23,7 +23,7 @@
   align-self: center;
 }
 
-.socio-header>div:first-child {
+.socio-header > div:first-child {
   flex: 1;
   min-width: 0;
 }
@@ -39,7 +39,7 @@
   border: none;
   border-radius: 7px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -47,20 +47,17 @@
   white-space: nowrap;
   flex-shrink: 0;
   transition: background 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
-  box-shadow: 0 2px 10px rgba(13, 27, 62, 0.22);
+  box-shadow: 0 2px 10px rgba(13,27,62,0.22);
 }
-
 .powerbi-btn:hover {
   background: #1a2f5a;
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(13, 27, 62, 0.30);
+  box-shadow: 0 8px 24px rgba(13,27,62,0.30);
 }
-
 .powerbi-icon {
   display: flex;
   align-items: center;
-  color: #f3c617;
-  /* Power BI yellow */
+  color: #f3c617; /* Power BI yellow */
 }
 
 /* ── 4 CATEGORY CARDS ───────────────────────────────── */
@@ -83,23 +80,18 @@
   flex-direction: column;
   gap: 0;
 }
-
-.socio-cat-card:hover {
-  background: var(--warm);
-}
+.socio-cat-card:hover { background: var(--warm); }
 
 .scc-top-bar {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0; left: 0; right: 0;
   height: 3px;
   background: var(--cat-color);
 }
 
 .scc-label {
   font-family: 'DM Sans', sans-serif;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -109,14 +101,14 @@
 
 .scc-full-label {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   margin-bottom: 8px;
 }
 
 .scc-pct {
   font-family: 'DM Sans', sans-serif;
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 900;
   line-height: 1;
   margin-bottom: 3px;
@@ -125,7 +117,7 @@
 
 .scc-students {
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin-bottom: 10px;
 }
@@ -137,7 +129,6 @@
   overflow: hidden;
   margin-bottom: 5px;
 }
-
 .scc-bar-fill {
   height: 100%;
   border-radius: 2px;
@@ -156,34 +147,30 @@
   overflow: hidden;
   background: var(--white);
 }
-
 .scc-split-item {
   flex: 1;
   padding: 6px 4px;
   text-align: center;
 }
-
 .scc-split-divider {
   width: 1px;
   height: 30px;
   background: var(--rule);
   flex-shrink: 0;
 }
-
 .scc-split-val {
   display: block;
   font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   line-height: 1;
   margin-bottom: 3px;
   color: var(--ink);
 }
-
 .scc-split-lbl {
   display: block;
   font-family: 'DM Sans', sans-serif;
-  font-size: 7px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -192,7 +179,7 @@
 
 .scc-note {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5;
   color: var(--muted);
   margin-top: auto;
@@ -205,8 +192,7 @@
   display: grid;
   grid-template-columns: 1fr 340px;
   gap: 32px;
-  align-items: stretch;
-  /* both columns fill the same height */
+  align-items: stretch;   /* both columns fill the same height */
   flex: 1;
 }
 
@@ -230,8 +216,7 @@
   padding: 3px;
   width: fit-content;
   position: relative;
-  overflow: hidden;
-  /* clips the sliding pill */
+  overflow: hidden; /* clips the sliding pill */
 }
 
 /* sliding pill underlay — moves behind all tabs */
@@ -242,7 +227,7 @@
   bottom: 3px;
   border-radius: 4px;
   background: var(--white);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.10), 0 0 0 0.5px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.10), 0 0 0 0.5px rgba(0,0,0,0.04);
   /* JS sets --pill-left and --pill-width via inline style on the container */
   left: var(--pill-left, 3px);
   width: var(--pill-width, 80px);
@@ -257,7 +242,7 @@
   padding: 6px 16px;
   border-radius: 4px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: var(--muted);
@@ -283,8 +268,7 @@
 }
 
 .sct-active {
-  background: transparent;
-  /* pill is drawn by ::before */
+  background: transparent; /* pill is drawn by ::before */
   color: var(--ink);
 }
 
@@ -300,7 +284,6 @@
     opacity: 0;
     transform: translateX(32px);
   }
-
   to {
     opacity: 1;
     transform: translateX(0);
@@ -317,16 +300,13 @@
     opacity: 0;
     transform: translateX(-32px);
   }
-
   to {
     opacity: 1;
     transform: translateX(0);
   }
 }
 
-.socio-chart-panel .state-name {
-  width: 160px;
-}
+.socio-chart-panel .state-name { width: 160px; }
 
 /* ── INSIGHT STAT CARDS ──────────────────────────────── */
 .socio-insights {
@@ -347,14 +327,11 @@
 }
 
 /* ── hide the paragraph note — layout is number → label → dividers → deltas ── */
-.socio-insight-card .stat-card-note {
-  display: none;
-}
+.socio-insight-card .stat-card-note { display: none; }
 
 .sic-stripe {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0; left: 0;
   width: 4px;
   height: 100%;
   background: #c8522a;
@@ -362,7 +339,7 @@
 }
 
 .socio-insight-card .stat-card-num {
-  font-size: 44px;
+  font-size: 46px;
   font-weight: 900;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -371,7 +348,7 @@
 
 .socio-insight-card .stat-card-label {
   font-family: 'DM Sans', sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -391,19 +368,17 @@
   align-items: center;
   gap: 10px;
 }
-
 .sic-delta-val {
   font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   line-height: 1;
   white-space: nowrap;
   flex-shrink: 0;
 }
-
 .sic-delta-lbl {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   line-height: 1.4;
 }
@@ -414,7 +389,7 @@
   align-items: flex-start;
   gap: 9px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.6;
   color: var(--muted);
   background: rgba(59, 111, 212, 0.05);
@@ -427,7 +402,7 @@
 
 .scp-source::before {
   content: '💡';
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   flex-shrink: 0;
 }
@@ -435,7 +410,7 @@
 .scp-note {
   margin-top: 18px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.6;
   color: var(--muted);
   border-left: 3px solid var(--rule);

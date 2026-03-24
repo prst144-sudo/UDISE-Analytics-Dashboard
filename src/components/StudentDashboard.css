@@ -35,7 +35,7 @@
 
 .kpi-lbl {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-weight: 600;
@@ -72,7 +72,7 @@
 
 .mgmt-type {
   font-family: 'DM Sans', sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--muted);
@@ -81,14 +81,14 @@
 
 .mgmt-pct {
   font-family: 'DM Sans', sans-serif
-  font-size: 44px;
+  font-size: 46px;
   font-weight: 700;
   line-height: 1;
   margin-bottom: 6px;
 }
 
 .mgmt-count {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--muted);
   margin-bottom: 16px;
 }
@@ -120,7 +120,7 @@
 
 .funnel-lbl {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
@@ -148,7 +148,7 @@
 
 .funnel-bar-txt {
   font-family: 'DM Sans', sans-serif
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   color: white;
   white-space: nowrap;
@@ -160,7 +160,7 @@
 
 .funnel-val {
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   width: 70px;
   text-align: right;
@@ -176,7 +176,7 @@
 
 .gender-row-lbl {
   font-family: 'DM Sans', sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 0.14em;
   color: var(--muted);
   margin-bottom: 6px;
@@ -195,7 +195,7 @@
   align-items: center;
   justify-content: center;
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   color: white;
   overflow: hidden;
   white-space: nowrap;
@@ -219,14 +219,14 @@
 
 .state-rank {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   width: 22px;
   flex-shrink: 0;
 }
 
 .state-name {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   width: 148px;
   flex-shrink: 0;
@@ -249,7 +249,7 @@
 
 .state-val {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   width: 60px;
   text-align: right;
@@ -296,7 +296,7 @@
 
 .yoy-bar-val {
   font-family: 'DM Sans', sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   color: white;
   white-space: nowrap;
   opacity: 0;
@@ -306,7 +306,7 @@
 
 .yoy-year {
   font-family: 'DM Sans', sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   color: var(--muted);
   margin-top: 8px;
   text-align: center;
@@ -320,7 +320,7 @@
   padding: 11px 24px;
   border-radius: 6px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.05em;
   cursor: pointer;
@@ -354,7 +354,7 @@
   border: none;
   border-radius: 7px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.04em;
   cursor: pointer;
