@@ -64,7 +64,6 @@ export default function LoginPage({ onLogin, onBack }) {
         {/* LEFT — Branding */}
         <div className="lp-left">
           <div className="lp-left-inner">
-            <div className="lp-badge">📊 Real Time Education Analytics</div>
             <h1 className="lp-hero-h1">
               Real Time Education<br />
               Analytics for Better<br />
@@ -173,10 +172,7 @@ export default function LoginPage({ onLogin, onBack }) {
 
             </form>
 
-            <div className="lp-card-footer">
-              <div className="lp-nic-badge">NIC</div>
-              <span>Designed &amp; maintained by National Informatics Centre · Ministry of Electronics &amp; IT</span>
-            </div>
+
           </div>
         </div>
 
