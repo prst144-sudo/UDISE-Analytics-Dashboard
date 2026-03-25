@@ -42,7 +42,7 @@
 
 .lp-topbar-logo {
   font-family: 'DM Sans', sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.06em;
@@ -60,7 +60,7 @@
 }
 
 .lp-topbar-sub {
-  font-size: 10px;
+  font-size: 9px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.38);
@@ -109,7 +109,7 @@
   background: rgba(37, 99, 235, 0.18);
   border: 1px solid rgba(37, 99, 235, 0.35);
   color: #93c5fd;
-  font-size: 9px;
+  font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -119,7 +119,7 @@
 
 .lp-hero-h1 {
   font-family: 'DM Sans', sans-serif;
-  font-size: clamp(28px, 3.2vw, 48px);
+  font-size: clamp(27px, 3.2vw, 47px);
   font-weight: 900;
   line-height: 1.1;
   letter-spacing: -0.025em;
@@ -132,7 +132,7 @@
 }
 
 .lp-hero-p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.72;
   color: rgba(255, 255, 255, 0.45);
   margin-bottom: 40px;
@@ -160,7 +160,7 @@
 
 .lp-hero-stat-val {
   font-family: 'DM Sans', sans-serif;
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 800;
   color: #93c5fd;
   line-height: 1;
@@ -168,7 +168,7 @@
 }
 
 .lp-hero-stat-lbl {
-  font-size: 9px;
+  font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -204,7 +204,7 @@
 
 .lp-card-logo {
   font-family: 'DM Sans', sans-serif;
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 900;
   color: #fff;
   letter-spacing: 0.04em;
@@ -217,14 +217,14 @@
 
 .lp-card-title {
   font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 4px;
 }
 
 .lp-card-sub {
-  font-size: 11px;
+  font-size: 10px;
   color: rgba(255, 255, 255, 0.35);
   letter-spacing: 0.06em;
 }
@@ -244,7 +244,7 @@
 
 .lp-label {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -273,7 +273,7 @@
   border-radius: 8px;
   color: #fff;
   font-family: 'DM Sans', sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   outline: none;
   transition: border-color 0.18s, background 0.18s;
 }
@@ -290,7 +290,7 @@
 .lp-show-pass {
   position: absolute;
   right: 12px;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.08em;
   color: rgba(255, 255, 255, 0.4);
@@ -302,51 +302,66 @@
   color: #93c5fd;
 }
 
-/* CAPTCHA */
-.lp-captcha-row {
+/* ── VISUAL CAPTCHA ──────────────────────────────────── */
+.lp-captcha-wrap {
   display: flex;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.lp-captcha-box {
-  background: rgba(37, 99, 235, 0.15);
-  border: 1px solid rgba(37, 99, 235, 0.3);
-  border-radius: 8px;
-  padding: 9px 16px;
-  flex-shrink: 0;
-  user-select: none;
-}
-
-.lp-captcha-text {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 15px;
-  font-weight: 800;
-  color: #93c5fd;
-  letter-spacing: 0.12em;
-}
-
-.lp-captcha-refresh {
-  padding: 9px;
-  background: rgba(255, 255, 255, 0.07);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
-  color: rgba(255, 255, 255, 0.5);
-  flex-shrink: 0;
-  transition: color 0.15s, background 0.15s;
+.lp-captcha-display {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
+  padding: 18px 20px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  /* Noise-like lines for visual distortion */
+  background-image:
+    repeating-linear-gradient(45deg,
+      transparent,
+      transparent 8px,
+      rgba(255, 255, 255, 0.02) 8px,
+      rgba(255, 255, 255, 0.02) 9px);
 }
 
-.lp-captcha-refresh:hover {
-  color: #fff;
-  background: rgba(255, 255, 255, 0.12);
+.lp-captcha-char {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-.lp-captcha-input {
-  flex: 1;
-  padding-left: 12px !important;
+.lp-captcha-refresh-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  width: 100%;
+  padding: 9px 0;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.lp-captcha-refresh-btn:hover {
+  background: rgba(255, 255, 255, 0.10);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .lp-error {
@@ -355,7 +370,7 @@
   border-radius: 8px;
   padding: 9px 14px;
   color: #fca5a5;
-  font-size: 12px;
+  font-size: 11px;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -366,7 +381,7 @@
   color: #fff;
   border-radius: 10px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.04em;
   transition: background 0.18s, transform 0.18s, box-shadow 0.18s;
@@ -405,7 +420,7 @@
 }
 
 .lp-card-footer span {
-  font-size: 9px;
+  font-size: 8px;
   color: rgba(255, 255, 255, 0.28);
   line-height: 1.5;
   font-family: 'DM Sans', sans-serif;
@@ -424,7 +439,7 @@
 }
 
 .lp-bottombar span {
-  font-size: 10px;
+  font-size: 9px;
   color: rgba(255, 255, 255, 0.25);
   font-family: 'DM Sans', sans-serif;
   letter-spacing: 0.04em;
@@ -433,7 +448,7 @@
 /* ─── BACK BUTTON ────────────────────────────────────── */
 .lp-back-btn {
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0.04em;
@@ -450,7 +465,7 @@
 /* ─── NIC TEXT BADGE ─────────────────────────────────── */
 .lp-nic-badge {
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 900;
   color: rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.08);
@@ -470,7 +485,7 @@
 
 .lp-dosel-name {
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.75);
   white-space: nowrap;
@@ -478,7 +493,7 @@
 
 .lp-dosel-sub {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.38);
   white-space: nowrap;

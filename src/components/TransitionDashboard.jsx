@@ -65,7 +65,7 @@ export default function TransitionDashboard({ selectedYear, onShowPowerBi }) {
   if (!d) return null;
 
   const { header, cards, chartTransClass, chartTransClassSource, chartTransClassNote,
-          chartTransSoc, chartTransSocGrouped, chartTransSocSource, chartTransSocNote, insight1, insight2 } = d;
+    chartTransSoc, chartTransSocGrouped, chartTransSocSource, chartTransSocNote, insight1, insight2 } = d;
 
   return (
     <div className="dashboard">
@@ -80,9 +80,9 @@ export default function TransitionDashboard({ selectedYear, onShowPowerBi }) {
           <button className="powerbi-btn" onClick={() => onShowPowerBi?.('https://app.powerbi.com/view?r=eyJrIjoiYzdlMDA5Y2EtM2Y4Mi00ODFkLTgzNjgtOTBlODM1MTU0MjNhIiwidCI6IjJiZDAyMzJmLWNjZTEtNDZkMS04ZWE2LTQzMTE1NTVlMzAyYiJ9')}>
             <span className="powerbi-icon">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <rect x="1" y="5" width="3" height="10" rx="1" fill="currentColor" opacity="0.5"/>
-                <rect x="6" y="2" width="3" height="13" rx="1" fill="currentColor" opacity="0.75"/>
-                <rect x="11" y="0" width="4" height="15" rx="1" fill="currentColor"/>
+                <rect x="1" y="5" width="3" height="10" rx="1" fill="currentColor" opacity="0.5" />
+                <rect x="6" y="2" width="3" height="13" rx="1" fill="currentColor" opacity="0.75" />
+                <rect x="11" y="0" width="4" height="15" rx="1" fill="currentColor" />
               </svg>
             </span>
             View Full Report <span style={{ fontSize: 13, opacity: 0.7 }}>↗</span>
@@ -102,14 +102,16 @@ export default function TransitionDashboard({ selectedYear, onShowPowerBi }) {
               <div className="scc-bar-track">
                 <div className="scc-bar-fill" data-bar-w={c.bar} style={{ width: 0, background: c.color }} />
               </div>
-              <div style={{ fontFamily:"'DM Sans',sans-serif", fontSize:9, letterSpacing:'0.12em',
-                            textTransform:'uppercase', color:c.color, marginBottom:10, marginTop:-2 }}>
+              <div style={{
+                fontFamily: "'DM Sans',sans-serif", fontSize: 9, letterSpacing: '0.12em',
+                textTransform: 'uppercase', color: c.color, marginBottom: 10, marginTop: -2
+              }}>
                 {c.barLabel}
               </div>
               <div className="scc-split">
                 {c.split.map((s, i) => (
                   <>
-                    {i > 0 && <div key={'d'+i} className="scc-split-divider" />}
+                    {i > 0 && <div key={'d' + i} className="scc-split-divider" />}
                     <div key={s.lbl} className="scc-split-item">
                       <span className="scc-split-val"
                         style={s.accent ? { color: c.color, fontSize: 11 } : { fontSize: 10 }}>
@@ -140,25 +142,35 @@ export default function TransitionDashboard({ selectedYear, onShowPowerBi }) {
                 <div style={{ marginTop: 16 }}>
                   {chartTransClass.map(r => (
                     <div key={r.name} style={{ marginBottom: 18 }}>
-                      <div style={{ fontFamily:"'DM Sans',sans-serif", fontSize:11, fontWeight:600,
-                                    color:'var(--ink)', marginBottom:6 }}>{r.name}</div>
-                      <div style={{ display:'flex', flexDirection:'column', gap:5 }}>
+                      <div style={{
+                        fontFamily: "'DM Sans',sans-serif", fontSize: 11, fontWeight: 600,
+                        color: 'var(--ink)', marginBottom: 6
+                      }}>{r.name}</div>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: 5 }}>
                         {[
-                          { lbl:'Overall (T_Total)', val:r.val,   pct:r.pct      },
-                          { lbl:'Boys (T_Boys)',     val:r.boys,  pct:r.boysPct  },
-                          { lbl:'Girls (T_Girls)',   val:r.girls, pct:r.girlsPct },
+                          { lbl: 'Overall', val: r.val, pct: r.pct },
+                          { lbl: 'Boys', val: r.boys, pct: r.boysPct },
+                          { lbl: 'Girls', val: r.girls, pct: r.girlsPct },
                         ].map(row => (
-                          <div key={row.lbl} style={{ display:'flex', alignItems:'center', gap:8 }}>
-                            <div style={{ width:120, fontFamily:"'DM Sans',sans-serif",
-                                          fontSize:9, color:'var(--muted)' }}>{row.lbl}</div>
-                            <div style={{ flex:1, height:12, background:'var(--warm)',
-                                          borderRadius:2, overflow:'hidden' }}>
+                          <div key={row.lbl} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                            <div style={{
+                              width: 52, fontFamily: "'DM Sans',sans-serif",
+                              fontSize: 9, color: 'var(--muted)', flexShrink: 0
+                            }}>{row.lbl}</div>
+                            <div style={{
+                              flex: 1, height: 12, background: 'var(--warm)',
+                              borderRadius: 2, overflow: 'hidden'
+                            }}>
                               <div data-bar-w={row.pct}
-                                style={{ width:0, height:'100%', background:r.color, borderRadius:2,
-                                         transition:'width 1.8s cubic-bezier(0.16,1,0.3,1)', opacity:0.85 }} />
+                                style={{
+                                  width: 0, height: '100%', background: r.color, borderRadius: 2,
+                                  transition: 'width 1.8s cubic-bezier(0.16,1,0.3,1)', opacity: 0.85
+                                }} />
                             </div>
-                            <div style={{ fontFamily:"'DM Sans', sans-serif", fontSize:12, fontWeight:700,
-                                          color:r.color, width:50, textAlign:'right' }}>{row.val}</div>
+                            <div style={{
+                              fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 700,
+                              color: r.color, width: 50, textAlign: 'right'
+                            }}>{row.val}</div>
                           </div>
                         ))}
                       </div>
@@ -175,21 +187,31 @@ export default function TransitionDashboard({ selectedYear, onShowPowerBi }) {
                 <div style={{ marginTop: 16 }}>
                   {(chartTransSocGrouped || []).map(grp => (
                     <div key={grp.name} style={{ marginBottom: 20 }}>
-                      <div style={{ fontFamily:"'DM Sans',sans-serif", fontSize:12, fontWeight:700,
-                                    color:grp.color, marginBottom:7, letterSpacing:'0.04em' }}>{grp.name}</div>
-                      <div style={{ display:'flex', flexDirection:'column', gap:5 }}>
+                      <div style={{
+                        fontFamily: "'DM Sans',sans-serif", fontSize: 12, fontWeight: 700,
+                        color: grp.color, marginBottom: 7, letterSpacing: '0.04em'
+                      }}>{grp.name}</div>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: 5 }}>
                         {grp.rows.map(row => (
-                          <div key={row.lbl} style={{ display:'flex', alignItems:'center', gap:8 }}>
-                            <div style={{ width:88, fontFamily:"'DM Sans',sans-serif",
-                                          fontSize:10, color:'var(--muted)' }}>{row.lbl}</div>
-                            <div style={{ flex:1, height:12, background:'var(--warm)',
-                                          borderRadius:2, overflow:'hidden' }}>
+                          <div key={row.lbl} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                            <div style={{
+                              width: 148, fontFamily: "'DM Sans',sans-serif",
+                              fontSize: 10, color: 'var(--muted)', flexShrink: 0
+                            }}>{row.lbl}</div>
+                            <div style={{
+                              flex: 1, height: 12, background: 'var(--warm)',
+                              borderRadius: 2, overflow: 'hidden'
+                            }}>
                               <div data-bar-w={row.pct}
-                                style={{ width:0, height:'100%', background:grp.color, borderRadius:2,
-                                         transition:'width 1.8s cubic-bezier(0.16,1,0.3,1)', opacity:0.85 }} />
+                                style={{
+                                  width: 0, height: '100%', background: grp.color, borderRadius: 2,
+                                  transition: 'width 1.8s cubic-bezier(0.16,1,0.3,1)', opacity: 0.85
+                                }} />
                             </div>
-                            <div style={{ fontFamily:"'DM Sans',sans-serif", fontSize:12, fontWeight:700,
-                                          color:grp.color, width:50, textAlign:'right' }}>{row.val}</div>
+                            <div style={{
+                              fontFamily: "'DM Sans',sans-serif", fontSize: 12, fontWeight: 700,
+                              color: grp.color, width: 50, textAlign: 'right'
+                            }}>{row.val}</div>
                           </div>
                         ))}
                       </div>

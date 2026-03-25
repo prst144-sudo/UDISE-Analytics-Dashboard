@@ -59,7 +59,7 @@
   background: rgba(37, 99, 235, 0.15);
   border: 1px solid rgba(37, 99, 235, 0.3);
   color: #93c5fd;
-  font-size: 9px;
+  font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -68,7 +68,7 @@
 
 .hl-hero-h1 {
   font-family: 'DM Sans', sans-serif;
-  font-size: clamp(36px, 4.2vw, 60px);
+  font-size: clamp(35px, 4.2vw, 59px);
   font-weight: 900;
   line-height: 1.04;
   letter-spacing: -0.03em;
@@ -81,7 +81,7 @@
 }
 
 .hl-hero-p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.72;
   color: rgba(250, 246, 239, 0.50);
   margin-bottom: 36px;
@@ -100,7 +100,7 @@
   color: #fff;
   border-radius: 6px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.02em;
   transition: background 0.18s, transform 0.18s, box-shadow 0.18s;
@@ -120,7 +120,7 @@
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 6px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   transition: background 0.18s, border-color 0.18s, color 0.18s;
 }
@@ -172,7 +172,7 @@
 
 .hl-hero-stat-val {
   font-family: 'DM Sans', sans-serif;
-  font-size: clamp(24px, 2.4vw, 34px);
+  font-size: clamp(23px, 2.4vw, 33px);
   font-weight: 800;
   line-height: 1;
   color: #93c5fd;
@@ -180,7 +180,7 @@
 }
 
 .hl-hero-stat-label {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -189,7 +189,7 @@
 }
 
 .hl-hero-stat-sub {
-  font-size: 12px;
+  font-size: 11px;
   color: rgba(255, 255, 255, 0.32);
   line-height: 1.5;
 }
@@ -206,7 +206,7 @@
 
 .hl-cards-title {
   font-family: 'DM Sans', sans-serif;
-  font-size: clamp(20px, 2vw, 28px);
+  font-size: clamp(19px, 2vw, 27px);
   font-weight: 800;
   color: var(--ink);
   letter-spacing: -0.02em;
@@ -214,7 +214,7 @@
 }
 
 .hl-cards-sub {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--muted);
   line-height: 1.65;
 }
@@ -277,12 +277,12 @@
 }
 
 .hl-card-emoji {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1;
 }
 
 .hl-card-cat {
-  font-size: 9px;
+  font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -291,7 +291,7 @@
 
 .hl-card-h3 {
   font-family: 'DM Sans', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 800;
   line-height: 1.2;
   letter-spacing: -0.01em;
@@ -300,7 +300,7 @@
 }
 
 .hl-card-desc {
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1.6;
   color: var(--muted);
   margin-bottom: 18px;
@@ -330,7 +330,7 @@
 
 .hl-card-stat-val {
   font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 800;
   color: var(--card-accent);
   line-height: 1;
@@ -358,7 +358,7 @@
   background: var(--card-light);
   border: 1px solid var(--card-border);
   border-radius: 3px;
-  font-size: 9px;
+  font-size: 8px;
   font-weight: 600;
   letter-spacing: 0.06em;
   color: var(--card-accent);
@@ -379,7 +379,7 @@
   margin-top: auto;
   padding-top: 14px;
   border-top: 1px solid var(--rule);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   color: var(--card-accent);
   letter-spacing: 0.02em;
@@ -411,7 +411,7 @@
 /* ── LEFT — text ─────────────────────────────────────── */
 .hl-insight-eyebrow {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -421,7 +421,7 @@
 
 .hl-insight-title {
   font-family: 'DM Sans', sans-serif;
-  font-size: clamp(22px, 2.2vw, 30px);
+  font-size: clamp(21px, 2.2vw, 29px);
   font-weight: 900;
   color: #1a2035;
   letter-spacing: -0.025em;
@@ -430,7 +430,7 @@
 }
 
 .hl-insight-sub {
-  font-size: 13px;
+  font-size: 12px;
   color: #64748b;
   line-height: 1.7;
 }
@@ -505,7 +505,7 @@
 
 .hl-ic-title {
   font-family: 'DM Sans', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 800;
   color: #1a2035;
   letter-spacing: -0.01em;
@@ -523,7 +523,7 @@
 
 .hl-ic-link {
   font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   color: var(--ic-color);
   letter-spacing: 0.02em;

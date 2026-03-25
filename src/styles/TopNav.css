@@ -21,7 +21,7 @@
 
 .topnav-logo {
   font-family: 'DM Sans', sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 0.06em;
@@ -41,7 +41,7 @@
 
 .topnav-subtitle {
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 9px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.38);
@@ -69,7 +69,7 @@
   border-bottom: 2px solid transparent;
   color: rgba(255, 255, 255, 0.55);
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 400;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -183,7 +183,7 @@
   background: none;
   border: none;
   font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.60);
   cursor: pointer;
@@ -235,7 +235,7 @@
 
 .topnav-dosel-text {
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.75);
   line-height: 1.4;
@@ -244,7 +244,7 @@
 }
 
 .topnav-dosel-text span {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.38);
 }
@@ -262,7 +262,7 @@
   border-radius: 6px;
   color: rgba(255, 255, 255, 0.75);
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -288,7 +288,7 @@
   border-radius: 6px;
   color: #fff;
   font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.06em;
   cursor: pointer;

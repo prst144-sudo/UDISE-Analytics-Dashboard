@@ -70,15 +70,15 @@
         "split": [
           {
             "val": "+0.1 pts",
-            "lbl": "Foundational\u2192Preparatory"
+            "lbl": "F\u2192P"
           },
           {
             "val": "+0.4 pts",
-            "lbl": "Preparatory\u2192Middle"
+            "lbl": "P\u2192M"
           },
           {
             "val": "-1.9 pts",
-            "lbl": "Middle\u2192Secondary",
+            "lbl": "M\u2192S",
             "accent": true
           }
         ],
@@ -195,7 +195,7 @@
         "color": "#2563eb",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "98.4%",
             "pct": 100
           },
@@ -216,7 +216,7 @@
         "color": "#0891b2",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "97.8%",
             "pct": 99
           },
@@ -237,7 +237,7 @@
         "color": "#d97706",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "97.2%",
             "pct": 99
           },
@@ -258,7 +258,7 @@
         "color": "#6366f1",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "96.1%",
             "pct": 98
           },
@@ -347,15 +347,15 @@
         "split": [
           {
             "val": "+0.1 pts",
-            "lbl": "Foundational\u2192Preparatory"
+            "lbl": "F\u2192P"
           },
           {
             "val": "+0.4 pts",
-            "lbl": "Preparatory\u2192Middle"
+            "lbl": "P\u2192M"
           },
           {
             "val": "-1.1 pts",
-            "lbl": "Middle\u2192Secondary",
+            "lbl": "M\u2192S",
             "accent": true
           }
         ],
@@ -472,7 +472,7 @@
         "color": "#2563eb",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "98.4%",
             "pct": 100
           },
@@ -493,7 +493,7 @@
         "color": "#0891b2",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "97.8%",
             "pct": 99
           },
@@ -514,7 +514,7 @@
         "color": "#d97706",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "97.2%",
             "pct": 99
           },
@@ -535,7 +535,7 @@
         "color": "#6366f1",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "96.1%",
             "pct": 98
           },
@@ -624,15 +624,15 @@
         "split": [
           {
             "val": "+0.8 pts",
-            "lbl": "Foundational\u2192Preparatory"
+            "lbl": "F\u2192P"
           },
           {
             "val": "+0.8 pts",
-            "lbl": "Preparatory\u2192Middle"
+            "lbl": "P\u2192M"
           },
           {
             "val": "-0.8 pts",
-            "lbl": "Middle\u2192Secondary",
+            "lbl": "M\u2192S",
             "accent": true
           }
         ],
@@ -749,7 +749,7 @@
         "color": "#2563eb",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "98.4%",
             "pct": 100
           },
@@ -770,7 +770,7 @@
         "color": "#0891b2",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "97.8%",
             "pct": 99
           },
@@ -791,7 +791,7 @@
         "color": "#d97706",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "97.2%",
             "pct": 99
           },
@@ -812,7 +812,7 @@
         "color": "#6366f1",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "96.1%",
             "pct": 98
           },
@@ -901,15 +901,15 @@
         "split": [
           {
             "val": "+1.2 pts",
-            "lbl": "Foundational\u2192Preparatory"
+            "lbl": "F\u2192P"
           },
           {
             "val": "+1.5 pts",
-            "lbl": "Preparatory\u2192Middle"
+            "lbl": "P\u2192M"
           },
           {
             "val": "+1.4 pts",
-            "lbl": "Middle\u2192Secondary",
+            "lbl": "M\u2192S",
             "accent": true
           }
         ],
@@ -1026,7 +1026,7 @@
         "color": "#2563eb",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "98.4%",
             "pct": 100
           },
@@ -1047,7 +1047,7 @@
         "color": "#0891b2",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "97.8%",
             "pct": 99
           },
@@ -1068,7 +1068,7 @@
         "color": "#d97706",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "97.2%",
             "pct": 99
           },
@@ -1089,7 +1089,7 @@
         "color": "#6366f1",
         "rows": [
           {
-            "lbl": "Foundational\u2192Preparatory",
+            "lbl": "Foundational\u2192Prep",
             "val": "96.1%",
             "pct": 98
           },

@@ -18,27 +18,37 @@
   align-items: center;
   gap: 6px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 9px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
 }
-.bc-sep { opacity: 0.4; }
+
+.bc-sep {
+  opacity: 0.4;
+}
 
 .bc-link {
   background: none;
   border: none;
   padding: 0;
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 9px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
   cursor: pointer;
   transition: color 0.15s ease;
 }
-.bc-link:hover { color: var(--ink); }
-.bc-link-active { color: var(--ink); font-weight: 600; }
+
+.bc-link:hover {
+  color: var(--ink);
+}
+
+.bc-link-active {
+  color: var(--ink);
+  font-weight: 600;
+}
 
 .bc-current {
   color: var(--accent);
@@ -51,8 +61,9 @@
   align-items: center;
   gap: 5px;
 }
+
 .bc-pbi-icon {
-  font-size: 11px;
+  font-size: 10px;
   line-height: 1;
 }
 
@@ -66,7 +77,7 @@
   border-radius: 5px;
   padding: 3px 10px 3px 7px;
   font-family: 'DM Sans', sans-serif;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -76,13 +87,15 @@
   transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
   white-space: nowrap;
 }
+
 .bc-back-btn:hover {
   background: rgba(59, 111, 212, 0.14);
   border-color: rgba(59, 111, 212, 0.35);
   transform: translateX(-2px);
 }
+
 .bc-back-arrow {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1;
   margin-top: -1px;
   font-weight: 400;
@@ -103,7 +116,7 @@
 
 .ctx-label {
   font-family: 'DM Sans', sans-serif;
-  font-size: 9px;
+  font-size: 8px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--muted);
@@ -112,10 +125,10 @@
 .ctx-select {
   appearance: none;
   background: #f4f7fd;
-  border: 1px solid rgba(59,111,212,0.18);
+  border: 1px solid rgba(59, 111, 212, 0.18);
   border-radius: var(--radius-sm);
   padding: 4px 26px 4px 10px;
-  font-size: 11px;
+  font-size: 10px;
   font-family: 'DM Sans', sans-serif;
   color: var(--ink);
   cursor: pointer;
@@ -124,6 +137,7 @@
   background-position: right 8px center;
   transition: border-color var(--transition);
 }
+
 .ctx-select:focus {
   outline: none;
   border-color: var(--accent);
@@ -135,10 +149,10 @@
   align-items: center;
   gap: 8px;
   background: #f4f7fd;
-  border: 1px solid rgba(59,111,212,0.18);
+  border: 1px solid rgba(59, 111, 212, 0.18);
   border-radius: var(--radius-sm);
   padding: 4px 10px;
-  font-size: 11px;
+  font-size: 10px;
   font-family: 'DM Sans', sans-serif;
   color: var(--ink);
   cursor: pointer;
@@ -148,6 +162,7 @@
   text-overflow: ellipsis;
   transition: border-color var(--transition), background var(--transition);
 }
+
 .ctx-state-btn:hover {
   border-color: var(--accent);
   background: #fff;
