@@ -67,7 +67,6 @@ export default function LoginPage({ onLogin, onBack }) {
         {/* LEFT — Branding */}
         <div className="lp-left">
           <div className="lp-left-inner">
-            <div className="lp-badge">Real Time Education Analytics</div>
             <h1 className="lp-hero-h1">
               Real Time Education<br />
               Analytics for Better<br />
@@ -186,7 +185,7 @@ export default function LoginPage({ onLogin, onBack }) {
 
       {/* ── BOTTOM BAR ── */}
       <div className="lp-bottombar">
-        <span>© 2024–25 Department of School Education &amp; Literacy, Ministry of Education, Government of India</span>
+        <span>© 2024-25 Department of School Education &amp; Literacy, Ministry of Education, Government of India</span>
         <span>Data Source: UDISE+ Official Base Files</span>
       </div>
     </div>
