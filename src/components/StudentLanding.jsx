@@ -184,10 +184,10 @@ export function StudentLanding({ onShowDashboard }) {
           <div>
             <div className="funnel-wrap">
               {[
-                { lbl: 'All Students', inner: '24.69 Cr', pct: 100, color: 'var(--teal)' },
-                { lbl: 'Secondary School', inner: '13.08 Cr', pct: 53, color: 'rgba(42,124,124,0.82)' },
-                { lbl: 'Middle School', inner: '6.82 Cr', pct: 28, color: 'var(--gold)' },
-                { lbl: 'Foundational + Preparatory', inner: '4.79 Cr', pct: 19, color: 'var(--accent)' },
+                { lbl: 'All Schools', inner: '14.71 L', pct: 100, color: 'var(--teal)' },
+                { lbl: 'Foundational + Preparatory', inner: '7.26 L', pct: 49, color: 'var(--accent)' },
+                { lbl: 'Middle', inner: '4.21 L', pct: 29, color: 'var(--gold)' },
+                { lbl: 'Secondary', inner: '3.24 L', pct: 22, color: 'rgba(42,124,124,0.82)' },
               ].map(row => (
                 <div key={row.lbl} className="funnel-row">
                   <div className="funnel-lbl">{row.lbl}</div>
@@ -201,7 +201,7 @@ export function StudentLanding({ onShowDashboard }) {
               ))}
             </div>
             <div className="pull-quote" style={{ marginTop: 32 }}>
-              <p>"More than half of all enrolled students are in Secondary schools, while nearly half of all schools are Foundational + Preparatory."</p>
+              <p>"Nearly half of all schools are Foundational + Preparatory — yet Secondary schools carry more than half of all enrolled students."</p>
             </div>
             <button className="lp-sec-cta" style={{ marginTop: 20 }} onClick={() => onShowDashboard('student-main')}>
               Open Dashboard <span>→</span>
@@ -212,28 +212,6 @@ export function StudentLanding({ onShowDashboard }) {
               <div className="stat-card-num" style={{ color: 'var(--teal)' }}>74.3%</div>
               <div className="stat-card-label">Public-Supported School Share</div>
               <div className="stat-card-note">State government, central government, and govt.-aided schools together make up 74.3% of all schools.</div>
-            </div>
-            {/* School breakdown by education level */}
-            <div className="stat-card" style={{ marginBottom: 14 }}>
-              <div className="stat-card-label" style={{ marginBottom: 12 }}>Schools by Education Level</div>
-              {[
-                { lbl: 'Foundational + Preparatory', val: '7.26 L', pct: 100, color: 'var(--accent)' },
-                { lbl: 'Middle', val: '4.21 L', pct: 58, color: 'var(--gold)' },
-                { lbl: 'Secondary', val: '3.24 L', pct: 45, color: 'var(--teal)' },
-              ].map(r => (
-                <div key={r.lbl} style={{ marginBottom: 10 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
-                    <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 11, color: 'var(--muted)' }}>{r.lbl}</span>
-                    <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 12, fontWeight: 700, color: r.color }}>{r.val}</span>
-                  </div>
-                  <div style={{ height: 10, background: 'var(--warm)', borderRadius: 3, overflow: 'hidden' }}>
-                    <div className="lang-bar-fill" style={{ '--bar-w': r.pct + '%', background: r.color, opacity: 0.88 }} />
-                  </div>
-                </div>
-              ))}
-              <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 10, color: 'var(--muted)', marginTop: 8, lineHeight: 1.5 }}>
-                Nearly half of all 14.71 L schools are Foundational + Preparatory, serving Classes 1–5.
-              </div>
             </div>
             <div className="stat-card">
               <div className="stat-card-num" style={{ color: 'var(--gold)' }}>52.9%</div>
@@ -316,7 +294,7 @@ export function StudentLanding({ onShowDashboard }) {
               ))}
             </div>
             <div className="pull-quote" style={{ marginTop: 32 }}>
-              <p>"Intra-district movement accounts for 86.8% of all recorded student migration"</p>
+              <p>"Intra-district movement accounts for 86.8% of all recorded student migration entries in the uploaded file."</p>
             </div>
             <button className="lp-sec-cta" style={{ marginTop: 20 }} onClick={() => onShowDashboard('migration')}>
               Open Dashboard <span>→</span>
@@ -369,11 +347,6 @@ export function StudentLanding({ onShowDashboard }) {
             <div className="pull-quote" style={{ marginTop: 32 }}>
               <p>"The uploaded file reports 31 languages of instruction, but Hindi and English alone account for 71.8% of all enrolled students."</p>
             </div>
-            <div className="stat-card" style={{ marginTop: 20 }}>
-              <div className="stat-card-num" style={{ color: 'var(--accent)' }}>71.8%</div>
-              <div className="stat-card-label">Hindi + English Combined Share</div>
-              <div className="stat-card-note">Despite 31 languages being reported, just two languages — Hindi and English — cover nearly three-fourths of all enrolled students nationally.</div>
-            </div>
             <button className="lp-sec-cta" style={{ marginTop: 16 }} onClick={() => onShowDashboard('medium')}>
               Open Dashboard <span>→</span>
             </button>
@@ -384,28 +357,25 @@ export function StudentLanding({ onShowDashboard }) {
               <div className="stat-card-label">Languages of Instruction</div>
               <div className="stat-card-note">The uploaded 2024-25 dataset contains 31 reported languages, showing the scale of linguistic diversity in school education.</div>
             </div>
-            <div className="stat-card" style={{ marginBottom: 14 }}>
+            <div className="stat-card">
               <div className="stat-card-num" style={{ color: 'var(--accent)' }}>0.94</div>
               <div className="stat-card-label">GPI — Gender Parity Index (MOI)</div>
-              <div className="stat-card-note">Across all medium-of-instruction groups, the national GPI stands at 0.94 — meaning girls account for slightly fewer enrollments than boys, with variation by language and state.</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-card-label" style={{ marginBottom: 14, fontSize: 10, fontWeight: 700, letterSpacing: '0.12em' }}>Language Distribution</div>
+              <div className="stat-card-note" style={{ marginBottom: 16 }}>Girls per 100 boys enrolled, by medium of instruction. Values below 1.0 mean fewer girls than boys.</div>
               {[
-                { lbl: 'Hindi', val: '36.1%', pct: 36.1, color: 'var(--accent)' },
-                { lbl: 'English', val: '35.6%', pct: 35.6, color: 'var(--teal)' },
-                { lbl: 'Bengali', val: '6.8%', pct: 6.8, color: 'var(--gold)' },
-                { lbl: 'Marathi', val: '5.1%', pct: 5.1, color: '#6366f1' },
-                { lbl: 'Gujarati', val: '3.7%', pct: 3.7, color: '#0891b2' },
-                { lbl: 'Others', val: '12.7%', pct: 12.7, color: '#94a3b8' },
+                { lbl: 'Bengali', val: '1.02', pct: 100, color: '#6366f1' },
+                { lbl: 'Marathi', val: '0.99', pct: 97, color: 'var(--teal)' },
+                { lbl: 'English', val: '0.97', pct: 95, color: 'var(--accent)' },
+                { lbl: 'Gujarati', val: '0.96', pct: 94, color: '#0891b2' },
+                { lbl: 'Hindi', val: '0.91', pct: 89, color: 'var(--gold)' },
+                { lbl: 'Others', val: '0.88', pct: 86, color: '#94a3b8' },
               ].map(r => (
-                <div key={r.lbl} style={{ marginBottom: 12 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 5 }}>
+                <div key={r.lbl} style={{ marginBottom: 10 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
                     <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 12, color: 'var(--ink)', fontWeight: 500 }}>{r.lbl}</span>
                     <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 12, fontWeight: 800, color: r.color }}>{r.val}</span>
                   </div>
-                  <div style={{ height: 10, background: 'var(--warm)', borderRadius: 3, overflow: 'hidden' }}>
-                    <div className="lang-bar-fill" style={{ '--bar-w': r.pct + '%', background: r.color, opacity: 0.88 }} />
+                  <div style={{ height: 9, background: 'var(--warm)', borderRadius: 3, overflow: 'hidden' }}>
+                    <div className="lang-bar-fill" style={{ '--bar-w': r.pct + '%', background: r.color, opacity: 0.85 }} />
                   </div>
                 </div>
               ))}
@@ -463,15 +433,17 @@ export function StudentLanding({ onShowDashboard }) {
       {/* ── 06 · Transition Rate ────────────────────── */}
       <section className="section">
         <div className="section-label">Section 06 · Transition Rate</div>
-        <h2 className="section-headline">Three reported stage transitions show one clear weak point</h2>
-        <p className="section-sub">The uploaded transition sheet reports stage-to-stage progression for Foundational to Preparatory, Preparatory to Middle, and Middle to Secondary. In 2024-25, the Middle to Secondary transition is the weakest of the three.</p>
+        <h2 className="section-headline">Most students move up — but 1 in 7 don't make it to Secondary school</h2>
+        <p className="section-sub">
+          Each bar shows what percentage of students successfully move to the next school stage. The journey gets harder at every step — nearly all children clear Stage 1, but by Stage 3, about 13 out of every 100 students are left behind. Girls do better than boys at every stage.
+        </p>
         <div className="two-col">
           <div>
             <div className="funnel-wrap">
               {[
-                { lbl: 'Foundational → Preparatory', inner: '98.6%', pct: 99, color: 'var(--teal)' },
-                { lbl: 'Preparatory → Middle', inner: '92.2%', pct: 92, color: 'var(--gold)' },
-                { lbl: 'Middle → Secondary', inner: '86.6%', pct: 87, color: 'var(--accent)' },
+                { lbl: 'Stage 1 — Foundational → Preparatory', inner: '98.6%', pct: 99, color: 'var(--teal)' },
+                { lbl: 'Stage 2 — Preparatory → Middle', inner: '92.2%', pct: 92, color: 'var(--gold)' },
+                { lbl: 'Stage 3 — Middle → Secondary', inner: '86.6%', pct: 87, color: 'var(--accent)' },
               ].map(row => (
                 <div key={row.lbl} className="funnel-row">
                   <div className="funnel-lbl">{row.lbl}</div>
@@ -485,7 +457,7 @@ export function StudentLanding({ onShowDashboard }) {
               ))}
             </div>
             <div className="pull-quote" style={{ marginTop: 32 }}>
-              <p>"Among the three reported transition gates in 2024-25, Middle to Secondary remains the weakest nationally."</p>
+              <p>"Stage 3 is where India loses the most students — only 86.6% make it from Middle to Secondary school. Girls lead boys by 1.4 points even at this hardest step."</p>
             </div>
             <button className="lp-sec-cta" style={{ marginTop: 20 }} onClick={() => onShowDashboard('transition')}>
               Open Dashboard <span>→</span>
@@ -493,14 +465,25 @@ export function StudentLanding({ onShowDashboard }) {
           </div>
           <div>
             <div className="stat-card" style={{ marginBottom: 14 }}>
-              <div className="stat-card-num" style={{ color: 'var(--gold)' }}>86.6%</div>
-              <div className="stat-card-label">Middle → Secondary Transition</div>
-              <div className="stat-card-note">This is the lowest of the three reported stage transitions in the uploaded 2024-25 sheet.</div>
+              <div className="stat-card-num" style={{ color: 'var(--accent)' }}>86.6%</div>
+              <div className="stat-card-label">Students Reaching Secondary School</div>
+              <div className="stat-card-note">
+                Out of every 100 students in Middle school, only 87 make it to Secondary. This is the biggest drop-off point in India's school system — and it widens further for ST students (80.4%) compared to General category (91.6%).
+              </div>
+            </div>
+            <div className="stat-card" style={{ marginBottom: 14 }}>
+              <div className="stat-card-num" style={{ color: 'var(--teal)' }}>98.6%</div>
+              <div className="stat-card-label">Students Clearing Stage 1</div>
+              <div className="stat-card-note">
+                Almost every child who starts school successfully moves from Foundational to Preparatory. This near-universal Stage 1 transition shows that early enrollment and retention is working well across India.
+              </div>
             </div>
             <div className="stat-card">
-              <div className="stat-card-num" style={{ color: 'var(--teal)' }}>98.6%</div>
-              <div className="stat-card-label">Foundational → Preparatory</div>
-              <div className="stat-card-note">This is the strongest reported transition in the uploaded 2024-25 transition sheet, ahead of both Preparatory → Middle and Middle → Secondary.</div>
+              <div className="stat-card-num" style={{ color: 'var(--gold)' }}>11.2 pts</div>
+              <div className="stat-card-label">Gap Between ST and General Students at Stage 3</div>
+              <div className="stat-card-note">
+                At the Middle → Secondary transition, General category students reach 91.6% while Scheduled Tribe students reach only 80.4%. Closing this gap is one of the most urgent equity challenges in Indian school education.
+              </div>
             </div>
           </div>
         </div>
