@@ -86,6 +86,14 @@ function Hero({ onShowDashboard }) {
       }}>
         {/* ── LEFT: text ── */}
         <div style={{ flex: '0 0 auto', maxWidth: 480 }}>
+          <span style={{
+            display: 'inline-block', padding: '5px 14px', borderRadius: 20,
+            background: ACCENT_DIM, border: `1px solid ${ACCENT_BORDER}`,
+            color: ACCENT, fontSize: 9, fontWeight: 700,
+            letterSpacing: '0.18em', textTransform: 'uppercase', marginBottom: 20,
+          }}>
+            📊 Student Centric Analytics
+          </span>
           <h1 style={{
             fontFamily: "'DM Sans', sans-serif",
             fontSize: 'clamp(30px,3.6vw,52px)', fontWeight: 900,
@@ -203,12 +211,34 @@ export function StudentLanding({ onShowDashboard }) {
             <div className="stat-card" style={{ marginBottom: 14 }}>
               <div className="stat-card-num" style={{ color: 'var(--teal)' }}>74.3%</div>
               <div className="stat-card-label">Public-Supported School Share</div>
-              <div className="stat-card-note">State government, central government, and govt.-aided schools together make up 74.3% of all schools, while accounting for 59.3% of enrolled students.</div>
+              <div className="stat-card-note">State government, central government, and govt.-aided schools together make up 74.3% of all schools.</div>
+            </div>
+            {/* School breakdown by education level */}
+            <div className="stat-card" style={{ marginBottom: 14 }}>
+              <div className="stat-card-label" style={{ marginBottom: 12 }}>Schools by Education Level</div>
+              {[
+                { lbl: 'Foundational + Preparatory', val: '7.26 L', pct: 100, color: 'var(--accent)' },
+                { lbl: 'Middle', val: '4.21 L', pct: 58, color: 'var(--gold)' },
+                { lbl: 'Secondary', val: '3.24 L', pct: 45, color: 'var(--teal)' },
+              ].map(r => (
+                <div key={r.lbl} style={{ marginBottom: 10 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
+                    <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 11, color: 'var(--muted)' }}>{r.lbl}</span>
+                    <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 12, fontWeight: 700, color: r.color }}>{r.val}</span>
+                  </div>
+                  <div style={{ height: 10, background: 'var(--warm)', borderRadius: 3, overflow: 'hidden' }}>
+                    <div className="lang-bar-fill" style={{ '--bar-w': r.pct + '%', background: r.color, opacity: 0.88 }} />
+                  </div>
+                </div>
+              ))}
+              <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 10, color: 'var(--muted)', marginTop: 8, lineHeight: 1.5 }}>
+                Nearly half of all 14.71 L schools are Foundational + Preparatory, serving Classes 1–5.
+              </div>
             </div>
             <div className="stat-card">
               <div className="stat-card-num" style={{ color: 'var(--gold)' }}>52.9%</div>
               <div className="stat-card-label">Students in Secondary Schools</div>
-              <div className="stat-card-note">Secondary schools account for the largest student concentration nationally. Middle schools account for 27.6%, and Foundational + Preparatory schools for 19.4%.</div>
+              <div className="stat-card-note">Secondary schools account for the largest student concentration nationally. Middle schools 27.6%, Foundational + Preparatory 19.4%.</div>
             </div>
           </div>
         </div>
@@ -270,9 +300,10 @@ export function StudentLanding({ onShowDashboard }) {
               {[
                 { rank: '01', name: 'Secondary → Secondary', val: '2.01 Cr', pct: 100 },
                 { rank: '02', name: 'Middle → Secondary', val: '1.57 Cr', pct: 78 },
-                { rank: '03', name: 'F+P → Secondary', val: '89.4 L', pct: 44 },
-                { rank: '04', name: 'F+P → Middle', val: '72.3 L', pct: 36 },
+                { rank: '03', name: 'Found.+Prep → Secondary', val: '89.4 L', pct: 44 },
+                { rank: '04', name: 'Found.+Prep → Middle', val: '72.3 L', pct: 36 },
                 { rank: '05', name: 'Middle → Middle', val: '28.2 L', pct: 14 },
+                { rank: '06', name: 'Found.+Prep → Found.+Prep', val: '18.6 L', pct: 9 },
               ].map(r => (
                 <div key={r.rank} className="state-row">
                   <div className="state-rank">{r.rank}</div>
@@ -285,7 +316,7 @@ export function StudentLanding({ onShowDashboard }) {
               ))}
             </div>
             <div className="pull-quote" style={{ marginTop: 32 }}>
-              <p>"Intra-district movement accounts for 86.8% of all recorded student migration entries in the uploaded file."</p>
+              <p>"Intra-district movement accounts for 86.8% of all recorded student migration"</p>
             </div>
             <button className="lp-sec-cta" style={{ marginTop: 20 }} onClick={() => onShowDashboard('migration')}>
               Open Dashboard <span>→</span>
@@ -296,6 +327,11 @@ export function StudentLanding({ onShowDashboard }) {
               <div className="stat-card-num" style={{ color: 'var(--teal)' }}>5.88 Cr</div>
               <div className="stat-card-label">Total Recorded Student Migrations</div>
               <div className="stat-card-note">The uploaded migration base totals 5.88 crore student migration records across school category, location, management, BPL status, and migration type dimensions.</div>
+            </div>
+            <div className="stat-card" style={{ marginBottom: 14 }}>
+              <div className="stat-card-num" style={{ color: 'var(--accent)' }}>~60 L</div>
+              <div className="stat-card-label">Students Enrolled in Class 5</div>
+              <div className="stat-card-note">Class 5 is the final year of the Preparatory stage. Of these students, 92.2% transition to Class 6 (Middle), while a 3.5% dropout rate highlights the critical exit point before Middle school.</div>
             </div>
             <div className="stat-card">
               <div className="stat-card-num" style={{ color: 'var(--gold)' }}>6.29 L</div>
@@ -333,7 +369,12 @@ export function StudentLanding({ onShowDashboard }) {
             <div className="pull-quote" style={{ marginTop: 32 }}>
               <p>"The uploaded file reports 31 languages of instruction, but Hindi and English alone account for 71.8% of all enrolled students."</p>
             </div>
-            <button className="lp-sec-cta" style={{ marginTop: 20 }} onClick={() => onShowDashboard('medium')}>
+            <div className="stat-card" style={{ marginTop: 20 }}>
+              <div className="stat-card-num" style={{ color: 'var(--accent)' }}>71.8%</div>
+              <div className="stat-card-label">Hindi + English Combined Share</div>
+              <div className="stat-card-note">Despite 31 languages being reported, just two languages — Hindi and English — cover nearly three-fourths of all enrolled students nationally.</div>
+            </div>
+            <button className="lp-sec-cta" style={{ marginTop: 16 }} onClick={() => onShowDashboard('medium')}>
               Open Dashboard <span>→</span>
             </button>
           </div>
@@ -341,12 +382,33 @@ export function StudentLanding({ onShowDashboard }) {
             <div className="stat-card" style={{ marginBottom: 14 }}>
               <div className="stat-card-num" style={{ color: 'var(--teal)' }}>31</div>
               <div className="stat-card-label">Languages of Instruction</div>
-              <div className="stat-card-note">The uploaded 2024-25 medium-of-instruction dataset contains 31 reported languages, showing the scale of linguistic diversity in school education.</div>
+              <div className="stat-card-note">The uploaded 2024-25 dataset contains 31 reported languages, showing the scale of linguistic diversity in school education.</div>
+            </div>
+            <div className="stat-card" style={{ marginBottom: 14 }}>
+              <div className="stat-card-num" style={{ color: 'var(--accent)' }}>0.94</div>
+              <div className="stat-card-label">GPI — Gender Parity Index (MOI)</div>
+              <div className="stat-card-note">Across all medium-of-instruction groups, the national GPI stands at 0.94 — meaning girls account for slightly fewer enrollments than boys, with variation by language and state.</div>
             </div>
             <div className="stat-card">
-              <div className="stat-card-num" style={{ color: 'var(--accent)' }}>71.8%</div>
-              <div className="stat-card-label">Hindi + English Share</div>
-              <div className="stat-card-note">Together, Hindi and English account for nearly three-fourths of all enrolled students in the uploaded medium-of-instruction file.</div>
+              <div className="stat-card-label" style={{ marginBottom: 14, fontSize: 10, fontWeight: 700, letterSpacing: '0.12em' }}>Language Distribution</div>
+              {[
+                { lbl: 'Hindi', val: '36.1%', pct: 36.1, color: 'var(--accent)' },
+                { lbl: 'English', val: '35.6%', pct: 35.6, color: 'var(--teal)' },
+                { lbl: 'Bengali', val: '6.8%', pct: 6.8, color: 'var(--gold)' },
+                { lbl: 'Marathi', val: '5.1%', pct: 5.1, color: '#6366f1' },
+                { lbl: 'Gujarati', val: '3.7%', pct: 3.7, color: '#0891b2' },
+                { lbl: 'Others', val: '12.7%', pct: 12.7, color: '#94a3b8' },
+              ].map(r => (
+                <div key={r.lbl} style={{ marginBottom: 12 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 5 }}>
+                    <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 12, color: 'var(--ink)', fontWeight: 500 }}>{r.lbl}</span>
+                    <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 12, fontWeight: 800, color: r.color }}>{r.val}</span>
+                  </div>
+                  <div style={{ height: 10, background: 'var(--warm)', borderRadius: 3, overflow: 'hidden' }}>
+                    <div className="lang-bar-fill" style={{ '--bar-w': r.pct + '%', background: r.color, opacity: 0.88 }} />
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -447,8 +509,8 @@ export function StudentLanding({ onShowDashboard }) {
       {/* ── 07 · CWSN Students ──────────────────────── */}
       <section className="section">
         <div className="section-label">Section 07 · CWSN Students</div>
-        <h2 className="section-headline">Included in name — often excluded in practice</h2>
-        <p className="section-sub">Over 22 lakh children with special needs are enrolled in Indian schools — but being on the register and being truly included in learning are two very different things.</p>
+        <h2 className="section-headline">Children With Special Needs — Who Are They and How Are They Supported?</h2>
+        <p className="section-sub">More than 22 lakh students with disabilities are enrolled across Indian schools. This section shows how they are distributed by type of disability, their gender split, and how many have access to trained support.</p>
         <div className="two-col">
           <div>
             <div className="states-list">

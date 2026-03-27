@@ -131,9 +131,9 @@ export default function TransitionDashboard({ selectedYear, onShowPowerBi }) {
           <div className="socio-charts">
             <div className="socio-chart-tabs" ref={tabsRef}>
               <button className={`sct-tab ${tab === 'level' ? 'sct-active' : ''}`}
-                onClick={() => setTab('level')}>Transition by Level (Boys vs Girls)</button>
+                onClick={() => setTab('level')}>Transition by Stage (Boys vs Girls)</button>
               <button className={`sct-tab ${tab === 'soc' ? 'sct-active' : ''}`}
-                onClick={() => setTab('soc')}>Transition by Socioeconomic Class</button>
+                onClick={() => setTab('soc')}>Transition by Social Group (SC / ST / OBC / General)</button>
             </div>
 
             {tab === 'level' && (

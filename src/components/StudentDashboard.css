@@ -177,11 +177,7 @@
   transition: opacity 0.4s ease 1.2s;
 }
 
-.funnel-bar[style*="width: 0"]:not([style*="100%"]) .funnel-bar-txt {
-  opacity: 0;
-}
-
-.funnel-bar:not([style*="width: 0"]) .funnel-bar-txt {
+.funnel-bar.visible .funnel-bar-txt {
   opacity: 1;
 }
 
@@ -247,7 +243,8 @@
 .state-row {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
+  margin-bottom: 8px;
 }
 
 .state-rank {
@@ -259,10 +256,11 @@
 }
 
 .state-name {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
-  width: 148px;
+  width: 160px;
   flex-shrink: 0;
+  line-height: 1.3;
 }
 
 .state-track {
@@ -415,4 +413,33 @@
   display: flex;
   align-items: center;
   color: #f3c617;
+}
+
+/* ── Inline bar grow animation for non-data-bar-w bars ── */
+@keyframes barGrow {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: inherit;
+  }
+}
+
+/* ── Language bar fill with CSS var animation ────────── */
+.lang-bar-fill {
+  height: 100%;
+  width: 0;
+  border-radius: 3px;
+  animation: langBarGrow 1.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;
+}
+
+@keyframes langBarGrow {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: var(--bar-w);
+  }
 }

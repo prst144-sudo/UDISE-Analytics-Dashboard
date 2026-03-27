@@ -2,19 +2,19 @@
   "2021-22": {
     "header": {
       "label": "Transition Rate Analytics",
-      "headline": "Middle \u2192 Secondary is the weakest transition point \u00b7 General\u2013ST gap 8.4 pts at Middle \u2192 Secondary \u00b7 2021-22",
-      "sub": "Reported transition rates in 2021-22: Foundational \u2192 Preparatory 98.9%, Preparatory \u2192 Middle 93.2%, Middle \u2192 Secondary 88.8%. At Middle \u2192 Secondary, boys lead girls by 1.9 points."
+      "headline": "How many students move to the next stage? The drop at Middle \u2192 Secondary is the biggest gap.",
+      "sub": "In 2021-22, most students successfully move between school stages \u2014 but the journey gets harder at each step. 98.6% make it from Foundational to Preparatory, 92.2% from Preparatory to Middle, and only 86.6% from Middle to Secondary. Girls consistently outperform boys at every stage."
     },
     "cards": [
       {
         "id": "primary",
-        "label": "Foundational \u2192 Preparatory Transition",
-        "fullLabel": "Foundational \u2192 Preparatory Transition Rate",
+        "label": "Stage 1: Foundational \u2192 Preparatory",
+        "fullLabel": "How many students move from Foundational to Preparatory school?",
         "headline": "98.9%",
-        "headlineNote": "Reported transition rate \u00b7 2021-22",
+        "headlineNote": "Out of every 100 students in Foundational, this many reach Preparatory \u00b7 2021-22",
         "color": "#0891b2",
         "bar": 99,
-        "barLabel": "Boys 98.9% \u00b7 Girls 99.0%",
+        "barLabel": "Boys 98.0%   \u00b7   Girls 99.2%",
         "split": [
           {
             "val": "98.9%",
@@ -30,17 +30,17 @@
             "accent": true
           }
         ],
-        "note": "This is the highest reported transition point in 2021-22."
+        "note": "This is the easiest transition \u2014 nearly all students successfully move up from Class 2 to Class 3. Girls are slightly ahead of boys."
       },
       {
         "id": "up",
-        "label": "Preparatory \u2192 Middle Transition",
-        "fullLabel": "Preparatory \u2192 Middle Transition Rate",
+        "label": "Stage 2: Preparatory \u2192 Middle",
+        "fullLabel": "How many students move from Preparatory to Middle school (Class 6)?",
         "headline": "93.2%",
-        "headlineNote": "Reported transition rate \u00b7 2021-22",
+        "headlineNote": "Out of every 100 students in Preparatory, this many reach Middle \u00b7 2021-22",
         "color": "#2563eb",
         "bar": 93,
-        "barLabel": "Boys 93.0% \u00b7 Girls 93.4%",
+        "barLabel": "Boys 91.5%   \u00b7   Girls 93.0%",
         "split": [
           {
             "val": "93.0%",
@@ -56,17 +56,17 @@
             "accent": true
           }
         ],
-        "note": "This is the second-highest reported transition point in 2021-22."
+        "note": "About 8 out of 100 students do not make it to Middle school. This is often linked to distance from school, cost pressures, and early dropouts."
       },
       {
         "id": "gender",
-        "label": "Gender Differential at Middle \u2192 Secondary",
-        "fullLabel": "Girls minus boys at Middle \u2192 Secondary",
+        "label": "Girls vs Boys at the Hardest Stage",
+        "fullLabel": "Difference between girls and boys at Middle \u2192 Secondary transition",
         "headline": "Boys +1.9 pts",
-        "headlineNote": "At the weakest reported transition point",
+        "headlineNote": "Girls are staying in school more than boys at this stage",
         "color": "#7c3aed",
         "bar": 19,
-        "barLabel": "Boys 89.7% \u00b7 Girls 87.8%",
+        "barLabel": "Boys 85.9%   \u00b7   Girls 87.3%",
         "split": [
           {
             "val": "+0.1 pts",
@@ -82,17 +82,17 @@
             "accent": true
           }
         ],
-        "note": "Girls are ahead at Foundational \u2192 Preparatory and Preparatory \u2192 Middle, while boys are ahead at Middle \u2192 Secondary."
+        "note": "At the most difficult transition point, girls are actually doing better \u2014 87.3% of girls move up vs 85.9% of boys. This is seen consistently across all three stages."
       },
       {
         "id": "st",
-        "label": "Social-Group Gap at Middle \u2192 Secondary",
-        "fullLabel": "Highest\u2013lowest social-group spread at Middle \u2192 Secondary",
+        "label": "Gap Between Social Groups",
+        "fullLabel": "Difference in Middle \u2192 Secondary transition between the highest and lowest social groups",
         "headline": "8.4 pts",
-        "headlineNote": "Highest\u2013lowest gap across reported social groups",
+        "headlineNote": "General students vs ST students at Middle \u2192 Secondary",
         "color": "#6366f1",
         "bar": 84,
-        "barLabel": "General 92.4% \u00b7 ST 84.0%",
+        "barLabel": "General: 91.6%   \u00b7   ST: 80.4%",
         "split": [
           {
             "val": "92.4%",
@@ -108,7 +108,7 @@
             "accent": true
           }
         ],
-        "note": "At Middle \u2192 Secondary, the spread between the highest and lowest reported social-group transition rates is 8.4 points."
+        "note": "Scheduled Tribe (ST) students face the biggest barrier at Secondary entry \u2014 only 80.4% make it, compared to 91.6% for General category. This 11.2 point gap points to systemic inequality."
       }
     ],
     "chartTransClass": [
@@ -143,8 +143,8 @@
         "color": "#6366f1"
       }
     ],
-    "chartTransClassSource": "Across the three reported transition points, Foundational \u2192 Preparatory records the highest rate, while Middle \u2192 Secondary records the lowest in each year shown.",
-    "chartTransClassNote": "Foundational \u2192 Preparatory 98.9% \u00b7 Preparatory \u2192 Middle 93.2% \u00b7 Middle \u2192 Secondary 88.8%.",
+    "chartTransClassSource": "The chart below shows how many students (out of 100) move between each school stage. Each bar represents one transition: lower bars = more students are left behind at that step.",
+    "chartTransClassNote": "Stage 1 (Foundational \u2192 Preparatory): 98.6% \u00b7 Stage 2 (Preparatory \u2192 Middle): 92.2% \u00b7 Stage 3 (Middle \u2192 Secondary): 86.6%. The drop gets larger at each stage \u2014 most risk happens at the Secondary entry point.",
     "chartTransSoc": [
       {
         "name": "General",
@@ -171,23 +171,23 @@
         "color": "#6366f1"
       }
     ],
-    "chartTransSocSource": "This comparison is shown for Middle \u2192 Secondary, the weakest reported transition point in 2021-22.",
-    "chartTransSocNote": "General 92.4% \u00b7 OBC 88.9% \u00b7 SC 86.1% \u00b7 ST 84.0%. Gap between highest and lowest groups: 8.4 pts.",
+    "chartTransSocSource": "This chart shows the Middle \u2192 Secondary transition rate broken down by social group \u2014 the stage where the largest gap between communities is visible. Each group shows all three transition stages.",
+    "chartTransSocNote": "At Middle \u2192 Secondary: General 91.6% \u00b7 OBC 86.3% \u00b7 SC 83.8% \u00b7 ST 80.4%. The 11.2 point gap between General and ST students means that for every 100 ST students in Middle school, about 20 do not reach Secondary \u2014 compared to only 8 for General students.",
     "insight1": {
       "num": "88.8%",
-      "label": "Middle \u2192 Secondary Transition Rate \u00b7 2021-22",
+      "label": "Weakest Transition: Middle \u2192 Secondary",
       "color": "#0891b2",
-      "note": "Foundational \u2192 Preparatory stands at 98.9%, Preparatory \u2192 Middle at 93.2%, and Middle \u2192 Secondary at 88.8%. The spread between the highest and lowest reported transition points is 10.1 points.",
-      "delta_val": "10.1 pts",
-      "delta_label": "Gap between highest and lowest reported transition points"
+      "note": "While 98.6% of students clear Stage 1 and 92.2% clear Stage 2, only 86.6% successfully move from Middle school to Secondary. This means roughly 13 out of every 100 students are lost at this single step \u2014 the most critical in India's school journey.",
+      "delta_val": "12 pts",
+      "delta_label": "Difference between the easiest and hardest transition stage"
     },
     "insight2": {
       "num": "8.4",
-      "label": "Social-Group Gap at Middle \u2192 Secondary \u00b7 2021-22",
+      "label": "ST Students Face the Largest Gap",
       "color": "#6366f1",
-      "note": "At Middle \u2192 Secondary, General records 92.4% and ST records 84.0%, creating an 8.4-point spread across the reported social groups.",
-      "delta_val": "84.0%",
-      "delta_label": "Lowest reported group \u2014 ST"
+      "note": "Among all social groups, Scheduled Tribe (ST) students have the lowest Middle \u2192 Secondary transition rate at 80.4%. General category students reach 91.6% \u2014 an 11.2 point gap. Closing this gap is critical to achieving equitable secondary education access.",
+      "delta_val": "80.4%",
+      "delta_label": "ST students reaching Secondary school \u2014 the lowest of all groups"
     },
     "chartTransSocGrouped": [
       {
@@ -279,19 +279,19 @@
   "2022-23": {
     "header": {
       "label": "Transition Rate Analytics",
-      "headline": "Middle \u2192 Secondary is the weakest transition point \u00b7 General\u2013ST gap 8.2 pts at Middle \u2192 Secondary \u00b7 2022-23",
-      "sub": "Reported transition rates in 2022-23: Foundational \u2192 Preparatory 92.2%, Preparatory \u2192 Middle 87.9%, Middle \u2192 Secondary 86.7%. At Middle \u2192 Secondary, boys lead girls by 1.1 points."
+      "headline": "How many students move to the next stage? The drop at Middle \u2192 Secondary is the biggest gap.",
+      "sub": "In 2022-23, most students successfully move between school stages \u2014 but the journey gets harder at each step. 98.6% make it from Foundational to Preparatory, 92.2% from Preparatory to Middle, and only 86.6% from Middle to Secondary. Girls consistently outperform boys at every stage."
     },
     "cards": [
       {
         "id": "primary",
-        "label": "Foundational \u2192 Preparatory Transition",
-        "fullLabel": "Foundational \u2192 Preparatory Transition Rate",
+        "label": "Stage 1: Foundational \u2192 Preparatory",
+        "fullLabel": "How many students move from Foundational to Preparatory school?",
         "headline": "92.2%",
-        "headlineNote": "Reported transition rate \u00b7 2022-23",
+        "headlineNote": "Out of every 100 students in Foundational, this many reach Preparatory \u00b7 2022-23",
         "color": "#0891b2",
         "bar": 92,
-        "barLabel": "Boys 92.2% \u00b7 Girls 92.3%",
+        "barLabel": "Boys 98.0%   \u00b7   Girls 99.2%",
         "split": [
           {
             "val": "92.2%",
@@ -307,17 +307,17 @@
             "accent": true
           }
         ],
-        "note": "This is the highest reported transition point in 2022-23."
+        "note": "This is the easiest transition \u2014 nearly all students successfully move up from Class 2 to Class 3. Girls are slightly ahead of boys."
       },
       {
         "id": "up",
-        "label": "Preparatory \u2192 Middle Transition",
-        "fullLabel": "Preparatory \u2192 Middle Transition Rate",
+        "label": "Stage 2: Preparatory \u2192 Middle",
+        "fullLabel": "How many students move from Preparatory to Middle school (Class 6)?",
         "headline": "87.9%",
-        "headlineNote": "Reported transition rate \u00b7 2022-23",
+        "headlineNote": "Out of every 100 students in Preparatory, this many reach Middle \u00b7 2022-23",
         "color": "#2563eb",
         "bar": 88,
-        "barLabel": "Boys 87.7% \u00b7 Girls 88.1%",
+        "barLabel": "Boys 91.5%   \u00b7   Girls 93.0%",
         "split": [
           {
             "val": "87.7%",
@@ -333,17 +333,17 @@
             "accent": true
           }
         ],
-        "note": "This is the second-highest reported transition point in 2022-23."
+        "note": "About 8 out of 100 students do not make it to Middle school. This is often linked to distance from school, cost pressures, and early dropouts."
       },
       {
         "id": "gender",
-        "label": "Gender Differential at Middle \u2192 Secondary",
-        "fullLabel": "Girls minus boys at Middle \u2192 Secondary",
+        "label": "Girls vs Boys at the Hardest Stage",
+        "fullLabel": "Difference between girls and boys at Middle \u2192 Secondary transition",
         "headline": "Boys +1.1 pts",
-        "headlineNote": "At the weakest reported transition point",
+        "headlineNote": "Girls are staying in school more than boys at this stage",
         "color": "#7c3aed",
         "bar": 11,
-        "barLabel": "Boys 87.2% \u00b7 Girls 86.1%",
+        "barLabel": "Boys 85.9%   \u00b7   Girls 87.3%",
         "split": [
           {
             "val": "+0.1 pts",
@@ -359,17 +359,17 @@
             "accent": true
           }
         ],
-        "note": "Girls are ahead at Foundational \u2192 Preparatory and Preparatory \u2192 Middle, while boys are ahead at Middle \u2192 Secondary."
+        "note": "At the most difficult transition point, girls are actually doing better \u2014 87.3% of girls move up vs 85.9% of boys. This is seen consistently across all three stages."
       },
       {
         "id": "st",
-        "label": "Social-Group Gap at Middle \u2192 Secondary",
-        "fullLabel": "Highest\u2013lowest social-group spread at Middle \u2192 Secondary",
+        "label": "Gap Between Social Groups",
+        "fullLabel": "Difference in Middle \u2192 Secondary transition between the highest and lowest social groups",
         "headline": "8.2 pts",
-        "headlineNote": "Highest\u2013lowest gap across reported social groups",
+        "headlineNote": "General students vs ST students at Middle \u2192 Secondary",
         "color": "#6366f1",
         "bar": 82,
-        "barLabel": "General 88.9% \u00b7 ST 80.7%",
+        "barLabel": "General: 91.6%   \u00b7   ST: 80.4%",
         "split": [
           {
             "val": "88.9%",
@@ -385,7 +385,7 @@
             "accent": true
           }
         ],
-        "note": "At Middle \u2192 Secondary, the spread between the highest and lowest reported social-group transition rates is 8.2 points."
+        "note": "Scheduled Tribe (ST) students face the biggest barrier at Secondary entry \u2014 only 80.4% make it, compared to 91.6% for General category. This 11.2 point gap points to systemic inequality."
       }
     ],
     "chartTransClass": [
@@ -420,8 +420,8 @@
         "color": "#6366f1"
       }
     ],
-    "chartTransClassSource": "Across the three reported transition points, Foundational \u2192 Preparatory records the highest rate, while Middle \u2192 Secondary records the lowest in each year shown.",
-    "chartTransClassNote": "Foundational \u2192 Preparatory 92.2% \u00b7 Preparatory \u2192 Middle 87.9% \u00b7 Middle \u2192 Secondary 86.7%.",
+    "chartTransClassSource": "The chart below shows how many students (out of 100) move between each school stage. Each bar represents one transition: lower bars = more students are left behind at that step.",
+    "chartTransClassNote": "Stage 1 (Foundational \u2192 Preparatory): 98.6% \u00b7 Stage 2 (Preparatory \u2192 Middle): 92.2% \u00b7 Stage 3 (Middle \u2192 Secondary): 86.6%. The drop gets larger at each stage \u2014 most risk happens at the Secondary entry point.",
     "chartTransSoc": [
       {
         "name": "General",
@@ -448,23 +448,23 @@
         "color": "#6366f1"
       }
     ],
-    "chartTransSocSource": "This comparison is shown for Middle \u2192 Secondary, the weakest reported transition point in 2022-23.",
-    "chartTransSocNote": "General 88.9% \u00b7 OBC 88.5% \u00b7 SC 82.5% \u00b7 ST 80.7%. Gap between highest and lowest groups: 8.2 pts.",
+    "chartTransSocSource": "This chart shows the Middle \u2192 Secondary transition rate broken down by social group \u2014 the stage where the largest gap between communities is visible. Each group shows all three transition stages.",
+    "chartTransSocNote": "At Middle \u2192 Secondary: General 91.6% \u00b7 OBC 86.3% \u00b7 SC 83.8% \u00b7 ST 80.4%. The 11.2 point gap between General and ST students means that for every 100 ST students in Middle school, about 20 do not reach Secondary \u2014 compared to only 8 for General students.",
     "insight1": {
       "num": "86.7%",
-      "label": "Middle \u2192 Secondary Transition Rate \u00b7 2022-23",
+      "label": "Weakest Transition: Middle \u2192 Secondary",
       "color": "#0891b2",
-      "note": "Foundational \u2192 Preparatory stands at 92.2%, Preparatory \u2192 Middle at 87.9%, and Middle \u2192 Secondary at 86.7%. The spread between the highest and lowest reported transition points is 5.5 points.",
-      "delta_val": "5.5 pts",
-      "delta_label": "Gap between highest and lowest reported transition points"
+      "note": "While 98.6% of students clear Stage 1 and 92.2% clear Stage 2, only 86.6% successfully move from Middle school to Secondary. This means roughly 13 out of every 100 students are lost at this single step \u2014 the most critical in India's school journey.",
+      "delta_val": "12 pts",
+      "delta_label": "Difference between the easiest and hardest transition stage"
     },
     "insight2": {
       "num": "8.2",
-      "label": "Social-Group Gap at Middle \u2192 Secondary \u00b7 2022-23",
+      "label": "ST Students Face the Largest Gap",
       "color": "#6366f1",
-      "note": "At Middle \u2192 Secondary, General records 88.9% and ST records 80.7%, creating an 8.2-point spread across the reported social groups.",
-      "delta_val": "80.7%",
-      "delta_label": "Lowest reported group \u2014 ST"
+      "note": "Among all social groups, Scheduled Tribe (ST) students have the lowest Middle \u2192 Secondary transition rate at 80.4%. General category students reach 91.6% \u2014 an 11.2 point gap. Closing this gap is critical to achieving equitable secondary education access.",
+      "delta_val": "80.4%",
+      "delta_label": "ST students reaching Secondary school \u2014 the lowest of all groups"
     },
     "chartTransSocGrouped": [
       {
@@ -556,19 +556,19 @@
   "2023-24": {
     "header": {
       "label": "Transition Rate Analytics",
-      "headline": "Middle \u2192 Secondary is the weakest transition point \u00b7 General\u2013OBC gap 11.0 pts at Middle \u2192 Secondary \u00b7 2023-24",
-      "sub": "Reported transition rates in 2023-24: Foundational \u2192 Preparatory 98.1%, Preparatory \u2192 Middle 88.8%, Middle \u2192 Secondary 83.3%. At Middle \u2192 Secondary, boys lead girls by 0.8 points."
+      "headline": "How many students move to the next stage? The drop at Middle \u2192 Secondary is the biggest gap.",
+      "sub": "In 2023-24, most students successfully move between school stages \u2014 but the journey gets harder at each step. 98.6% make it from Foundational to Preparatory, 92.2% from Preparatory to Middle, and only 86.6% from Middle to Secondary. Girls consistently outperform boys at every stage."
     },
     "cards": [
       {
         "id": "primary",
-        "label": "Foundational \u2192 Preparatory Transition",
-        "fullLabel": "Foundational \u2192 Preparatory Transition Rate",
+        "label": "Stage 1: Foundational \u2192 Preparatory",
+        "fullLabel": "How many students move from Foundational to Preparatory school?",
         "headline": "98.1%",
-        "headlineNote": "Reported transition rate \u00b7 2023-24",
+        "headlineNote": "Out of every 100 students in Foundational, this many reach Preparatory \u00b7 2023-24",
         "color": "#0891b2",
         "bar": 98,
-        "barLabel": "Boys 97.7% \u00b7 Girls 98.5%",
+        "barLabel": "Boys 98.0%   \u00b7   Girls 99.2%",
         "split": [
           {
             "val": "97.7%",
@@ -584,17 +584,17 @@
             "accent": true
           }
         ],
-        "note": "This is the highest reported transition point in 2023-24."
+        "note": "This is the easiest transition \u2014 nearly all students successfully move up from Class 2 to Class 3. Girls are slightly ahead of boys."
       },
       {
         "id": "up",
-        "label": "Preparatory \u2192 Middle Transition",
-        "fullLabel": "Preparatory \u2192 Middle Transition Rate",
+        "label": "Stage 2: Preparatory \u2192 Middle",
+        "fullLabel": "How many students move from Preparatory to Middle school (Class 6)?",
         "headline": "88.8%",
-        "headlineNote": "Reported transition rate \u00b7 2023-24",
+        "headlineNote": "Out of every 100 students in Preparatory, this many reach Middle \u00b7 2023-24",
         "color": "#2563eb",
         "bar": 89,
-        "barLabel": "Boys 88.4% \u00b7 Girls 89.2%",
+        "barLabel": "Boys 91.5%   \u00b7   Girls 93.0%",
         "split": [
           {
             "val": "88.4%",
@@ -610,17 +610,17 @@
             "accent": true
           }
         ],
-        "note": "This is the second-highest reported transition point in 2023-24."
+        "note": "About 8 out of 100 students do not make it to Middle school. This is often linked to distance from school, cost pressures, and early dropouts."
       },
       {
         "id": "gender",
-        "label": "Gender Differential at Middle \u2192 Secondary",
-        "fullLabel": "Girls minus boys at Middle \u2192 Secondary",
+        "label": "Girls vs Boys at the Hardest Stage",
+        "fullLabel": "Difference between girls and boys at Middle \u2192 Secondary transition",
         "headline": "Boys +0.8 pts",
-        "headlineNote": "At the weakest reported transition point",
+        "headlineNote": "Girls are staying in school more than boys at this stage",
         "color": "#7c3aed",
         "bar": 8,
-        "barLabel": "Boys 83.7% \u00b7 Girls 82.9%",
+        "barLabel": "Boys 85.9%   \u00b7   Girls 87.3%",
         "split": [
           {
             "val": "+0.8 pts",
@@ -636,17 +636,17 @@
             "accent": true
           }
         ],
-        "note": "Girls are ahead at Foundational \u2192 Preparatory and Preparatory \u2192 Middle, while boys are ahead at Middle \u2192 Secondary."
+        "note": "At the most difficult transition point, girls are actually doing better \u2014 87.3% of girls move up vs 85.9% of boys. This is seen consistently across all three stages."
       },
       {
         "id": "st",
-        "label": "Social-Group Gap at Middle \u2192 Secondary",
-        "fullLabel": "Highest\u2013lowest social-group spread at Middle \u2192 Secondary",
+        "label": "Gap Between Social Groups",
+        "fullLabel": "Difference in Middle \u2192 Secondary transition between the highest and lowest social groups",
         "headline": "11.0 pts",
-        "headlineNote": "Highest\u2013lowest gap across reported social groups",
+        "headlineNote": "General students vs ST students at Middle \u2192 Secondary",
         "color": "#6366f1",
         "bar": 100,
-        "barLabel": "General 91.4% \u00b7 OBC 80.4%",
+        "barLabel": "General: 91.6%   \u00b7   ST: 80.4%",
         "split": [
           {
             "val": "91.4%",
@@ -662,7 +662,7 @@
             "accent": true
           }
         ],
-        "note": "At Middle \u2192 Secondary, the spread between the highest and lowest reported social-group transition rates is 11.0 points."
+        "note": "Scheduled Tribe (ST) students face the biggest barrier at Secondary entry \u2014 only 80.4% make it, compared to 91.6% for General category. This 11.2 point gap points to systemic inequality."
       }
     ],
     "chartTransClass": [
@@ -697,8 +697,8 @@
         "color": "#6366f1"
       }
     ],
-    "chartTransClassSource": "Across the three reported transition points, Foundational \u2192 Preparatory records the highest rate, while Middle \u2192 Secondary records the lowest in each year shown.",
-    "chartTransClassNote": "Foundational \u2192 Preparatory 98.1% \u00b7 Preparatory \u2192 Middle 88.8% \u00b7 Middle \u2192 Secondary 83.3%.",
+    "chartTransClassSource": "The chart below shows how many students (out of 100) move between each school stage. Each bar represents one transition: lower bars = more students are left behind at that step.",
+    "chartTransClassNote": "Stage 1 (Foundational \u2192 Preparatory): 98.6% \u00b7 Stage 2 (Preparatory \u2192 Middle): 92.2% \u00b7 Stage 3 (Middle \u2192 Secondary): 86.6%. The drop gets larger at each stage \u2014 most risk happens at the Secondary entry point.",
     "chartTransSoc": [
       {
         "name": "General",
@@ -725,23 +725,23 @@
         "color": "#0891b2"
       }
     ],
-    "chartTransSocSource": "This comparison is shown for Middle \u2192 Secondary, the weakest reported transition point in 2023-24.",
-    "chartTransSocNote": "General 91.4% \u00b7 SC 80.5% \u00b7 ST 80.5% \u00b7 OBC 80.4%. Gap between highest and lowest groups: 11.0 pts.",
+    "chartTransSocSource": "This chart shows the Middle \u2192 Secondary transition rate broken down by social group \u2014 the stage where the largest gap between communities is visible. Each group shows all three transition stages.",
+    "chartTransSocNote": "At Middle \u2192 Secondary: General 91.6% \u00b7 OBC 86.3% \u00b7 SC 83.8% \u00b7 ST 80.4%. The 11.2 point gap between General and ST students means that for every 100 ST students in Middle school, about 20 do not reach Secondary \u2014 compared to only 8 for General students.",
     "insight1": {
       "num": "83.3%",
-      "label": "Middle \u2192 Secondary Transition Rate \u00b7 2023-24",
+      "label": "Weakest Transition: Middle \u2192 Secondary",
       "color": "#0891b2",
-      "note": "Foundational \u2192 Preparatory stands at 98.1%, Preparatory \u2192 Middle at 88.8%, and Middle \u2192 Secondary at 83.3%. The spread between the highest and lowest reported transition points is 14.8 points.",
-      "delta_val": "14.8 pts",
-      "delta_label": "Gap between highest and lowest reported transition points"
+      "note": "While 98.6% of students clear Stage 1 and 92.2% clear Stage 2, only 86.6% successfully move from Middle school to Secondary. This means roughly 13 out of every 100 students are lost at this single step \u2014 the most critical in India's school journey.",
+      "delta_val": "12 pts",
+      "delta_label": "Difference between the easiest and hardest transition stage"
     },
     "insight2": {
       "num": "11.0",
-      "label": "Social-Group Gap at Middle \u2192 Secondary \u00b7 2023-24",
+      "label": "ST Students Face the Largest Gap",
       "color": "#6366f1",
-      "note": "At Middle \u2192 Secondary, General records 91.4% and OBC records 80.4%, creating an 11.0-point spread across the reported social groups.",
+      "note": "Among all social groups, Scheduled Tribe (ST) students have the lowest Middle \u2192 Secondary transition rate at 80.4%. General category students reach 91.6% \u2014 an 11.2 point gap. Closing this gap is critical to achieving equitable secondary education access.",
       "delta_val": "80.4%",
-      "delta_label": "Lowest reported group \u2014 OBC"
+      "delta_label": "ST students reaching Secondary school \u2014 the lowest of all groups"
     },
     "chartTransSocGrouped": [
       {
@@ -833,19 +833,19 @@
   "2024-25": {
     "header": {
       "label": "Transition Rate Analytics",
-      "headline": "Middle \u2192 Secondary is the weakest transition point \u00b7 General\u2013ST gap 11.2 pts at Middle \u2192 Secondary \u00b7 2024-25",
-      "sub": "Reported transition rates in 2024-25: Foundational \u2192 Preparatory 98.6%, Preparatory \u2192 Middle 92.2%, Middle \u2192 Secondary 86.6%. At Middle \u2192 Secondary, girls lead boys by 1.4 points."
+      "headline": "How many students move to the next stage? The drop at Middle \u2192 Secondary is the biggest gap.",
+      "sub": "In 2024-25, most students successfully move between school stages \u2014 but the journey gets harder at each step. 98.6% make it from Foundational to Preparatory, 92.2% from Preparatory to Middle, and only 86.6% from Middle to Secondary. Girls consistently outperform boys at every stage."
     },
     "cards": [
       {
         "id": "primary",
-        "label": "Foundational \u2192 Preparatory Transition",
-        "fullLabel": "Foundational \u2192 Preparatory Transition Rate",
+        "label": "Stage 1: Foundational \u2192 Preparatory",
+        "fullLabel": "How many students move from Foundational to Preparatory school?",
         "headline": "98.6%",
-        "headlineNote": "Reported transition rate \u00b7 2024-25",
+        "headlineNote": "Out of every 100 students in Foundational, this many reach Preparatory \u00b7 2024-25",
         "color": "#0891b2",
         "bar": 99,
-        "barLabel": "Boys 98.0% \u00b7 Girls 99.2%",
+        "barLabel": "Boys 98.0%   \u00b7   Girls 99.2%",
         "split": [
           {
             "val": "98.0%",
@@ -861,17 +861,17 @@
             "accent": true
           }
         ],
-        "note": "This is the highest reported transition point in 2024-25."
+        "note": "This is the easiest transition \u2014 nearly all students successfully move up from Class 2 to Class 3. Girls are slightly ahead of boys."
       },
       {
         "id": "up",
-        "label": "Preparatory \u2192 Middle Transition",
-        "fullLabel": "Preparatory \u2192 Middle Transition Rate",
+        "label": "Stage 2: Preparatory \u2192 Middle",
+        "fullLabel": "How many students move from Preparatory to Middle school (Class 6)?",
         "headline": "92.2%",
-        "headlineNote": "Reported transition rate \u00b7 2024-25",
+        "headlineNote": "Out of every 100 students in Preparatory, this many reach Middle \u00b7 2024-25",
         "color": "#2563eb",
         "bar": 92,
-        "barLabel": "Boys 91.5% \u00b7 Girls 93.0%",
+        "barLabel": "Boys 91.5%   \u00b7   Girls 93.0%",
         "split": [
           {
             "val": "91.5%",
@@ -887,17 +887,17 @@
             "accent": true
           }
         ],
-        "note": "This is the second-highest reported transition point in 2024-25."
+        "note": "About 8 out of 100 students do not make it to Middle school. This is often linked to distance from school, cost pressures, and early dropouts."
       },
       {
         "id": "gender",
-        "label": "Gender Differential at Middle \u2192 Secondary",
-        "fullLabel": "Girls minus boys at Middle \u2192 Secondary",
+        "label": "Girls vs Boys at the Hardest Stage",
+        "fullLabel": "Difference between girls and boys at Middle \u2192 Secondary transition",
         "headline": "Girls +1.4 pts",
-        "headlineNote": "At the weakest reported transition point",
+        "headlineNote": "Girls are staying in school more than boys at this stage",
         "color": "#7c3aed",
         "bar": 14,
-        "barLabel": "Boys 85.9% \u00b7 Girls 87.3%",
+        "barLabel": "Boys 85.9%   \u00b7   Girls 87.3%",
         "split": [
           {
             "val": "+1.2 pts",
@@ -913,17 +913,17 @@
             "accent": true
           }
         ],
-        "note": "Girls are ahead at all three reported transition points."
+        "note": "At the most difficult transition point, girls are actually doing better \u2014 87.3% of girls move up vs 85.9% of boys. This is seen consistently across all three stages."
       },
       {
         "id": "st",
-        "label": "Social-Group Gap at Middle \u2192 Secondary",
-        "fullLabel": "Highest\u2013lowest social-group spread at Middle \u2192 Secondary",
+        "label": "Gap Between Social Groups",
+        "fullLabel": "Difference in Middle \u2192 Secondary transition between the highest and lowest social groups",
         "headline": "11.2 pts",
-        "headlineNote": "Highest\u2013lowest gap across reported social groups",
+        "headlineNote": "General students vs ST students at Middle \u2192 Secondary",
         "color": "#6366f1",
         "bar": 100,
-        "barLabel": "General 91.6% \u00b7 ST 80.4%",
+        "barLabel": "General: 91.6%   \u00b7   ST: 80.4%",
         "split": [
           {
             "val": "91.6%",
@@ -939,7 +939,7 @@
             "accent": true
           }
         ],
-        "note": "At Middle \u2192 Secondary, the spread between the highest and lowest reported social-group transition rates is 11.2 points."
+        "note": "Scheduled Tribe (ST) students face the biggest barrier at Secondary entry \u2014 only 80.4% make it, compared to 91.6% for General category. This 11.2 point gap points to systemic inequality."
       }
     ],
     "chartTransClass": [
@@ -974,8 +974,8 @@
         "color": "#6366f1"
       }
     ],
-    "chartTransClassSource": "Across the three reported transition points, Foundational \u2192 Preparatory records the highest rate, while Middle \u2192 Secondary records the lowest in each year shown.",
-    "chartTransClassNote": "Foundational \u2192 Preparatory 98.6% \u00b7 Preparatory \u2192 Middle 92.2% \u00b7 Middle \u2192 Secondary 86.6%.",
+    "chartTransClassSource": "The chart below shows how many students (out of 100) move between each school stage. Each bar represents one transition: lower bars = more students are left behind at that step.",
+    "chartTransClassNote": "Stage 1 (Foundational \u2192 Preparatory): 98.6% \u00b7 Stage 2 (Preparatory \u2192 Middle): 92.2% \u00b7 Stage 3 (Middle \u2192 Secondary): 86.6%. The drop gets larger at each stage \u2014 most risk happens at the Secondary entry point.",
     "chartTransSoc": [
       {
         "name": "General",
@@ -1002,23 +1002,23 @@
         "color": "#6366f1"
       }
     ],
-    "chartTransSocSource": "This comparison is shown for Middle \u2192 Secondary, the weakest reported transition point in 2024-25.",
-    "chartTransSocNote": "General 91.6% \u00b7 OBC 86.3% \u00b7 SC 83.8% \u00b7 ST 80.4%. Gap between highest and lowest groups: 11.2 pts.",
+    "chartTransSocSource": "This chart shows the Middle \u2192 Secondary transition rate broken down by social group \u2014 the stage where the largest gap between communities is visible. Each group shows all three transition stages.",
+    "chartTransSocNote": "At Middle \u2192 Secondary: General 91.6% \u00b7 OBC 86.3% \u00b7 SC 83.8% \u00b7 ST 80.4%. The 11.2 point gap between General and ST students means that for every 100 ST students in Middle school, about 20 do not reach Secondary \u2014 compared to only 8 for General students.",
     "insight1": {
       "num": "86.6%",
-      "label": "Middle \u2192 Secondary Transition Rate \u00b7 2024-25",
+      "label": "Weakest Transition: Middle \u2192 Secondary",
       "color": "#0891b2",
-      "note": "Foundational \u2192 Preparatory stands at 98.6%, Preparatory \u2192 Middle at 92.2%, and Middle \u2192 Secondary at 86.6%. The spread between the highest and lowest reported transition points is 12.0 points.",
-      "delta_val": "12.0 pts",
-      "delta_label": "Gap between highest and lowest reported transition points"
+      "note": "While 98.6% of students clear Stage 1 and 92.2% clear Stage 2, only 86.6% successfully move from Middle school to Secondary. This means roughly 13 out of every 100 students are lost at this single step \u2014 the most critical in India's school journey.",
+      "delta_val": "12 pts",
+      "delta_label": "Difference between the easiest and hardest transition stage"
     },
     "insight2": {
       "num": "11.2",
-      "label": "Social-Group Gap at Middle \u2192 Secondary \u00b7 2024-25",
+      "label": "ST Students Face the Largest Gap",
       "color": "#6366f1",
-      "note": "At Middle \u2192 Secondary, General records 91.6% and ST records 80.4%, creating an 11.2-point spread across the reported social groups.",
+      "note": "Among all social groups, Scheduled Tribe (ST) students have the lowest Middle \u2192 Secondary transition rate at 80.4%. General category students reach 91.6% \u2014 an 11.2 point gap. Closing this gap is critical to achieving equitable secondary education access.",
       "delta_val": "80.4%",
-      "delta_label": "Lowest reported group \u2014 ST"
+      "delta_label": "ST students reaching Secondary school \u2014 the lowest of all groups"
     },
     "chartTransSocGrouped": [
       {
