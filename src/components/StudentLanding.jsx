@@ -179,15 +179,15 @@ export function StudentLanding({ onShowDashboard }) {
       <section className="section">
         <div className="section-label">Section 01 · Student Analytics</div>
         <h2 className="section-headline">How are students distributed across school categories?</h2>
-        <p className="section-sub">In 2024-25, India records 24.69 crore students across 14.71 lakh schools. Of all enrolled students, 52.9% are in Secondary schools, 27.6% in Middle schools, and 19.4% in Foundational + Preparatory schools.</p>
+        <p className="section-sub">In 2024-25, India records 24.69 crore students across 14.71 lakh schools. Under the NEP 2020 classification, Foundational + Preparatory stages account for 19.73 crore (79.9%), Middle for 3.31 crore (13.4%), and Secondary for 1.66 crore (6.7%).</p>
         <div className="two-col">
           <div>
             <div className="funnel-wrap">
               {[
-                { lbl: 'All Schools', inner: '14.71 L', pct: 100, color: 'var(--teal)' },
-                { lbl: 'Foundational + Preparatory', inner: '7.26 L', pct: 49, color: 'var(--accent)' },
-                { lbl: 'Middle', inner: '4.21 L', pct: 29, color: 'var(--gold)' },
-                { lbl: 'Secondary', inner: '3.24 L', pct: 22, color: 'rgba(42,124,124,0.82)' },
+                { lbl: 'All Students', inner: '24.69 Cr', pct: 100, color: 'var(--teal)' },
+                { lbl: 'Foundational + Preparatory', inner: '19.73 Cr', pct: 80, color: 'var(--accent)' },
+                { lbl: 'Middle', inner: '3.31 Cr', pct: 13, color: 'var(--gold)' },
+                { lbl: 'Secondary', inner: '1.66 Cr', pct: 7, color: 'rgba(42,124,124,0.82)' },
               ].map(row => (
                 <div key={row.lbl} className="funnel-row">
                   <div className="funnel-lbl">{row.lbl}</div>
@@ -201,7 +201,7 @@ export function StudentLanding({ onShowDashboard }) {
               ))}
             </div>
             <div className="pull-quote" style={{ marginTop: 32 }}>
-              <p>"Nearly half of all schools are Foundational + Preparatory — yet Secondary schools carry more than half of all enrolled students."</p>
+              <p>"Nearly 80% of enrolled students are in Foundational + Preparatory schools — the critical base of India's education pyramid."</p>
             </div>
             <button className="lp-sec-cta" style={{ marginTop: 20 }} onClick={() => onShowDashboard('student-main')}>
               Open Dashboard <span>→</span>
@@ -209,14 +209,19 @@ export function StudentLanding({ onShowDashboard }) {
           </div>
           <div>
             <div className="stat-card" style={{ marginBottom: 14 }}>
-              <div className="stat-card-num" style={{ color: 'var(--teal)' }}>74.3%</div>
-              <div className="stat-card-label">Public-Supported School Share</div>
-              <div className="stat-card-note">State government, central government, and govt.-aided schools together make up 74.3% of all schools.</div>
+              <div className="stat-card-num" style={{ color: 'var(--teal)' }}>59.3%</div>
+              <div className="stat-card-label">Students in Government Schools</div>
+              <div className="stat-card-note">Government and aided schools together educate 59.3% of all enrolled students in 2024-25, making them the primary access point for Indian families.</div>
+            </div>
+            <div className="stat-card" style={{ marginBottom: 14 }}>
+              <div className="stat-card-num" style={{ color: 'var(--accent)' }}>0.94</div>
+              <div className="stat-card-label">Gender Parity Index (GPI)</div>
+              <div className="stat-card-note">For every 100 boys enrolled nationally, there are 94 girls — showing near-parity with continued improvement across all education levels.</div>
             </div>
             <div className="stat-card">
-              <div className="stat-card-num" style={{ color: 'var(--gold)' }}>52.9%</div>
-              <div className="stat-card-label">Students in Secondary Schools</div>
-              <div className="stat-card-note">Secondary schools account for the largest student concentration nationally. Middle schools 27.6%, Foundational + Preparatory 19.4%.</div>
+              <div className="stat-card-num" style={{ color: 'var(--gold)' }}>79.9%</div>
+              <div className="stat-card-label">Students in Foundational + Preparatory</div>
+              <div className="stat-card-note">Under the NEP 2020 classification, Foundational and Preparatory stages together account for 19.73 crore — the largest share of all enrolled students.</div>
             </div>
           </div>
         </div>
@@ -281,7 +286,7 @@ export function StudentLanding({ onShowDashboard }) {
                 { rank: '03', name: 'Found.+Prep → Secondary', val: '89.4 L', pct: 44 },
                 { rank: '04', name: 'Found.+Prep → Middle', val: '72.3 L', pct: 36 },
                 { rank: '05', name: 'Middle → Middle', val: '28.2 L', pct: 14 },
-                { rank: '06', name: 'Found.+Prep → Found.+Prep', val: '18.6 L', pct: 9 },
+                { rank: '06', name: 'Found.+Prep → Found.+Prep', val: '15.7 L', pct: 8 },
               ].map(r => (
                 <div key={r.rank} className="state-row">
                   <div className="state-rank">{r.rank}</div>
@@ -690,4 +695,4 @@ export { TeacherLanding } from './TeacherLanding';
 export { SchoolLanding } from './SchoolLanding';
 export { CompareLanding } from './CompareLanding';
 
-export default StudentLanding;
+export default StudentLanding;  

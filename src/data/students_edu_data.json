@@ -1,0 +1,159 @@
+{
+  "studentByYear": {
+    "2020-21": {
+      "total": 264449987,
+      "boys": 137435039,
+      "girls": 127014948,
+      "gpi": 0.92,
+      "foundational": 59018304,
+      "preparatory": 73648513,
+      "foundPrep": 132666817,
+      "middle": 65854199,
+      "secondary": 65928971,
+      "govtPct": 61.2,
+      "totalFmt": "26.44 Cr",
+      "foundPrepFmt": "13.27 Cr",
+      "middleFmt": "6.59 Cr",
+      "secFmt": "6.59 Cr",
+      "foundPrepPct": 50.2,
+      "middlePct": 24.9,
+      "secPct": 24.9,
+      "foundPrepBar": 100,
+      "middleBar": 50,
+      "secBar": 50
+    },
+    "2021-22": {
+      "total": 265235830,
+      "boys": 137900578,
+      "girls": 127335252,
+      "gpi": 0.92,
+      "foundational": 57515266,
+      "preparatory": 73822191,
+      "foundPrep": 131337457,
+      "middle": 66790692,
+      "secondary": 67107681,
+      "govtPct": 64.2,
+      "totalFmt": "26.52 Cr",
+      "foundPrepFmt": "13.13 Cr",
+      "middleFmt": "6.68 Cr",
+      "secFmt": "6.71 Cr",
+      "foundPrepPct": 49.5,
+      "middlePct": 25.2,
+      "secPct": 25.3,
+      "foundPrepBar": 100,
+      "middleBar": 51,
+      "secBar": 51
+    },
+    "2022-23": {
+      "total": 251791722,
+      "boys": 130878040,
+      "girls": 120913682,
+      "gpi": 0.92,
+      "foundational": 54370161,
+      "preparatory": 68218949,
+      "foundPrep": 122589110,
+      "middle": 63477860,
+      "secondary": 65724752,
+      "govtPct": 64.5,
+      "totalFmt": "25.18 Cr",
+      "foundPrepFmt": "12.26 Cr",
+      "middleFmt": "6.35 Cr",
+      "secFmt": "6.57 Cr",
+      "foundPrepPct": 48.7,
+      "middlePct": 25.2,
+      "secPct": 26.1,
+      "foundPrepBar": 100,
+      "middleBar": 52,
+      "secBar": 54
+    },
+    "2023-24": {
+      "total": 248045828,
+      "boys": 128744591,
+      "girls": 119301237,
+      "gpi": 0.93,
+      "foundational": 53414443,
+      "preparatory": 67506065,
+      "foundPrep": 120920508,
+      "middle": 63126015,
+      "secondary": 63999305,
+      "govtPct": 61.7,
+      "totalFmt": "24.80 Cr",
+      "foundPrepFmt": "12.09 Cr",
+      "middleFmt": "6.31 Cr",
+      "secFmt": "6.40 Cr",
+      "foundPrepPct": 48.7,
+      "middlePct": 25.4,
+      "secPct": 25.8,
+      "foundPrepBar": 100,
+      "middleBar": 52,
+      "secBar": 53
+    },
+    "2024-25": {
+      "total": 246921693,
+      "boys": 127593163,
+      "girls": 119328530,
+      "gpi": 0.94,
+      "foundational": 182416374,
+      "preparatory": 14857418,
+      "foundPrep": 197273792,
+      "middle": 33066465,
+      "secondary": 16581436,
+      "govtPct": 59.3,
+      "totalFmt": "24.69 Cr",
+      "foundPrepFmt": "19.73 Cr",
+      "middleFmt": "3.31 Cr",
+      "secFmt": "1.66 Cr",
+      "foundPrepPct": 79.9,
+      "middlePct": 13.4,
+      "secPct": 6.7,
+      "foundPrepBar": 100,
+      "middleBar": 17,
+      "secBar": 8
+    }
+  },
+  "migration": {
+    "totalMig": 58821863,
+    "totalMigFmt": "5.88 Cr",
+    "cwsn": 628838,
+    "cwsnFmt": "6.29 L",
+    "intraPct": 86.8,
+    "topPaths": [
+      {
+        "name": "Secondary \u2192 Secondary",
+        "val": "2.01 Cr",
+        "raw": 20107548,
+        "pct": 100
+      },
+      {
+        "name": "Middle \u2192 Secondary",
+        "val": "1.57 Cr",
+        "raw": 15723704,
+        "pct": 78
+      },
+      {
+        "name": "Foundational + Preparatory \u2192 Secondary",
+        "val": "89.35 L",
+        "raw": 8935361,
+        "pct": 44
+      },
+      {
+        "name": "Foundational + Preparatory \u2192 Middle",
+        "val": "72.32 L",
+        "raw": 7232176,
+        "pct": 36
+      },
+      {
+        "name": "Middle \u2192 Middle",
+        "val": "28.23 L",
+        "raw": 2822766,
+        "pct": 14
+      },
+      {
+        "name": "Foundational + Preparatory \u2192 Foundational + Preparatory",
+        "val": "15.67 L",
+        "raw": 1566759,
+        "pct": 8
+      }
+    ]
+  }
+}
