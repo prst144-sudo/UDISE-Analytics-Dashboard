@@ -302,17 +302,17 @@ export function StudentLanding({ onShowDashboard }) {
       <section className="section">
         <div className="section-label">Section 03 · Migration Analytics</div>
         <h2 className="section-headline">Most recorded student movement is local and within the same district</h2>
-        <p className="section-sub">The uploaded migration file records 5.88 crore student movements for AY 2022-23 to 2023-24. Most are intra-district, and the largest recorded pathways are moves into or within the Secondary school category.</p>
+        <p className="section-sub">For AY 2023-24 to 2024-25, India records 3.27 crore student movements. Most are intra-district (86.6%), and the largest recorded pathway is Secondary → Secondary, followed by Middle → Secondary.</p>
         <div className="two-col">
           <div>
             <div className="states-list">
               {[
-                { rank: '01', name: 'Secondary → Secondary', val: '2.01 Cr', pct: 100 },
-                { rank: '02', name: 'Middle → Secondary', val: '1.57 Cr', pct: 78 },
-                { rank: '03', name: 'Found.+Prep → Secondary', val: '89.4 L', pct: 44 },
-                { rank: '04', name: 'Found.+Prep → Middle', val: '72.3 L', pct: 36 },
-                { rank: '05', name: 'Middle → Middle', val: '28.2 L', pct: 14 },
-                { rank: '06', name: 'Found.+Prep → Found.+Prep', val: '15.7 L', pct: 8 },
+                { rank: '01', name: 'Secondary → Secondary', val: '1.09 Cr', pct: 100 },
+                { rank: '02', name: 'Middle → Secondary', val: '86.5 L', pct: 79 },
+                { rank: '03', name: 'Found.+Prep → Secondary', val: '51.6 L', pct: 47 },
+                { rank: '04', name: 'Found.+Prep → Middle', val: '40.5 L', pct: 37 },
+                { rank: '05', name: 'Middle → Middle', val: '16.0 L', pct: 15 },
+                { rank: '06', name: 'Found.+Prep → Found.+Prep', val: '9.4 L', pct: 9 },
               ].map(r => (
                 <div key={r.rank} className="state-row">
                   <div className="state-rank">{r.rank}</div>
@@ -325,7 +325,7 @@ export function StudentLanding({ onShowDashboard }) {
               ))}
             </div>
             <div className="pull-quote" style={{ marginTop: 32 }}>
-              <p>"Intra-district movement accounts for 86.8% of all recorded student migration entries in the uploaded file."</p>
+              <p>"Intra-district movement accounts for 86.6% of all recorded student migration for AY 2023-24 to 2024-25."</p>
             </div>
             <button className="lp-sec-cta" style={{ marginTop: 20 }} onClick={() => onShowDashboard('migration')}>
               Open Dashboard <span>→</span>
@@ -333,9 +333,9 @@ export function StudentLanding({ onShowDashboard }) {
           </div>
           <div>
             <div className="stat-card" style={{ marginBottom: 14 }}>
-              <div className="stat-card-num" style={{ color: 'var(--teal)' }}>5.88 Cr</div>
+              <div className="stat-card-num" style={{ color: 'var(--teal)' }}>3.27 Cr</div>
               <div className="stat-card-label">Total Recorded Student Migrations</div>
-              <div className="stat-card-note">The uploaded migration base totals 5.88 crore student migration records across school category, location, management, BPL status, and migration type dimensions.</div>
+              <div className="stat-card-note">For AY 2023-24 to 2024-25, a total of 3.27 crore student migration records were captured across school category, location, management, BPL status, and migration type.</div>
             </div>
             <div className="stat-card" style={{ marginBottom: 14 }}>
               <div className="stat-card-num" style={{ color: 'var(--accent)' }}>~60 L</div>
@@ -343,9 +343,9 @@ export function StudentLanding({ onShowDashboard }) {
               <div className="stat-card-note">Class 5 is the final year of the Preparatory stage. Of these students, 92.2% transition to Class 6 (Middle), while a 3.5% dropout rate highlights the critical exit point before Middle school.</div>
             </div>
             <div className="stat-card">
-              <div className="stat-card-num" style={{ color: 'var(--gold)' }}>6.29 L</div>
+              <div className="stat-card-num" style={{ color: 'var(--gold)' }}>3.32 L</div>
               <div className="stat-card-label">Migrated CWSN Students</div>
-              <div className="stat-card-note">The same file records 6.29 lakh migrated CWSN students, which is about 1.1% of all recorded migration entries.</div>
+              <div className="stat-card-note">3.32 lakh CWSN students were recorded as migrated in AY 2023-24 to 2024-25, accounting for about 1.0% of all migration entries.</div>
             </div>
           </div>
         </div>

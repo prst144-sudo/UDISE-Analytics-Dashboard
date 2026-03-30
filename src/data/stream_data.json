@@ -240,7 +240,7 @@
     "year": "2024-25",
     "header": {
       "label": "Stream Analytics \u00b7 ",
-      "headline": "Science 44.0% \u2014 314.5 L students in Class 11\u201312",
+      "headline": "Science 44.0% \u2014 3.14 Cr students in Class 11\u201312",
       "sub": "Science becomes the largest stream by enrollment. Humanities remains female-majority (55.4%), while Commerce accounts for 14.5% of Class 11\u201312 students. Lab availability is measured across 3.1 L secondary schools."
     },
     "cards": [
@@ -370,7 +370,7 @@
       }
     ],
     "chartStreamSource": "Science becomes the largest stream nationally. Rural Class 11\u201312 enrollment remains led by Humanities (50.8%), while urban enrollment continues to be led by Science (47.8%).",
-    "chartStreamNote": "Science 44.0%, Humanities 41.4%, Commerce 14.5%. Total Class 11\u201312 enrollment: 314.5 L students.",
+    "chartStreamNote": "Science 44.0%, Humanities 41.4%, Commerce 14.5%. Total Class 11\u201312 enrollment: 3.145 Cr students.",
     "chartGender": [
       {
         "name": "Humanities",
