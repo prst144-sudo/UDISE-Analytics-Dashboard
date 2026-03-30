@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './StudentDashboard.css';
+import EDU_DATA from '../data/student_edu_level_data.json';
 
 /* ─── REVEAL HOOK ─────────────────────────────────── */
 function useReveal(deps = []) {
@@ -176,56 +177,81 @@ export function StudentLanding({ onShowDashboard }) {
       <Hero onShowDashboard={onShowDashboard} />
 
       {/* ── 01 · Student Analytics ─────────────────── */}
-      <section className="section">
-        <div className="section-label">Section 01 · Student Analytics</div>
-        <h2 className="section-headline">How are students distributed across school categories?</h2>
-        <p className="section-sub">In 2024-25, India records 24.69 crore students across 14.71 lakh schools. Under the NEP 2020 classification, Foundational + Preparatory stages account for 19.73 crore (79.9%), Middle for 3.31 crore (13.4%), and Secondary for 1.66 crore (6.7%).</p>
-        <div className="two-col">
-          <div>
-            <div className="funnel-wrap">
-              {[
-                { lbl: 'All Students', inner: '24.69 Cr', pct: 100, color: 'var(--teal)' },
-                { lbl: 'Foundational + Preparatory', inner: '19.73 Cr', pct: 80, color: 'var(--accent)' },
-                { lbl: 'Middle', inner: '3.31 Cr', pct: 13, color: 'var(--gold)' },
-                { lbl: 'Secondary', inner: '1.66 Cr', pct: 7, color: 'rgba(42,124,124,0.82)' },
-              ].map(row => (
-                <div key={row.lbl} className="funnel-row">
-                  <div className="funnel-lbl">{row.lbl}</div>
-                  <div className="funnel-track">
-                    <div className="funnel-bar" data-bar-w={row.pct} style={{ background: row.color, width: 0 }}>
-                      <span className="funnel-bar-txt">{row.inner}</span>
+      {(() => {
+        const d = EDU_DATA['2024-25'];
+        return (
+          <section className="section">
+            <div className="section-label">Section 01 · Student Analytics</div>
+            <h2 className="section-headline">How are students distributed by education level?</h2>
+            <p className="section-sub">
+              In 2024-25, India records {d.totalFmt} students across 14.71 lakh schools. Preparatory stage has the highest enrollment at {d.preparatoryFmt} ({d.preparatoryPct}%), followed by Secondary at {d.secondaryFmt} ({d.secondaryPct}%), Middle at {d.middleFmt} ({d.middlePct}%), and Foundational at {d.foundationalFmt} ({d.foundationalPct}%).
+            </p>
+            <div className="two-col">
+              <div>
+                <div className="funnel-wrap">
+                  {[
+                    { lbl: 'All Students', inner: d.totalFmt, pct: 100, color: 'var(--teal)' },
+                    { lbl: 'Foundational', inner: d.foundationalFmt, pct: d.foundationalBar, color: 'var(--accent)' },
+                    { lbl: 'Preparatory', inner: d.preparatoryFmt, pct: d.preparatoryBar, color: '#6366f1' },
+                    { lbl: 'Middle', inner: d.middleFmt, pct: d.middleBar, color: 'var(--gold)' },
+                    { lbl: 'Secondary', inner: d.secondaryFmt, pct: d.secondaryBar, color: 'rgba(42,124,124,0.82)' },
+                  ].map(row => (
+                    <div key={row.lbl} className="funnel-row">
+                      <div className="funnel-lbl">{row.lbl}</div>
+                      <div className="funnel-track">
+                        <div className="funnel-bar" data-bar-w={row.pct} style={{ background: row.color, width: 0 }}>
+                          <span className="funnel-bar-txt">{row.inner}</span>
+                        </div>
+                      </div>
+                      <div className="funnel-val">{row.inner}</div>
                     </div>
-                  </div>
-                  <div className="funnel-val">{row.inner}</div>
+                  ))}
                 </div>
-              ))}
+                <div className="pull-quote" style={{ marginTop: 32 }}>
+                  <p>"Foundational stage alone accounts for {d.foundationalPct}% of all enrolled students — the largest single education level in India's school system."</p>
+                </div>
+                <button className="lp-sec-cta" style={{ marginTop: 20 }} onClick={() => onShowDashboard('student-main')}>
+                  Open Dashboard <span>→</span>
+                </button>
+              </div>
+              <div>
+                <div className="stat-card" style={{ marginBottom: 14 }}>
+                  <div className="stat-card-num" style={{ color: 'var(--teal)' }}>59.3%</div>
+                  <div className="stat-card-label">Students in Government Schools</div>
+                  <div className="stat-card-note">Government and aided schools together educate 59.3% of all enrolled students in 2024-25, making them the primary access point for Indian families.</div>
+                </div>
+                <div className="stat-card" style={{ marginBottom: 14 }}>
+                  <div className="stat-card-num" style={{ color: 'var(--accent)' }}>{d.gpi}</div>
+                  <div className="stat-card-label">Gender Parity Index (GPI)</div>
+                  <div className="stat-card-note">For every 100 boys enrolled nationally, there are {Math.round(d.gpi * 100)} girls — showing near-parity with continued improvement across all education levels.</div>
+                </div>
+                <div className="stat-card">
+                  <div className="stat-card-label" style={{ marginBottom: 12 }}>GPI by Education Level</div>
+                  {[
+                    { lbl: 'Foundational', val: d.foundationalGpi, color: 'var(--accent)' },
+                    { lbl: 'Preparatory', val: d.preparatoryGpi, color: '#6366f1' },
+                    { lbl: 'Middle', val: d.middleGpi, color: 'var(--gold)' },
+                    { lbl: 'Secondary', val: d.secondaryGpi, color: 'rgba(42,124,124,0.82)' },
+                  ].map(r => (
+                    <div key={r.lbl} style={{ marginBottom: 10 }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
+                        <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 12, color: 'var(--ink)', fontWeight: 500 }}>{r.lbl}</span>
+                        <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 12, fontWeight: 800, color: r.color }}>{r.val}</span>
+                      </div>
+                      <div style={{ height: 8, background: 'var(--warm)', borderRadius: 3, overflow: 'hidden' }}>
+                        <div className="lang-bar-fill" style={{ '--bar-w': Math.min(r.val * 100, 100) + '%', background: r.color, opacity: 0.85 }} />
+                      </div>
+                    </div>
+                  ))}
+                  <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 10, color: 'var(--muted)', marginTop: 8, lineHeight: 1.5 }}>
+                    GPI = girls per boy. Values above 1.0 mean more girls than boys enrolled.
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="pull-quote" style={{ marginTop: 32 }}>
-              <p>"Nearly 80% of enrolled students are in Foundational + Preparatory schools — the critical base of India's education pyramid."</p>
-            </div>
-            <button className="lp-sec-cta" style={{ marginTop: 20 }} onClick={() => onShowDashboard('student-main')}>
-              Open Dashboard <span>→</span>
-            </button>
-          </div>
-          <div>
-            <div className="stat-card" style={{ marginBottom: 14 }}>
-              <div className="stat-card-num" style={{ color: 'var(--teal)' }}>59.3%</div>
-              <div className="stat-card-label">Students in Government Schools</div>
-              <div className="stat-card-note">Government and aided schools together educate 59.3% of all enrolled students in 2024-25, making them the primary access point for Indian families.</div>
-            </div>
-            <div className="stat-card" style={{ marginBottom: 14 }}>
-              <div className="stat-card-num" style={{ color: 'var(--accent)' }}>0.94</div>
-              <div className="stat-card-label">Gender Parity Index (GPI)</div>
-              <div className="stat-card-note">For every 100 boys enrolled nationally, there are 94 girls — showing near-parity with continued improvement across all education levels.</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-card-num" style={{ color: 'var(--gold)' }}>79.9%</div>
-              <div className="stat-card-label">Students in Foundational + Preparatory</div>
-              <div className="stat-card-note">Under the NEP 2020 classification, Foundational and Preparatory stages together account for 19.73 crore — the largest share of all enrolled students.</div>
-            </div>
-          </div>
-        </div>
-      </section>
+          </section>
+        );
+      })()}
 
       {/* ── 02 · Socioeconomic Analytics ───────────── */}
       <section className="section">
@@ -695,4 +721,4 @@ export { TeacherLanding } from './TeacherLanding';
 export { SchoolLanding } from './SchoolLanding';
 export { CompareLanding } from './CompareLanding';
 
-export default StudentLanding;  
+export default StudentLanding;

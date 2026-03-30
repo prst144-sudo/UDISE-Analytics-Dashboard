@@ -11,9 +11,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 18px var(--px);
+  padding: 14px var(--px);
   gap: 24px;
   flex-wrap: wrap;
+}
+
+.ft-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ft-nic-logo {
+  height: 36px;
+  width: auto;
+  border-radius: 4px;
+  flex-shrink: 0;
+  object-fit: contain;
 }
 
 .ft-credit {
@@ -43,7 +57,7 @@
 }
 
 .ft-divider {
-  font-size: 11px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.2);
 }
 
